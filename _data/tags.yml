@@ -1,0 +1,19 @@
+blogs:
+  name: blog
+  description: My Blog Posts
+  cover: false
+
+papers:
+  name: paper
+  description: News about published papers
+  cover: false
+
+media:
+  name: media
+  description: Media coverage of my work
+  cover: false
+
+presentations:
+  name: presentation
+  description: News about presentations and posters
+  cover: false
