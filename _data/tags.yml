@@ -12,3 +12,8 @@ presentations:
   name: presentations
   description: "Presentations and posters"
   cover: assets/images/header-bg.jpg
+
+opportunities:
+  name: opportunities
+  description: "Opportunities"
+  cover: assets/images/header-bg.jpg
