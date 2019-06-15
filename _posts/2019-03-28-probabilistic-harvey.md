@@ -2,16 +2,17 @@
 cover: assets/images/2019-03-28-probabilistic-harvey.png
 layout: post
 current: post
-title: "New Paper with Rözer et al in Earth's Future"
+title: "Paper: Probabilistic Models Significantly Reduce Uncertainty in Hurricane Harvey Pluvial Flood Loss Estimates"
 date: 2019-03-28
-categories: paper
+tags: papers
 class: post-template
+permalink: 2019-03-28-paper-rozer-harvey
 navigation: true
 ---
 
-A paper I co-authored with [Viktor Rozer](http://http://www.lse.ac.uk/GranthamInstitute/profile/viktor-rozer){:target="_blank"} and coauthors  titled [Probabilistic Models Significantly Reduce Uncertainty in Hurricane Harvey Pluvial Flood Loss Estimates](https://doi.org/10.1029/2018EF001074){:target="_blank"} has been published in the **open access** journal Earth's Future {% cite Rozer:2019 %}.
+My paper with [Viktor Rözer](http://http://www.lse.ac.uk/GranthamInstitute/profile/viktor-rozer){:target="_blank"} (lead author) and coauthors has been published in the **open access** journal Earth's Future.
 
-In this paper we dive into the (unfortunately very relevant) challenge of estimating damages from the measurable characteristics of the floods.
+In this paper {% cite Rozer:2019 %} we dive into the (unfortunately very relevant) challenge of estimating damages from the measurable characteristics of the floods.
 Engineers traditionally use "stage-damage functions" to do this; these relate the depth of the flood to the expected damage.
 Though they are straightforward to use, stage-damage functions often perform poorly in real-world situations.
 

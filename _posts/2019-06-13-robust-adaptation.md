@@ -1,18 +1,19 @@
 ---
 cover: assets/images/2019-06-13-robust-adaptation.png
+title: "Paper: Robust Adaptation to Multi-Scale Variability"
+date: 2019-06-13
+permalink: 2019-06-13-earths-future-robust-adaptation
+tags: papers
 layout: post
 current: post
-title: "Paper in Earth's Future: Robust Adaptation to Multi-Scale Variability"
-date: 2019-06-13
-categories: paper
 class: post-template
 navigation: true
 ---
 
-A paper I co-authored with David Farnham, Scott Steinschneider, and Upmanu Lall has been published in the **open access** journal Earth's Future {% cite DossGollin:2019 %}.
-It still hasn't been typeset yet, but that should happen soon.
+My paper with David Farnham, Scott Steinschneider, and Upmanu Lall has been published in the **open access** journal Earth's Future.
 
-For a quick summary of this paper, see the following Twitter thread:
+It still hasn't been typeset yet, but that should happen soon.
+For a quick summary of this paper {% cite DossGollin:2019 %}, check out the Twitter thread I wrote (no account needed to read):
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">1/ Thread on my new paper &quot;Robust Adaptation to Multi-Scale Climate Variability&quot; in  <a href="https://twitter.com/hashtag/openaccess?src=hash&amp;ref_src=twsrc%5Etfw">#openaccess</a> <a href="https://twitter.com/theAGU?ref_src=twsrc%5Etfw">@theAGU</a> journal <a href="https://twitter.com/EarthsFutureEiC?ref_src=twsrc%5Etfw">@EarthsFutureEiC</a> with <a href="https://twitter.com/farnham_h2o?ref_src=twsrc%5Etfw">@farnham_h2o</a> of <a href="https://twitter.com/carnegiescience?ref_src=twsrc%5Etfw">@carnegiescience</a>, Upmanu Lall of <a href="https://twitter.com/columbiawater?ref_src=twsrc%5Etfw">@columbiawater</a> <a href="https://twitter.com/CUSEAS?ref_src=twsrc%5Etfw">@CUSEAS</a>, and Scott Steinschneider of <a href="https://twitter.com/Cornell?ref_src=twsrc%5Etfw">@Cornell</a>. <a href="https://t.co/1SJ5D2eJHM">https://t.co/1SJ5D2eJHM</a></p>&mdash; James Doss-Gollin (@jdossgollin) <a href="https://twitter.com/jdossgollin/status/1137731608688168966?ref_src=twsrc%5Etfw">June 9, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
