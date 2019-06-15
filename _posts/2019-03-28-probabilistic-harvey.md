@@ -2,7 +2,7 @@
 cover: assets/images/2019-03-28-probabilistic-harvey.png
 layout: post
 current: post
-title: "Paper: Probabilistic Models Significantly Reduce Uncertainty in Hurricane Harvey Pluvial Flood Loss Estimates"
+title: "Probabilistic models significantly reduce uncertainty in Hurricane Harvey pluvial flood loss estimates"
 date: 2019-03-28
 tags: papers
 class: post-template

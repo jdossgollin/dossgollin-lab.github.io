@@ -1,6 +1,6 @@
-blogs:
-  name: blogs
-  description: L"ong-form thoughts and analysis"
+blog:
+  name: blog
+  description: "Long-form thoughts and analysis"
   cover: assets/images/header-bg.jpg
 
 papers:

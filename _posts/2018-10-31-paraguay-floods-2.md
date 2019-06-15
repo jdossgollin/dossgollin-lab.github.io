@@ -2,9 +2,9 @@
 cover: assets/images/2018-10-31-paraguay-floods-2.jpg
 layout: post
 current: post
-title: "Blog: Analysis of Recent Flooding in Paraguay"
+title: "Analysis of recent flooding in Paraguay"
 date: 2018-10-31
-tags: blogs
+tags: blog
 class: post-template
 permalink: 2018-10-31-blog-paraguay-flood
 navigation: true

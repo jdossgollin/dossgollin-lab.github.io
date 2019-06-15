@@ -2,7 +2,7 @@
 cover: assets/images/2018-12-14-robust-adaptation-agu.png
 layout: post
 current: post
-title: "Slides: Robust Adaptation to Multi-Scale Climate Risk"
+title: "Robust adaptation to multi-scale climate risk"
 date: 2018-12-14
 tags: presentations
 class: post-template

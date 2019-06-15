@@ -2,9 +2,9 @@
 cover: assets/images/2013-03-29-quality-counts.jpeg
 layout: post
 current: post
-title: "Blog: Remember Quality when Evaluating Water Access"
+title: "Check for quality when evaluating water access"
 date: 2013-03-29
-tags: blogs
+tags: blog
 class: post-template
 permalink: 2013-03-29-quality-counts
 navigation: true

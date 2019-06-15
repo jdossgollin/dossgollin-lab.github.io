@@ -2,9 +2,9 @@
 cover: assets/images/2019-02-10-green-new-deal.jpg
 layout: post
 current: post
-title: "Blog: What does the Green New Deal nail, and what's missing?"
+title: "What does the Green New Deal get right and what's missing?"
 date: 2019-02-10
-tags: blogs
+tags: blog
 class: post-template
 permalink: 2019-02-10-blog-green-new-deal
 navigation: true

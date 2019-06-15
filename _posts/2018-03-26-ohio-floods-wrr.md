@@ -2,7 +2,7 @@
 cover: assets/images/2018-03-26-ohio-floods-wrr.png
 layout: post
 current: post
-title: "Paper: Regional Extreme Precipitation Events: Robust Inference From Credibly Simulated GCM Variables"
+title: "Regional extreme precipitation events: robust inference from credibly simulated GCM variables"
 tags: papers
 class: post-template
 permalink: 2018-03-26-farnham-wrr-paper

@@ -1,6 +1,6 @@
 ---
 cover: assets/images/2019-06-13-robust-adaptation.png
-title: "Paper: Robust Adaptation to Multi-Scale Variability"
+title: "Robust adaptation to multi-scale variability"
 date: 2019-06-13
 permalink: 2019-06-13-earths-future-robust-adaptation
 tags: papers

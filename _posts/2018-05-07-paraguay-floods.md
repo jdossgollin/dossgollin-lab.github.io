@@ -2,7 +2,7 @@
 cover: assets/images/2018-05-07-paraguay-floods.png
 layout: post
 current: post
-title: "Paper: Heavy Rainfall in Paraguay during the 2015/16 Austral Summer"
+title: "Heavy tainfall in Paraguay during the 2015/16 austral summer"
 tags: papers
 class: post-template
 permalink: 2018-05-07-jclim-paraguay-floods
