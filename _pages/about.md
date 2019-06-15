@@ -10,7 +10,7 @@ I'm a Ph.D. candidate in the [Earth and Environmental Engineering](https://eee.c
 I work on applied problems in infrastructure planning and climate risk management that lie at the intersection of meteorology, statistics, hydrology, reinforcement learning, and engineering.
 I'm particularly focused on thinking about how to can combine engineering projects, policy changes, and financial tools (like insurance) to manage climate risks in the near and distant future.
 
-If I'm not in the office, you can probably hear me yelling my support for [La Albirroja](https://twitter.com/albirroja?lang=en){:target="_blank"}, [A.S. Roma](https://www.chiesaditotti.com/){:target="_blank"}, and [Sportivo Luqueño](http://clubsportivoluqueno.com.py/){:target="_blank"}, or explaining why New Haven [apizza](https://www.nhregister.com/news/article/An-upcoming-film-celebrates-New-Haven-s-holy-12576171.php){:target="_blank"} is better than the New York knockoffs.
+If I'm not in the office, you can probably hear me yelling for [La Albirroja](https://twitter.com/albirroja?lang=en){:target="_blank"}, [A.S. Roma](https://www.chiesaditotti.com/){:target="_blank"}, and [Sportivo Luqueño](http://clubsportivoluqueno.com.py/){:target="_blank"}, or explaining why New Haven [apizza](https://www.nhregister.com/news/article/An-upcoming-film-celebrates-New-Haven-s-holy-12576171.php){:target="_blank"} is better than the New York knockoff.
 
 ## Why I Do It
 
