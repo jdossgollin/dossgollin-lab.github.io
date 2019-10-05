@@ -7,7 +7,7 @@ permalink: /contact/
 ---
 The best way to contact me is through e-mail: [james.doss-gollin@columbia.edu](mailto:james.doss-gollin@columbia.edu).
 
-If you are looking for my CV, click [here](https://jdossgollin.github.io/online-cv){:target="_blank"}.
+If you are looking for my CV, click [here](https://jdossgollin.github.io/cv-pdf/CV_Doss-Gollin_James.pdf){:target="_blank"}.
 If you are looking for my blog, click [here](https://jdossgollin.github.io/blog){:target="_blank"}.
 You can also find me across the internet:
 
