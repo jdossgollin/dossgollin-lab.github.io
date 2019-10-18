@@ -3,7 +3,7 @@ cover: assets/images/2017-11-05-re-nyt-nfip.jpg
 layout: post
 cuurent: post
 title: "It’s time for a new paradigm in flood pPlanning"
-tags: blogs
+tags: blog
 date: 2017-11-05
 tags: blogs
 class: post-template
