@@ -37,4 +37,4 @@ If you have any questions about this session or would like to assess whether you
   
 To view session details you must log in through the AGU Fall Meeting portal [here](https://agu.confex.com/agu/fm19/gateway.cgi){:target="_blank"}.
 
-Photo of by [Daiwei Lu](https://unsplash.com/@daiwei){:target="_blank"} on [Unsplash](https://unsplash.com/photos/SVkpUFy6IV0){:target="_blank"}
+Photo by [Daiwei Lu](https://unsplash.com/@daiwei){:target="_blank"} on [Unsplash](https://unsplash.com/photos/SVkpUFy6IV0){:target="_blank"}
