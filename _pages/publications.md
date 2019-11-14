@@ -9,11 +9,12 @@ permalink: /publications/
 This page contains a list of my published work.
 You can also visit
 * [My CV](https://jdossgollin.github.io/cv-pdf/CV_Doss-Gollin_James.pdf){:target="_blank"}, which has an updated record
+* A [bibtex file](https://github.com/jdossgollin/my-papers/blob/master/my-papers.bib){:target="_blank} containing citation information for my papers
 * My [Google Scholar Profile](https://scholar.google.com/citations?hl=en&user=6ifLBBsAAAAJ){:target="_blank"}
 * My [ORCID Profile](https://orcid.org/0000-0002-3428-2224){:target="_blank"}
 * My [ResearcherID Profile](https://publons.com/researcher/J-4273-2014/){:target="_blank"}
 
-### Submitted
+### Papers In Preparation and In Press
 
 {% bibliography --file my-papers --query @unpublished %}
 
