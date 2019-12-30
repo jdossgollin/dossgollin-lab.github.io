@@ -6,11 +6,13 @@ class: page-template
 permalink: /about/
 ---
 
-I'm a Ph.D. candidate in the [Earth and Environmental Engineering](https://eee.columbia.edu/){:target="_blank"} Department at Columbia University advised by [Upmanu Lall](https://columbia.edu/~ula2){:target="_blank"}.
-I work on applied problems in infrastructure planning and climate risk management that lie at the intersection of meteorology, statistics, hydrology, reinforcement learning, and engineering.
-I'm particularly focused on thinking about how to can combine engineering projects, policy changes, and financial tools (like insurance) to manage climate risks in the near and distant future.
+I'm a Ph.D. candidate in Earth and Environmental Engineering at Columbia Engineering and a researcher at the Columbia Water Center. 
+I have broad interests in climate dynamics, water management, natural hazards, decision science, and risk management and am motivated by challenging questions at the intersection of these fields.
+My dissertation develops methods for understanding and predicting spatiotemporally clustered hydroclimate risk, and for incorporating uncertain projections into sequential decision problems.
+I completed my B.S. in Mechanical Engineering at Yale University and my M.S. from Columbia University.
+I was awarded a presidential fellowship from Columbia University’s School of Engineering and Applied Science and a graduate research fellowship in climate and large-scale dynamics from the National Science Foundation.
 
-If I'm not in the office, you can probably hear me yelling for [La Albirroja](https://twitter.com/albirroja?lang=en){:target="_blank"}, [A.S. Roma](https://www.chiesaditotti.com/){:target="_blank"}, and [Sportivo Luqueño](http://clubsportivoluqueno.com.py/){:target="_blank"}, or explaining why New Haven [apizza](https://www.nhregister.com/news/article/An-upcoming-film-celebrates-New-Haven-s-holy-12576171.php){:target="_blank"} is better than the New York knockoff.
+If I'm not in the office, you can probably find me watching [La Albirroja](https://twitter.com/albirroja?lang=en){:target="_blank"}, [A.S. Roma](https://www.chiesaditotti.com/){:target="_blank"}, and [Sportivo Luqueño](http://clubsportivoluqueno.com.py/){:target="_blank"}, or explaining why New Haven [apizza](https://www.nhregister.com/news/article/An-upcoming-film-celebrates-New-Haven-s-holy-12576171.php){:target="_blank"} is the truth.
 
 ## Why I Do It
 
