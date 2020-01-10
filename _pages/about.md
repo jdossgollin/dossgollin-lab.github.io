@@ -12,7 +12,7 @@ My dissertation develops methods for understanding and predicting spatiotemporal
 I completed my B.S. in Mechanical Engineering at Yale University and my M.S. from Columbia University.
 I was awarded a presidential fellowship from Columbia University’s School of Engineering and Applied Science and a graduate research fellowship in climate and large-scale dynamics from the National Science Foundation.
 
-If I'm not in the office, you can probably find me watching [La Albirroja](https://twitter.com/albirroja?lang=en){:target="_blank"}, [A.S. Roma](https://www.chiesaditotti.com/){:target="_blank"}, and [Sportivo Luqueño](http://clubsportivoluqueno.com.py/){:target="_blank"}, or explaining why New Haven [apizza](https://www.nhregister.com/news/article/An-upcoming-film-celebrates-New-Haven-s-holy-12576171.php){:target="_blank"} is the truth.
+If I'm not in the office, you can probably find me watching [La Albirroja](https://twitter.com/albirroja?lang=en){:target="_blank"}, [A.S. Roma](https://www.chiesaditotti.com/){:target="_blank"}, and [Sportivo Luqueño](http://clubsportivoluqueno.com.py/){:target="_blank"} or explaining why New Haven [apizza](https://www.nhregister.com/news/article/An-upcoming-film-celebrates-New-Haven-s-holy-12576171.php){:target="_blank"} is the truth.
 
 ## Why I Do It
 
