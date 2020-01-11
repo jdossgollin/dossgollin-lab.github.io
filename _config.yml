@@ -14,7 +14,7 @@ description: Climate, Infrastructure, Decision-Making
 cover: assets/images/header-bg.jpg
 logo: assets/images/james.jpg
 logo_dark: assets/images/james.jpg
-#favicon: assets/images/james
+favicon: assets/images/james
 production_url: https://jdossgollin.github.io/
 source_url: https://github.com/jdossgollin/jdossgollin.github.io/
 CNAME: jamesdossgollin.me #add cname for website to be created
