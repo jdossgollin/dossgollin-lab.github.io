@@ -1,22 +1,20 @@
-<!-- Install gitalk -->
-<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<!-- Gitalk comment start  -->
 
-<!--Add a container to your page:-->
-<div id="gitalk-container"></div>
-<div class="inner">GITALK IS LOADING ON HERE</div>
+ <!-- Link Gitalk  -->
+ <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+ <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script> 
+ <div id="gitalk-container"></div>     <script type="text/javascript">
+     var gitalk = new Gitalk({
 
-<!--Then use the Javascript code below to generate the gitalk plugin:-->
-<script type="text/javascript">
-    var gitalk = new Gitalk({
-        // The main parameters of gitalk
-        clientID: '6e259a1fb191ba6e763a,
-        clientSecret: '2fdfbdc8eae7dca0acd98e20afaa65f4789c60b6,
-        Repo: 'jdossgollin.github.io',
-        Owner: 'jdossgollin',
-        Admin: ['jdossgollin'],
-        id: "Blog",
-        distractionFreeMode: true,
-    });
-    gitalk.render('gitalk-container');
-</script> 
+     // Gitalk parameters
+         clientID: '203fae836a9e1e8ed97c', //customize
+         clientSecret: 'b931428506ec786563a32606ada1178d8280cbf0', //customize
+         repo: 'jdossgollin.github.io', //customize
+         owner: 'jdossgollin', //customize
+         admin: ['jdossgollin'], //customize
+         id: window.location.pathname, // leave this line as it is
+        
+     });
+     gitalk.render('gitalk-container');
+ </script> 
+ <!-- Gitalk end -->
