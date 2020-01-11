@@ -60,3 +60,6 @@ scholar:
   bibliography_template: bib
   sort_by: date
   order: descending
+
+# allow future posts per https://github.com/jekyll/jekyll/issues/6536
+future: true
