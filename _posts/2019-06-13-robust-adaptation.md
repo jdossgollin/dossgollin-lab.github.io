@@ -8,10 +8,10 @@ layout: post
 current: post
 class: post-template
 navigation: true
+excerpt: My paper with David Farnham, Scott Steinschneider, and Upmanu Lall is now published in Earth's Future.
 ---
 
 My paper with David Farnham, Scott Steinschneider, and Upmanu Lall has been published in the **open access** journal Earth's Future.
-
 It still hasn't been typeset yet, but that should happen soon.
 For a quick summary of this paper {% cite DossGollin:2019 %}, check out the Twitter thread I wrote (no account needed to read):
 

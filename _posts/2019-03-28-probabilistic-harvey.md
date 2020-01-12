@@ -8,6 +8,7 @@ tags: [Papers, Announcements]
 class: post-template
 permalink: 2019-03-28-paper-rozer-harvey
 navigation: true
+excerpt: "My paper with Viktor Rözer and colleagues has been published in Earth's Future."
 ---
 
 My paper with [Viktor Rözer](http://http://www.lse.ac.uk/GranthamInstitute/profile/viktor-rozer){:target="_blank"} (lead author) and coauthors has been published in the **open access** journal Earth's Future.
