@@ -3,7 +3,7 @@ cover: assets/images/2019-06-15-agu-call-abstracts.jpg
 title: "Call for Abstracts: Meeting the challenges of 21st century climate adaptation"
 date: 2019-06-15
 permalink: 2019-06-15-agu-call-abstracts
-tags: opportunities
+tags: [Announcements]
 layout: post
 current: post
 class: post-template

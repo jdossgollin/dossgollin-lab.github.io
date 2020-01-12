@@ -4,7 +4,7 @@ layout: post
 current: post
 title: "Probabilistic models significantly reduce uncertainty in Hurricane Harvey pluvial flood loss estimates"
 date: 2019-03-28
-tags: papers
+tags: [Papers, Announcements]
 class: post-template
 permalink: 2019-03-28-paper-rozer-harvey
 navigation: true

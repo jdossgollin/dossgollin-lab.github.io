@@ -3,7 +3,7 @@ cover: assets/images/2019-12-09-agu-slides.png
 title: "Slides for my AGU talk 'Towards Adaptive Resilience: Managing uncertainties and exploiting predictability across timescales'"
 date: 2019-12-09
 permalink: 2019-12-09-agu-slides
-tags: papers
+tags: [Papers, Announcements]
 layout: post
 current: post
 class: post-template

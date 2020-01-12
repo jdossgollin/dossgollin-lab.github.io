@@ -1,9 +1,9 @@
 ---
 cover: assets/images/2020-01-13-potw-ansar.png
-title: "Paper of the Week: 'Big is Fragile: An Attempt at Theorizing Scale'"
+title: "Paper Review: 'Big is Fragile: An Attempt at Theorizing Scale'"
 date: 2020-01-13
 permalink: 2020-01-13-potw-ansar
-tags: POTW
+tags: [Paper review]
 layout: post
 current: post
 class: post-template

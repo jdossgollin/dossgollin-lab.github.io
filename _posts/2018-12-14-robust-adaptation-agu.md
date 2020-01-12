@@ -4,15 +4,16 @@ layout: post
 current: post
 title: "Robust adaptation to multi-scale climate risk"
 date: 2018-12-14
-tags: presentations
+tags: [Presentations, Announcements]
 class: post-template
 permalink: 2018-12-14-agu-robust-adaptation
 navigation: true
+summary: "My 2018 AGU slides for the talk 'Robust adaptation to multi-scale climate risk' in session 'H52f: Toward Better Water Planning and Management in an Uncertain World'"
 ---
 
 I'm giving a talk this morning at the American Geophysical Union 2018 Fall Meeting in the session titled [H52F: Toward Better Water Planning and Management in an Uncertain World](https://agu.confex.com/agu/fm18/meetingapp.cgi/Session/62105){:target="_blank"}.
 
-> **Update**: this work has now been published {% cite DossGollin:2019 %}.
+> **Update**: this work has now been published in Earth's Future {% cite DossGollin:2019 %}.
 
 You can view a PDF of my slides [here](https://doi.org/10.13140/RG.2.2.28447.20649){:target="_blank"}.
 Here's my abstract:

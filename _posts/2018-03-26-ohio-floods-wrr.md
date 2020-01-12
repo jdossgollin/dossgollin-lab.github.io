@@ -1,12 +1,14 @@
 ---
 cover: assets/images/2018-03-26-ohio-floods-wrr.png
-layout: post
-current: post
 title: "Regional extreme precipitation events: robust inference from credibly simulated GCM variables"
-tags: papers
-class: post-template
+excerpt: "My paper with David Farnham and Upmanu Lall titled 'Regional Extreme Precipitation Events: Robust Inference From Credibly Simulated GCM Variables' is now in Water Resources Research."
+tags: [Announcements, Papers]
+date: 2018-03-26
 permalink: 2018-03-26-farnham-wrr-paper
+class: post-template
+current: post
 navigation: true
+layout: post
 ---
 
 My paper with David Farnham (lead author) and Upmanu Lall titled "Regional Extreme Precipitation Events: Robust Inference From Credibly Simulated GCM Variables" has been published in Water Resources Research.
