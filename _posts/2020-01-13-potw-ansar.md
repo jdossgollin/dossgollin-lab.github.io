@@ -9,6 +9,7 @@ current: post
 class: post-template
 navigation: true
 comments_id: 1
+excerpt: "Paper review: is more and bigger infrastructure always better?"
 ---
 
 > My resolution for the new year was to write regularly about a paper I've read.
