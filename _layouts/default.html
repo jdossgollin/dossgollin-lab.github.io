@@ -107,12 +107,12 @@
 
 
     <!-- Paginator increased to "infinit" in _config.yml -->
-    <!-- if paginator.posts  -->
-    <!-- <script>
+    <!-- if paginator.posts
+        <script>
         var maxPages = parseInt('{{ paginator.total_pages }}');
-    </script>
-    <script src="{{ site.baseurl }}assets/js/infinitescroll.js"></script> -->
-    <!-- /endif -->
+        </script>
+        <script src="{{ site.baseurl }}assets/js/infinitescroll.js"></script>
+    /endif -->
 
     {% if paginator.total_pages > site.paginate %}
     <script>
@@ -120,11 +120,6 @@
     </script>
     <script src="{{ site.baseurl }}assets/js/infinitescroll.js"></script>
     {% endif %}
-
-
-    <!-- Add Google Analytics
-    {% include analytics.html %}
-    -->
 
     <!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. -->
     {% if page.class == "post-template" %}

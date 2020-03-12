@@ -14,7 +14,6 @@ excerpt: "Paper review: is more and bigger infrastructure always better?"
 
 > My resolution for the new year was to write regularly about a paper I've read.
 I will try to publish these posts, which are compiled [here]({{site.baseurl}}/tag/potw/){:target="_blank"}, on a roughly biweekly schedule.
-I've also added commenting using [`gitalk`](https://github.com/gitalk/gitalk){:target="_blank"} (which uses GitHub Issues as a backend, greatly boosting speed and privacy relative to other technologies like Disqus) and hope that these posts can spark a deeper conversation on and off this blog.
 
 This inaugural paper review examines a 2017 article {% cite ansar_bigisfragile:2017 %} questioning the narrative that more infrastructure spending is almost always better, and more specifically that economies of scale generally make larger and more centrally planned infrastructure relatively more attractive than smaller and more decentralized projects.
 The authors point out that the theory of "bigger is better" has had a wide impact on a wide range of industries, and has also influenced thinking around infrastructure systems -- as evident on, for example, the projects advocated by the American Society of Civil Engineering's [Infrastructure Report Card](https://www.infrastructurereportcard.org/){:target="_blank"}.
