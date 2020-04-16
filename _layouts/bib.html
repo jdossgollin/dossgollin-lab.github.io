@@ -4,10 +4,7 @@
 {{ reference }}
 
 {% if entry.doi %}
-
-&rarr; <a href="http://doi.org/{{ entry.doi }}" target="_blank"><b>Link</b></a>
-<div data-badge-popover="right" data-badge-type="2" data-doi="{{ entry.doi }}"
-data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed"></div>
+&rarr; <a href="https://doi.org/{{ entry.doi }}" target="_blank"><b>Link</b></a>
 {% endif %}
 {% unless entry.doi %}{% if entry.url %}
 &rarr; <a href="{{ entry.url }}" target="_blank"><b>Link</b></a>

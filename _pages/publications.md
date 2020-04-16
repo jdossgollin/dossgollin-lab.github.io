@@ -18,7 +18,6 @@ I seek to publish in open-access journals whenever possible.
 However, some of my articles are behind paywalls.
 If you want to read one of my papers but are not able to do so, please [contact me]({{site.baseurl}}contact/) and I will be happy to share a copy with you.
 
-
 ### Papers In Preparation and In Press
 
 {% bibliography --file my-papers --query @unpublished %}
