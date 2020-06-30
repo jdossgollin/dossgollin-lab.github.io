@@ -1,1 +1,4 @@
 
+[submodule "_bibliography"]
+	path = _bibliography
+	url = https://github.com/jdossgollin/my-papers
