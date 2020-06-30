@@ -34,7 +34,7 @@ Here's our abstract:
   Applying this approach to estimate and validate building structure losses during Hurricane Harvey using a property level data set, we find that the reliability and dispersion of predictive loss distributions vary widely depending on the model and aggregation level of property level loss estimates.
   Our results show that the use of multi‐variable zero‐inflated beta models reduce the 90% prediction intervals for Hurricane Harvey building structure loss estimates on average by 78% (totalling US$ 3.8 billion) compared to commonly used models.
 
-If you have any questions please feel free to [contact me](mailto:james.doss-gollin@columbia.edu){:target="_blank"} or you can contact Viktor, who is the paper's corresponding author.
+If you have any questions please feel free to [contact me](mailto:james.doss-gollin@psu.edu){:target="_blank"} or you can contact Viktor, who is the paper's corresponding author.
 Thanks for any thoughts!
 
 # References

@@ -5,7 +5,7 @@ navigation: true
 class: page-template
 permalink: /contact/
 ---
-The best way to contact me is through e-mail: [james.doss-gollin@columbia.edu](mailto:james.doss-gollin@columbia.edu).
+The best way to contact me is through e-mail: [james.doss-gollin@psu.edu](mailto:james.doss-gollin@psu.edu).
 
 If you are looking for my CV, click [here](https://jdossgollin.github.io/cv-pdf/CV_Doss-Gollin_James.pdf){:target="_blank"}.
 You can also find me all over the internet:

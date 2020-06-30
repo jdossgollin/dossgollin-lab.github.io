@@ -6,9 +6,9 @@ class: page-template
 permalink: /about/
 ---
 
-I'm a Ph.D. candidate in Earth and Environmental Engineering at Columbia Engineering and a researcher at the Columbia Water Center.
-I'll be a postdoc with the [Keller Group](https://personal.ems.psu.edu/~kzk10/){:target="_blank"} at Penn State starting July 2020, and an assistant professor in the [Department of Civil and Environmental Engineering](https://cee.rice.edu/){:target="_blank"} at Rice University starting January 2021.
-I completed my B.S. in Mechanical Engineering at Yale University and my M.S. from Columbia University.
+I'm a postdoc with the [Keller Group](https://personal.ems.psu.edu/~kzk10/){:target="_blank"} at the Penn State Earth and Environmental Systems Institute.
+I completed my Ph.D. in Earth and Environmental Engineering at Columbia University in 2020 and my B.S. in Mechanical Engineering at Yale University in 2015.
+In January 2021 I will join the [Department of Civil and Environmental Engineering](https://cee.rice.edu/){:target="_blank"} at Rice University as an assistant professor.
 
 I have broad interests in climate dynamics, water management, natural hazards, decision science, and risk management and am motivated by challenging questions at the intersection of these fields.
 My PhD work develops methods for understanding and predicting spatiotemporally clustered hydroclimate risk, and for incorporating uncertain projections into sequential decision problems.
