@@ -1,16 +1,10 @@
 ---
-cover: assets/images/2019-06-15-agu-call-abstracts.jpg
 title: "Call for Abstracts: Meeting the challenges of 21st century climate adaptation"
-date: 2019-06-15
-permalink: 2019-06-15-agu-call-abstracts
-tags: [Announcements]
+subtitle: "We invite you to submit an abstract to our AGU Natural Hazards session 'Meeting the challenges of 21st century climate adaptation'"
+category: Papers
+tags: news
 layout: post
-current: post
-class: post-template
-navigation: true
 ---
-
-We invite you to submit an abstract to our AGU Natural Hazards session "Meeting the challenges of 21st century climate adaptation" 
 
 Climate information, including observations, predictions on a range of timescales, and projections of longer-term change, can inform adaptation strategies and protect society against the loss of life, property, and productive capacity.
 Successfully developing, evaluating, and actualizing such predictions is difficult, however, given the intrinsic uncertainties and potentially high sensitivity of decisions to such uncertainties.
@@ -36,5 +30,3 @@ If you have any questions about this session or would like to assess whether you
 * Section: Natural Hazards
   
 To view session details you must log in through the AGU Fall Meeting portal [here](https://agu.confex.com/agu/fm19/gateway.cgi){:target="_blank"}.
-
-Photo by [Daiwei Lu](https://unsplash.com/@daiwei){:target="_blank"} on [Unsplash](https://unsplash.com/photos/SVkpUFy6IV0){:target="_blank"}

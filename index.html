@@ -1,35 +1,139 @@
 ---
-layout: default
-current: home
-class: 'home-template'
-navigation: True
+layout: page
+title: Water, Climate, Risk, Infrastructure
+post_header: false
 ---
 
-<!-- < default -->
-<!-- The tag above means: insert everything in this file
-into the {body} of the default.hbs template -->
-
-<!-- The big featured header, it uses blog cover image as a BG if available -->
-<header class="site-header outer {% if page.cover or site.cover %}" style="background-image:  url({{ site.baseurl }}{% if page.cover %}{{ page.cover }}{% elsif site.cover %}{{ site.cover }}{% endif %}) {% else %}no-cover{% endif %}">
-    <div class="inner">
-        <div class="site-header-content">
-            <h1 class="site-title">
-                {{ site.title }}
-            </h1>
-            <h2 class="site-description">{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}</h2>
+<div class="row">
+  <div class="col-md-12">
+    <div class="jumbotron">
+      <div class="row">
+        <!-- UNCOMMENT THE BELOW SECTION IF USING A LOGO-->
+        <!--
+          <div class="col-md-3">
+          <img src="{{ site.logo_logo }}" alt="Logo" class="pull-left hidden-xs lab-member-photo" />
+          <p style="text-align:center; position:relative; left:10px;" class="visible-xs">
+            <img src="{{ site.logo_logo }}" alt="Logo"
+              style="margin-right:20px; max-height:150px; margin: auto; display: inline;" class=" img-responsive" />
+          </p>
         </div>
-        {% include site-nav.html %}
+      -->
+        <h1 class="hidden-xs">{{ site.title }}</h1>
+        <h1 class="visible-xs" style="text-align:center">{{ site.title }}</h1>
+        <h2 class="hidden-xs">{{ site.subtitle }}</h2>
+        <h2 class="visible-xs" style="text-align:center">{{ site.subtitle }}</h2>
+      </div>
     </div>
-</header>
+  </div>
+</div>
 
-<!-- The main content area -->
-<main id="site-main" class="site-main outer" role="main">
-    <div class="inner">
+<div class="row">
+  <div class="col-md-6">
 
-        <div class="post-feed">
-            <!-- The tag below includes the markup for each post - partials/post-card.hbs -->
-            {%  include post-card.html %}
+    <!--JDG-->
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="{{ site.logo_james }}" class="img-responsive">
+          </div>
+          <div class="col-md-6">
+            <p style="text-align:left">
+              James Doss-Gollin is a postdoctoral scholar in the <a href='https://personal.ems.psu.edu/~kzk10/'>Keller
+                Group</a> at the Pennsylvania State <a href='https://www.eesi.psu.edu/'>Earth and Environmental
+                Institute</a> and will join the <a href='https://cee.rice.edu'>Rice Civil and Environmental Engineering
+                Department</a> as an assistant professor in January 2021.
+            </p>
+            {% assign people = site.data.people  %}
+            {% for person in people %}
+            {% if person.anchor == "jdossgollin" %}
+            <div style="text-align: center;">
+              <a href={{ person.cv }} class="btn btn-warning btn-xs"
+                style="background-color: rgb(224, 226, 230); color: rgb(0, 32, 91);"><strong>CV</strong></a>
+              <a href=/group-members#{{ person.anchor }} class="btn btn-warning btn-xs"
+                style="background-color: rgb(224, 226, 230); color: rgb(0, 32, 91);"><strong>Bio</strong></a>
+            </div>
+            {% endif %}
+            {% endfor %}
+          </div>
         </div>
-
+        <hr />
+      </div>
     </div>
-</main>
+
+    <!--REAEARCH-->
+    <div class=" row">
+      <div class="col-sm-12">
+        <div class="row">
+          <div class="col-md-6">
+            <a href="/research/" class="thumbnail"><img src="{{ site.logo_research }}" class="img-responsive"
+                alt="Research" /></a>
+          </div>
+          <div class="col-md-6">
+            <p style="text-align:left">
+              Through mission-oriented basic applied research, we address fundamental challenges in infrastructure
+              systems design and climate adaptation.
+            </p>
+            <p><strong>
+                Learn more about <a href="/research">our research</a>.
+            </p></strong>
+          </div>
+        </div>
+        <hr />
+      </div>
+    </div>
+
+    <!--JOIN US-->
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="row">
+          <div class="col-md-6">
+            <a href="/join-the-lab/" class="thumbnail"><img src="{{ site.logo_labgroup }}" class="img-responsive"
+                alt="Join Us" /></a>
+          </div>
+          <div class="col-md-6">
+            <p style="text-align:left">
+              Do you want to work on intellectually challenging and socially impactful problems?
+            </p>
+            <p><strong>
+                Learn about open <a href="/join-the-lab/">positions</a> for undergrads, graduate students, and
+                post-docs.
+            </p></strong>
+          </div>
+        </div>
+        <hr />
+      </div>
+    </div>
+  </div>
+
+  <!--NEWS AND UPDATES-->
+  <div class="col-md-6 col-sm-12 col-sm-12">
+    <table style="width:100%">
+      <tr>
+        <td>
+          <h4>News &amp; Updates</h4>
+        </td>
+        <td><a href="https://twitter.com/{{ site.twitter }}"><i class="fab fa-twitter"></i></a></td>
+        <td><a href="https://github.com/{{ site.github }}"><i class="fab fa-github"></i></a></td>
+      </tr>
+    </table>
+    <div class="list-group" style="margin-bottom:0px;">
+      {% for post in site.tags.news limit:6 %}
+      {% if post.category != "album" %}
+      <a href="{{ post.url }}" class="list-group-item ">
+        <h4 class="list-group-item-heading"><small
+            class="pull-right">{{ post.date | date_to_string }}</small>{{ post.title }}</h4>
+        <p class="list-group-item-text">{{ post.subtitle }}</p>
+      </a>
+      {% endif %}
+      {% endfor %}
+    </div>
+    <br />
+    <div class="pull-left"><a href="/feeds/rss.xml" type="application/rss+xml"><img src="/assets/img/rss.png"
+          alt="RSS" /></a> <a href="/feeds/rss.xml" type="application/rss+xml" class="btn btn-warning btn-xs">Subscribe
+        RSS</a></div>
+    <div class="pull-right"><a href="/archive/">View Full Archive <i class="glyphicon glyphicon-arrow-right"></i></a>
+    </div>
+    <br /><br />
+  </div>
+</div>

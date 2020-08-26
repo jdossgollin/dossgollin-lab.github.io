@@ -1,66 +1,64 @@
-# Jekyll configuration
-markdown: kramdown
-highlighter: rouge
-paginate: 100 # it will paginate after this number
-language: "en-us"
-words_per_minute: 200
+# Site settings
+name: Doss-Gollin Group @ Rice
+title: Doss-Gollin Research Group
+#subtitle: adaptive infrastructure for resilient communities
+subtitle: starting January 2021
+email: jdossgollin@rice.edu
+description: "The Doss-Gollin Research Group at Rice University"
+baseurl: ""
+url: "https://www.jdossgollin.github.io"
+permalink: /:categories/:title.html
+office: 215 Ryon Laboratory
+twitter: jdossgollin
+github: jdossgollin
+labguide: https://jdossgollin.github.io/lab-guide
 
-# edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: /
+# logos and images to use
+logo_cover: /assets/img/logos/header-rpy.jpg
+logo_logo: /assets/img/logos/james.jpg
+logo_james: /assets/img/logos/james.jpg
+logo_icon: /assets/img/logos/logo.ico
+logo_ricelogo: /assets/img/logos/rice.jpg
+logo_labgroup: /assets/img/logos/header-rpy.jpg
+logo_research: /assets/img/research/causal-chain.png
 
-# Website info
-title: James Doss-Gollin
-description: Climate, Infrastructure, Decision-Making
-cover: assets/images/header-bg.jpg
-logo: assets/images/james.jpg
-logo_dark: assets/images/james.jpg
-favicon: assets/images/james.jpg
-production_url: https://jdossgollin.github.io/
+# RSS
+rss_path: feeds/
+rss_name: rss.xml
+
+# Settings for deploy rake task
+safe: False
+lsi: False
+username: jdossgollin
+repo: jdossgollin.github.io
+branch: master
+destination: _site
+production_url: https://jamesdossgollin.me
 source_url: https://github.com/jdossgollin/jdossgollin.github.io/
-CNAME: jamesdossgollin.me #add cname for website to be created
 
-# Social info
-navigation: True # show the navbar links
-# twitter: jdossgollin # replace by your username
+# Page Set
+pages_list:
+  About: "/about"
+  Feed: "/atom.xml"
 
-# Permalinks
-permalink: /:title
+#exclude
+exclude:
+  - "scripts"
+  - "README.md"
+  - ".DS_Store"
+  - "assets/less/"
+  - "vendor"
+  - "Makefile"
 
 # gems and other configs
-plugins_dir: [_plugins]
-plugins: [jekyll-paginate, jekyll-feed, jekyll-scholar]
-
-feed:
-  path: feed.xml
-
-exclude:
-  - assets/css
-  - node_modules
-  - vendor
-  - .travis.yml
-  - Gemfile
-  - Gemfile.lock
-  - GHOST.txt
-  - gulpfile.js
-  - LICENSE
-  - package.json
-  - Rakefile
-  - README.md
-  - script.py
-  - changelog.md
-  - "*.Rmd"
-  - .git*
-  - script/
-
-include: [_pages]
+plugins_dir: "_plugins"
+plugins:
+  - jekyll-scholar
 
 scholar:
   style: decision-sciences
   source: ./_bibliography
   bibliography: library.bib
   bibliography_template: bib
-  sort_by: year
+  sort_by: date,year,month
   order: descending
-
-# allow future posts per https://github.com/jekyll/jekyll/issues/6536
-future: true

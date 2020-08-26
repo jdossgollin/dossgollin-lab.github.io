@@ -1,0 +1,23 @@
+# Information about lab members goes here
+# You can include HTML code in each field
+# Use James as a template
+
+- first_name: James # your first name
+  last_name: Doss-Gollin # your last name
+  title: # Mr., Ms., Dr., or similar
+  anchor: jdossgollin # allows you to link to a particular person: /People#jdossgollin
+  position: Principal Investigator # your role within the group
+  photo: james.jpg # name of a photo in /assets/img/group-members/
+  cv: https://jdossgollin.github.io/cv-pdf/CV_Doss-Gollin_James.pdf # URL of your CV. optional.
+  email: jdossgollin@rice.edu # your email address
+  website: # your web site. optional.
+  github: jdossgollin # your github user name
+  twitter: jdossgollin # your twitter user name
+  linkedin: jamesdossgollin # your linkedin user name
+  scholar: 6ifLBBsAAAAJ # your Google Scholar ID
+  namedrop: jamesdossgollin # createa profile on https://namedrop.io/ so others know how to pronounce your name!
+  orcid: 0000-0002-3428-2224 # your OrcID number
+  pronouns: he/him # your preferred pronouns
+  languages: English, Español, Português # languages you speak
+  bio: # just format with Markdown. Yours should be shorter than this :)
+    James Doss-Gollin is a postdoctoral scholar with the [Keller Group](https://personal.ems.psu.edu/~kzk10/) at the Penn State [Earth and Environmental Systems Institute](https://www.eesi.psu.edu/people). He will join the Rice Civil and Environmental Engineering faculty as an assistant professor in January 2021. James's research is motivated by challenging questions at the intersection of climate dynamics, water management, data science, and decision science. He is currently working on conceptual and computational frameworks that integrate hard and soft instruments for adaptive flood risk management. James completed his Ph.D. in Earth and Environmental Engineering at Columbia and holds a B.S. in Mechanical Engineering from Yale University. Prior to joining the Keller Group, he was a graduate research fellow at the [Columbia Water Center](href=http://water.columbia.edu). His Ph.D. dissertation develops methods for understanding and predicting spatiotemporally clustered hydroclimate risk, and for incorporating uncertain projections into sequential decision problems.

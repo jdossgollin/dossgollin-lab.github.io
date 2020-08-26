@@ -1,0 +1,32 @@
+---
+layout: page
+title: Teaching
+permalink: teaching/
+---
+
+<!--Loop through all the people-->
+{% assign courses = site.data.teaching | sort: "semester" %}
+
+<div class="row">
+    <div class="col-md-12">
+        <section>
+            {% assign c1 = courses | first %}
+            {% assign prevsem = c1.semester %}
+            <h4>{{ prevsem }}</h4>
+            <ul>
+                {% for course in courses %}
+                {% capture semester %}{{ course.semester }}{% endcapture %}
+                {% if semester != prevsem %}
+            </ul>
+            <h4>{{ semester }}</h4>
+            <ul>
+                {% endif %}
+                <li> {{ course.number }}: {{ course.title }} </li>
+                {% endfor %}
+            </ul>
+        </section>
+        <br />
+        <br />
+        <br />
+    </div>
+</div>

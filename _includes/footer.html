@@ -1,0 +1,35 @@
+<div class="clearfix"></div>
+<br />
+<br />
+<br />
+<footer>
+  <div class="row">
+    <div class="col-md-12">
+      <hr />
+      <div class="panel-body text-center">
+        {% assign footer_links = site.data.footer_links | sort: 'category' %}
+        {% assign count = 0 %}
+        {% for link in footer_links %}
+        {% assign count = count | plus: 1 %}
+        {% if count > 1 %}
+        |
+        {% endif %}
+        <a href="{{ link.link }}">{{ link.name }}</a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="text-center">
+        <a href="http://www.rice.edu/"><img src="{{ site.logo_ricelogo }}" height=50px alt="Rice University"></a>
+      </div>
+      <br /><br />
+    </div>
+</footer>
+</div>
+<!--Closes Container -->
+
+<script src="/assets/js/instantclick.min.js" data-no-instant></script>
+<script data-no-instant>InstantClick.init();</script>
+<script src="/assets/js/lightbox.min.js"></script>

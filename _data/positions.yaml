@@ -1,0 +1,18 @@
+- role: Undergraduates
+  status: There are openings for undergraduates beginning Spring 2021.
+    Undergraduates are typically expected to work at least 10 hours per week during the academic year.
+  apply: Send James an <a href="/Contact">email</a> with your current CV and a 1 page PDF summary of the project you would like to carry out.
+
+- role: Graduate students
+  status: There are openings for graduate students to begin fall 2021. See <a href="/openings/grad-2021.html">the announcement</a>.
+  apply:
+    You should apply to the program of your choice in the <a href="https://cee.rice.edu/graduate-program/">Department of Civil and Environmental Engineering</a>.
+    See also <a href="https://graduate.rice.edu/admissions/how-to-apply">Rice graduate admission guidelines</a>.
+    You are also encouraged (though not required) to send James an <a href="/Contact">email</a> with your current CV, a statement of your research interests, and any relevant prior work.
+
+- role: Post-doctoral researchers
+  status: We are not <strong>actively</strong> hiring post-docs. However, if you have a compelling project in mind that advances our mission and leverages our expertise, please reach out!
+  apply:
+    Please send James by <a href="/Contact">email</a> a current CV, a summary of your past research
+    and future plans, at least three references, two publications, and a short summary of how your skills will complement
+    our group's work.

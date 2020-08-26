@@ -1,14 +1,9 @@
 ---
-cover: assets/images/2019-03-28-probabilistic-harvey.png
+title: "New Paper in Earth's Future"
+subtitle: "Probabilistic Models Significantly Reduce Uncertainty in Hurricane Harvey Pluvial Flood Loss Estimates"
+category: Papers
+tags: news
 layout: post
-current: post
-title: "Probabilistic models significantly reduce uncertainty in Hurricane Harvey pluvial flood loss estimates"
-date: 2019-03-28
-tags: [Papers, Announcements]
-class: post-template
-permalink: 2019-03-28-paper-rozer-harvey
-navigation: true
-excerpt: "My paper with Viktor Rözer and colleagues has been published in Earth's Future."
 ---
 
 My paper with [Viktor Rözer](http://http://www.lse.ac.uk/GranthamInstitute/profile/viktor-rozer){:target="_blank"} (lead author) and coauthors has been published in the **open access** journal Earth's Future.
@@ -33,9 +28,6 @@ Here's our abstract:
   Except for the water depth as the common most important predictor, we identified the drivers for having loss or not and for the degree of loss to be different.
   Applying this approach to estimate and validate building structure losses during Hurricane Harvey using a property level data set, we find that the reliability and dispersion of predictive loss distributions vary widely depending on the model and aggregation level of property level loss estimates.
   Our results show that the use of multi‐variable zero‐inflated beta models reduce the 90% prediction intervals for Hurricane Harvey building structure loss estimates on average by 78% (totalling US$ 3.8 billion) compared to commonly used models.
-
-If you have any questions please feel free to [contact me](mailto:james.doss-gollin@psu.edu){:target="_blank"} or you can contact Viktor, who is the paper's corresponding author.
-Thanks for any thoughts!
 
 # References
 
