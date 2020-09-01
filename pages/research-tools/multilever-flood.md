@@ -1,16 +1,10 @@
 ---
-title: Multilever decision problems
+title: Multilever flood resilience
 image: /assets/img/research/nicholas-elevation-ocracoke-nc-2020.jpeg
-order: 3
+order: 1
 ---
 
-* Sequential optimization problems with complex decision/action spaces
-* Computational experiments to identify optimal ways to combine different types of instrument
-* Useful heuristics that provide simple guidelines that work well in many cases
-
-Throughout the 20th century, critical infrastructure services including the supply of water and electricity and protection from weather and climate extremes were provided through a top-down paradigm emphasizing centrally planned structural solutions.
-This approach has been widely successful, yet important challenges remain.
-For example, large structures are difficult to "scale" up or down to meet fast-evolving needs and challenges.
-Further, large structures are costly and difficult to maintain, leaving system performance highly vulnerable to loss of its economic base.
-And the unintended consequences of structures such as the [levee effect](https://doi.org/10.1111/j.1752-1688.1995.tb04025.x) and [induced demand](https://doi.org/10.3141/1659-09) can produce adverse effects on overall system performance.
-To address these limitations, physical structures need to be more tightly integrated into a portfolio of tools including ecosystem restoration, financial instruments, and use of emerging technologies.
+20th century flood risk management emphasized the control of rivers and the prevention of flooding through a centralized, top-down paradigm.
+Despite some successes, flood losses continue to increase, due mainly to increased construction in flood-prone areas and changing local and global environmental conditions.
+This has led to an emerging consensus that large structural projects for flood risk management ought to be evaluated against and integrated into a portfolio of engineering, policy, and financial instruments such as wetland restoration, leaving "room for the river", local vulnerability reduction measures, zoning changes, and insurance.
+To address these challenges, we use tools from optimization, probabilistic modeling, machine learning, and stochastic hydrology to explore how combinations of "hard" and "soft" instruments might efficiently, ethically, and reliably reduce the disruption and damage of floods.
