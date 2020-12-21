@@ -62,3 +62,5 @@ scholar:
   bibliography_template: bib
   sort_by: date,year,month
   order: descending
+  bibliography_list_tag: div
+  bibliography_item_tag: div
