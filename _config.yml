@@ -29,7 +29,7 @@ rss_name: rss.xml
 # Settings for deploy rake task
 safe: False
 lsi: False
-username: jdossgollin
+username: dossgollin-lab
 repo: dossgollin-lab.github.io
 branch: master
 destination: _site
