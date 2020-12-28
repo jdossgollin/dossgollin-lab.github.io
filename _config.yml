@@ -11,7 +11,7 @@ permalink: /:categories/:title.html
 office: 215 Ryon Laboratory
 twitter: jdossgollin
 github: jdossgollin
-labguide: https://jdossgollin.github.io/lab-guide
+labguide: https://dossgollin-lab.github.io/lab-guide
 
 # logos and images to use
 logo_cover: /assets/img/logos/header-rpy.jpg
@@ -30,11 +30,11 @@ rss_name: rss.xml
 safe: False
 lsi: False
 username: jdossgollin
-repo: jdossgollin.github.io
+repo: dossgollin-lab.github.io
 branch: master
 destination: _site
-production_url: https://jamesdossgollin.me
-source_url: https://github.com/jdossgollin/jdossgollin.github.io/
+production_url: https://dossgollin-lab.github.io
+source_url: https://github.com/dossgollin-lab/dossgollin-lab.github.io/
 
 # Page Set
 pages_list:
