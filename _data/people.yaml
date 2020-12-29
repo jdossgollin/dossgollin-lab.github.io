@@ -4,13 +4,13 @@
 
 - first_name: James # your first name
   last_name: Doss-Gollin # your last name
-  title: # Mr., Ms., Dr., or similar
+  title: Dr. # Mr., Ms., Dr., or similar
   anchor: jdossgollin # allows you to link to a particular person: /People#jdossgollin
   position: Principal Investigator # your role within the group
   photo: jdossgollin.jpeg # name of a photo in /assets/img/group-members/
   cv: https://jdossgollin.github.io/cv-pdf/CV_Doss-Gollin_James.pdf # URL of your CV. optional.
   email: jdossgollin@rice.edu # your email address
-  website: # your web site. optional.
+  website: https://jamesdossgollin.me # your web site. optional.
   github: jdossgollin # your github user name
   twitter: jdossgollin # your twitter user name
   linkedin: jamesdossgollin # your linkedin user name
@@ -20,4 +20,4 @@
   pronouns: he/him # your preferred pronouns
   languages: English, Español, Português # languages you speak
   bio: # just format with Markdown. Yours should be shorter than this :)
-    James Doss-Gollin is an assistant professor in department of Civil and Environmental Engineering at Rice University. James's research is motivated by challenging questions at the intersection of climate dynamics, water management, data science, and decision science. By developing methods for understanding and predicting spatiotemporally clustered hydroclimate risk, and for incorporating uncertain projections into sequential decision problems, he strives to enable the delivery of adaptive and resilient infrastructure services. James completed his Ph.D. in Earth and Environmental Engineering at Columbia and holds a B.S. in Mechanical Engineering from Yale University. Prior to joining Rice University, he was a postdoctoral researcher in the Earth and Environmental Systems Institute at the Pennsylvania State University.
+    James Doss-Gollin is an assistant professor in the department of Civil and Environmental Engineering at Rice University. Dr. Doss-Gollin's research is motivated by challenging questions at the intersection of climate dynamics, water management, data science, and decision science. By developing methods for understanding and predicting spatiotemporally clustered hydroclimate risk, and for incorporating uncertain projections into sequential decision problems, he strives to enable the delivery of adaptive and resilient infrastructure services. Dr. Doss-Gollin completed his Ph.D. in Earth and Environmental Engineering at Columbia and holds a B.S. in Mechanical Engineering from Yale University. Prior to joining Rice University, he was a postdoctoral researcher in the Earth and Environmental Systems Institute at the Pennsylvania State University.
