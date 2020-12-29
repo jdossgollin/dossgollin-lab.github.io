@@ -97,9 +97,13 @@ permalink: group-members/
     alt="Pronouns">
   {% endif %}
   {% if person.languages %}
-  <img
-    src="https://img.shields.io/static/v1?label=languages&message={{ person.languages }}&color=orange&style=flat-square"
-    alt="Languages">
+  {% for lang in person.languages %}
+  <a href="https://www.govtilr.org/Skills/ILRscale2.htm">
+    <img
+      src="https://img.shields.io/static/v1?label={{ lang.name }}&message={{ lang.skill }}/5&color=orange&style=flat-square&logo=google-translate"
+      alt="Language skill measure">
+  </a>
+  {% endfor %}
   {% endif %}
 </div>
 <div class="clearfix"></div>

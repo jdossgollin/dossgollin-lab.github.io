@@ -17,7 +17,19 @@
   scholar: 6ifLBBsAAAAJ # your Google Scholar ID
   namedrop: jamesdossgollin # createa profile on https://namedrop.io/ so others know how to pronounce your name!
   orcid: 0000-0002-3428-2224 # your OrcID number
-  pronouns: he/him # your preferred pronouns
-  languages: English, Español, Português # languages you speak
+  pronouns: he/him/his # your preferred pronouns
+  languages: # see https://www.govtilr.org/Skills/ILRscale2.htm
+    - name: English
+      skill: 5
+    - name: Español
+      skill: 4
+    - name: Português
+      skill: 3
+    - name: Italiano
+      skill: 2
+    - name: Français
+      skill: 2
+    - name: Guarani
+      skill: 1
   bio: # just format with Markdown. Yours should be shorter than this :)
     James Doss-Gollin is an assistant professor in the department of Civil and Environmental Engineering at Rice University. Dr. Doss-Gollin's research is motivated by challenging questions at the intersection of climate dynamics, water management, data science, and decision science. By developing methods for understanding and predicting spatiotemporally clustered hydroclimate risk, and for incorporating uncertain projections into sequential decision problems, he strives to enable the delivery of adaptive and resilient infrastructure services. Dr. Doss-Gollin completed his Ph.D. in Earth and Environmental Engineering at Columbia and holds a B.S. in Mechanical Engineering from Yale University. Prior to joining Rice University, he was a postdoctoral researcher in the Earth and Environmental Systems Institute at the Pennsylvania State University.
