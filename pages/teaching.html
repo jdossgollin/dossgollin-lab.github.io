@@ -9,6 +9,9 @@ permalink: teaching/
 
 <div class="row">
     <div class="col-md-12">
+        <p>
+            All information on this page is preliminary; please see official course listings at <a href="https://courses.rice.edu/">courses.rice.edu</a>
+        </p>
         <section>
             {% assign c1 = courses | first %}
             {% assign prevsem = c1.semester %}
@@ -21,7 +24,7 @@ permalink: teaching/
             <h4>{{ semester }}</h4>
             <ul>
                 {% endif %}
-                <li> {{ course.number }}: {{ course.title }} </li>
+                <li> {{ course.number }}: {{ course.title }}{% if course.description %}</br><em>{{ course.description | markdownify }}</em>{% endif %}</li>
                 {% endfor %}
             </ul>
         </section>
