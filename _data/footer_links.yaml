@@ -1,9 +1,6 @@
 - name: Lab Guide
   link: https://dossgollin-lab.github.io/lab-guide
   category: 0-Group
-- name: America's Water Blog
-  link: https://americaswater.blog
-  category: 0-Group
 - name: <i class="fab fa-github"></i>
   long_name: GitHub
   link: https://github.com/jdossgollin
