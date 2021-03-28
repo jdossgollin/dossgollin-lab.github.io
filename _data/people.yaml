@@ -8,9 +8,9 @@
   anchor: jdossgollin # allows you to link to a particular person: /People#jdossgollin
   position: Principal Investigator # your role within the group
   photo: jdossgollin.jpeg # name of a photo in /assets/img/group-members/
-  cv: https://jamesdossgollin.me/my-cv/Doss-Gollin-CV.pdf # URL of your CV. optional.
+  cv: https://jdossgollin.github.io/my-cv/Doss-Gollin-CV.pdf # URL of your CV. optional.
   email: jdossgollin@rice.edu # your email address
-  website: https://jamesdossgollin.me # your web site. optional.
+  website: https://jdossgollin.github.io # your web site. optional.
   github: jdossgollin # your github user name
   twitter: jdossgollin # your twitter user name
   linkedin: jamesdossgollin # your linkedin user name
