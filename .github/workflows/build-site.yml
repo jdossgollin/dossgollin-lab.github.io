@@ -1,0 +1,52 @@
+name: Ruby
+
+on:
+  repository_dispatch:
+  push:
+    branches: [master]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    # run only on upstream, not on downstream
+    if: github.repository == 'dossgollin-lab/dossgollin-lab.github.io'
+
+    strategy:
+      matrix:
+        ruby-version: ["3.0"]
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+          submodules: true
+      - name: Update submodules
+        run: |
+          cd _bibliography/
+          git branch -u origin/main main
+          cd ..
+          git submodule update --recursive --remote
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: ${{ matrix.ruby-version }}
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+      - name: Build site
+        run: |
+          set -xo pipefail
+          rm -rf _site/*
+          gem install bundler
+          bundle install
+          bundle exec jekyll build
+      - name: Commit and push
+        uses: JamesIves/github-pages-deploy-action@3.7.1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: _site
+          CLEAN: true
+          GIT_CONFIG_NAME: "Github Action"
+          GIT_CONFIG_EMAIL: actions@github.com
+          COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
