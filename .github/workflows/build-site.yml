@@ -12,10 +12,6 @@ jobs:
     # run only on upstream, not on downstream
     if: github.repository == 'dossgollin-lab/dossgollin-lab.github.io'
 
-    strategy:
-      matrix:
-        ruby-version: ["3.0"]
-
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -28,10 +24,10 @@ jobs:
           git branch -u origin/main main
           cd ..
           git submodule update --recursive --remote
-      - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
+      - name: Setup Ruby, JRuby and TruffleRuby
+        uses: ruby/setup-ruby@v1.66.1
         with:
-          ruby-version: ${{ matrix.ruby-version }}
+          ruby-version: 3.0
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
       - name: Build site
         run: |
