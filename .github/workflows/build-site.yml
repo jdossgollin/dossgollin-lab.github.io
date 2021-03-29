@@ -21,7 +21,7 @@ jobs:
       - name: Update submodules
         run: |
           cd _bibliography/
-          git branch -u origin/main main
+          git branch -u origin/master master
           cd ..
           git submodule update --recursive --remote
       - name: Setup Ruby, JRuby and TruffleRuby
