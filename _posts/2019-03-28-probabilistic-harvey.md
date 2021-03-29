@@ -6,7 +6,7 @@ tags: news
 layout: post
 ---
 
-My paper with [Viktor Rözer](http://http://www.lse.ac.uk/GranthamInstitute/profile/viktor-rozer){:target="_blank"} (lead author) and coauthors has been published in the **open access** journal Earth's Future.
+My paper with [Viktor Rözer](http://www.lse.ac.uk/GranthamInstitute/profile/viktor-rozer){:target="_blank"} (lead author) and coauthors has been published in the **open access** journal Earth's Future.
 
 In this paper {% cite Rozer:2019 %} we dive into the (unfortunately very relevant) challenge of estimating damages from the measurable characteristics of the floods.
 Engineers traditionally use "stage-damage functions" to do this; these relate the depth of the flood to the expected damage.
