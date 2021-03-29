@@ -1,36 +1,47 @@
 name: Check Jekyll Links
+
 on:
+  repository_dispatch:
   push:
-    branches:
-      - master
-  pull_request:
-    branches:
-      - master
+    branches: [master]
 
 jobs:
-  checklinks:
-    name: Linux
+  build:
     runs-on: ubuntu-latest
-    strategy:
-      fail-fast: false
+
     steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+          submodules: true
+
+      - name: Update submodules
+        run: |
+          cd _bibliography/
+          git branch -u origin/main main
+          cd ..
+          git submodule update --recursive --remote
+
       - name: Setup Ruby, JRuby and TruffleRuby
         uses: ruby/setup-ruby@v1.66.1
         with:
           ruby-version: 3.0
-          bundler-cache: true
-      - name: Setup Rubygems, Bundler, jekyll
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+
+      - name: Build site
         run: |
           set -xo pipefail
           rm -rf _site/*
           gem install bundler
           bundle install
-      - name: Build jekyll website with drafts
-        run: bundle exec jekyll build --drafts
+          bundle exec jekyll build
+
       - name: Check for broken links
         run: |
           bundle exec htmlproofer --log-level :debug ./_site &> links.log
         continue-on-error: true
+
       - name: Archive log links
         uses: actions/upload-artifact@v1
         with:
