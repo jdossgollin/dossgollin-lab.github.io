@@ -1,27 +1,137 @@
----
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 	<channel>
-		<title>{{ site.name | xml_escape }}</title>
-		<description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>		
-		<link>{{ site.url }}</link>
-		<atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
-		{% for post in site.posts limit:10 %}
+		<title>Doss-Gollin Group @ Rice</title>
+		<description>The Doss-Gollin Research Group at Rice University (Starting 2021)</description>		
+		<link>https://dossgollin-lab.github.io</link>
+		<atom:link href="https://dossgollin-lab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+		
 			<item>
-				<title>{{ post.title | xml_escape }}</title>
-				{% if post.author.name %}
-					<dc:creator>{{ post.author.name | xml_escape }}</dc:creator>
-				{% endif %}        
-				{% if post.excerpt %}
-					<description>{{ post.excerpt | xml_escape }}</description>
-				{% else %}
-					<description>{{ post.content | xml_escape }}</description>
-				{% endif %}
-				<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-				<link>{{ site.url }}{{ post.url }}</link>
-				<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+				<title>New Preprint: How unprecedented was the February 2021 Texas cold snap?</title>
+				        
+				
+					<description>&lt;p&gt;As you may have heard on the news, a cold snap recently left millions of Texans without water and power for several days.
+We published a preprint titled “How unprecedented was the February 2021 Texas cold snap?”
+It’s freely available &lt;a href=&quot;https://doi.org/10.31223/X5003J&quot;&gt;on EarthArXiV&lt;/a&gt;!&lt;/p&gt;
+</description>
+				
+				<pubDate>Sun, 28 Feb 2021 00:00:00 +0000</pubDate>
+				<link>https://dossgollin-lab.github.io/papers/txtremes.html</link>
+				<guid isPermaLink="true">https://dossgollin-lab.github.io/papers/txtremes.html</guid>
 			</item>
-		{% endfor %}
+		
+			<item>
+				<title>2020 Annual Meeting of the Society for Decision Making under Deep Uncertainty</title>
+				        
+				
+					<description>&lt;p&gt;Please see below my slides from my talk in the session on “Applications to Energy and Infrastructure Planning” at the 2020 Annual Meeting of the Society for Decision Making under Deep Uncertainty.
+You can also find the conference program &lt;a href=&quot;https://2020.deepuncertainty.org/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+				
+				<pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
+				<link>https://dossgollin-lab.github.io/conference/dmdu-2020.html</link>
+				<guid isPermaLink="true">https://dossgollin-lab.github.io/conference/dmdu-2020.html</guid>
+			</item>
+		
+			<item>
+				<title>Funded Positions for Ph.D. Students</title>
+				        
+				
+					<description>&lt;p&gt;Prospective PhD students are invited to apply to my group in Rice Civil and Environmental Engineering, where I’m starting in January.&lt;/p&gt;
+</description>
+				
+				<pubDate>Thu, 02 Jul 2020 00:00:00 +0000</pubDate>
+				<link>https://dossgollin-lab.github.io/openings/grad-2021.html</link>
+				<guid isPermaLink="true">https://dossgollin-lab.github.io/openings/grad-2021.html</guid>
+			</item>
+		
+			<item>
+				<title>Excited to join Rice CEE</title>
+				        
+				
+					<description>&lt;p&gt;As you may know, I’ve been at the &lt;a href=&quot;https://water.columbia.edu&quot; target=&quot;_blank&quot;&gt;Columbia Water Center&lt;/a&gt; since September 2015, pursuing a Ph.D. in &lt;a href=&quot;https://eee.columbia.edu/&quot; target=&quot;_blank&quot;&gt;Earth and Environmental Engineering&lt;/a&gt;.
+I’ve had the chance to interact with many wonderful classmates, colleagues, teachers, and mentors, and have learned more in five years than I ever thought possible.&lt;/p&gt;
+</description>
+				
+				<pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+				<link>https://dossgollin-lab.github.io/announcements/plan.html</link>
+				<guid isPermaLink="true">https://dossgollin-lab.github.io/announcements/plan.html</guid>
+			</item>
+		
+			<item>
+				<title>New Paper in Journal of Water Resources Management and Planning</title>
+				        
+				
+					<description>&lt;hr /&gt;
+</description>
+				
+				<pubDate>Thu, 30 Jan 2020 00:00:00 +0000</pubDate>
+				<link>https://dossgollin-lab.github.io/papers/adaptation-fatalism.html</link>
+				<guid isPermaLink="true">https://dossgollin-lab.github.io/papers/adaptation-fatalism.html</guid>
+			</item>
+		
+			<item>
+				<title>Call for Abstracts: Meeting the challenges of 21st century climate adaptation</title>
+				        
+				
+					<description>&lt;p&gt;Climate information, including observations, predictions on a range of timescales, and projections of longer-term change, can inform adaptation strategies and protect society against the loss of life, property, and productive capacity.
+Successfully developing, evaluating, and actualizing such predictions is difficult, however, given the intrinsic uncertainties and potentially high sensitivity of decisions to such uncertainties.
+In this session we will bring together scientists from fields including climate science, decision sciences, sustainability sciences and engineering to discuss:&lt;/p&gt;
+</description>
+				
+				<pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
+				<link>https://dossgollin-lab.github.io/papers/agu-call-abstracts.html</link>
+				<guid isPermaLink="true">https://dossgollin-lab.github.io/papers/agu-call-abstracts.html</guid>
+			</item>
+		
+			<item>
+				<title>New Paper in Earth's Future</title>
+				        
+				
+					<description>&lt;p&gt;My paper with David Farnham, Scott Steinschneider, and Upmanu Lall has been published in the &lt;strong&gt;open access&lt;/strong&gt; journal Earth’s Future.
+Here’s the abstract:&lt;/p&gt;
+</description>
+				
+				<pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate>
+				<link>https://dossgollin-lab.github.io/papers/robust-adaptation.html</link>
+				<guid isPermaLink="true">https://dossgollin-lab.github.io/papers/robust-adaptation.html</guid>
+			</item>
+		
+			<item>
+				<title>New Paper in Earth's Future</title>
+				        
+				
+					<description>&lt;p&gt;My paper with &lt;a href=&quot;http://http://www.lse.ac.uk/GranthamInstitute/profile/viktor-rozer&quot; target=&quot;_blank&quot;&gt;Viktor Rözer&lt;/a&gt; (lead author) and coauthors has been published in the &lt;strong&gt;open access&lt;/strong&gt; journal Earth’s Future.&lt;/p&gt;
+</description>
+				
+				<pubDate>Thu, 28 Mar 2019 00:00:00 +0000</pubDate>
+				<link>https://dossgollin-lab.github.io/papers/probabilistic-harvey.html</link>
+				<guid isPermaLink="true">https://dossgollin-lab.github.io/papers/probabilistic-harvey.html</guid>
+			</item>
+		
+			<item>
+				<title>New Paper in Journal of Climate</title>
+				        
+				
+					<description>&lt;p&gt;My paper with Ángel Muñoz, Simon Mason, and Max Pastén titled “Heavy Rainfall in Paraguay during the 2015/16 Austral Summer: Causes and Subseasonal-to-Seasonal Predictive Skill”  has been published in Journal of Climate.&lt;/p&gt;
+</description>
+				
+				<pubDate>Mon, 07 May 2018 00:00:00 +0000</pubDate>
+				<link>https://dossgollin-lab.github.io/papers/paraguay-floods.html</link>
+				<guid isPermaLink="true">https://dossgollin-lab.github.io/papers/paraguay-floods.html</guid>
+			</item>
+		
+			<item>
+				<title>New Paper in Water Resources Research</title>
+				        
+				
+					<description>&lt;p&gt;My paper with David Farnham (lead author) and Upmanu Lall titled “Regional Extreme Precipitation Events: Robust Inference From Credibly Simulated GCM Variables” has been published in Water Resources Research.&lt;/p&gt;
+</description>
+				
+				<pubDate>Mon, 26 Mar 2018 00:00:00 +0000</pubDate>
+				<link>https://dossgollin-lab.github.io/papers/ohio-floods-wrr.html</link>
+				<guid isPermaLink="true">https://dossgollin-lab.github.io/papers/ohio-floods-wrr.html</guid>
+			</item>
+		
 	</channel>
 </rss>
