@@ -14,16 +14,16 @@ jobs:
     strategy:
       fail-fast: false
     steps:
-      - uses: actions/checkout@v2
       - name: Setup Ruby, JRuby and TruffleRuby
         uses: ruby/setup-ruby@v1.66.1
         with:
-          ruby-version: 2.6.x
+          ruby-version: 3.0
+          bundler-cache: true
       - name: Setup Rubygems, Bundler, jekyll
         run: |
-          gem update --system --no-document
-          gem update bundler --no-document
-          gem install jekyll bundler
+          set -xo pipefail
+          rm -rf _site/*
+          gem install bundler
           bundle install
       - name: Build jekyll website with drafts
         run: bundle exec jekyll build --drafts
