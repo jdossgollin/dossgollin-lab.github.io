@@ -24,7 +24,7 @@ permalink: teaching/
             <h4>{{ semester }}</h4>
             <ul>
                 {% endif %}
-                <li> {{ course.number }}: {{ course.title }}{% if course.description %}</br><em>{{ course.description | markdownify }}</em>{% endif %}</li>
+                <li> {% if course.url %}<a href="{{ course.url }}">{% endif %}{{ course.number }}: {{ course.title }}{% if course.url %}</a>{% endif %}</li>
                 {% endfor %}
             </ul>
         </section>
