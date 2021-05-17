@@ -5,3 +5,5 @@ group :jekyll_plugins do
     gem "jekyll"
 end
 
+
+gem "webrick", "~> 1.7"

@@ -34,6 +34,10 @@ permalink: group-members/
     {{ person.position }}
   </h4>
   <div>
+    {% if person.pronouns %}
+  <img src="https://img.shields.io/static/v1?label=pronouns&message={{ person.pronouns }}&color=red&style=flat-square"
+    alt="Pronouns">
+  {% endif %}
     {% if person.email %}
     <a href="mailto:{{ person.email }}">
       <img
@@ -89,21 +93,7 @@ permalink: group-members/
   </div>
   <!-- bio and description -->
   {% if person.bio %}
-  </br>
   <p>{{ person.bio | markdownify }}</p>
-  {% endif %}
-  {% if person.pronouns %}
-  <img src="https://img.shields.io/static/v1?label=pronouns&message={{ person.pronouns }}&color=red&style=flat-square"
-    alt="Pronouns">
-  {% endif %}
-  {% if person.languages %}
-  {% for lang in person.languages %}
-  <a href="https://www.govtilr.org/Skills/ILRscale2.htm">
-    <img
-      src="https://img.shields.io/static/v1?label={{ lang.name }}&message={{ lang.skill }}/5&color=orange&style=flat-square&logo=google-translate"
-      alt="Language skill measure">
-  </a>
-  {% endfor %}
   {% endif %}
 </div>
 <div class="clearfix"></div>
