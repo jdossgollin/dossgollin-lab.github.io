@@ -1,9 +1,6 @@
 name: Check Jekyll Links
 
-on:
-  repository_dispatch:
-  push:
-    branches: [master]
+on: [push, pull_request]
 
 jobs:
   build:
