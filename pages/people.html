@@ -27,17 +27,15 @@ permalink: group-members/
   <a name="{{ person.first_name }} {{ person.last_name }}"></a>
   {% endif %}
   <h4>
-    {% if person.title %}{{ person.title}} {% endif %}{{ person.first_name }}
-    {{ person.last_name }}{% if person.namedrop %}
-    <a href="http://nmdrp.me/{{ person.namedrop }}" style="color: #359245"><i
-        class="fas fa-volume-up"></i></a>{% endif %},
-    {{ person.position }}
+    {% if person.title %}{{ person.title}} {% endif %}
+    {{ person.first_name }} {{ person.last_name }}{% if person.namedrop %} (<a href="http://namedrop.io/{{ person.namedrop }}"><i class="fas fa-volume-up"></i></a>){% endif %}, {{ person.position }}
   </h4>
   <div>
     {% if person.pronouns %}
-  <img src="https://img.shields.io/static/v1?label=pronouns&message={{ person.pronouns }}&color=red&style=flat-square"
-    alt="Pronouns">
-  {% endif %}
+    <img src="https://img.shields.io/static/v1?label=pronouns&message={{ person.pronouns }}&color=red&style=flat-square"
+      alt="Pronouns">
+    {% endif %}
+    </br>
     {% if person.email %}
     <a href="mailto:{{ person.email }}">
       <img
