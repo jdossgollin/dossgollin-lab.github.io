@@ -35,7 +35,6 @@ permalink: group-members/
     <img src="https://img.shields.io/static/v1?label=pronouns&message={{ person.pronouns }}&color=red&style=flat-square"
       alt="Pronouns">
     {% endif %}
-    </br>
     {% if person.email %}
     <a href="mailto:{{ person.email }}">
       <img
@@ -72,8 +71,7 @@ permalink: group-members/
     <!-- Social media identity -->
     {% if person.twitter %}
     <a href="https://twitter.com/{{ person.twitter }}">
-      <img src="https://img.shields.io/twitter/follow/{{ person.twitter }}?logo=twitter&style=flat-square"
-        alt="Twitter">
+      <img src="https://img.shields.io/twitter/follow/{{ person.twitter }}?logo=twitter&amp;style=flat-square" alt="Twitter">
     </a>
     {% endif %}
     {% if person.linkedin %}
@@ -84,7 +82,7 @@ permalink: group-members/
     {% endif %}
     {% if person.github %}
     <a href="http://github.com/{{ person.github }}">
-      <img src="https://img.shields.io/github/followers/{{ person.github }}?label=Github&logo=github&style=flat-square"
+      <img src="https://img.shields.io/github/followers/{{ person.github }}?label=Github: @{{ person.github }}&logo=github&style=flat-square"
         alt="GitHub Profile">
     </a>
     {% endif %}
