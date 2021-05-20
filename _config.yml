@@ -1,5 +1,5 @@
 # Site settings
-name: Doss-Gollin Group @ Rice
+name: "Doss-Gollin Group @ Rice CEVE"
 title: Doss-Gollin Research Group
 #subtitle: adaptive infrastructure for resilient communities
 subtitle:
@@ -19,7 +19,7 @@ logo_logo: /assets/img/logos/james.jpg
 logo_james: /assets/img/logos/james.jpg
 logo_icon: /assets/img/logos/logo.ico
 logo_ricelogo: /assets/img/logos/rice.jpg
-logo_labgroup: /assets/img/logos/header-rpy.jpg
+logo_labgroup: /assets/img/research/harvey-martinez-ng.jpeg
 logo_research: /assets/img/research/causal-chain.png
 
 # RSS
@@ -56,7 +56,7 @@ plugins:
   - jekyll-scholar
 
 scholar:
-  style: decision-sciences
+  style: assets/csl/nature-no-et-al
   source: _bibliography
   bibliography: library.bib
   bibliography_template: bib

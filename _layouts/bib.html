@@ -1,9 +1,9 @@
 ---
 ---
 
-<div class="panel panel-default">
+<div class="panel panel-default" style="font-size: 16px;">
     <div class="panel-body">
-        {{ reference }}
+        {{ reference | replace_first: 'Doss-Gollin, J.', '<u>Doss-Gollin, J.</u>' }}
     </div>
     <div class="panel-heading">
         {% if entry.doi %}
@@ -14,7 +14,7 @@
 
         {% if entry.open == "true" and link %}
         <a href="{{ link }}">
-            <img src="https://img.shields.io/static/v1?label=&message=Published: Open Access&color=success&style=flat" alt="Link">
+            <img src="https://img.shields.io/static/v1?label=&message=Published: Open&color=success&style=flat" alt="Link">
         </a>
         {% endif %}
         {% if entry.open != "true" and link %}
@@ -25,19 +25,19 @@
         {% if entry.repo %}
         {%  if entry.repo contains "github" %}
         <a href="{{ entry.repo }}" color="#000000">
-            <img src="https://img.shields.io/static/v1?style=flat&logo=github&label=&message=Open Source" alt="GitHub Repository">
+            <img src="https://img.shields.io/static/v1?style=flat&logo=github&label=&message=Source Code" alt="GitHub Repository">
         </a>
         {% elsif entry.repo contains "bitbucket" %}
         <a href="{{ entry.repo }}">
-            <img src="https://img.shields.io/static/v1?style=flat&logo=bitbucket&label=&message=Open Source" alt="Bitbucket Repository">
+            <img src="https://img.shields.io/static/v1?style=flat&logo=bitbucket&label=&message=Source Code" alt="Bitbucket Repository">
         </a>
         {% elsif entry.repo contains "gitlab" %}
         <a href="{{ entry.repo }}">
-            <img src="https://img.shields.io/static/v1?style=flat&logo=gitlab&label=&message=Open Source" alt="GitLab Repository">
+            <img src="https://img.shields.io/static/v1?style=flat&logo=gitlab&label=&message=Source Code" alt="GitLab Repository">
         </a>
         {% else" %}
         <a href="{{ entry.repo }}">
-            <img src="https://img.shields.io/static/v1?style=flat&label=code&message=Open Source" alt="Code Repository">
+            <img src="https://img.shields.io/static/v1?style=flat&label=code&message=Source Code" alt="Code Repository">
         </a>
         {% endif %}
         {% endif %}
