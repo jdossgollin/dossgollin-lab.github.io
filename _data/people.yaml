@@ -23,9 +23,21 @@
 - first_name: Alyssa
   last_name: Graham
   anchor: agraham
-  position: M.S. Student
+  position: Graduate Research Assistant
   photo: agraham.jpg
   email: aaag7@rice.edu
   pronouns: she/her
   linkedin: alyssa-graham-85a957a2
-  bio: Alyssa Graham is a Masters of Science student in the department of Civil and Environmental Engineering at Rice University. She is primarily interested in the application of circular economy methods to resource and supply chains in order to improve community resilience and inform policy for environmental, economic, and social sustainability. Her current research focuses on improving urban water infrastructure resilience through water re-use and circular economy principles. She received her B.S. in Chemical and Biomolecular Engineering from Rice University in 2020.
+  bio: Alyssa Graham is a graduate student in the department of Civil and Environmental Engineering at Rice University. She is primarily interested in the application of circular economy methods to resource and supply chains in order to improve community resilience and inform policy for environmental, economic, and social sustainability. Her current research focuses on improving urban water infrastructure resilience through water re-use and circular economy principles. She received her B.S. in Chemical and Biomolecular Engineering from Rice University in 2020 and expects to graduate with a Masters of Science in December 2021.
+
+- first_name: John # your first name
+  last_name: Cook # your last name
+  anchor: jcook # allows you to link to a particular person: /People#jdossgollin
+  position: Undergraduate Research Assistant # your role within the group
+  photo: jcook.jpg # name of a photo in /assets/img/group-members/
+  email: jsc10@rice.edu # your email address
+  github: johncook31 # your github user name
+  linkedin: johncook31 # your linkedin user name
+  pronouns: he/him # your preferred pronouns
+  bio: # just format with Markdown. Yours should be shorter than this :)
+    John Cook is an undergraduate student at Rice University, majoring in Civil and Environmental Engineering and minoring in Spanish. He is interested in resilient infrastructure design, sustainable management of water resources, and soil and groundwater remediation, among other topics. He expects to graduate in Spring 2022 with a Bachelor’s of Science.
