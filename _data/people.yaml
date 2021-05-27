@@ -20,6 +20,17 @@
   bio: # just format with Markdown. Yours should be shorter than this :)
     James Doss-Gollin is an assistant professor in the department of Civil and Environmental Engineering at Rice University. Dr. Doss-Gollin's research is motivated by challenging questions at the intersection of climate dynamics, water management, data science, and decision science. By developing methods for understanding and predicting spatiotemporally clustered hydroclimate risk, and for incorporating uncertain projections into sequential decision problems, he strives to enable the delivery of flexible and resilient infrastructure services. Dr. Doss-Gollin completed his M.S. and Ph.D. in Earth and Environmental Engineering at Columbia and holds a B.S. in Mechanical Engineering from Yale University. Prior to joining Rice University, he was a postdoctoral researcher in the Earth and Environmental Systems Institute at the Pennsylvania State University.
 
+- first_name: Yuchen # your first name
+  last_name: Lu # your last name
+  anchor: yuchenlu # allows you to link to a particular person: /People#jdossgollin
+  position: PhD Student # your role within the group
+  photo: yuchenlu.jpg # name of a photo in /assets/img/group-members/
+  email: yl238@rice.edu # your email address
+  linkedin: yuchenluv # your linkedin user name
+  pronouns: she/her/hers # your preferred pronouns
+  bio: # just format with Markdown. Yours should be shorter than this :)
+    Yuchen Lu will start as a PhD in Civil and Environmental Engineering at Rice University in Fall 2021. She completed a BS at Zhongnan University of Economics and Law in China, and a MS in Civil and Environmental Engineering at Carnegie Mellon University. She is interested in infrastructure adaptation in the face of climate change.
+
 - first_name: Alyssa
   last_name: Graham
   anchor: agraham
