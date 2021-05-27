@@ -16,8 +16,7 @@ permalink: /archive/
         <h3>{{ post.date | date: '%Y' }}</h3>
         <ul class="past">
           {% endif %}
-          <li><time>{{ post.date | date:"%d %b" }}</time> - <a href="{{ post.url }}">{{ post.title }}</a>
-            {% if post.subtitle %} <em>{{ post.subtitle }}</em>{% endif %}</li>
+          <li><time>{{ post.date | date:"%d %b" }}</time> - <a href="{{ post.url }}">{{ post.title }}</a>{% if post.subtitle %}: <em>{{ post.subtitle }}</em>{% endif %}</li>
           {% endfor %}
         </ul>
       </section>

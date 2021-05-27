@@ -27,13 +27,14 @@ permalink: group-members/
   <a name="{{ person.first_name }} {{ person.last_name }}"></a>
   {% endif %}
   <h4>
-    {% if person.title %}{{ person.title}} {% endif %}{{ person.first_name }}
-    {{ person.last_name }}{% if person.namedrop %}
-    <a href="http://nmdrp.me/{{ person.namedrop }}" style="color: #359245"><i
-        class="fas fa-volume-up"></i></a>{% endif %},
-    {{ person.position }}
+    {% if person.title %}{{ person.title}} {% endif %}
+    {{ person.first_name }} {{ person.last_name }}{% if person.namedrop %} (<a href="http://namedrop.io/{{ person.namedrop }}"><i class="fas fa-volume-up"></i></a>){% endif %}, {{ person.position }}
   </h4>
   <div>
+    {% if person.pronouns %}
+    <img src="https://img.shields.io/static/v1?label=pronouns&message={{ person.pronouns }}&color=red&style=flat-square"
+      alt="Pronouns">
+    {% endif %}
     {% if person.email %}
     <a href="mailto:{{ person.email }}">
       <img
@@ -70,8 +71,7 @@ permalink: group-members/
     <!-- Social media identity -->
     {% if person.twitter %}
     <a href="https://twitter.com/{{ person.twitter }}">
-      <img src="https://img.shields.io/twitter/follow/{{ person.twitter }}?logo=twitter&style=flat-square"
-        alt="Twitter">
+      <img src="https://img.shields.io/twitter/follow/{{ person.twitter }}?logo=twitter&amp;style=flat-square" alt="Twitter">
     </a>
     {% endif %}
     {% if person.linkedin %}
@@ -82,28 +82,14 @@ permalink: group-members/
     {% endif %}
     {% if person.github %}
     <a href="http://github.com/{{ person.github }}">
-      <img src="https://img.shields.io/github/followers/{{ person.github }}?label=Github&logo=github&style=flat-square"
+      <img src="https://img.shields.io/github/followers/{{ person.github }}?label=Github: @{{ person.github }}&logo=github&style=flat-square"
         alt="GitHub Profile">
     </a>
     {% endif %}
   </div>
   <!-- bio and description -->
   {% if person.bio %}
-  </br>
   <p>{{ person.bio | markdownify }}</p>
-  {% endif %}
-  {% if person.pronouns %}
-  <img src="https://img.shields.io/static/v1?label=pronouns&message={{ person.pronouns }}&color=red&style=flat-square"
-    alt="Pronouns">
-  {% endif %}
-  {% if person.languages %}
-  {% for lang in person.languages %}
-  <a href="https://www.govtilr.org/Skills/ILRscale2.htm">
-    <img
-      src="https://img.shields.io/static/v1?label={{ lang.name }}&message={{ lang.skill }}/5&color=orange&style=flat-square&logo=google-translate"
-      alt="Language skill measure">
-  </a>
-  {% endfor %}
   {% endif %}
 </div>
 <div class="clearfix"></div>
