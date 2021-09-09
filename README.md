@@ -8,7 +8,8 @@ Don't hesitate to reach out for help on Slack if you're stuck -- contributing to
 
 ## Getting Started
 
-See https://guides.github.com/activities/forking/ for a helpful guide to git workflow
+- Watch this [YouTube Walkthrough](https://www.youtube.com/watch?v=EdFdxfIuEZk) I made to help you!
+- See https://guides.github.com/activities/forking/ for a helpful guide to git workflow
 
 ### Clone the repository to your machine
 
