@@ -31,6 +31,11 @@
   bio: # just format with Markdown. Yours should be shorter than this :)
     Yuchen Lu will start as a PhD in Civil and Environmental Engineering at Rice University in Fall 2021. She completed a BS at Zhongnan University of Economics and Law in China, and a MS in Civil and Environmental Engineering at Carnegie Mellon University. She is interested in infrastructure adaptation in the face of climate change.
 
+- first_name: Kristina # your first name
+  last_name: Cibor # your last name
+  anchor: kcibor # allows you to link to a particular person: /People#jdossgollin
+  position: PhD Student # your role within the group
+
 - first_name: Alyssa
   last_name: Graham
   anchor: agraham
@@ -41,14 +46,20 @@
   linkedin: alyssa-graham-85a957a2
   bio: Alyssa Graham is a graduate student in the department of Civil and Environmental Engineering at Rice University. She is primarily interested in the application of circular economy methods to resource and supply chains in order to improve community resilience and inform policy for environmental, economic, and social sustainability. Her current research focuses on improving urban water infrastructure resilience through water re-use and circular economy principles. She received her B.S. in Chemical and Biomolecular Engineering from Rice University in 2020 and expects to graduate with a Masters of Science in December 2021.
 
+- first_name: Sophia
+  last_name: Prieto
+  anchor: sprieto
+  position: Undergraduate Research Assistant
+
 - first_name: John # your first name
   last_name: Cook # your last name
   anchor: jcook # allows you to link to a particular person: /People#jdossgollin
+  former: True # current or former?
   position: Undergraduate Research Assistant # your role within the group
   photo: jcook.jpg # name of a photo in /assets/img/group-members/
   email: jsc10@rice.edu # your email address
   github: johncook31 # your github user name
   linkedin: johncook31 # your linkedin user name
   pronouns: he/him # your preferred pronouns
-  bio: # just format with Markdown. Yours should be shorter than this :)
+  bio:
     John Cook is an undergraduate student at Rice University, majoring in Civil and Environmental Engineering and minoring in Spanish. He is interested in resilient infrastructure design, sustainable management of water resources, and soil and groundwater remediation, among other topics. He expects to graduate in Spring 2022 with a Bachelor’s of Science.

@@ -97,21 +97,8 @@ permalink: group-members/
 {% endif %}
 {% endfor %}
 
-<br>
-<hr style="height: 5px;">
-<!--join us button-->
-<div class="row">
-  <div class="col-sm-4"></div>
-  <div class="col-sm-4" style="text-align: center;">
-    See openings
-    </br>
-    <a class="btn btn-primary btn-block" href="/join-the-lab/">Join</a>
-  </div>
-  <div class="col-sm-4"></div>
-</div>
-
 <!-- Former people-->
-<!-- UNCOMMENT THIS WHEN THERE *ARE* FORMER PEOPLE
+<hr style="height: 5px;">
 {% assign people = site.data.people | sort: 'departure' | reverse %}
 
 <table class='table table-striped'>
@@ -123,9 +110,21 @@ permalink: group-members/
   {% if m.former == true%}
   <tr>
     <td>{{ m.first_name }} {{ m.last_name }}</td>
-    <td>{{ m.title }}</td>
+    <td>{{ m.position }}</td>
   </tr>
   {% endif %}
   {% endfor %}
 </table>
--->
+
+<!--join us button-->
+<br>
+<hr style="height: 5px;">
+<div class="row">
+  <div class="col-sm-4"></div>
+  <div class="col-sm-4" style="text-align: center;">
+    See openings
+    </br>
+    <a class="btn btn-primary btn-block" href="/join-the-lab/">Join</a>
+  </div>
+  <div class="col-sm-4"></div>
+</div>
