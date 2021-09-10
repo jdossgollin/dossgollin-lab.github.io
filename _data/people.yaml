@@ -36,11 +36,6 @@
   anchor: kcibor # allows you to link to a particular person: /People#jdossgollin
   position: PhD Student # your role within the group
 
-  #photo: yuchenlu.jpg # name of a photo in /assets/img/group-members/
-  #email: yl238@rice.edu # your email address
-  #linkedin: yuchenluv # your linkedin user name
-  #pronouns: she/her/hers # your preferred pronouns
-  #bio:
 - first_name: Alyssa
   last_name: Graham
   anchor: agraham
@@ -71,5 +66,5 @@
   github: johncook31 # your github user name
   linkedin: johncook31 # your linkedin user name
   pronouns: he/him # your preferred pronouns
-  bio: # just format with Markdown. Yours should be shorter than this :)
+  bio:
     John Cook is an undergraduate student at Rice University, majoring in Civil and Environmental Engineering and minoring in Spanish. He is interested in resilient infrastructure design, sustainable management of water resources, and soil and groundwater remediation, among other topics. He expects to graduate in Spring 2022 with a Bachelor’s of Science.
