@@ -50,6 +50,11 @@
   last_name: Prieto
   anchor: sprieto
   position: Undergraduate Research Assistant
+  photo: sprieto.jpg
+  email: sbp3@rice.edu
+  pronouns: she/her
+  linkedin: sophia-prieto-506460179/
+  bio: Sophia Prieto is a third year undergraduate student majoring in Statistics and minoring in Data Science. Her main interests are in sustainability and renewable energy, as well as automation and machine learning. She is currently working on designing an application for a K-Nearest Neighbor Space-Time Simulator algorithm that creates stochastic projection of wind and solar potential in Texas. Other interests include weightlifting, cycling, bread-making and art and design.
 
 - first_name: John # your first name
   last_name: Cook # your last name
