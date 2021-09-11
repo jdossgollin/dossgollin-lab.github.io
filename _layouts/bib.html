@@ -6,6 +6,9 @@
         {{ reference | replace_first: 'Doss-Gollin, J.', '<u>Doss-Gollin, J.</u>' }}
     </div>
     <div class="panel-heading">
+        {% if entry.abstract and entry.type == "article" %}
+        <p>{{ entry.abstract }}</p>
+        {% endif %}
         {% if entry.doi %}
         {% capture link %}https://doi.org/{{ entry.doi }}{% endcapture %}
         {% elsif entry.url %}
