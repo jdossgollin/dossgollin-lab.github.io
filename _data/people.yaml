@@ -35,6 +35,7 @@
   last_name: Cibor # your last name
   anchor: kcibor # allows you to link to a particular person: /People#jdossgollin
   position: PhD Student # your role within the group
+  photo: kcibor.jpg
 
 - first_name: Alyssa
   last_name: Graham
@@ -66,5 +67,4 @@
   github: johncook31 # your github user name
   linkedin: johncook31 # your linkedin user name
   pronouns: he/him # your preferred pronouns
-  bio:
-    John Cook is an undergraduate student at Rice University, majoring in Civil and Environmental Engineering and minoring in Spanish. He is interested in resilient infrastructure design, sustainable management of water resources, and soil and groundwater remediation, among other topics. He expects to graduate in Spring 2022 with a Bachelor’s of Science.
+  bio: John Cook is an undergraduate student at Rice University, majoring in Civil and Environmental Engineering and minoring in Spanish. He is interested in resilient infrastructure design, sustainable management of water resources, and soil and groundwater remediation, among other topics. He expects to graduate in Spring 2022 with a Bachelor’s of Science.
