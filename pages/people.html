@@ -101,10 +101,11 @@ permalink: group-members/
 <hr style="height: 5px;">
 {% assign people = site.data.people | sort: 'departure' | reverse %}
 
+<h3>Former members</h3>
 <table class='table table-striped'>
   <tr>
-    <th>Former member</th>
-    <th>Previous Position</th>
+    <th>Name</th>
+    <th>Role</th>
   </tr>
   {% for m in people %}
   {% if m.former == true%}
@@ -122,9 +123,7 @@ permalink: group-members/
 <div class="row">
   <div class="col-sm-4"></div>
   <div class="col-sm-4" style="text-align: center;">
-    See openings
-    </br>
-    <a class="btn btn-primary btn-block" href="/join-the-lab/">Join</a>
+    <a class="btn btn-primary btn-block" href="/join-the-lab/">Join Us!</a>
   </div>
   <div class="col-sm-4"></div>
 </div>

@@ -40,16 +40,14 @@ post_header: false
           <div class="col-md-6">
           </br></br></br>
             <p style="text-align:left">
-              James Doss-Gollin is an assistant professor in the department of <a href='https://cee.rice.edu'>Civil and Environmental Engineering </a> at Rice University.
+              James Doss-Gollin is an Assistant Professor in the department of <a href='https://cee.rice.edu'>Civil and Environmental Engineering </a> at Rice University.
             </p>
             {% assign people = site.data.people  %}
             {% for person in people %}
             {% if person.anchor == "jdossgollin" %}
             <div style="text-align: center;">
-              <a href="https://profiles.rice.edu/faculty/james-doss-gollin" class="btn btn-warning btn-xs"
-                style="background-color: rgb(224, 226, 230); color: rgb(0, 32, 91);"><strong>Profile</strong></a>
               <a href={{ person.cv }} class="btn btn-warning btn-xs"
-                style="background-color: rgb(224, 226, 230); color: rgb(0, 32, 91);"><strong>CV</strong></a>
+                style="background-color: rgb(224, 226, 230); color: rgb(0, 32, 91);"><strong>CV</strong></a> 
               <a href=/group-members#{{ person.anchor }} class="btn btn-warning btn-xs"
                 style="background-color: rgb(224, 226, 230); color: rgb(0, 32, 91);"><strong>Bio</strong></a>
             </div>

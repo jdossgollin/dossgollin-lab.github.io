@@ -1,6 +1,3 @@
-- name: Lab Guide
-  link: https://dossgollin-lab.github.io/lab-guide/
-  category: 0-Group
 - name: <i class="fab fa-github"></i>
   long_name: GitHub
   link: https://github.com/dossgollin-lab/
@@ -9,13 +6,16 @@
   long_name: Twitter
   link: https://twitter.com/jdossgollin/
   category: 1-Social
-- name: Rice CEE
+- name: Rice CEVE Department
+  full_name: Rice Department of Civil and Environmental Engineering
   link: https://cee.rice.edu/
   category: 2-Rice
-- name: Rice Engineering
+- name: Rice School of Engineering
   link: https://engineering.rice.edu/
   category: 2-Rice
-- name: SSPEED
-  long_name: SSPEED Center
+- name: SSPEED Center
   link: https://www.sspeed.rice.edu/
   category: 2-Rice
+- name: The Rice Environmental Initiative
+  category: 2-Rice
+  link: https://trei.rice.edu/
