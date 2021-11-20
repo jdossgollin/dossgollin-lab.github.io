@@ -1,17 +1,18 @@
 ---
 layout: page
-title: Funding
+title: Current Projects
 permalink: funded-projects/
 ---
 
 {% assign pages = site.pages | sort:"order" %}
 
-<h2>Current Projects</h2>
-
 {% for page in pages %}
 {% if page.path contains 'research-current/' and page.path contains '.md' %}
 <div class="row">
-  <div class="col-md-4">
+  <div class="col-md-12">
+    <h3><i>{{ page.title }}</i></h3>
+  </div>
+  <div class="col-md-3">
 
     {% if page.funder_logo %}
     <a href="/assets/img/logos/{{ page.funder_logo }}">
@@ -30,9 +31,7 @@ permalink: funded-projects/
       </ul>
     </p>
   </div>
-  <div class="col-md-8">
-    <a name="{{ page.title }}"></a>
-    <h3>{{ page.title }}</h3>
+  <div class="col-md-9">
     {{ page.content | markdownify }}
   </div>
 </div>
