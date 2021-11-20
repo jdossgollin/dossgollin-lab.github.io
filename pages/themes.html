@@ -1,7 +1,7 @@
 ---
 layout: page
+permalink: themes/
 title: Research themes
-permalink: research/
 ---
 
 <div class="row">
@@ -18,6 +18,9 @@ permalink: research/
       To this end, we are developing tools to address local and global problems like urban water security,
       flood risk management, and the renewable energy transition.
     </p>
+    <p>
+      For more information, see our <a href="/funded-projects">active projects</a> and <a href="/publications">publications</a>.
+    </p>
   </div>
   <div class="col-md-3">
     <img src="/assets/img/research/rioparaguay_landsat.jpeg" class="hidden-sm hidden-xs img-responsive img-thumbnail"
@@ -25,10 +28,10 @@ permalink: research/
   </div>
 </div>
 
-
 {% assign pages = site.pages | sort:"order" %}
 
-<hr>
+<h2>Tools and Methods</h2>
+
 {% for page in pages %}
 {% if page.path contains 'research-tools/' and page.path contains '.md' %}
 <div class="row">
@@ -43,12 +46,30 @@ permalink: research/
   <div class="col-md-8">
     <a name="{{ page.title }}"></a>
     <h3>{{ page.title }}</h3>
+    {{ page.content  }}
+  </div>
+</div>
+{% endif %}
+{% endfor %}
+
+
+<h2>Applications</h2>
+
+{% for page in pages %}
+{% if page.path contains 'research-applications/' and page.path contains '.md' %}
+<div class="row">
+  <div class="col-md-4">
     {% if page.image %}
     <a href="{{ page.image }}">
-      <img src="{{ page.image }}" style="margin-top: 25px; margin-bottom: 25px;"
-        class="hidden-md hidden-lg img-responsive img-thumbnail" alt="{{ page.title }}" />
+      <img src="{{ page.image }}" style="margin-top: 25px;" class="hidden-sm hidden-xs img-responsive img-thumbnail"
+        alt={{ page.title }} />
     </a>
-    {% endif %} {{ page.content | markdownify }}
+    {% endif %}
+  </div>
+  <div class="col-md-8">
+    <a name="{{ page.title }}"></a>
+    <h3>{{ page.title }}</h3>
+    {{ page.content  }}
   </div>
 </div>
 {% endif %}
