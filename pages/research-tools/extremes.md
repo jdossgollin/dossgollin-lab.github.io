@@ -1,5 +1,5 @@
 ---
-title: Probabilistic modeling of hydroclimate extremes?
+title: Probabilistic modeling of hydroclimate extremes
 image: /assets/img/research/ERCOT_HDD_IDF_MLE_popweighted.jpg
 order: 1
 ---
