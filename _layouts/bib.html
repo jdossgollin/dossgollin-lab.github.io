@@ -1,50 +1,64 @@
 ---
 ---
 
+<!--Create a counter to have an entry-->
+{% capture shorttitle %}{{ entry.key | replace: "_", "-" | replace: ":", "-" }}{% endcapture %}
+
+
+
 <div class="panel panel-default" style="font-size: 16px;">
     <div class="panel-body">
-        {{ reference | replace_first: 'Doss-Gollin, J.', '<u>Doss-Gollin, J.</u>' }}
+        {{ reference | replace_first: 'Doss-Gollin, J.', '<b>Doss-Gollin, J.</B>' }}
     </div>
     <div class="panel-heading">
+
+        <button class="btn btn-primary btn-sm" data-toggle="collapse" href="#{{ shorttitle }}-abs" role="button"
+            aria-expanded="false" aria-controls="{{ shorttitle }}-abs"
+            style="fill:#ebebeb; hover:#ebebeb;">Abstract</button>
+
+        <button class="btn btn-primary btn-sm" type="button" data-toggle="collapse" data-target="#{{ shorttitle }}-bib"
+            aria-expanded="false" aria-controls="{{ shorttitle }}-bib">BibTeX</button>
+
         {% if entry.doi %}
-        {% capture link %}https://doi.org/{{ entry.doi }}{% endcapture %}
+        <a class="btn btn-primary btn-sm" href="https://doi.org/{{ entry.doi }}" role="button">DOI</a>
         {% elsif entry.url %}
-        {% capture link %}{{ entry.url }}{% endcapture %}
+        <a class="btn btn-primary btn-sm" href="{{ entry.url }}" role="button">URL</a>
         {% endif %}
 
-        {% if entry.open == "true" and link %}
-        <a href="{{ link }}">
-            <img src="https://img.shields.io/static/v1?label=&message=Published: Open&color=success&style=flat" alt="Link">
-        </a>
-        {% endif %}
-        {% if entry.open != "true" and link %}
-        <a href="{{ link }}">
-            <img src="https://img.shields.io/static/v1?label=&message=Published&color=blue&style=flat" alt="Link">
-        </a>
-        {% endif %}
         {% if entry.repo %}
-        {%  if entry.repo contains "github" %}
-        <a href="{{ entry.repo }}" color="#000000">
-            <img src="https://img.shields.io/static/v1?style=flat&logo=github&label=&message=Source Code" alt="GitHub Repository">
-        </a>
-        {% elsif entry.repo contains "bitbucket" %}
-        <a href="{{ entry.repo }}">
-            <img src="https://img.shields.io/static/v1?style=flat&logo=bitbucket&label=&message=Source Code" alt="Bitbucket Repository">
-        </a>
-        {% elsif entry.repo contains "gitlab" %}
-        <a href="{{ entry.repo }}">
-            <img src="https://img.shields.io/static/v1?style=flat&logo=gitlab&label=&message=Source Code" alt="GitLab Repository">
-        </a>
-        {% else" %}
-        <a href="{{ entry.repo }}">
-            <img src="https://img.shields.io/static/v1?style=flat&label=code&message=Source Code" alt="Code Repository">
-        </a>
+        <a class="btn btn-primary btn-sm" href="{{ entry.repo }}" role="button">Code</a>
         {% endif %}
-        {% endif %}
+
         {% if entry.preprint %}
-        <a href="{{ link }}">
-            <img src="https://img.shields.io/static/v1?label=&message=Preprint&color=purple&logo=arxiv&style=flat" alt="Link">
-        </a>
+        <a class="btn btn-primary btn-sm" href="{{ entry.preprint }}" role="button">Preprint</a>
         {% endif %}
+
+        <!--Hidden popups for abstract and bibtex-->
+        <div class="row">
+            <div class="col">
+                <div class="collapse" id="{{ shorttitle }}-abs">
+                    <div class="card card-body">
+                        <div class="col-sm-12">
+                            </br>
+                            <p>
+                                {{ entry.abstract }}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="collapse" id="{{ shorttitle }}-bib">
+                    <div class="card card-body">
+                        <div class="col-sm-12">
+                            {% highlight BibTeX %}
+                            {{ entry.bibtex }}
+                            {% endhighlight %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+
 </div>
