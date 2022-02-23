@@ -1,0 +1,27 @@
+---
+title: Blending Observations of Extreme Precipitation across Space and Time to Improve Stormwater Management in Houston
+funder_logo: rice_logo.svg
+funder_link: https://rice.edu/
+funder: Rice University
+program: Sustainable Futures Fund
+program_link: https://research.rice.edu/cvent/university/sustainable-futures-fund
+#abstract_link: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2147781
+#award_id: 2147781
+start_date: June 2022
+end_date: May 2023
+collaborators:
+    - name: Sylvia Dee
+      institute: Rice
+---
+
+Fast-growing coastal megacities around the world rely on aging and often inadequate in-frastructure to manage rapidly evolving weather and climate risks.
+For example, the increasingfrequency and severity of extreme rainfall has cost hundreds of billions of dollars to date andposes a significant threat to transportation, energy, housing, dam safety, and healthcare infrastructure as well as to globally connected industrial supply chains and the consumers who rely upon them.
+Engineering codes specify performance requirements such as the minimum allowable con-veyance capacity for stormwater management.
+In the United States, these codes rely on probability distributions of extreme rainfall developed by the National Oceanic and Atmospheric Ad-ministration (NOAA).
+
+Yet although climate-driven changes in extreme precipitation are already evident in Texas and beyond, current NOAA Atlas 14 frequency analysis methods assume stationarity in both the historical data used in making the estimates and in the future conditions.
+Thus, infrastructure built today is likely to be underprepared for future climate.
+Additionally, these statistical methods do not have a clear answer for how an extreme rainfall event observed in one location should affect the estimated probability distribution of extreme rainfall in nearby locations.
+
+In this research, we will leverage earth observations at multiple timescales (recent radar observations, station observations, and paleoclimate reconstructions) and novel space-time statistical approaches to model the probability distributions of extreme rainfall.
+This work can inform how existing or alternative engineering codes will perform under actual and anticipated climates.
