@@ -15,20 +15,21 @@ permalink: funded-projects/
   <div class="col-md-3">
 
     {% if page.funder_logo %}
-    <a href="/assets/img/logos/{{ page.funder_logo }}">
-      <img src="/assets/img/logos/{{ page.funder_logo }}" style="margin-top: 25px;" class="hidden-sm hidden-xs img-responsive img-thumbnail"
-        alt={{ page.title }} />
+    <a href="{{ page.funder_link }}">
+      <img src="/assets/img/logos/{{ page.funder_logo }}" style="margin-top: 25px;"
+        class="hidden-sm hidden-xs img-responsive img-thumbnail" alt={{ page.title }} />
     </a>
     {% endif %}
     <p>
-      Project funded by <a href="{{ page.funder_link }}">{{ page.funder }}</a>, <a href="{{ page.program_link }}">{{ page.program }}</a></li>,
-      Award <a href="{{ page.abtract_link }}">{{ page.award_id }}</a> ({{ page.start_date }} -- {{ page.end_date }}).
+      Project funded by <a href="{{ page.funder_link }}">{{ page.funder }}</a>, <a href="{{ page.program_link }}">{{
+        page.program }}</a></li>,
+      Award <a href="{{ page.abstract_link }}">{{ page.award_id }}</a> ({{ page.start_date }} -- {{ page.end_date }}).
       With
-      <ul>
-        {% for collab in page.collaborators %}
-          <li>{{ collab.name }} ({{ collab.institute }})</li>
-        {% endfor %}
-      </ul>
+    <ul>
+      {% for collab in page.collaborators %}
+      <li>{{ collab.name }} ({{ collab.institute }})</li>
+      {% endfor %}
+    </ul>
     </p>
   </div>
   <div class="col-md-9">
