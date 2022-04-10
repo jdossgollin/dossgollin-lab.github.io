@@ -21,7 +21,7 @@ media:
     url: https://twri.tamu.edu/publications/txh2o/2022/winter-2022/colonias-the-canary-in-the-water-security-coal-mine/
 ---
 
-Aging pipes and treatment facilities, droughts exacerbated, and contamination of water supplies all challenge America’s drinking water infrastructure.
+Aging infrastructure, increasing droughts, groundwater depletion, and contamination of water supplies all challenge America’s drinking water infrastructure.
 Water typically is treated at central facilities and then piped to users, but recent technological advances could enable water treatment at the point of use (e.g., a house).
 In theory, this approach can make water systems more resilient to extremes, reduce the need for pipes and pumping, help water systems scale up or down as populations change, and filter contaminants that existing plants cannot treat cost-effectively.
 However, point of use water treatment also shifts the burden of maintaining water treatment infrastructure, monitoring water quality, and governing water systems onto end users, creating new vulnerabilities for water infrastructure systems.
