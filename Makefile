@@ -8,6 +8,15 @@ JEKYLL_VERSION = 3.8
 PWD = $(shell pwd)
 LOCALHOST = 4000
 
+install:
+	$(info Make: building web site)
+	@docker run \
+    --rm \
+    --volume="$(PWD):/srv/jekyll:cached" \
+    --volume="$(PWD)/vendor/bundle:/usr/local/bundle:cached" \
+    -it jekyll/jekyll:$(JEKYLL_VERSION) \
+    bundle install
+
 build:
 	$(info Make: building web site)
 	@docker run \

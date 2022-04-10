@@ -10,31 +10,55 @@ permalink: funded-projects/
 {% if page.path contains 'research-current/' and page.path contains '.md' %}
 <div class="row">
   <div class="col-md-12">
-    <h3><i>{{ page.title }}</i></h3>
-  </div>
-  <div class="col-md-3">
-
-    {% if page.funder_logo %}
-    <a href="/assets/img/logos/{{ page.funder_logo }}">
-      <img src="/assets/img/logos/{{ page.funder_logo }}" style="margin-top: 25px;" class="hidden-sm hidden-xs img-responsive img-thumbnail"
-        alt={{ page.title }} />
-    </a>
-    {% endif %}
+    <h3><i><a href="{{ page.abstract_link }}">{{ page.title }}</a></i></h3>
     <p>
-      Project funded by <a href="{{ page.funder_link }}">{{ page.funder }}</a>, <a href="{{ page.program_link }}">{{ page.program }}</a></li>,
-      Award <a href="{{ page.abtract_link }}">{{ page.award_id }}</a> ({{ page.start_date }} -- {{ page.end_date }}).
-      With
-      <ul>
-        {% for collab in page.collaborators %}
-          <li>{{ collab.name }} ({{ collab.institute }})</li>
-        {% endfor %}
-      </ul>
+      Project funded by <a href="{{ page.funder_link }}">{{ page.funder }}</a>
+      <a href="{{ page.program_link }}">{{page.program }}</a></li>,
+      {% if page.award_id %}Award <a href="{{ page.abstract_link }}">{{ page.award_id }}</a>{% endif %}
+      ({{ page.start_date}} -- {{ page.end_date }}).
+
+      {% if page.collaborators %}
+      In collaboration with
+      {% for collab in page.collaborators %}
+      {% if forloop.last == true %}
+      {% if forloop.first == true %}
+      <!--Case A: is last and is first => only 1 collaborator-->
+      {{ collab.name }} ({{ collab.institute }}).
+      {% else %}
+      <!--Case B: is last but is not first => last of >1 collaborators -->
+      and {{ collab.name }} ({{ collab.institute }}).
+      {% endif %}
+      {% else %}
+      <!--Case C: is not last -->
+      {{ collab.name }} ({{ collab.institute }}),
+      {% endif %}
+      {% endfor %}
+      {% endif %}
     </p>
   </div>
-  <div class="col-md-9">
+  <div class="col-md-2">
+
+    {% if page.funder_logo %}
+    <a href="{{ page.funder_link }}">
+      <img src="/assets/img/logos/{{ page.funder_logo }}" style="margin-top: 25px;"
+        class="hidden-sm hidden-xs img-responsive img-thumbnail" alt={{ page.title }} />
+    </a>
+    {% endif %}
+  </div>
+  <div class="col-md-10">
     {{ page.content | markdownify }}
+
+    {% if page.media %}
+    <h4>Media</h4>
+    <ul>
+      {% for article in page.media %}
+      <li><a href="{{ article.url }}">{{ article.title }}</a></li>
+      {% endfor %}
+    </ul>
+    {% endif %}
   </div>
 </div>
+
 {% endif %}
 {% endfor %}
 </div>
