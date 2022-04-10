@@ -9,20 +9,28 @@ Don't hesitate to reach out for help on Slack if you're stuck -- contributing to
 ## Getting Started
 
 - Watch this [YouTube Walkthrough](https://www.youtube.com/watch?v=EdFdxfIuEZk) I made to help you!
-- See https://guides.github.com/activities/forking/ for a helpful guide to git workflow
+- See <https://guides.github.com/activities/forking/> for a helpful guide to git workflow
 
 ### Clone the repository to your machine
 
 1. Fork the repository on GitHub
 1. Clone your forked repository
 1. `git submodule update --init --recursive` to get submodules up and running
-1. `bundle install` to install required packages. If you don't have bundle set up, you will need to install it (type `which bundle` to see if you have it already)
+
+Then you have two choices
+
+1. Docker installation option (runs slow but less can go wrong): run `make install`. This will use Docker to install the packages you need. (Note, you need to run Docker Desktop for this to work).
+1. Native Ruby installation (runs faster but can be a bit tricky to install properly): run `bundle install` to install required packages. If you don't have bundle set up, you will need to install it (type `which bundle` to see if you have it already)
 
 ### Preview the site on your computer
 
 1. Follow the steps above to clone the repository to your machine
 1. Open the website in your text editor (ie, VS Code) and make any desired changes
-1. `bundle exec jekyll serve -w`
+
+Then you have two choices
+
+1. If you chose the Docker installation option above, run `make devserver`
+1. If you chose the native Ruby installation option above, run `bundle exec jekyll serve -w`
 
 ### Update the web site
 
