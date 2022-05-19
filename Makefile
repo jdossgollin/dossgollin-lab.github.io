@@ -34,4 +34,4 @@ devserver:
     --volume="$(PWD)/vendor/bundle:/usr/local/bundle:cached" \
     -p $(LOCALHOST):4000 \
     -it jekyll/jekyll:$(JEKYLL_VERSION) \
-    jekyll serve -w
+    jekyll serve -w --incremental
