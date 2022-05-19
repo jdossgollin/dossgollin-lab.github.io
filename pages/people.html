@@ -4,8 +4,17 @@ title: Group Members
 permalink: group-members/
 ---
 
+<!--group photo-->
+<div class="row">
+  <div class="col-sm-2"></div>
+  <div class="col-sm-8 style=" text-align: center;">
+    <img src="{{ site.logo_labgroup }}" alt="Doss-Gollin Lab Group" class="hidden-xs" style="width: 100%;" />
+  </div>
+</div>
 
-<!--Loop through all the people-->
+<!--Loop through current members-->
+<hr style="height: 5px;">
+<h3>Current members</h3>
 {% assign personcounter = 1 %}
 {% assign people = site.data.people %}
 {% for person in people %}
@@ -28,7 +37,9 @@ permalink: group-members/
   {% endif %}
   <h4>
     {% if person.title %}{{ person.title}} {% endif %}
-    {{ person.first_name }} {{ person.last_name }}{% if person.namedrop %} (<a href="http://namedrop.io/{{ person.namedrop }}"><i class="fas fa-volume-up"></i></a>){% endif %}, {{ person.position }}
+    {{ person.first_name }} {{ person.last_name }}{% if person.namedrop %} (<a
+      href="http://namedrop.io/{{ person.namedrop }}"><i class="fas fa-volume-up"></i></a>){% endif %}, {{
+    person.position }}
   </h4>
   <div>
     {% if person.pronouns %}
@@ -71,7 +82,8 @@ permalink: group-members/
     <!-- Social media identity -->
     {% if person.twitter %}
     <a href="https://twitter.com/{{ person.twitter }}">
-      <img src="https://img.shields.io/twitter/follow/{{ person.twitter }}?logo=twitter&amp;style=flat-square" alt="Twitter">
+      <img src="https://img.shields.io/twitter/follow/{{ person.twitter }}?logo=twitter&amp;style=flat-square"
+        alt="Twitter">
     </a>
     {% endif %}
     {% if person.linkedin %}
@@ -82,7 +94,8 @@ permalink: group-members/
     {% endif %}
     {% if person.github %}
     <a href="http://github.com/{{ person.github }}">
-      <img src="https://img.shields.io/github/followers/{{ person.github }}?label=Github: @{{ person.github }}&logo=github&style=flat-square"
+      <img
+        src="https://img.shields.io/github/followers/{{ person.github }}?label=Github: @{{ person.github }}&logo=github&style=flat-square"
         alt="GitHub Profile">
     </a>
     {% endif %}
@@ -106,24 +119,25 @@ permalink: group-members/
   <tr>
     <th>Name</th>
     <th>Role</th>
+    <th>Departure</th>
   </tr>
   {% for m in people %}
   {% if m.former == true%}
   <tr>
     <td>{{ m.first_name }} {{ m.last_name }}</td>
     <td>{{ m.position }}</td>
+    <td>{{ m.departure }}</td>
   </tr>
   {% endif %}
   {% endfor %}
 </table>
 
 <!--join us button-->
-<br>
-<hr style="height: 5px;">
 <div class="row">
   <div class="col-sm-4"></div>
-  <div class="col-sm-4" style="text-align: center;">
+  <div class="col-sm-4">
     <a class="btn btn-primary btn-block" href="/join-the-lab/">Join Us!</a>
   </div>
   <div class="col-sm-4"></div>
 </div>
+</br>

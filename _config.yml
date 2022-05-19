@@ -4,7 +4,7 @@ title: Doss-Gollin Research Group
 #subtitle: adaptive infrastructure for resilient communities
 subtitle:
 email: jdossgollin@rice.edu
-description: "The Doss-Gollin Research Group at Rice University (Starting 2021)"
+description: "The Doss-Gollin Research Group at Rice University"
 baseurl: ""
 url: "https://dossgollin-lab.github.io"
 permalink: /:categories/:title.html
@@ -19,7 +19,7 @@ logo_logo: /assets/img/logos/james.jpg
 logo_james: /assets/img/logos/james.jpg
 logo_icon: /assets/img/logos/logo.ico
 logo_ricelogo: /assets/img/logos/rice.jpg
-logo_labgroup: /assets/img/research/harvey-martinez-ng.jpeg
+logo_labgroup: /assets/img/group/2022-05-10.jpeg
 logo_research: /assets/img/research/causal-chain.png
 
 # RSS
