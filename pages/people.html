@@ -112,21 +112,19 @@ permalink: group-members/
 
 <!-- Former people-->
 <hr style="height: 5px;">
-{% assign people = site.data.people | sort: 'departure' | reverse %}
+{% assign people = site.data.people | sort: 'end' | reverse %}
 
 <h3>Former members</h3>
 <table class='table table-striped'>
   <tr>
     <th>Name</th>
     <th>Role</th>
-    <th>Departure</th>
   </tr>
   {% for m in people %}
   {% if m.former == true%}
   <tr>
     <td>{{ m.first_name }} {{ m.last_name }}</td>
-    <td>{{ m.position }}</td>
-    <td>{{ m.departure }}</td>
+    <td>{{ m.position }}, {{ m.start }}--{{ m.end }}</td>
   </tr>
   {% endif %}
   {% endfor %}
