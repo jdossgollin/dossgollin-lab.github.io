@@ -3,15 +3,5 @@ name: Check Links
 on: [push, pull_request]
 
 jobs:
-  linkChecker:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - name: Link Checker
-        uses: peter-evans/link-checker@v1
-      - name: Create Issue From File
-        uses: peter-evans/create-issue-from-file@v2
-        with:
-          title: Link Checker Report
-          content-filepath: ./link-checker/out.md
-          labels: report, automated issue
+  - name: Check links with linkcheck
+    uses: filiph/linkcheck@2.0.23
