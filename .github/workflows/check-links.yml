@@ -34,13 +34,7 @@ jobs:
           bundle install
           bundle exec jekyll build
 
-      - name: Check for broken links
-        run: |
-          bundle exec htmlproofer --log-level :debug ./_site &> links.log
-        continue-on-error: true
-
-      - name: Archive log links
-        uses: actions/upload-artifact@v1
+      - name: Check HTML
+        uses: chabad360/htmlproofer@master
         with:
-          name: links-check.log
-          path: links.log
+          directory: "_site"
