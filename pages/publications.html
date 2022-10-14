@@ -4,18 +4,18 @@ title: Publications
 permalink: publications/
 ---
 
-<div class="row">
-  <div class="col-sm-1"></div>
-  <div class="col-xs-9 col-sm-9">
+<div class="col-sm-1"></div>
+<div class="col-sm-10">
+  <div>
     <p>
-      We're committed to open and accessible science. If you'd like to access one of our papers but don't have access,
-      please <a href="/contact/">reach out</a>.
+      We're committed to open and accessible science.
+      If you'd like to access one of our papers but don't have access, please <a href="/contact/">reach out</a>.
     </p>
+    <h3>Forthcoming</h3>
+    {% bibliography --file my-papers --query @misc %}
+
     <h3>Journal articles</h3>
     {% bibliography --file my-papers --query @article %}
-
-    <h3>Papers in preparation and in press</h3>
-    {% bibliography --file my-papers --query @misc %}
 
     <h3>Theses and Dissertations</h3>
     {% bibliography --file my-papers --query @thesis %}
@@ -23,5 +23,5 @@ permalink: publications/
     <h3>Conference papers and presentations</h3>
     {% bibliography --file my-papers --query @inproceedings %}
   </div>
-  <div class="col-sm-2"></div>
 </div>
+<div class="col-sm-1"></div>
