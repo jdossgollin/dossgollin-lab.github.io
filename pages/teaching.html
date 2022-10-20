@@ -5,12 +5,14 @@ permalink: teaching/
 ---
 
 <!--Loop through all the people-->
-{% assign courses = site.data.teaching | sort: "semester" %}
+{% assign courses = site.data.teaching.courses | sort: "semester" %}
 
 <div class="row">
     <div class="col-md-12">
+        <h3>Courses offered</h3>
         <p>
-            All information on this page is preliminary; please see official course listings at <a href="https://courses.rice.edu/">courses.rice.edu</a>
+            All information on this page is preliminary; please see official course listings at <a
+                href="https://courses.rice.edu/">courses.rice.edu</a>
         </p>
         <section>
             {% assign c1 = courses | first %}
@@ -24,9 +26,38 @@ permalink: teaching/
             <h4>{{ semester }}</h4>
             <ul>
                 {% endif %}
-                <li> {% if course.url %}<a href="{{ course.url }}">{% endif %}{{ course.number }}: {{ course.title }}{% if course.url %}</a>{% endif %}</li>
+                <li> {% if course.url %}<a href="{{ course.url }}">{% endif %}{{ course.number }}: {{ course.title }}{%
+                        if course.url %}</a>{% endif %}</li>
                 {% endfor %}
             </ul>
+        </section>
+        <br />
+    </div>
+</div>
+
+{% assign texts = site.data.teaching.references | sort: "title" %}
+
+<div class="row">
+    <div class="col-md-12">
+        <h3>Open source teaching materials</h3>
+        <p>
+            I also strive to create high-quality open-source materials for my courses.
+            Texts are available under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0
+                license</a>, so you may share and adapt them provided you provide credit and also license your
+            derivative work under the same terms.
+        </p>
+        <section>
+            {% for text in texts %}
+            <h5>{{ text.title }}</h5>
+            <p>
+                {{ text.description }}
+                {% if text.url or text.github %}
+                </br>
+                {% if text.url %} [<a href="{{ text.url }}">Website</a>]{% endif %}
+                {% if text.github %} [<a href="{{ text.github }}">GitHub Repository</a>]{% endif %}
+                {% endif %}
+            </p>
+            {% endfor %}
         </section>
         <br />
         <br />

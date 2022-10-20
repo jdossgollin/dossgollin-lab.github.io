@@ -1,8 +1,15 @@
-- number: CEVE 543
-  semester: 2021-22 Spring
-  title: Environmental Data Science
-  url: https://jdossgollin.github.io/environmental-data-science
-- number: CEVE 101
-  semester: 2021-22 Fall
-  title: Introduction to Civil and Environmental Engineering
-  url: https://jdossgollin.github.io/F21-CEVE101/
+courses:
+  - number: CEVE 543
+    semester: 2021-22 Spring
+    title: Environmental Data Science
+    url: https://jdossgollin.github.io/environmental-data-science
+  - number: CEVE 101
+    semester: 2021-22 Fall
+    title: Introduction to Civil and Environmental Engineering
+    url: https://jdossgollin.github.io/F21-CEVE101/
+
+references:
+  - title: Environmental Data Science
+    url: https://jdossgollin.github.io/environmental-data-science
+    github: https://github.com/jdossgollin/environmental-data-science
+    description: Lessons on probabilistic modeling, statistics, and machine learning applied to understanding and predicting environmental systems. All lessons use reproducible computing and are fully open source.
