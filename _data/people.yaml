@@ -28,8 +28,17 @@
   email: yl238@rice.edu # your email address
   linkedin: yuchenluv # your linkedin user name
   pronouns: she/her/hers # your preferred pronouns
-  bio: # just format with Markdown. Yours should be shorter than this :)
-    Yuchen Lu is a PhD student in Civil and Environmental Engineering at Rice University. Yuchen completed a BS at Zhongnan University of Economics and Law in China, and a MS in Civil and Environmental Engineering at Carnegie Mellon University. She is interested in infrastructure adaptation in the face of climate change.
+  bio: "Yuchen Lu is a PhD student in Civil and Environmental Engineering at Rice University. Yuchen completed a BS at Zhongnan University of Economics and Law in China, and a MS in Civil and Environmental Engineering at Carnegie Mellon University. She is interested in infrastructure adaptation in the face of climate change."
+
+- first_name: Kelsey # your first name
+  last_name: Murphy # your last name
+  anchor: kmurphy # allows you to link to a particular person: /People#jdossgollin
+  position: Coadvised PhD Student # your role within the group
+  photo: kmurphy.jpg # name of a photo in /assets/img/group-members/
+  email: kam23@rice.edu # your email address
+  linkedin: kelsey-murphy-7809b7186 # your linkedin user name
+  pronouns: she/her/hers # your preferred pronouns
+  bio: "Kelsey Murphy is a second year Ph.D. student in the Earth, Environmental, and Planetary Sciences department at Rice University. Kelsey works primarily with Dr. Sylvia Dee in the [Climate Lab](https://sylviadeeclimate.org/people) and is coadvised by James Doss-Gollin. She graduated from the University of Massachusetts, Amherst, and is a Boston native. She is interested in climate variability and dynamics. Her research explores the evolution of the Mississippi River basin's large-scale hydrology over the last millennium."
 
 ################################################################################
 # FORMER GROUP MEMBERS #########################################################
