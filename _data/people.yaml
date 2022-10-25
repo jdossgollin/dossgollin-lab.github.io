@@ -23,31 +23,31 @@
 - first_name: Yuchen # your first name
   last_name: Lu # your last name
   anchor: yuchenlu # allows you to link to a particular person: /People#jdossgollin
-  position: PhD Student # your role within the group
+  position: Ph.D. Student # your role within the group
   photo: yuchenlu.jpg # name of a photo in /assets/img/group-members/
   email: yl238@rice.edu # your email address
   linkedin: yuchenluv # your linkedin user name
   pronouns: she/her/hers # your preferred pronouns
-  bio: "Yuchen Lu is a PhD student in Civil and Environmental Engineering at Rice University. Yuchen completed a BS at Zhongnan University of Economics and Law in China, and a MS in Civil and Environmental Engineering at Carnegie Mellon University. She is interested in infrastructure adaptation in the face of climate change."
+  bio: "Yuchen Lu is a Ph.D. student in the Civil and Environmental Engineering department at Rice University. Yuchen completed a BS at Zhongnan University of Economics and Law in China and a MS in Civil and Environmental Engineering at Carnegie Mellon University. She is interested in infrastructure adaptation in the face of climate change."
 
 - first_name: Kelsey # your first name
   last_name: Murphy # your last name
   anchor: kmurphy # allows you to link to a particular person: /People#jdossgollin
-  position: Coadvised PhD Student # your role within the group
+  position: Coadvised Ph.D. Student # your role within the group
   photo: kmurphy.jpg # name of a photo in /assets/img/group-members/
   email: kam23@rice.edu # your email address
   linkedin: kelsey-murphy-7809b7186 # your linkedin user name
   pronouns: she/her/hers # your preferred pronouns
   bio: "Kelsey Murphy is a second year Ph.D. student in the Earth, Environmental, and Planetary Sciences department at Rice University. Kelsey works primarily with Dr. Sylvia Dee in the [Climate Lab](https://sylviadeeclimate.org/people) and is coadvised by James Doss-Gollin. She graduated from the University of Massachusetts, Amherst, and is a Boston native. She is interested in climate variability and dynamics. Her research explores the evolution of the Mississippi River basin's large-scale hydrology over the last millennium."
 
-  first_name: 'True' # your first name - added '' around True to read as string - may need to change
+- first_name: "True" # your first name - added '' around True to read as string - may need to change
   last_name: Furrh # your last name
   anchor: tfurrh # allows you to link to a particular person: /People#jdossgollin
-  position: Graduate Research Assistant (SSPEED) # your role within the group
-  photo: tfurrh.jpg # name of a photo in /assets/img/group-members/ - added locally should e included in pull request
+  position: Coadvised Ph.D. Student # your role within the group
+  photo: tfurrh.png # name of a photo in /assets/img/group-members/ - added locally should e included in pull request
   email: jdf@rice.edu # your email address
   pronouns: he/him/his # your preferred pronouns
-  bio: "True Furrh is a second year PhD student in Civil and Environmental Engineering at Rice University, primarily in the SSPEED Center. He graduated from the University of Houston with degrees in Environmental Sciences and Civil Engineering, and grew up along the upper Texas Gulf Coast. He is interested in quantifying the effect of anthropogenic influences on hydrologic response at the watershed scale. "
+  bio: "True Furrh is a second year Ph.D. student in Civil and Environmental Engineering at Rice University, working primarily in the [SSPEED Center](https://sspeed.rice.edu) with Dr. Phil Bedient and is coadvised by James Doss-Gollin. He graduated from the University of Houston with degrees in Environmental Sciences and Civil Engineering and is a NSF Graduate Research fellow. True grew up along the upper Texas Gulf Coast and is interested in quantifying the effect of anthropogenic influences on hydrologic response at the watershed scale."
 
 ################################################################################
 # FORMER GROUP MEMBERS #########################################################
