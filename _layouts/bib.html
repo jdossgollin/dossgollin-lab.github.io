@@ -12,25 +12,44 @@
     </div>
     <div class="panel-heading">
 
-        <button class="btn btn-primary btn-sm" data-toggle="collapse" href="#{{ shorttitle }}-abs" role="button"
-            aria-expanded="false" aria-controls="{{ shorttitle }}-abs"
-            style="fill:#ebebeb; hover:#ebebeb;">Abstract</button>
-
-        <button class="btn btn-primary btn-sm" type="button" data-toggle="collapse" data-target="#{{ shorttitle }}-bib"
-            aria-expanded="false" aria-controls="{{ shorttitle }}-bib">BibTeX</button>
-
+        <!--BUTTON TO READ THE PAPER-->
         {% if entry.doi %}
-        <a class="btn btn-primary btn-sm" href="https://doi.org/{{ entry.doi }}" role="button">DOI</a>
+        {% capture url %}"https://doi.org/{{ entry.doi }}" {% endcapture %}
         {% elsif entry.url %}
-        <a class="btn btn-primary btn-sm" href="{{ entry.url }}" role="button">URL</a>
+        {% capture url %}"{{ entry.url }}" {% endcapture %}
+        {% else %}
+        {% capture url %}""{% endcapture %}
+        {% endif %}
+        {% if entry.doi or entry.url %}
+        <a class="btn btn-primary btn-sm" style="background-color:#00205B" href={{ url }} role="button">
+            Read Online
+        </a>
         {% endif %}
 
-        {% if entry.repo %}
-        <a class="btn btn-primary btn-sm" href="{{ entry.repo }}" role="button">Code</a>
-        {% endif %}
-
+        <!--Preprint-->
         {% if entry.preprint %}
-        <a class="btn btn-primary btn-sm" href="{{ entry.preprint }}" role="button">Preprint</a>
+        <a class="btn btn-primary btn-sm" href="{{ entry.preprint }}" role="button" style="background-color:#00205B">
+            Preprint
+        </a>
+        {% endif %}
+
+        <!--ABSTRACT-->
+        <button class="btn btn-primary btn-sm" data-toggle="collapse" href="#{{ shorttitle }}-abs" role="button"
+            aria-expanded="false" aria-controls="{{shorttitle }}-abs" style=" background-color:#7C7E7F">
+            Abstract
+        </button>
+
+        <!--BIBTEX-->
+        <button class="btn btn-primary btn-sm" type="button" style=" background-color:#7C7E7F" data-toggle="collapse"
+            data-target="#{{ shorttitle }}-bib" aria-expanded="false" aria-controls="{{ shorttitle }}-bib">
+            BibTeX
+        </button>
+
+        <!--Open Source REPO-->
+        {% if entry.repo %}
+        <a class="btn btn-primary btn-sm" href="{{ entry.repo }}" role="button" style="background-color: #00432C;">
+            Code
+        </a>
         {% endif %}
 
         <!--Hidden popups for abstract and bibtex-->
