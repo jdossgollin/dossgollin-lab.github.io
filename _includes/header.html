@@ -41,50 +41,22 @@
             <a href="/group-members/" class="dropdown-toggle" data-toggle="dropdown">About<b
                 class="caret hidden-xs"></b></a>
             <ul class="dropdown-menu hidden-xs">
-              <li><a href="/contact">Contact</a></li>
-              <li><a href="/join-the-lab">Join</a></li>
+              <li><a href="https://dossgollin-lab.github.io/lab-guide/">Lab Manual</a></li>
+              <li class="divider"></li>
+              <li><a href="/contact">Reach Out</a></li>
+              <li><a href="/join-the-lab">Join Us</a></li>
               <li><a href="/teaching">Teaching</a></li>
             </ul>
             <ul class="visible-xs navbar-nav" style="width:150px">
-              <li><a href="/contact">Contact</a></li>
-              <li><a href="/join-the-lab">Join</a></li>
+              <li><a href="https://dossgollin-lab.github.io/lab-guide/">Lab Manual</a></li>
+              <li class="divider"></li>
+              <li><a href="/contact">Reach Out</a></li>
+              <li><a href="/join-the-lab">Join Us</a></li>
               <li><a href="/teaching">Teaching</a></li>
             </ul>
           </li>
 
-          {% assign links = site.data.footer_links | sort: 'category' %}
-          {% assign l1 = links | first %}
-          {% assign prevcat = l1.category %}
-          <!--Dropdown menu for links-->
-          <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown">Links<b class="caret hidden-xs"></b></a>
-            <ul class="dropdown-menu hidden-xs">
-              {% for item in links %}
-              {% if item.category != prevcat %}
-              <li class="divider"></li>
-              {% endif %}
-              {% assign prevcat = item.category %}
-              <li>
-                <a href={{ item.link }}>
-                  {% if item.long_name %}{{ item.long_name }}{% else %}{{ item.name }}{% endif %}
-                </a>
-              </li>
-              {% endfor %}
-            </ul>
-            <ul class="visible-xs navbar-nav" style="width:150px">
-              {% for item in links %}
-              {% if item.category != prevcat %}
-              <li class="divider"></li>
-              {% endif %}
-              {% assign prevcat = item.category %}
-              <li>
-                <a href={{ item.link }}>
-                  {% if item.long_name %}{{ item.long_name }}{% else %}{{ item.name }}{% endif %}
-                </a>
-              </li>
-              {% endfor %}
-            </ul>
-          </li>
+
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->

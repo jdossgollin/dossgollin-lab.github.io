@@ -6,8 +6,7 @@ permalink: group-members/
 
 <!--group photo-->
 <div class="row">
-  <div class="col-sm-2"></div>
-  <div class="col-sm-8 style=" text-align: center;">
+  <div class="col-sm-12 style=" text-align: center;">
     <img src="{{ site.logo_labgroup }}" alt="Doss-Gollin Lab Group" class="hidden-xs" style="width: 100%;" />
   </div>
 </div>
@@ -82,25 +81,26 @@ permalink: group-members/
     <!-- Social media identity -->
     {% if person.twitter %}
     <a href="https://twitter.com/{{ person.twitter }}">
-      <img src="https://img.shields.io/twitter/follow/{{ person.twitter }}?logo=twitter&amp;style=flat-square"
-        alt="Twitter">
+      <img src="https://img.shields.io/twitter/follow/{{ person.twitter }}?logo=twitter&amp;style=social" alt="Twitter">
     </a>
     {% endif %}
     {% if person.mastodon %}
-    <img
-      src="https://img.shields.io/mastodon/follow/{{ person.mastodon.id }}?domain={{ person.mastodon.server | htm }}&style=social"
-      alt="Mastodon">
+    <a href="{{ person.mastodon.server }}/@{{ person.mastodon.handle }}">
+      <img
+        src="https://img.shields.io/mastodon/follow/{{ person.mastodon.id }}?domain={{ person.mastodon.server }}&style=social"
+        alt="Mastodon">
+    </a>
     {% endif %}
     {% if person.linkedin %}
     <a href="https://www.linkedin.com/in/{{ person.linkedin }}">
-      <img src="https://img.shields.io/static/v1?label=&message=LinkedIn&color=0077B5&style=flat-square&logo=linkedin"
+      <img src="https://img.shields.io/static/v1?label=&message=LinkedIn&color=0077B5&style=social&logo=linkedin"
         alt="LinkedIn">
     </a>
     {% endif %}
     {% if person.github %}
     <a href="http://github.com/{{ person.github }}">
       <img
-        src="https://img.shields.io/github/followers/{{ person.github }}?label=Github: @{{ person.github }}&logo=github&style=flat-square"
+        src="https://img.shields.io/github/followers/{{ person.github }}?label=Github: @{{ person.github }}&logo=github&style=social"
         alt="GitHub Profile">
     </a>
     {% endif %}
