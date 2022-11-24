@@ -17,6 +17,7 @@ collaborators:
 media:
   - title: NSF backs study of Mississippi River’s response to climate change
     url: https://news.rice.edu/news/2022/nsf-backs-study-mississippi-rivers-response-climate-change
+order: 3
 ---
 
 The Mississippi River drains a continent, gathering water from as far as Pennsylvania and Montana and discharging it into the Gulf of Mexico.
