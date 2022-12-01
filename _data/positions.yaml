@@ -1,11 +1,11 @@
 - role: Undergraduates
-  status: There are openings for undergraduates to work for pay or credit beginning Fall 2022. See <a href="https://dossgollin-lab.github.io/announcements/rice-ifce.html">this announcement</a> for details.
-  apply: Apply to the 'AI for Sustainability and Resilience to Natural Disasters' position by email. See <a href="https://dossgollin-lab.github.io/lab-guide/policies/undergrad/">the lab guide</a> for other projects.
+  status: There are no current calls but there is support for motivated undergraduates to work for pay or credit.
+  apply: Email James a 1-2 page research statement describing the project you would like to carry out.
 
 - role: Graduate students
   status: There are funded positions for graduate students available.
   apply: See the lab guide's <a href="https://dossgollin-lab.github.io/lab-guide/admissions/gradadmissions/">instructions for prospective graduate students</a>.
 
 - role: Postdoctoral Researchers
-  status: There are no openings available at this time.
-  apply: If you have an idea for a postdoctoral research project that is a strong fit for our research goals, you are welcome to reach out to James directly.
+  status: We are not actively recruiting a postdoc, but anticipate recruiting in the near to medium future.
+  apply: "If you're interested, please email a CV and 2-3 page research statement to James. Strong candidates will have strengths in several (but not all) of: Bayesian modeling; spatiotemporal statistics; computer vision; precipitation physics; Julia/Python/C programming; nonlinear dynamics. If you're not sure whether this describes you, email James -- studies show that researchers from historically excluded groups systematically underestimate their abilities."
