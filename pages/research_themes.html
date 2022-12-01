@@ -1,0 +1,31 @@
+---
+layout: page
+title: Research Themes
+permalink: research-themes/
+---
+
+{% assign pages = site.pages | sort:"order" %}
+
+{% for page in pages %}
+{% if page.path contains 'research-themes/' and page.path contains '.md' %}
+<div class="row">
+  <div class="col-md-12">
+    <h3><i>{{ page.title }}</i></h3>
+  </div>
+  <div class="col-md-3">
+
+    {% if page.image %}
+    <a href="{{ page.image }}">
+      <img src="{{ page.image }}" style="margin-top: 25px;" class="hidden-sm hidden-xs img-responsive img-thumbnail"
+        alt={{ page.title }} />
+    </a>
+    {% endif %}
+  </div>
+  <div class="col-md-9">
+    {{ page.content | markdownify }}
+  </div>
+</div>
+
+{% endif %}
+{% endfor %}
+</div>

@@ -15,6 +15,7 @@ collaborators:
 media:
   - title: Environmental champions win Rice grants
     url: https://news.rice.edu/news/2022/environmental-champions-win-rice-grants
+order: 1
 ---
 
 Fast-growing coastal megacities around the world, including Houston, rely on aging and often inadequate infrastructure to manage  evolving weather and climate risks such as flooding.

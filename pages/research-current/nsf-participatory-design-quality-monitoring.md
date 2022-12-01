@@ -19,6 +19,7 @@ collaborators:
 media:
   - title: "Colonias: the Canary in the Water Security Coal Mine"
     url: https://twri.tamu.edu/publications/txh2o/2022/winter-2022/colonias-the-canary-in-the-water-security-coal-mine/
+order: 2
 ---
 
 Aging infrastructure, increasing droughts, groundwater depletion, and contamination of water supplies all challenge America’s drinking water infrastructure.
