@@ -53,6 +53,17 @@
   pronouns: he/him/his # your preferred pronouns
   bio: "True Furrh is a second year Ph.D. student in Civil and Environmental Engineering at Rice University, working primarily in the [SSPEED Center](https://sspeed.rice.edu) with Dr. Phil Bedient and is coadvised by James Doss-Gollin. He graduated from the University of Houston with degrees in Environmental Sciences and Civil Engineering and is a NSF Graduate Research fellow. True grew up along the upper Texas Gulf Coast and is interested in quantifying the effect of anthropogenic influences on hydrologic response at the watershed scale."
 
+- first_name: Kyle # your first name
+  last_name: Olcott # your last name
+  anchor: kolcott # allows you to link to a particular person: /People#jdossgollin
+  position: Undergraduate Research Assistant # your role within the group
+  photo: kolcott.jpg # name of a photo in /assets/img/group-members/
+  email: kto1@rice.edu # your email address
+  linkedin: kyle-olcott-61648b1b7 # your linkedin user name
+  pronouns: he/him # your preferred pronouns
+  start: 2022
+  bio: "Kyle Olcott is an undergraduate student at Rice University majoring in civil and environmental engineering. Kyle is working to find decentralized solutions to water security in El Paso’s Colonias. He grew up in the DC Metropolitan Area and is interested in attending law school after graduating to pursue a career in environmental law."
+
 ################################################################################
 # FORMER GROUP MEMBERS #########################################################
 ################################################################################
