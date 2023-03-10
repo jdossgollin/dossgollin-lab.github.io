@@ -3,9 +3,9 @@
   apply: Email James a 1-2 page research statement describing the project you would like to carry out.
 
 - role: Graduate students
-  status: There are funded positions for graduate students available.
+  status: We are not actively recruiting graduate students.
   apply: See the lab guide's <a href="https://dossgollin-lab.github.io/lab-guide/admissions/gradadmissions/">instructions for prospective graduate students</a>.
 
 - role: Postdoctoral Researchers
-  status: We are not actively recruiting a postdoc, but anticipate recruiting in the near to medium future.
-  apply: "If you're interested, please email a CV and 2-3 page research statement to James. Strong candidates will have strengths in several (but not all) of: Bayesian modeling; spatiotemporal statistics; computer vision; precipitation physics; Julia/Python/C programming; nonlinear dynamics. If you're not sure whether this describes you, email James -- studies show that researchers from historically excluded groups systematically underestimate their abilities."
+  status: We are not actively recruiting a postdoc, but anticipate recruiting in the medium future.
+  apply: "If you're interested, please email a CV and 2-3 page research statement to James. Strong candidates will have strengths in several (but not all) of: Bayesian modeling; spatiotemporal statistics; computer vision; surrogate modeling; fluid dynamics; precipitation physics; Julia/Python/C programming; or nonlinear dynamics. If you're not sure whether this describes you, email James -- be aware that studies show that researchers from historically excluded groups systematically underestimate their abilities, so please don't undersell yourself!"
