@@ -6,11 +6,22 @@ permalink: funded-projects/
 
 {% assign pages = site.pages | sort:"order" %}
 
+<div class="row">
+  <div class="col-md-3"></div>
+  <div class="col-md-6">
+    <iframe width="100%" height="250" src="https://www.youtube-nocookie.com/embed/gI2I8Cq-14g"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen id="Iframe"></iframe>
+  </div>
+  <div class="col-md-3"></div>
+</div>
+
 {% for page in pages %}
 {% if page.path contains 'research-current/' and page.path contains '.md' %}
 <div class="row">
   <div class="col-md-12">
-    <h3><i>{{ page.title }}</i></h3>
+    <h4><i>{{ page.title }}</i></h4>
     <p>
       Project funded by <a href="{{ page.funder_link }}">{{ page.funder }}</a>
       <a href="{{ page.program_link }}">{{page.program }}</a></li>,

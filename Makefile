@@ -1,7 +1,7 @@
 # build and serve the website using docker:
 #   * does not require a ruby installation (!!!)
 #   * a bit slower than running ruby natively, but worth the savings in hassle
-#   * gems are downloaded locally to "veendor"
+#   * gems are downloaded locally to "vendor"
 # on importance of ":cached": see https://docs.docker.com/docker-for-mac/osxfs-caching/
 
 JEKYLL_VERSION = 3.8
