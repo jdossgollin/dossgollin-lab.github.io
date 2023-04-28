@@ -42,13 +42,13 @@ permalink: group-members/
   </h4>
   <div>
     {% if person.pronouns %}
-    <img src="https://img.shields.io/static/v1?label=pronouns&message={{ person.pronouns }}&color=red&style=flat-square"
+    <img src="https://img.shields.io/static/v1?label=&message={{ person.pronouns }}&color=red&style=flat-square"
       alt="Pronouns">
     {% endif %}
     {% if person.email %}
     <a href="mailto:{{ person.email }}">
       <img
-        src="https://img.shields.io/static/v1?label=email&message={{ person.email }}&color=blue&style=flat-square&logo=gmail"
+        src="https://img.shields.io/static/v1?label=&message={{ person.email }}&color=gray&style=flat-square&logo=gmail"
         alt="email">
     </a>
     {% endif %}
@@ -76,12 +76,6 @@ permalink: group-members/
       <img
         src="https://img.shields.io/static/v1?label=&message=Google%20Scholar&color=gray&style=flat-square&logo=google-scholar"
         alt="Google Scholar">
-    </a>
-    {% endif %}
-    <!-- Social media identity -->
-    {% if person.twitter %}
-    <a href="https://twitter.com/{{ person.twitter }}">
-      <img src="https://img.shields.io/twitter/follow/{{ person.twitter }}?logo=twitter&amp;style=social" alt="Twitter">
     </a>
     {% endif %}
     {% if person.mastodon %}
