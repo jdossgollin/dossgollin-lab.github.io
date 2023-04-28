@@ -1,3 +1,6 @@
+- name: Teaching
+  long_name: Teaching
+  link: teaching/
 - name: Lab Manual
   long_name: Lab Manual
   link: https://dossgollin-lab.github.io/lab-guide/
@@ -6,9 +9,9 @@
   long_name: GitHub
   link: https://github.com/dossgollin-lab/
   category: 1-Social
-- name: <i class="fab fa-twitter"></i>
-  long_name: Twitter
-  link: https://twitter.com/jdossgollin/
+- name: <i class="fab fa-mastodon"></i>
+  long_name: Mastodon
+  link: https://fediscience.org/@jdossgollin
   category: 1-Social
 - name: Rice CEVE Department
   full_name: Rice Department of Civil and Environmental Engineering

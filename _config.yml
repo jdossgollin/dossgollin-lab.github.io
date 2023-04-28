@@ -9,7 +9,7 @@ baseurl: ""
 url: "https://dossgollin-lab.github.io"
 permalink: /:categories/:title.html
 office: 215 Ryon Laboratory
-twitter: jdossgollin
+mastodon: https://fediscience.org/@jdossgollin
 github: jdossgollin
 labguide: https://dossgollin-lab.github.io/lab-guide
 

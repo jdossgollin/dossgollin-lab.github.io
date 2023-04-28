@@ -11,7 +11,6 @@
   email: jdossgollin@rice.edu # your email address
   website: https://jdossgollin.github.io # your web site. optional.
   github: jdossgollin # your github user name
-  twitter: jdossgollin # your twitter user name
   linkedin: jamesdossgollin # your linkedin user name
   scholar: 6ifLBBsAAAAJ # your Google Scholar ID
   namedrop: jamesdossgollin # create a profile on https://namedrop.io/ so others know how to pronounce your name!
@@ -31,7 +30,7 @@
   photo: yuchenlu.jpg # name of a photo in /assets/img/group-members/
   email: yl238@rice.edu # your email address
   linkedin: yuchenluv # your linkedin user name
-  pronouns: she/her/hers # your preferred pronouns
+  pronouns: she/her # your preferred pronouns
   bio: "Yuchen Lu is a Ph.D. student in the Civil and Environmental Engineering department at Rice University. Yuchen completed a BS at Zhongnan University of Economics and Law in China and a MS in Civil and Environmental Engineering at Carnegie Mellon University. She is interested in infrastructure adaptation in the face of climate change."
 
 - first_name: Kelsey # your first name
@@ -41,7 +40,7 @@
   photo: kmurphy.jpg # name of a photo in /assets/img/group-members/
   email: kam23@rice.edu # your email address
   linkedin: kelsey-murphy-7809b7186 # your linkedin user name
-  pronouns: she/her/hers # your preferred pronouns
+  pronouns: she/her # your preferred pronouns
   bio: "Kelsey Murphy is a second year Ph.D. student in the Earth, Environmental, and Planetary Sciences department at Rice University. Kelsey works primarily with Dr. Sylvia Dee in the [Climate Lab](https://sylviadeeclimate.org/people) and is coadvised by James Doss-Gollin. She graduated from the University of Massachusetts, Amherst, and is a Boston native. She is interested in climate variability and dynamics. Her research explores the evolution of the Mississippi River basin's large-scale hydrology over the last millennium."
 
 - first_name: "True" # your first name - added '' around True to read as string - may need to change
