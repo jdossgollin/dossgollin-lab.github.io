@@ -54,6 +54,7 @@ exclude:
 plugins_dir: "_plugins"
 plugins:
   - jekyll-scholar
+  - jekyll-tabs
 
 scholar:
   style: assets/csl/nature-no-et-al
