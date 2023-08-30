@@ -1,8 +1,15 @@
 courses:
   - number: CEVE 543
+    semester: 2023-24 Fall
+    title: Data Science for Climate Hazard Assessment
+    url: https://ceve543.github.io
+  - number: CEVE 543
     semester: 2021-22 Spring
     title: Environmental Data Science
     url: https://jdossgollin.github.io/environmental-data-science
+  - number: CEVE 521
+    semester: 2022-23 Spring
+    title: Climate Risk Management
   - number: CEVE 101
     semester: 2021-22 Fall
     title: Introduction to Civil and Environmental Engineering
