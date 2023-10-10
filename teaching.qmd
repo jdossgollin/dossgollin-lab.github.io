@@ -1,0 +1,21 @@
+---
+title: Teaching
+---
+
+### Spring 2024
+
+I am scheduled to teach CEVE 421/521 (Climate Risk Management)
+
+### Fall 2023
+
+I am teaching a course teaching data science tools for climate risk assessment.
+This course covers fundamentals and applications of data science tools for climate risk assessment.
+All course materials are available at [ceve543.github.io](https://ceve543.github.io/).
+
+**TA:** [Yuchen Lu](people/grad-students/yuchen-lu.qmd)
+
+### Spring 2023
+
+I taught CEVE 421/521 (Climate Risk Management) for the first time.
+In this project-based course, we covered decision making under uncertainty, sources of climate risk, interpreting and using climate data, and much more.
+We plan to offer the course again soon!

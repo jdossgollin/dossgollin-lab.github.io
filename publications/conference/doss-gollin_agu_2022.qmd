@@ -1,0 +1,16 @@
+---
+title: "Near-term predictability lowers long-term adaptation costs"
+author:
+  - James Doss-Gollin
+  - Jonathan Lamontagne
+  - Upmanu Lall
+date: 2022-12-14
+details: "Fall Meeting 2022"
+
+about:
+  template: solana
+
+format:
+  html:
+    page-layout: full
+---

@@ -1,0 +1,19 @@
+---
+title: "Sophia Prieto"
+sortby: "Prieto, Sophia"
+position: "Undergraduate RA"
+started: "2021"
+ended: "2022"
+toc: false
+about:
+    id: person-profile
+    image: "../../_assets/img/people/sprieto.jpg"
+    template: jolla
+    links:
+        -   icon: envelope
+            text: Email
+            href: mailto:sbp3@rice.edu
+        -   icon: linkedin
+            text: LinkedIN
+            href: https://www.linkedin.com/in/sophia-prieto-506460179
+---

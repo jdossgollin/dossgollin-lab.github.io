@@ -1,0 +1,50 @@
+---
+title: "Dr. James Doss-Gollin"
+sortby: "Doss-Gollin, James"
+position: "Assistant Professor"
+started: "Spring 2021"
+ended: "Current"
+toc: false
+
+about:
+    id: person-profile
+    image: "../../_assets/img/people/jdossgollin.jpeg"
+    template: trestles
+    links:
+    -   icon: envelope
+        text: Email
+        href: mailto:jdossgollin@rice.edu
+    -   icon: file-pdf
+        text: CV
+        href: https://jdossgollin.github.io/my-cv/Doss-Gollin-CV.pdf
+    -   icon: github
+        text: Github
+        href: https://github.com/jdossgollin
+    -   icon: linkedin
+        text: LinkedIN
+        href: https://www.linkedin.com/in/jamesdossgollin
+    -   text: Google Scholar
+        href: https://scholar.google.com/citations?user=6ifLBBsAAAAJ&hl
+    -   text: OrcID
+        href: https://orcid.org/0000-0002-3428-2224
+    -   text: Faculty Profile
+        href: https://profiles.rice.edu/faculty/james-doss-gollin
+
+format: 
+  html:
+    page-layout: full
+---
+
+:::{#person-profile}
+## Bio
+
+James Doss-Gollin is an assistant professor in the department of Civil and Environmental Engineering at Rice University.
+Dr. Doss-Gollin's research is motivated by challenging questions at the intersection of climate dynamics, water management, data science, and decision science.
+By developing methods for understanding and predicting spatiotemporally clustered hydroclimate risk, and for incorporating uncertain projections into sequential decision problems, he strives to enable the delivery of flexible and resilient infrastructure services.
+Dr. Doss-Gollin's teaching covers data science and decision-analytic tools for climate risk management.
+Prior to joining Rice University, he was a postdoctoral researcher in the Earth and Environmental Systems Institute at the Pennsylvania State University.
+
+## Education
+- **Columbia University** | New York, NY, USA<br />PhD in Earth and Environmental Engineering, 2020<br />MS in Earth and Environmental Engineering, 2016
+- **Yale University** | New Haven, CT, USA<br />BS in Mechanical Engineering, 2015
+:::

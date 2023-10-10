@@ -1,0 +1,19 @@
+---
+title: "BN-FLEMOps pluvial - A probabilistic multi-variable loss estimation model for pluvial floods"
+author:
+  - Viktor Rözer
+  - Heidi Kreibich
+  - Kai Schröter
+  - James Doss-Gollin
+  - Upmanu Lall
+  - Bruno Merz
+date: 2017-12
+details: "2017 Fall Meeting"
+
+about:
+  template: solana
+
+format:
+  html:
+    page-layout: full
+---

@@ -1,0 +1,15 @@
+---
+title: "What scenario should we design for? Insights from home elevation for the multiple PDF problem"
+author:
+  - James Doss-Gollin
+  - Klaus Keller
+date: 2021-12-14
+details: "Fall Meeting 2021"
+
+about:
+  template: solana
+
+format:
+  html:
+    page-layout: full
+---

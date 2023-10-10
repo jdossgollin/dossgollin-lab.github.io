@@ -1,0 +1,23 @@
+---
+title: "Improving the representation of climate risks in long-term electricity systems planning: a critical review"
+author:
+  - James Doss-Gollin
+  - Yash Amonkar
+  - Katlyn Schmeltzer
+  - Daniel Cohan
+date: 2023-08-16
+details: "Current sustainable/renewable energy reports"
+image: ../../_assets/img/pubs/doss-gollin_review_2023.png
+
+about:
+  template: solana
+  links:
+    - text: 'DOI: 10.1007/s40518-023-00224-3'
+      href: https://doi.org/10.1007/s40518-023-00224-3
+
+format:
+  html:
+    page-layout: full
+---
+
+Electricity systems face substantial climate risks which are escalating due to electrification, renewable energy intermittency, population changes, and the intensifying impacts of climate change such as extreme temperatures and weather-induced infrastructure damage. This critical review investigates climate risks to the electricity sector and scrutinizes the methodologies used to represent climate risk in long-term electricity system planning studies.

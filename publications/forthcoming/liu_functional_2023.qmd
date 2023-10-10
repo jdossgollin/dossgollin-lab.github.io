@@ -1,0 +1,17 @@
+---
+title: "Dynamic Bayesian functional graphical models with application to sea surface temperature data"
+author:
+  - Chunshan Liu
+  - Daniel R. Kowal
+  - James Doss-Gollin
+  - Marina Vanucci
+date: 2023-01-01
+details: ""
+
+about:
+  template: solana
+
+format:
+  html:
+    page-layout: full
+---

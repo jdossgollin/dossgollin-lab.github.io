@@ -1,0 +1,19 @@
+---
+title: "Enhanced solar and wind potential during widespread temperature extremes across the U.S. interconnected energy grids"
+author:
+  - Deepti Singh
+  - Yianna Bekris
+  - Cassandra D. W. Rogers
+  - James Doss-Gollin
+  - Ethan D. Coffel
+  - Dmitri A. Kalashnikov
+date: 2023-01-01
+details: ""
+
+about:
+  template: solana
+
+format:
+  html:
+    page-layout: full
+---

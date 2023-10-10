@@ -1,0 +1,17 @@
+---
+title: "Sequential adaptation through prediction of structured climate risk"
+author:
+  - James Doss-Gollin
+date: 2020-01-01
+details: ""
+
+about:
+  template: solana
+  links:
+    - text: 'DOI: 10.7916/d8-p9ha-a055 (Open Access)'
+      href: https://doi.org/10.7916/d8-p9ha-a055
+
+format:
+  html:
+    page-layout: full
+---

@@ -1,0 +1,16 @@
+---
+title: "Space-time characteristics and statistical predictability of extreme daily precipitation events in the Ohio River Basin"
+author:
+  - David J Farnham
+  - James Doss-Gollin
+  - Upmanu Lall
+date: 2016-12
+details: "2016 Fall Meeting"
+
+about:
+  template: solana
+
+format:
+  html:
+    page-layout: full
+---

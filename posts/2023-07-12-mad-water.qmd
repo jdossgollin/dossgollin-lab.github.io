@@ -1,0 +1,17 @@
+---
+title: "New paper theorizing modular, adaptive, and decentralized water systems"
+subtitle: "Improving the representation of climate risks in long-term electricity systems planning: a critical review"
+categories: Publications
+date: 2023-07-12
+bibliography: ../_bibliography/my-papers.bib
+---
+
+A paper resulting from an exciting interdisciplinary workshop on "MAD" (Modular, Adaptive, and Decentralized) water systems is now published.
+
+Centralized water systems are a truly awesome accomplishment, but they face financial, climatic, and governance stressors and aren't going to meet the needs of every person in every community. Modular, Adaptive, and Decentralized approaches to water harvesting, treatment, distribution, monitoring, and governance can help! At the same time, there are key risks and limitations. In general, MAD water is not intrinsically good or bad, but it's an emerging phenomenon and opportunity that water folks should pay attention to.
+
+I had a ton of fun collaborating with new colleagues, especially those with social science expertise. This is a pretty accessible read, with lots of examples and jargon restricted to what the whole team was able to follow.
+For more, see [the abstract](../publications/article/wutich_madwater_2023.qmd).
+
+
+

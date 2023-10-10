@@ -1,0 +1,25 @@
+---
+title: "True Furrh"
+sortby: "Furrh, True"
+position: "Ph.D. Student"
+started: "Spring 2022"
+ended: "Current"
+toc: false
+about:
+    id: person-profile
+    image: "../../_assets/img/people/tfurrh.png"
+    template: jolla
+    links:
+        -   icon: envelope
+            text: Email
+            href: mailto:jdf@rice.edu
+        -   text: SSPEED Center
+            href: https://www.sspeed.rice.edu/team/true-furrh
+---
+
+:::{#person-profile}
+True Furrh is a PhD student working primarily in the [SSPEED Center](https://www.sspeed.rice.edu/).
+True is interested in the intersection of urban and natural hydrology, statistical analysis of extreme weather events, and coastal geomorphological processes.
+In particular, his research focuses on vegetative infiltration and the role native prairie grasses play in the hydrologic cycle.
+True is also interested in statistical methods to predict tropical storm and hurricane frequency in the Gulf of Mexico.
+:::

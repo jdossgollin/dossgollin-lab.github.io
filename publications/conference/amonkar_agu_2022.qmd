@@ -1,0 +1,18 @@
+---
+title: "Changing climate, peak demand and load factors across the contiguous United States"
+author:
+  - Yash Vijay Amonkar
+  - James Doss-Gollin
+  - David J. Farnham
+  - Vijay Modi
+  - Upmanu Lall
+date: 2022-12-15
+details: "Fall Meeting 2022"
+
+about:
+  template: solana
+
+format:
+  html:
+    page-layout: full
+---

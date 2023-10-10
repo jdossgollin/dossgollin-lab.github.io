@@ -1,0 +1,25 @@
+---
+title: "Kyle Olcott"
+sortby: "Olcott, Kyle"
+position: "Undergraduate RA"
+started: "2022"
+ended: "2023"
+toc: false
+about:
+    id: person-profile
+    image: "../../_assets/img/people/kolcott.jpg"
+    template: jolla
+    links:
+        -   icon: envelope
+            text: Email
+            href: mailto:kto1@rice.edu
+        -   icon: linkedin
+            text: LinkedIN
+            href: https://www.linkedin.com/in/kyle-olcott-61648b1b7
+---
+
+
+Kyle Olcott is an undergraduate student at Rice University majoring in civil and environmental engineering.
+Kyle worked on an NSF-funded project exploring decentralized solutions to water security in El Paso’s Colonias.
+He grew up in the DC Metropolitan Area and is interested in attending law school after graduating to pursue a career in environmental law.
+

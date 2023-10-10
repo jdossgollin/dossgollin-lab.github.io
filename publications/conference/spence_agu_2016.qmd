@@ -1,0 +1,16 @@
+---
+title: "Exploiting synoptic-scale climate processes to develop nonstationary, probabilistic flood hazard projections"
+author:
+  - Caitlin M Spence
+  - Casey Brown
+  - James Doss-Gollin
+date: 2016-01-01
+details: "2016 Fall Meeting"
+
+about:
+  template: solana
+
+format:
+  html:
+    page-layout: full
+---

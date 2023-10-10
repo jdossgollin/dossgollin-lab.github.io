@@ -1,0 +1,19 @@
+---
+title: "Dynamics and thermodynamics of weather extremes: a dynamical systems approach"
+author:
+  - Davide Faranda
+  - Gabriele Messori
+  - James Doss-Gollin
+  - David J Farnham
+  - Upmanu Lall
+  - Pascal Yiou
+date: 2017-12
+details: "2017 Fall Meeting"
+
+about:
+  template: solana
+
+format:
+  html:
+    page-layout: full
+---

@@ -1,0 +1,16 @@
+---
+title: "Nonstationary GEV with hierarchical spatial pooling: a spatiotemporal Bayesian framework for nonstationary extreme precipitation frequency analysis in the Gulf Coast"
+author:
+  - Yuchen Lu
+  - Benjamin Seiyon Lee
+  - James Doss-Gollin
+date: 2022-12-15
+details: "Fall Meeting 2022"
+
+about:
+  template: solana
+
+format:
+  html:
+    page-layout: full
+---

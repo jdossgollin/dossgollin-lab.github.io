@@ -1,0 +1,20 @@
+---
+title: "Causes and model skill of the persistent intense rainfall and flooding in Paraguay during the austral summer 2015-2016"
+author:
+  - James Doss-Gollin
+  - Ángel G Muñoz
+  - Simon J Mason
+  - Max Pastén
+date: 2017-12
+details: "2017 Fall Meeting"
+
+about:
+  template: solana
+  links:
+    - text: 'DOI: 10.13140/rg.2.2.20146.30406 (Open Access)'
+      href: https://doi.org/10.13140/rg.2.2.20146.30406
+
+format:
+  html:
+    page-layout: full
+---

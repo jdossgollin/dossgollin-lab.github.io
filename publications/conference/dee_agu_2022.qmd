@@ -1,0 +1,19 @@
+---
+title: "Past, present, and future hydroclimate across the Mississippi River Basin and its tributaries: insights from integrated paleoclimate data analysis"
+author:
+  - Sylvia Dee
+  - Kieran Dunne
+  - Samuel E. Munoz
+  - Xinyue Luo
+  - Kelsey Murphy
+  - James Doss-Gollin
+date: 2022-12-14
+details: "Fall Meeting 2022"
+
+about:
+  template: solana
+
+format:
+  html:
+    page-layout: full
+---
