@@ -1,11 +1,11 @@
 ---
-title: "Analytic modeling of rainwater harvesting in the Brazilian Semiarid Northeast"
+title: "Analytic Modeling of Rainwater Harvesting in the Brazilian Semiarid Northeast"
 author:
   - James Doss-Gollin
   - Francisco de Assis de Souza Filho
   - Francisco Osny Enéas da Silva
 date: 2015-12
-details: "Journal of the american water resources association"
+details: "Journal of the American Water Resources Association"
 image: ../../_assets/img/pubs/doss-gollin_rwh_2015.jpg
 
 about:
@@ -13,6 +13,7 @@ about:
   links:
     - text: 'DOI: 10.1111/1752-1688.12376'
       href: https://doi.org/10.1111/1752-1688.12376
+      icon: link
     - icon: github
       text: Code
       href: https://github.com/jdossgollin/2014-matlab-cisternas-brasil

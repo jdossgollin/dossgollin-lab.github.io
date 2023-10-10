@@ -1,5 +1,5 @@
 ---
-title: "Dynamic Bayesian functional graphical models with application to sea surface temperature data"
+title: "Dynamic Bayesian Functional Graphical Models With Application to Sea Surface Temperature Data"
 author:
   - Chunshan Liu
   - Daniel R. Kowal

@@ -1,5 +1,5 @@
 ---
-title: "Flood Prediction with Graph Neural Networks"
+title: "Flood Prediction With Graph Neural Networks"
 author:
   - Arnold N. Kazadi
   - James Doss-Gollin
@@ -11,6 +11,9 @@ details: "Climate Change AI"
 about:
   template: solana
   links:
+    - href: https://www.climatechange.ai/papers/neurips2022/75
+      icon: link
+      text: 'Link'
     - icon: github
       text: Code
       href: https://github.com/kanz76/FloodGNN

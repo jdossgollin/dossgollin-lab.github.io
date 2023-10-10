@@ -1,10 +1,10 @@
 ---
-title: "A subjective Bayesian framework for synthesizing deep uncertainties in climate risk management"
+title: "A Subjective Bayesian Framework for Synthesizing Deep Uncertainties in Climate Risk Management"
 author:
   - James Doss-Gollin
   - Klaus Keller
 date: 2023-01-03
-details: "Earth's future"
+details: "Earth's Future"
 image: ../../_assets/img/pubs/doss-gollin_subjective_2022.jpg
 
 about:
@@ -12,10 +12,12 @@ about:
   links:
     - text: 'DOI: 10.1029/2022EF003044'
       href: https://doi.org/10.1029/2022EF003044
+      icon: link
     - icon: github
       text: Code
       href: https://github.com/jdossgollin/2022-elevation-robustness
     - text: Preprint
+      icon: file-pdf
       href: https://doi.org/10.1002/essoar.10511798.4
 
 format:

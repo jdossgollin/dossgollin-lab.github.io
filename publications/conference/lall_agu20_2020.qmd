@@ -1,5 +1,5 @@
 ---
-title: "America's water: multiscale forecasting and innovation in infrastructure design & management instruments is critical for climate adaptation"
+title: "America's Water: Multiscale Forecasting and Innovation in Infrastructure Design & Management Instruments Is Critical for Climate Adaptation"
 author:
   - Upmanu Lall
   - Sankar Arumugam
@@ -9,10 +9,14 @@ author:
   - Hyun-Han Kwon
   - Balaji Rajagopalan
 date: 2020-12-15
-details: "Fall Meeting 2020"
+details: "AGU Fall Meeting 2020"
 
 about:
   template: solana
+  links:
+    - href: https://agu.confex.com/agu/fm20/meetingapp.cgi/Paper/681899
+      icon: link
+      text: 'Link'
 
 format:
   html:

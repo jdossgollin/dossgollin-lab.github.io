@@ -1,7 +1,7 @@
 ---
 title: "True Furrh"
 sortby: "Furrh, True"
-position: "Ph.D. Student"
+position: "Coadvised Ph.D. Student"
 started: "Spring 2022"
 ended: "Current"
 toc: false

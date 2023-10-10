@@ -1,14 +1,18 @@
 ---
-title: "Near-term predictability lowers long-term adaptation costs"
+title: "Near-Term Predictability Lowers Long-Term Adaptation Costs"
 author:
   - James Doss-Gollin
   - Jonathan Lamontagne
   - Upmanu Lall
 date: 2022-12-14
-details: "Fall Meeting 2022"
+details: "AGU Fall Meeting 2022"
 
 about:
   template: solana
+  links:
+    - href: https://agu.confex.com/agu/fm22/meetingapp.cgi/Paper/1153913
+      icon: link
+      text: 'Link'
 
 format:
   html:

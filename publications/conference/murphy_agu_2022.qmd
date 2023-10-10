@@ -1,5 +1,5 @@
 ---
-title: "The Mississippi River’s Hydrologic Response to Natural vs. Anthropogenic Forcing from the Last Millennium through the 21st Century"
+title: "The Mississippi River’s Hydrologic Response to Natural vs. Anthropogenic Forcing From the Last Millennium Through the 21st Century"
 author:
   - Kelsey Murphy
   - Sylvia Dee
@@ -8,10 +8,14 @@ author:
   - Michelle O'Donnell
   - James Doss-Gollin
 date: 2022-12-15
-details: "Fall Meeting 2022"
+details: "AGU Fall Meeting 2022"
 
 about:
   template: solana
+  links:
+    - href: https://agu.confex.com/agu/fm22/meetingapp.cgi/Paper/1095010
+      icon: link
+      text: 'Link'
 
 format:
   html:

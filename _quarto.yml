@@ -17,30 +17,21 @@ website:
       View the source on [{{< fa brands github >}} GitHub]({{< var website.repo-url >}})
 
   navbar:
-    left:
+    right:
+      - text: "People"
+        href: people/index.qmd
       - text: "Publications"
         href: publications/index.qmd
-      - text: "Projects"
-        href: projects/index.qmd
-      - text: "People"
-        href: people.qmd
+      - text: "Research"
+        href: research.qmd
       - text: "Teaching"
         href: teaching.qmd
       - text: "Opportunities"
         href: joinus.qmd
       - text: "Contact"
         href: contact.qmd
-    right:
       - text: "Lab Guide"
         href: https://dossgollin-lab.github.io/lab-guide/
-      - text: "Links"
-        menu:
-          - text: SSPEED Center
-            href: https://sspeed.rice.edu/
-          - text: Rice CEVE
-            href: https://ceve.rice.edu/
-          - text: Rice Environmental Institute
-            href: https://trei.rice.edu/
       - icon: github
         href: https://github.com/dossgollin-lab
 
@@ -62,3 +53,5 @@ format:
 # references
 bibliography: _bibliography/library-bibtex.bib
 csl: _assets/references/american-geophysical-union.csl
+
+link-external-newwindow: true

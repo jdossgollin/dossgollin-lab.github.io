@@ -1,5 +1,5 @@
 ---
-title: "Water supply vulnerability testing and robust planning analysis with exploratory modeling under deep uncertainty"
+title: "Water Supply Vulnerability Testing and Robust Planning Analysis With Exploratory Modeling Under Deep Uncertainty"
 author:
   - Alyssa A. Graham
 date: 2022-01-01
@@ -7,6 +7,10 @@ details: ""
 
 about:
   template: solana
+  links:
+    - href: https://hdl.handle.net/1911/113327
+      icon: link
+      text: 'Link'
 
 format:
   html:

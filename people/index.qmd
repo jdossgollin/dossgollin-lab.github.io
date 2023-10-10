@@ -3,7 +3,7 @@ title: Group Members
 
 listing:
     -   id: grad-students    
-        contents: "people/grad-students/*.qmd"
+        contents: "grad-students/*.qmd"
         type: grid
         image-height: 225px
         grid-columns: 3
@@ -14,7 +14,7 @@ listing:
             position: "Position"
         grid-item-align: center
     -   id: pi
-        contents: "people/pi/*.qmd"
+        contents: "pi/*.qmd"
         type: grid
         image-height: 225px
         grid-columns: 3
@@ -22,7 +22,7 @@ listing:
         fields: [image, title]
         grid-item-align: center
     -   id: alumni
-        contents: "people/alumni/*.qmd"
+        contents: "alumni/*.qmd"
         type: table
         sort: [ended desc, sortby]
         fields: [title, position, started, ended]

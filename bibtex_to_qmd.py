@@ -2,7 +2,9 @@ import bibtexparser
 from bibtexparser.bparser import BibTexParser
 from pathlib import Path
 import re
+from titlecase import titlecase
 
+# optionally update
 TARGET = Path("_bibliography/my-papers.bib")
 
 
@@ -17,16 +19,28 @@ def escape_yaml_string(value):
 
 
 def format_title(title):
-    """Format the title: lowercase except for content inside double curly braces and capitalize the first letter."""
-    if title == "":
+    """Format the title using titlecase except for content inside curly braces."""
+    if not title:
         return title
 
-    preserved_texts = re.findall(r"{{(.*?)}}", title)
-    title = title.lower()
-    for text in preserved_texts:
-        title = title.replace("{{" + text.lower() + "}}", text)
-    title = title.replace("{{", "").replace("}}", "")
-    title = title[0].upper() + title[1:]
+    # Iteratively convert double curly braces to single
+    while "{{" in title and "}}" in title:
+        title = title.replace("{{", "{").replace("}}", "}")
+
+    # Extract content inside curly braces and replace with placeholders
+    preserved_texts = re.findall(r"{(.*?)}", title)
+    for idx, text in enumerate(preserved_texts):
+        placeholder = f"PLACEHOLDER{idx}"
+        title = title.replace("{" + text + "}", placeholder)
+
+    # Use titlecase on the rest
+    title = titlecase(title)
+
+    # Replace placeholders with original text from curly braces
+    for idx, text in enumerate(preserved_texts):
+        placeholder = f"PLACEHOLDER{idx}"
+        title = title.replace(placeholder, text)
+
     return title
 
 
@@ -64,6 +78,8 @@ def get_details_from_entry(entry):
     elif entry["ENTRYTYPE"] == "inproceedings":
         if "booktitle" in entry:
             return entry["booktitle"]
+        elif "eventtitle" in entry and "publisher" in entry:
+            return entry["publisher"] + " " + entry["eventtitle"]
         elif "eventtitle" in entry:
             return entry["eventtitle"]
         else:
@@ -112,7 +128,7 @@ def write_metadata_to_qmd(entry, qmd_file):
     qmd_file.write("  template: solana\n")
 
     # Links
-    if "doi" in entry or "repo" in entry or "preprint" in entry:
+    if "doi" in entry or "repo" in entry or "preprint" in entry or "url" in entry:
         qmd_file.write("  links:\n")
 
     # DOI
@@ -124,6 +140,17 @@ def write_metadata_to_qmd(entry, qmd_file):
         else:
             qmd_file.write(f"    - text: 'DOI: {doi}'\n")
         qmd_file.write(f"      href: https://doi.org/{entry['doi']}\n")
+        qmd_file.write(f"      icon: link\n")
+
+    elif "url" in entry:
+        url = entry["url"]
+        is_open = entry.get("open", "") == "true"
+        qmd_file.write(f"    - href: {url}\n")
+        qmd_file.write(f"      icon: link\n")
+        if is_open:
+            qmd_file.write(f"      text: 'Open Access'\n")
+        else:
+            qmd_file.write(f"      text: 'Link'\n")
 
     # Repository
     if "repo" in entry:
@@ -134,6 +161,7 @@ def write_metadata_to_qmd(entry, qmd_file):
     # Preprint
     if "preprint" in entry:
         qmd_file.write("    - text: Preprint\n")
+        qmd_file.write(f"      icon: file-pdf\n")
         qmd_file.write(f"      href: {entry['preprint']}\n")
 
     # End of metadata
@@ -146,7 +174,7 @@ def write_metadata_to_qmd(entry, qmd_file):
         qmd_file.write(entry["abstract"])
 
 
-def entry_to_qmd(entry, overwrite=False):
+def entry_to_qmd(entry):
     """Convert a BibTeX entry to QMD format."""
     citekey = citekey_to_string(entry["ID"])
 
@@ -162,20 +190,28 @@ def entry_to_qmd(entry, overwrite=False):
 
     qmd_filename = Path(directory, f"{citekey}.qmd")
     qmd_filename.parent.mkdir(parents=True, exist_ok=True)
-    if qmd_filename.exists() and not overwrite:
-        return
+
     with open(qmd_filename, "w") as qmd_file:
         write_metadata_to_qmd(entry, qmd_file)
 
 
-def create_qmd_from_bib(bib_file, overwrite=False):
+def create_qmd_from_bib(bib_file):
     parser = BibTexParser(common_strings=True)
     parser.ignore_nonstandard_types = False
     with open(bib_file, "r") as bibtex_file:
         bib_database = bibtexparser.load(bibtex_file, parser=parser)
     for entry in bib_database.entries:
-        entry_to_qmd(entry, overwrite)
+        entry_to_qmd(entry)
 
 
 if __name__ == "__main__":
-    create_qmd_from_bib(TARGET, overwrite=True)
+    for dir in [
+        "publications/article",
+        "publications/conference",
+        "publications/other",
+        "publications/forthcoming",
+    ]:
+        for file in Path(dir).glob("*.qmd"):
+            file.unlink()
+
+    create_qmd_from_bib(TARGET)

@@ -1,5 +1,5 @@
 ---
-title: "Infrastructure system for climate change adaption: a case study in the City of Lumberton, NC"
+title: "Infrastructure System for Climate Change Adaption: A Case Study in the City of Lumberton, NC"
 author:
   - Xiangnan Zhou
   - Leonardo Duenas-Osorio
@@ -9,10 +9,14 @@ author:
   - Bezawit Getachew
   - Qilin Li
 date: 2021-12-15
-details: "Fall Meeting 2021"
+details: "AGU Fall Meeting 2021"
 
 about:
   template: solana
+  links:
+    - href: https://agu.confex.com/agu/fm21/meetingapp.cgi/Paper/976152
+      icon: link
+      text: 'Link'
 
 format:
   html:

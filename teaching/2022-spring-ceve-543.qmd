@@ -1,0 +1,27 @@
+---
+title: Environmental Data Science
+year: 2022
+semester: Spring
+coursenumber: CEVE 543
+where: Rice University
+---
+
+- **Semester:** {{< meta semester >}} {{< meta year >}}
+- **Course Number:** {{< meta coursenumber >}}
+
+## Course Description
+
+Sensors, satellites, people, robots, and drones collect a wealth of data describing environmental processes relevant for understanding and managing the natural and built environment. Making sense of these data sets, sometimes vast and sometimes consisting of a few observations, requires integrating domain knowledge, computational methods, and statistical models. In a nutshell, data science.
+
+The path from data and theory to models, inference, and ultimately decisions is long, winding, and perilous. In this course, you will learn not only how to fit models, but also how to interpret, critique, improve, and evaluate models and model-based inference. Specifically, you will learn a principled workflow for using data to inform decisions that:
+
+1. credibly describes the physical processes that generated the data;
+1. flexibly makes use of multiple sources of information;
+1. transparently communicates imperfect modeling assumptions; and
+1. allows you to reason about uncertainty using the language of probability theory.
+
+Applications to water, climate, air, and geologic data will emphasize models for spatial and temporal data.
+
+## More information
+
+For details, see [the course website](https://jdossgollin.github.io/environmental-data-science/){target=_blank}.

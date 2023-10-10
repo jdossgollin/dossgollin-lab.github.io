@@ -1,5 +1,5 @@
 ---
-title: "Mesoscale modeling of distributed water systems enables policy search"
+title: "Mesoscale Modeling of Distributed Water Systems Enables Policy Search"
 author:
   - Xiangnan Zhou
   - Leonardo Duenas-Osorio
@@ -7,8 +7,8 @@ author:
   - Lu Liu
   - Lauren Stadler
   - Qilin Li
-date: 2023-01-01
-details: "Water resources research"
+date: 2023-04-24
+details: "Water Resources Research"
 image: ../../_assets/img/pubs/zhou_mesoscale_2022.jpg
 
 about:
@@ -16,10 +16,12 @@ about:
   links:
     - text: 'DOI: 10.1029/2022WR033758 (Open Access)'
       href: https://doi.org/10.1029/2022WR033758
+      icon: link
     - icon: github
       text: Code
       href: https://github.com/Zhouxiaomu33/Mesoscale-water-distribution-network-modeling
     - text: Preprint
+      icon: file-pdf
       href: http://www.essoar.org/doi/10.1002/essoar.10512641.1
 
 format:

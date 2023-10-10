@@ -1,12 +1,12 @@
 ---
-title: "Robust adaptation to multiscale climate variability"
+title: "Robust Adaptation to Multiscale Climate Variability"
 author:
   - James Doss-Gollin
   - David J. Farnham
   - Scott Steinschneider
   - Upmanu Lall
 date: 2019-06-07
-details: "Earth's future"
+details: "Earth's Future"
 image: ../../_assets/img/pubs/doss-gollin_robustadaptation_2019.jpg
 
 about:
@@ -14,6 +14,7 @@ about:
   links:
     - text: 'DOI: 10.1029/2019ef001154 (Open Access)'
       href: https://doi.org/10.1029/2019ef001154
+      icon: link
     - icon: github
       text: Code
       href: https://github.com/jdossgollin/2018-robust-adaptation-cyclical-risk

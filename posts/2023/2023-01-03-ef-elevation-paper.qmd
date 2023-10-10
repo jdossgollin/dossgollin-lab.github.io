@@ -1,8 +1,8 @@
 ---
 title: "Paper bridging DMDU and probabilistic frameworks published in Earth's Future"
-subtitle: "A subjective Bayesian framework for synthesizing deep uncertainties in climate risk management"
 categories: Publication
 date: 2023-01-03
+bibliography: ../../_bibliography/my-papers.bib
 ---
 
 Our paper titled "a subjective Bayesian framework for synthesizing deep uncertainties in climate risk management" was just published in the journal Earth's Future [@doss-gollin_subjective:2022].

@@ -1,17 +1,18 @@
 ---
-title: "Considerações sobre a sustentabilidade hídrica de cisternas para captação de chuva no semiárido brasileiro"
+title: "Considerações Sobre a Sustentabilidade Hídrica De Cisternas Para Captação De Chuva No Semiárido Brasileiro"
 author:
   - James Doss-Gollin
   - Francisco de Assis de Souza Filho
   - Francisco Osny Enéas da Silva
 date: 2014-01-01
-details: "Xii simpósio de recursos hídricos do nordeste"
+details: "XII Simpósio De Recursos Hídricos Do Nordeste"
 
 about:
   template: solana
   links:
     - text: 'DOI: 10.13140/rg.2.1.4086.4807 (Open Access)'
       href: https://doi.org/10.13140/rg.2.1.4086.4807
+      icon: link
 
 format:
   html:

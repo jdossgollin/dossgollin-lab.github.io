@@ -6,3 +6,4 @@ dependencies:
   - bibtexparser
   - black
   - mypy
+  - titlecase

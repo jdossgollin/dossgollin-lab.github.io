@@ -1,5 +1,5 @@
 ---
-title: "BN-FLEMOps pluvial - A probabilistic multi-variable loss estimation model for pluvial floods"
+title: "BN-FLEMOps Pluvial - A Probabilistic Multi-Variable Loss Estimation Model for Pluvial Floods"
 author:
   - Viktor Rözer
   - Heidi Kreibich
@@ -8,7 +8,7 @@ author:
   - Upmanu Lall
   - Bruno Merz
 date: 2017-12
-details: "2017 Fall Meeting"
+details: "Placeholder0 2017 Placeholder1"
 
 about:
   template: solana

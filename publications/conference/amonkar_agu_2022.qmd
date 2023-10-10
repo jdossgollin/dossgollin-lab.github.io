@@ -1,5 +1,5 @@
 ---
-title: "Changing climate, peak demand and load factors across the contiguous United States"
+title: "Changing Climate, Peak Demand and Load Factors Across the Contiguous United States"
 author:
   - Yash Vijay Amonkar
   - James Doss-Gollin
@@ -7,10 +7,14 @@ author:
   - Vijay Modi
   - Upmanu Lall
 date: 2022-12-15
-details: "Fall Meeting 2022"
+details: "AGU Fall Meeting 2022"
 
 about:
   template: solana
+  links:
+    - href: https://agu.confex.com/agu/fm22/meetingapp.cgi/Paper/1176262
+      icon: link
+      text: 'Link'
 
 format:
   html:

@@ -6,10 +6,14 @@ author:
   - Sylvia Dee
   - Samuel E. Munoz
 date: 2022-12-15
-details: "Fall Meeting 2022"
+details: "AGU Fall Meeting 2022"
 
 about:
   template: solana
+  links:
+    - href: https://agu.confex.com/agu/fm22/meetingapp.cgi/Paper/1111978
+      icon: link
+      text: 'Link'
 
 format:
   html:

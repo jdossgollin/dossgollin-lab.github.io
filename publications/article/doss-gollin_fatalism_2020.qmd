@@ -1,12 +1,12 @@
 ---
-title: "Adaptation over fatalism: leveraging high-impact climate disasters to boost societal resilience"
+title: "Adaptation Over Fatalism: Leveraging High-Impact Climate Disasters to Boost Societal Resilience"
 author:
   - James Doss-Gollin
   - David J. Farnham
   - Michelle Ho
   - Upmanu Lall
 date: 2020-04-01
-details: "Journal of water resources planning and management"
+details: "Journal of Water Resources Planning and Management"
 image: ../../_assets/img/pubs/doss-gollin_fatalism_2020.jpg
 
 about:
@@ -14,6 +14,7 @@ about:
   links:
     - text: 'DOI: 10.1061/(asce)wr.1943-5452.0001190 (Open Access)'
       href: https://doi.org/10.1061/(asce)wr.1943-5452.0001190
+      icon: link
 
 format:
   html:

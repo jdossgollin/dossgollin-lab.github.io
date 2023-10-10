@@ -1,5 +1,5 @@
 ---
-title: "Dynamics and thermodynamics of weather extremes: a dynamical systems approach"
+title: "Dynamics and Thermodynamics of Weather Extremes: A Dynamical Systems Approach"
 author:
   - Davide Faranda
   - Gabriele Messori
@@ -8,7 +8,7 @@ author:
   - Upmanu Lall
   - Pascal Yiou
 date: 2017-12
-details: "2017 Fall Meeting"
+details: "Placeholder0 2017 Placeholder1"
 
 about:
   template: solana

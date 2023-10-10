@@ -1,12 +1,12 @@
 ---
-title: "How unprecedented was the February 2021 Texas cold snap?"
+title: "How Unprecedented Was the February 2021 Texas Cold Snap?"
 author:
   - James Doss-Gollin
   - David J. Farnham
   - Upmanu Lall
   - Vijay Modi
 date: 2021-06-08
-details: "Environmental research letters"
+details: "Environmental Research Letters"
 image: ../../_assets/img/pubs/doss-gollin_txtreme_2021.jpg
 
 about:
@@ -14,10 +14,12 @@ about:
   links:
     - text: 'DOI: 10.1088/1748-9326/ac0278 (Open Access)'
       href: https://doi.org/10.1088/1748-9326/ac0278
+      icon: link
     - icon: github
       text: Code
       href: https://github.com/jdossgollin/2021-TXtreme
     - text: Preprint
+      icon: file-pdf
       href: https://eartharxiv.org/repository/view/2122/
 
 format:

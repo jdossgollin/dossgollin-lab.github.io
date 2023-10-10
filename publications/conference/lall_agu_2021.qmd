@@ -1,5 +1,5 @@
 ---
-title: "The risks of energy shortfalls considering temperature extremes, wind and solar energy for the Texas energy grid using a novel space-time simulation model"
+title: "The Risks of Energy Shortfalls Considering Temperature Extremes, Wind and Solar Energy for the Texas Energy Grid Using a Novel Space-Time Simulation Model"
 author:
   - Upmanu Lall
   - Yash Vijay Amonkar
@@ -7,10 +7,14 @@ author:
   - Vijay Modi
   - James Doss-Gollin
 date: 2021-12-16
-details: "Fall Meeting 2021"
+details: "AGU Fall Meeting 2021"
 
 about:
   template: solana
+  links:
+    - href: https://agu.confex.com/agu/fm21/meetingapp.cgi/Home/0
+      icon: link
+      text: 'Link'
 
 format:
   html:

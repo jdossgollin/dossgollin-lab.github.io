@@ -1,5 +1,5 @@
 ---
-title: "Past, present, and future hydroclimate across the Mississippi River Basin and its tributaries: insights from integrated paleoclimate data analysis"
+title: "Past, Present, and Future Hydroclimate Across the Mississippi River Basin and Its Tributaries: Insights From Integrated Paleoclimate Data Analysis"
 author:
   - Sylvia Dee
   - Kieran Dunne
@@ -8,10 +8,14 @@ author:
   - Kelsey Murphy
   - James Doss-Gollin
 date: 2022-12-14
-details: "Fall Meeting 2022"
+details: "AGU Fall Meeting 2022"
 
 about:
   template: solana
+  links:
+    - href: https://agu.confex.com/agu/fm22/meetingapp.cgi/Paper/1068514
+      icon: link
+      text: 'Link'
 
 format:
   html:

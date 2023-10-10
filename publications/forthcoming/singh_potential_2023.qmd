@@ -1,5 +1,5 @@
 ---
-title: "Enhanced solar and wind potential during widespread temperature extremes across the U.S. interconnected energy grids"
+title: "Enhanced Solar and Wind Potential During Widespread Temperature Extremes Across the U.S. Interconnected Energy Grids"
 author:
   - Deepti Singh
   - Yianna Bekris

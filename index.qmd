@@ -5,8 +5,8 @@ listing:
     id: news-listings
     type: table
     contents:
-        - "posts/*.qmd"
-        - "posts/*.md"
+        - "posts/*/*.qmd"
+        - "posts/*/*.md"
     sort:
         - "date desc"
         - "title desc"

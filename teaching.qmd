@@ -1,21 +1,38 @@
 ---
 title: Teaching
+
+listing:
+    id: teaching
+    type: table
+    contents:
+        - "teaching/*.qmd"
+    sort:
+        - "year desc"
+        - "semester"
+    categories: false
+    fields: [semester, year, where, title]
+    field-display-names: 
+        date: Date
+        title: Title
+        semester: Semester
+        year: Year
+        coursenumber: Course Number
 ---
 
-### Spring 2024
+## Open source teaching materials
 
-I am scheduled to teach CEVE 421/521 (Climate Risk Management)
+I strive to create high-quality open-source materials for my courses.
+Texts are usually available under a [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license, so you may share and adapt them provided you provide credit and also license your derivative work under the same terms. 
 
-### Fall 2023
+For questions about these materials, please raise an Issue on the relevant GitHub repository (preferred) or contact me by email.
 
-I am teaching a course teaching data science tools for climate risk assessment.
-This course covers fundamentals and applications of data science tools for climate risk assessment.
-All course materials are available at [ceve543.github.io](https://ceve543.github.io/).
+## Course offerings
 
-**TA:** [Yuchen Lu](people/grad-students/yuchen-lu.qmd)
+::: {.callout-warning}
+## Heads Up
 
-### Spring 2023
+All information on this page is preliminary; please see official course listings at [courses.rice.edu](https://courses.rice.edu){target=_blank}.
+:::
 
-I taught CEVE 421/521 (Climate Risk Management) for the first time.
-In this project-based course, we covered decision making under uncertainty, sources of climate risk, interpreting and using climate data, and much more.
-We plan to offer the course again soon!
+:::{#teaching}
+:::
