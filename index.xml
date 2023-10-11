@@ -6,14 +6,14 @@
       version="2.0">
 <channel>
 <title>Doss-Gollin Lab @ Rice CEVE</title>
-<link>https://ceve543.github.io/index.html</link>
-<atom:link href="https://ceve543.github.io/index.xml" rel="self" type="application/rss+xml"/>
+<link>https://dossgollin-lab.github.io/index.html</link>
+<atom:link href="https://dossgollin-lab.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>Homepage for {{&lt; var course.number &gt;}}, {{&lt; var course.title &gt;}}, at Rice University, {{&lt; var course.semester &gt;}}.</description>
 <generator>quarto-1.3.450</generator>
 <lastBuildDate>Wed, 16 Aug 2023 05:00:00 GMT</lastBuildDate>
 <item>
   <title>Published: review paper on climate risks to electricity systems</title>
-  <link>https://ceve543.github.io/posts/2023/2023-08-16-review.html</link>
+  <link>https://dossgollin-lab.github.io/posts/2023/2023-08-16-review.html</link>
   <description><![CDATA[ 
 
 
@@ -31,12 +31,12 @@ Doss-Gollin, J., Amonkar, Y., Schmeltzer, K., &amp; Cohan, D. (2023). Improving 
 </div>
 </div></section></div> ]]></description>
   <category>Publications</category>
-  <guid>https://ceve543.github.io/posts/2023/2023-08-16-review.html</guid>
+  <guid>https://dossgollin-lab.github.io/posts/2023/2023-08-16-review.html</guid>
   <pubDate>Wed, 16 Aug 2023 05:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Student advising booklet for environmental education at Rice</title>
-  <link>https://ceve543.github.io/posts/2023/2023-08-14-env-advising.html</link>
+  <link>https://dossgollin-lab.github.io/posts/2023/2023-08-14-env-advising.html</link>
   <description><![CDATA[ 
 
 
@@ -48,12 +48,12 @@ Doss-Gollin, J., Amonkar, Y., Schmeltzer, K., &amp; Cohan, D. (2023). Improving 
 
  ]]></description>
   <category>Announcements</category>
-  <guid>https://ceve543.github.io/posts/2023/2023-08-14-env-advising.html</guid>
+  <guid>https://dossgollin-lab.github.io/posts/2023/2023-08-14-env-advising.html</guid>
   <pubDate>Mon, 14 Aug 2023 05:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Published: theorizing modular, adaptive, and decentralized water systems</title>
-  <link>https://ceve543.github.io/posts/2023/2023-07-12-mad-water.html</link>
+  <link>https://dossgollin-lab.github.io/posts/2023/2023-07-12-mad-water.html</link>
   <description><![CDATA[ 
 
 
@@ -66,12 +66,12 @@ Doss-Gollin, J., Amonkar, Y., Schmeltzer, K., &amp; Cohan, D. (2023). Improving 
 
  ]]></description>
   <category>Publications</category>
-  <guid>https://ceve543.github.io/posts/2023/2023-07-12-mad-water.html</guid>
+  <guid>https://dossgollin-lab.github.io/posts/2023/2023-07-12-mad-water.html</guid>
   <pubDate>Wed, 12 Jul 2023 05:00:00 GMT</pubDate>
 </item>
 <item>
   <title>New paper on mesoscale modeling of distributed water systems</title>
-  <link>https://ceve543.github.io/posts/2023/2023-04-23-mesoscale.html</link>
+  <link>https://dossgollin-lab.github.io/posts/2023/2023-04-23-mesoscale.html</link>
   <description><![CDATA[ 
 
 
@@ -89,12 +89,12 @@ Zhou, X., Duenas-Osorio, L., Doss-Gollin, J., Liu, L., Stadler, L., &amp; Li, Q.
 </div>
 </div></section></div> ]]></description>
   <category>Publications</category>
-  <guid>https://ceve543.github.io/posts/2023/2023-04-23-mesoscale.html</guid>
+  <guid>https://dossgollin-lab.github.io/posts/2023/2023-04-23-mesoscale.html</guid>
   <pubDate>Sun, 23 Apr 2023 05:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Paper bridging DMDU and probabilistic frameworks published in Earth’s Future</title>
-  <link>https://ceve543.github.io/posts/2023/2023-01-03-ef-elevation-paper.html</link>
+  <link>https://dossgollin-lab.github.io/posts/2023/2023-01-03-ef-elevation-paper.html</link>
   <description><![CDATA[ 
 
 
@@ -126,12 +126,12 @@ Doss-Gollin, J., &amp; Keller, K. (2023). A subjective <span>Bayesian</span> fra
 
  ]]></description>
   <category>Publication</category>
-  <guid>https://ceve543.github.io/posts/2023/2023-01-03-ef-elevation-paper.html</guid>
+  <guid>https://dossgollin-lab.github.io/posts/2023/2023-01-03-ef-elevation-paper.html</guid>
   <pubDate>Tue, 03 Jan 2023 06:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Undergraduate Research Opportunity: AI for Sustainability and Resilience to Natural Disasters</title>
-  <link>https://ceve543.github.io/posts/2022/2022-11-08-rice-ifce.html</link>
+  <link>https://dossgollin-lab.github.io/posts/2022/2022-11-08-rice-ifce.html</link>
   <description><![CDATA[ 
 
 
@@ -143,12 +143,12 @@ Doss-Gollin, J., &amp; Keller, K. (2023). A subjective <span>Bayesian</span> fra
 
  ]]></description>
   <category>Opportunities</category>
-  <guid>https://ceve543.github.io/posts/2022/2022-11-08-rice-ifce.html</guid>
+  <guid>https://dossgollin-lab.github.io/posts/2022/2022-11-08-rice-ifce.html</guid>
   <pubDate>Tue, 08 Nov 2022 06:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Yuchen Lu wins 2022 H.W. Reeves Endowed Scholarship</title>
-  <link>https://ceve543.github.io/posts/2022/2022-02-08-reeves-yuchen.html</link>
+  <link>https://dossgollin-lab.github.io/posts/2022/2022-02-08-reeves-yuchen.html</link>
   <description><![CDATA[ 
 
 
@@ -159,12 +159,12 @@ Doss-Gollin, J., &amp; Keller, K. (2023). A subjective <span>Bayesian</span> fra
 
  ]]></description>
   <category>Opportunities</category>
-  <guid>https://ceve543.github.io/posts/2022/2022-02-08-reeves-yuchen.html</guid>
+  <guid>https://dossgollin-lab.github.io/posts/2022/2022-02-08-reeves-yuchen.html</guid>
   <pubDate>Tue, 08 Feb 2022 06:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Talk at Risk KAN Compound Events Group</title>
-  <link>https://ceve543.github.io/posts/2021/2021-12-08-risk-kan.html</link>
+  <link>https://dossgollin-lab.github.io/posts/2021/2021-12-08-risk-kan.html</link>
   <description><![CDATA[ 
 
 
@@ -180,12 +180,12 @@ Doss-Gollin, J., &amp; Keller, K. (2023). A subjective <span>Bayesian</span> fra
 
  ]]></description>
   <category>Announcements</category>
-  <guid>https://ceve543.github.io/posts/2021/2021-12-08-risk-kan.html</guid>
+  <guid>https://dossgollin-lab.github.io/posts/2021/2021-12-08-risk-kan.html</guid>
   <pubDate>Wed, 08 Dec 2021 06:00:00 GMT</pubDate>
 </item>
 <item>
   <title>New Course: Climate Risk Management (CEVE 421/521)</title>
-  <link>https://ceve543.github.io/posts/2022/2022-11-08-ceve-421-flyer.html</link>
+  <link>https://dossgollin-lab.github.io/posts/2022/2022-11-08-ceve-421-flyer.html</link>
   <description><![CDATA[ 
 
 
@@ -195,12 +195,12 @@ Doss-Gollin, J., &amp; Keller, K. (2023). A subjective <span>Bayesian</span> fra
 
  ]]></description>
   <category>Announcement</category>
-  <guid>https://ceve543.github.io/posts/2022/2022-11-08-ceve-421-flyer.html</guid>
+  <guid>https://dossgollin-lab.github.io/posts/2022/2022-11-08-ceve-421-flyer.html</guid>
   <pubDate>Mon, 08 Nov 2021 06:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Houston Chronicle Op-Ed: The risks of climate change are great - so are the rewards of solving it</title>
-  <link>https://ceve543.github.io/posts/2021/2021-09-01-chronicle-oped.html</link>
+  <link>https://dossgollin-lab.github.io/posts/2021/2021-09-01-chronicle-oped.html</link>
   <description><![CDATA[ 
 
 
@@ -211,12 +211,12 @@ Doss-Gollin, J., &amp; Keller, K. (2023). A subjective <span>Bayesian</span> fra
 
  ]]></description>
   <category>Publications</category>
-  <guid>https://ceve543.github.io/posts/2021/2021-09-01-chronicle-oped.html</guid>
+  <guid>https://dossgollin-lab.github.io/posts/2021/2021-09-01-chronicle-oped.html</guid>
   <pubDate>Wed, 01 Sep 2021 05:00:00 GMT</pubDate>
 </item>
 <item>
   <title>NSF Award from EAGER SAI: ‘Participatory Design for Water Quality Monitoring of Highly Decentralized Water Infrastructure Systems’</title>
-  <link>https://ceve543.github.io/posts/2021/2021-08-27-nsf-eager-sai.html</link>
+  <link>https://dossgollin-lab.github.io/posts/2021/2021-08-27-nsf-eager-sai.html</link>
   <description><![CDATA[ 
 
 
@@ -234,12 +234,12 @@ Doss-Gollin, J., &amp; Keller, K. (2023). A subjective <span>Bayesian</span> fra
 
  ]]></description>
   <category>Grants</category>
-  <guid>https://ceve543.github.io/posts/2021/2021-08-27-nsf-eager-sai.html</guid>
+  <guid>https://dossgollin-lab.github.io/posts/2021/2021-08-27-nsf-eager-sai.html</guid>
   <pubDate>Fri, 27 Aug 2021 05:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Call for Abstracts: Statistical-Dynamical Models for Hydroclimatic Risk Management and Adaptation</title>
-  <link>https://ceve543.github.io/posts/2021/2021-06-24-agu21.html</link>
+  <link>https://dossgollin-lab.github.io/posts/2021/2021-06-24-agu21.html</link>
   <description><![CDATA[ 
 
 
@@ -253,12 +253,12 @@ Doss-Gollin, J., &amp; Keller, K. (2023). A subjective <span>Bayesian</span> fra
 
  ]]></description>
   <category>Opportunities</category>
-  <guid>https://ceve543.github.io/posts/2021/2021-06-24-agu21.html</guid>
+  <guid>https://dossgollin-lab.github.io/posts/2021/2021-06-24-agu21.html</guid>
   <pubDate>Thu, 24 Jun 2021 05:00:00 GMT</pubDate>
 </item>
 <item>
   <title>How Unprecedented Was the February 2021 Texas Cold Snap? published in Environmental Research Letters</title>
-  <link>https://ceve543.github.io/posts/2021/2021-05-18-txtremes.html</link>
+  <link>https://dossgollin-lab.github.io/posts/2021/2021-05-18-txtremes.html</link>
   <description><![CDATA[ 
 
 
@@ -275,12 +275,12 @@ Doss-Gollin, J., Farnham, D. J., Lall, U., &amp; Modi, V. (2021). How unpreceden
 </div>
 </div></section></div> ]]></description>
   <category>Publications</category>
-  <guid>https://ceve543.github.io/posts/2021/2021-05-18-txtremes.html</guid>
+  <guid>https://dossgollin-lab.github.io/posts/2021/2021-05-18-txtremes.html</guid>
   <pubDate>Tue, 18 May 2021 05:00:00 GMT</pubDate>
 </item>
 <item>
   <title>2020 Annual Meeting of the Society for Decision Making under Deep Uncertainty</title>
-  <link>https://ceve543.github.io/posts/2020/2020-11-10-dmdu-2020.html</link>
+  <link>https://dossgollin-lab.github.io/posts/2020/2020-11-10-dmdu-2020.html</link>
   <description><![CDATA[ 
 
 
@@ -293,7 +293,7 @@ Doss-Gollin, J., Farnham, D. J., Lall, U., &amp; Modi, V. (2021). How unpreceden
 
  ]]></description>
   <category>Presentations</category>
-  <guid>https://ceve543.github.io/posts/2020/2020-11-10-dmdu-2020.html</guid>
+  <guid>https://dossgollin-lab.github.io/posts/2020/2020-11-10-dmdu-2020.html</guid>
   <pubDate>Tue, 10 Nov 2020 06:00:00 GMT</pubDate>
 </item>
 </channel>
