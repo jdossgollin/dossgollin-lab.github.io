@@ -1,0 +1,13 @@
+---
+title: "Dr.Doss-Gollin Talks at SSPEED Center Conference"
+categories: Publications
+date: 2023-10-13
+bibliography: ../../_bibliography/my-papers.bib
+---
+
+
+Dr. Doss-Gollin is presenting on 10/15 at the [SSPEED Conference](https://www.sspeed.rice.edu/conference-2023).
+
+- Session: Machine Learning for Flood Prediction and Management
+- Title: A Spatiotemporal Hierarchical Bayesian Model for Nonstationary Intensity-Duration-Frequency Curves
+- Slides: posted at [jdossgollin.github.io/presentations-site/slides-public/2023-10-13-sspeed.html](https://jdossgollin.github.io/presentations-site/slides-public/2023-10-13-sspeed.html)
