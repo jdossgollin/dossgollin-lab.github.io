@@ -7,8 +7,8 @@ website:
   page-navigation: true
   title: "Doss-Gollin Lab @ Rice CEVE"
   description: "Homepage for {{< var course.number >}}, {{< var course.title >}}, at Rice University, {{< var course.semester >}}."
-  site-url: https://ceve543.github.io/
-  repo-url: https://www.github.com/ceve543/ceve543.github.io
+  site-url: https://dossgollin-lab.github.io/
+  repo-url: https://www.github.com/dossgollin-lab/dossgollin-lab.github.io
   repo-actions: [issue]
   open-graph: true
   favicon: _assets/img.logos/logo.ico
