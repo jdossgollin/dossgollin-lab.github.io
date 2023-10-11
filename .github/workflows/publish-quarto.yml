@@ -41,6 +41,9 @@ jobs:
           environment-file: _environment.yml
           python-version: 3.12
 
+      - name: Install bibtexparser using pip
+        run: pip install bibtexparser
+
       - name: Conda info
         shell: bash -el {0}
         run: conda info
