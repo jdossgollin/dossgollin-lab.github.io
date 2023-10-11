@@ -1,0 +1,62 @@
+project:
+  type: website
+  preview:
+    port: 4200
+
+website:
+  page-navigation: true
+  title: "Doss-Gollin Lab @ Rice CEVE"
+  description: "Homepage for {{< var course.number >}}, {{< var course.title >}}, at Rice University, {{< var course.semester >}}."
+  site-url: https://ceve543.github.io/
+  repo-url: https://www.github.com/ceve543/ceve543.github.io
+  repo-actions: [issue]
+  open-graph: true
+  favicon: _assets/img.logos/logo.ico
+
+  search:
+      location: navbar
+      type: overlay
+
+  page-footer:
+    left: |
+      View the source on [{{< fa brands github >}} GitHub]({{< var website.repo-url >}})
+
+  navbar:
+    right:
+      - text: "People"
+        href: people/index.qmd
+      - text: "Publications"
+        href: publications/index.qmd
+      - text: "Research"
+        href: research.qmd
+      - text: "Teaching"
+        href: teaching.qmd
+      - text: "Opportunities"
+        href: joinus.qmd
+      - text: "Contact"
+        href: contact.qmd
+      - text: "Lab Guide"
+        href: https://dossgollin-lab.github.io/lab-guide/
+      - icon: github
+        href: https://github.com/dossgollin-lab
+
+format:
+  html:
+    #theme: _assets/theme/theme-rice.scss
+    #css: styles.css
+    theme: [sandstone, _assets/theme/theme-rice.scss]
+    toc: true
+    toc-title: Contents
+    toc-location: left
+    anchor-sections: true
+    code-overflow: wrap
+    citations-hover: true
+    code-annotations: hover
+    html-math-method: mathjax
+    date-format: long
+
+# references
+bibliography: _bibliography/library-bibtex.bib
+csl: _assets/references/american-geophysical-union.csl
+
+link-external-newwindow: true

@@ -1,0 +1,71 @@
+---
+title: Doss-Gollin Research Group
+
+listing:
+    id: news-listings
+    type: table
+    contents:
+        - "posts/*/*.qmd"
+        - "posts/*/*.md"
+    sort:
+        - "date desc"
+        - "title desc"
+    table-striped: true
+    table-hover: true
+    page-size: 8
+    categories: false
+    fields: [date, title]
+    field-display-names: 
+        date: Date
+        title: Title
+        subtitle: About
+    feed: true
+    date-format: long
+
+format: 
+  html:
+    page-layout: full
+---
+
+::::: {.columns}
+
+:::: {.column width="40%"}
+
+::: {layout-ncol="2" layout-valign="center"}
+![](_assets/img/logos/james.jpg){width=100%}
+
+James Doss-Gollin is an Assistant Professor in the department of [Civil and Environmental Engineering](https://cee.rice.edu) at Rice University.</br></br>
+See his bio [here](people/pi/james-doss-gollin.qmd)
+:::
+
+::: {layout-ncol="2" layout-valign="center"}
+<div>
+<iframe
+    width="100%"
+    src="https://www.youtube-nocookie.com/embed/gI2I8Cq-14g"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+</iframe>
+</div>
+
+Through mission-oriented basic applied research, we address fundamental challenges in infrastructure resilience and climate adaptation.
+:::
+
+::: {layout-ncol="2" layout-valign="center"}
+![](_assets/img/group/2022-05-10.jpeg){width=100%}
+
+Do you want to work on intellectually challenging and socially impactful problems?
+Learn about [open positions](joinus.qmd) for undergrads, graduate students, and post-docs.
+:::
+
+::::
+:::: {.column width="5%"}
+::::
+:::: {.column width="55%"}
+:::: {#news-listings}
+::::
+::::
+
+:::::

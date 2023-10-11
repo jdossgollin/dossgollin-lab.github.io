@@ -1,0 +1,13 @@
+---
+title: "Published: review paper on climate risks to electricity systems"
+categories: Publications
+date: 2023-08-16
+bibliography: ../../_bibliography/my-papers.bib
+---
+
+
+Our review paper titled "Improving the representation of climate risks in long-term electricity systems planning: a critical review" has been published in the journal Current Sustainable/Renewable Energy Reports.
+
+In this paper [@doss-gollin_review:2023], we review the literature on long-term electricity systems planning under climate change and identify key gaps in the representation of climate risks.
+
+For more information, including a link to the open-access preprint, see [the abstract](../../publications/article/doss-gollin_review_2023.qmd).

@@ -1,0 +1,23 @@
+---
+title: Climate Risk Management
+year: 2023
+semester: Spring
+coursenumber: CEVE 421/521
+where: Rice University
+---
+
+- **Semester:** {{< meta semester >}} {{< meta year >}}
+- **Course Number:** {{< meta coursenumber >}}
+
+## Course Description
+
+Climate variability and change pose threats to lives and livelihoods.
+These climate risks can be managed through the design and operation of infrastructure systems, as well as through disaster response and recovery.
+Decisions about how to develop and choose risk management strategies are often based on pure vibes, but occasionally rigorous quantitative analyses that make use of scientific information can inform them (we will focus on these cases). These analyses involve integrating knowledge from multiple disciplines to balance competing goals (objectives) under uncertainty.
+
+In this course, you will learn a structured “bottom-up” decision analytic framework for quantitative climate risk analysis. This involves (i) defining a system of interest and what constitutes desirable outcomes; (ii) understanding and modeling the specific pathways through which climate variability and change can create risk to this system; (iii) identifying possible “levers” for risk management; (iv) quantifying the performance of proposed decisions under climate and other interacting factors; and (v) generating possible alternatives.
+You will be assigned readings for every class that cover both methods and applications, and will work collaboratively to implement key concepts through programming problem sets.
+Active class participation is required.
+
+Methods covered include scenario analysis, exploratory modeling, cost-benefit analysis, single- and multi-objective
+policy search, stochastic control, deep uncertainty, robust decision making, and equitable decision making.

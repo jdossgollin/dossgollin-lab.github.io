@@ -1,0 +1,14 @@
+---
+title: "New paper on mesoscale modeling of distributed water systems"
+categories: Publications
+date: 2023-04-23
+bibliography: ../../_bibliography/my-papers.bib
+---
+
+A paper led by Rice PhD student Xiangnan Zhou is now out in *Water Resources Research* [@zhou_mesoscale:2022].
+
+We know that decentralized water systems can be improve resilient to natural disasters and population growth, though they often require substantial energy.
+Previous work has shown the importance of carefully considering the spatial layout of these systems, but the computational cost of doing so has limited the size of the systems that can be considered.
+Here, we present a backbone algorithm for creating physically based water networks that are computationally efficient enough to be used in large-scale optimization problems, yet topologically close to the full network. 
+
+For more, see [the abstract](../../publications/article/zhou_mesoscale_2022.qmd).

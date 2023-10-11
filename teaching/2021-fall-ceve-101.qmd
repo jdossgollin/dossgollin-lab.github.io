@@ -1,0 +1,18 @@
+---
+title: Fundamentals of Civil and Environmental Engineering
+year: 2021
+semester: Fall
+coursenumber: CEVE 101
+where: Rice University
+---
+
+- **Semester:** {{< meta semester >}} {{< meta year >}}
+- **Course Number:** {{< meta coursenumber >}}
+
+## Course Description
+
+Civil and Environmental Engineers (CEVEs) engage in the planning, design, construction, operation, retrofit, demolition, and reuse of infrastructure systems that form the backbone of societies and economies. CEVEs work at the dynamic interface of the built environment, information environment, and natural environment on topics like smart cities and construction, sustainable energy and buildings, connected and automated transportation systems, resilient infrastructure, climate change mitigation and adaptation, and water management. In this course, students will explore how data science, environmental science, economic analysis, structural design, and systems thinking can be integrated to promote sustainability, resilience, and equity. Through a mix of technical lectures, topical seminars on applications and ideas of interest, and team-based projects, students will develop an understanding of the broad field of civil and environmental engineering and its applications.
+
+## More information
+
+For details, see [the course website](https://jdossgollin.github.io/F21-CEVE101/){target=_blank}.

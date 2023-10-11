@@ -1,0 +1,53 @@
+---
+title: "Multilever Flood Risk Management"
+bibliography: ../_bibliography/my-papers.bib
+
+listing:
+    id: floods-article
+    contents: 
+        - ../publications/article/doss-gollin_review_2023.qmd
+        - ../publications/article/doss-gollin_txtreme_2021.qmd
+        - ../publications/article/rozer_lossestimates_2019.qmd
+    type: grid
+    sort: "date desc"
+    categories: false
+    sort-ui: [date, author desc, title]
+    filter-ui: [date, title, author, details]
+    date-format: "YYYY"
+    page-size: 50
+    max-description-length: 400
+    grid-columns: 2
+
+image: ../_assets/img/research/cisterna-ceara.jpeg
+
+format:
+    html:
+        page-layout: full
+---
+
+:::: {.columns}
+::: {.column width="48%"}
+
+## Testbeds
+
+We are currently working by a project funded by the Texas Water Development Board to develop nonstationary rainfall frequency grids for the state of Texas.
+
+Additionally, we collaborate with hydrodynamic modelers at the [SSPEED Center](https://sspeed.rice.edu/) to study flood risks in the greater Houston region.
+
+:::
+::: {.column width="4%"}
+:::
+::: {.column width="48%"}
+
+## Collaborate!
+
+
+
+Please [reach out](../contact.qmd)!
+:::
+::::
+
+## Relevant Publications
+
+:::{#flood-article}
+:::

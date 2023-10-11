@@ -1,0 +1,12 @@
+---
+title: "Kristina Cibor"
+sortby: "Cibor, Kristina"
+position: "Graduate RA"
+started: "2021"
+ended: "2022"
+toc: false
+about:
+    id: person-profile
+    image: "../../_assets/img/people/kcibor.jpg"
+    template: jolla
+---

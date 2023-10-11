@@ -1,0 +1,28 @@
+---
+title: Environmental Data Science
+year: 2023
+semester: Fall
+coursenumber: CEVE 543
+where: Rice University
+---
+
+- **Semester:** {{< meta semester >}} {{< meta year >}}
+- **Course Number:** {{< meta coursenumber >}}
+
+## Course Description
+
+This course covers the use of tools from data science (statistics, machine learning, and programming) to model climate hazards such as floods and droughts. Through hands-on programming assignments based on state-of-the-art published research, students will learn to apply methods to real-world problems with a strong emphasis on probabilistic methods and uncertainty quantification.
+
+At the end of this class, students will:
+
+1. Write down generative or statistical models for climate hazards;
+1. Use Bayesian and maximum likelihood methods to estimate the parameters of simple statistical models (“inverse modeling”);
+1. Use simulation models (“forward modeling”) to assess the logical implications of statistical models;
+1. Understand and apply extreme value theory to estimate the probability of rare climate hazards;
+1. Critically interpret statistical analyses of environmental data applied in academic journals, government, and industry; and
+1. Understand and communicate subjective modeling choices to technical (e.g., scientist) and non-technical (e.g., policy-maker) audiences.
+
+
+## More information
+
+For details, see [the course website](https://ceve543.github.io/){target=_blank}.

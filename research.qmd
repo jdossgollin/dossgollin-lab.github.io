@@ -1,0 +1,41 @@
+---
+title: Research
+
+format: 
+  html:
+    page-layout: article
+---
+
+::: {.columns}
+::: {.column width="55%"}
+We are an inclusive and mission-oriented group addressing fundamental challenges in infrastructure resilience, risk assessment, and climate adaptation.
+Specifically, we are motivated by two related problems.
+First, how can we understand and predict weather and climate hazards?
+Second, how can we use this information to design adaptive, sustainable, equitable, and robust risk management strategies?
+:::
+::: {.column width="5%"}
+:::
+::: {.column width="40%"}
+<iframe width="100%" src="https://www.youtube.com/embed/gI2I8Cq-14g" title="Overview of Doss-Gollin Research Group (March 2023)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+:::
+:::
+
+To accomplish this, we leverage tools from Earth science (e.g., hydrology, atmospheric science), data science (e.g., graph neural nets, Bayesian extreme value models), and decision science (e.g., decision making under deep uncertainty, optimization). We apply these methods to complex problems in coastal resilience, urban flood risk management, energy reliability, and water resources.
+
+For more information, please see our [publications](publications/index.qmd).
+
+## Funding
+
+We gratefully acknowedge the support of our funders
+
+::: {layout="[8, -1, 8, -1, 8, -1, 8, -1, 8, -1, 8, -1, 8]"}
+
+[![Rice University](_assets/img/logos/rice_logo.svg)](https://rice.edu){target=_blank}
+
+[![Texas Water Development Board](_assets/img/logos/twdb.svg)](https://www.twdb.texas.gov/){target=_blank}
+
+[![National Science Foundation](_assets/img/logos/NSF.png)](https://www.nsf.gov/){target=_blank}
+
+[![100,000 Strong in the Americas](_assets/img/logos/100k-strong.jpg)](https://www.100kstrongamericas.org/){target=_blank}
+
+:::

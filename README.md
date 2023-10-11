@@ -50,5 +50,5 @@ There are a few things that many members may want to do
 ### Add yourself to the 'People' page
 
 1. Pick a user ID for yourself; we'll call it your "anchor" (James uses `jdossgollin`).
-1. Upload a picture: find a square image of yourself, preferably JPG, and copy it to `assets/img/people/<your_anchor>.jpg`.
+1. Upload a picture: find a square image of yourself, preferably JPG, and copy it to `_assets/img/people/<your_anchor>.jpg`.
 1. Open `_data/people.yaml` in your text editor. Use James's information as a template (or use someone else's) and add your own information. To leave a field blank, just delete it!

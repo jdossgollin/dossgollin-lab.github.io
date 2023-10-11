@@ -1,0 +1,85 @@
+---
+listing:
+  - id: pubs-article
+    contents: 
+        - article/*.qmd
+        - article/*.md
+    type: grid
+    sort: "date desc"
+    categories: cloud
+    sort-ui: [date, author desc, title]
+    filter-ui: [date, title, author, details]
+    date-format: "YYYY"
+    page-size: 50
+    fields: [date, title, author, image]
+  - id: pubs-conference
+    contents: 
+        - conference/*.qmd
+        - conference/*.md
+    type: table
+    sort: "date desc"
+    categories: false
+    sort-ui: [date, author desc, title]
+    filter-ui: [date, title, author, details]
+    date-format: "YYYY"
+    page-size: 50
+    fields: [date, title, author, details]
+    field-display-names: 
+        date: "Date"
+        title: "Title"
+        author: "Authors"
+        details: "Details"
+  - id: pubs-forthcoming
+    contents: 
+        - forthcoming/*.qmd
+        - forthcoming/*.md
+    type: table
+    sort: "date desc"
+    categories: false
+    sort-ui: [date, author desc, title]
+    filter-ui: [date, title, author, details]
+    date-format: "YYYY"
+    page-size: 50
+    fields: [author, title]
+  - id: pubs-other
+    contents: 
+        - other/*.qmd
+        - other/*.md
+    type: table
+    sort: "date desc"
+    categories: false
+    sort-ui: [date, author desc, title]
+    filter-ui: [date, title, author, details]
+    date-format: "YYYY"
+    page-size: 50
+
+format:
+  html:
+    page-layout: full
+    toc: false
+---
+
+# Publications
+
+:::: {.panel-tabset}
+## Articles
+
+:::{#pubs-article}
+:::
+
+## Conference Presentations
+
+:::{#pubs-conference}
+:::
+
+## Under Review
+
+:::{#pubs-forthcoming}
+:::
+
+## Other
+
+:::{#pubs-other}
+:::
+
+::::
