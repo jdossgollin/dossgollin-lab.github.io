@@ -47,7 +47,6 @@ jobs:
 
       - name: Generate Publication Files
         run: |
-          conda activate dossgollin-lab
           python bibtex_to_qmd.py
 
       - name: Publish to GitHub Pages (and render)
