@@ -13,9 +13,6 @@ permissions:
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        python-version: [3.12]
 
     # run only on upstream, not on downstream
     if: github.repository == 'dossgollin-lab/dossgollin-lab.github.io'
@@ -42,10 +39,16 @@ jobs:
         with:
           activate-environment: dossgollin-lab
           environment-file: _environment.yml
-          python-version: ${{ matrix.python-version }}
+          python-version: 3.12
+
+      - name: Conda info
+        shell: bash -el {0}
+        run: conda info
 
       - name: Generate Publication Files
-        run: python bibtex_to_qmd.py
+        run: |
+          conda activate dossgollin-lab
+          python bibtex_to_qmd.py
 
       - name: Publish to GitHub Pages (and render)
         uses: quarto-dev/quarto-actions/publish@v2
