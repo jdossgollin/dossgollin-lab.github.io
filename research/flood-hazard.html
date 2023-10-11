@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2022-11-08">
 
-<title>Doss-Gollin Lab @ Rice CEVE - Undergraduate Research Opportunity: AI for Sustainability and Resilience to Natural Disasters</title>
+<title>Doss-Gollin Lab @ Rice CEVE - Improving Representation of Flood Hazard in a Changing Climate</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,6 +30,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../_assets/img.logos/logo.ico" rel="icon">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -60,10 +62,41 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-flood-article .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
-<meta property="og:title" content="Doss-Gollin Lab @ Rice CEVE - Undergraduate Research Opportunity: AI for Sustainability and Resilience to Natural Disasters">
-<meta property="og:description" content="Part of an international collaboration with Doss-Gollin Lab, Arlei Silva (Rice CS), Instituto Federal do Ceará, and Instituto de Inovação para Tecnologia da Informação e Comunicação (Brazil).">
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-details"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-flood-article'] = new List('listing-flood-article', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<meta property="og:title" content="Doss-Gollin Lab @ Rice CEVE - Improving Representation of Flood Hazard in a Changing Climate">
+<meta property="og:image" content="https://ceve543.github.io/_assets/img/research/cisterna-ceara.jpeg">
 <meta property="og:site-name" content="Doss-Gollin Lab @ Rice CEVE">
 </head>
 
@@ -83,18 +116,18 @@ ul.task-list li input[type="checkbox"] {
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../people/index.html" rel="" target="">
+ <span class="menu-text">People</span></a>
+  </li>  
   <li class="nav-item">
     <a class="nav-link" href="../publications/index.html" rel="" target="">
  <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../projects/index.html" rel="" target="">
- <span class="menu-text">Projects</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../people.html" rel="" target="">
- <span class="menu-text">People</span></a>
+    <a class="nav-link" href="../research.html" rel="" target="">
+ <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../teaching.html" rel="" target="">
@@ -108,31 +141,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../contact.html" rel="" target="">
  <span class="menu-text">Contact</span></a>
   </li>  
-</ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="https://dossgollin-lab.github.io/lab-guide/" rel="" target="">
  <span class="menu-text">Lab Guide</span></a>
   </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-links" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
- <span class="menu-text">Links</span>
-    </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-links">    
-        <li>
-    <a class="dropdown-item" href="https://sspeed.rice.edu/" rel="" target="">
- <span class="dropdown-text">SSPEED Center</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="https://ceve.rice.edu/" rel="" target="">
- <span class="dropdown-text">Rice CEVE</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="https://trei.rice.edu/" rel="" target="">
- <span class="dropdown-text">Rice Environmental Institute</span></a>
-  </li>  
-    </ul>
-  </li>
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/dossgollin-lab" rel="" target=""><i class="bi bi-github" role="img">
 </i> 
@@ -146,38 +158,34 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
-    
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Contents</h2>
+   
+  <ul>
+  <li><a href="#relevant-publications" id="toc-relevant-publications" class="nav-link active" data-scroll-target="#relevant-publications">Relevant Publications</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://www.github.com/ceve543/ceve543.github.io/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
 </nav>
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page-right" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Undergraduate Research Opportunity: AI for Sustainability and Resilience to Natural Disasters</h1>
-<p class="subtitle lead">Part of an international collaboration with Doss-Gollin Lab, Arlei Silva (Rice CS), Instituto Federal do Ceará, and Instituto de Inovação para Tecnologia da Informação e Comunicação (Brazil).</p>
-  <div class="quarto-categories">
-    <div class="quarto-category">Opportunities</div>
-  </div>
-  </div>
+<h1 class="title">Improving Representation of Flood Hazard in a Changing Climate</h1>
+</div>
 
 
 
 <div class="quarto-title-meta">
 
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">November 8, 2022</p>
-    </div>
-  </div>
   
     
   </div>
@@ -185,9 +193,132 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<embed src="../_assets/pdf/2022-11-08-ifce-rice-senai.pdf" width="100%" height="400" type="application/pdf">
+<div class="columns">
+<div class="column" style="width:48%;">
+<section id="testbeds" class="level2">
+<h2 class="anchored" data-anchor-id="testbeds">Testbeds</h2>
+<p>We are currently working by a project funded by the Texas Water Development Board to develop nonstationary rainfall frequency grids for the state of Texas.</p>
+<p>Additionally, we collaborate with hydrodynamic modelers at the <a href="https://sspeed.rice.edu/">SSPEED Center</a> to study flood risks in the greater Houston region.</p>
+</section>
+</div><div class="column" style="width:4%;">
+
+</div><div class="column" style="width:48%;">
+<section id="collaborate" class="level2">
+<h2 class="anchored" data-anchor-id="collaborate">Collaborate!</h2>
+<p>Please <a href="../contact.html">reach out</a>!</p>
+</section>
+</div>
+</div>
+<section id="relevant-publications" class="level2">
+<h2 class="anchored" data-anchor-id="relevant-publications">Relevant Publications</h2>
+<div id="listing-flood-article" class="quarto-listing quarto-listing-container-grid">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-flood-article-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-flood-article'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<div class="list grid quarto-listing-cols-2">
+<div class="g-col-1" data-index="0" data-categories="Climate Dynamics ↔️ Floods" data-listing-date-sort="1678942800000" data-listing-file-modified-sort="1696994975499" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../publications/article/amonkar_compound_2023.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../_assets/img/pubs/amonkar_compound_2023.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Compound Climate Risk: Diagnosing Clustered Regional Flooding at Inter-Annual and Longer Time Scales
+</h5>
+<div class="card-text listing-description">
+The potential for extreme climate events to cluster in space and time has driven increased interest in understanding and predicting compound climate risks. Through a case study on floods in the Ohio River Basin, we demonstrated that low-frequency climate variability could drive spatial and temporal clustering of the risk of regional climate extremes. Long records of annual maximum streamflow…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Yash Amonkar, James Doss-Gollin, Upmanu Lall
+</div>
+<div class="listing-date">
+2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="Climate Dynamics ↔️ Floods" data-listing-date-sort="1535778000000" data-listing-file-modified-sort="1696994979882" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<a href="../publications/article/doss-gollin_pyfloods_2018.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../_assets/img/pubs/doss-gollin_pyfloods_2018.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Heavy Rainfall in Paraguay During the 2015-2016 Austral Summer: Causes and Sub-Seasonal-to-Seasonal Predictive Skill
+</h5>
+<div class="card-text listing-description">
+During the austral summer 2015/16, severe flooding displaced over 170 000 people on the Paraguay River system in Paraguay, Argentina, and southern Brazil. These floods were driven by repeated heavy rainfall events in the lower Paraguay River basin. Alternating sequences of enhanced moisture inflow from the South American low-level jet and local convergence associated with baroclinic systems were…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+James Doss-Gollin, Ángel G Muñoz, Simon J Mason, Max Pastén
+</div>
+<div class="listing-date">
+2018
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="Climate Dynamics ↔️ Floods,Nonstationary Statistics" data-listing-date-sort="1514786400000" data-listing-file-modified-sort="1696994982808" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<a href="../publications/article/farnham_orbrep_2018.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../_assets/img/pubs/farnham_orbrep_2018.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Regional Extreme Precipitation Events: Robust Inference From Credibly Simulated GCM Variables
+</h5>
+<div class="card-text listing-description">
+General circulation models (GCMs) have been demonstrated to produce estimates of precipitation, including the frequency of extreme precipitation, with substantial bias and uncertainty relative to their representation of other fields. Thus, while theory predicts changes in the hydrologic cycle under anthropogenic warming, there is generally low confidence in future projections of extreme…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+David J Farnham, James Doss-Gollin, Upmanu Lall
+</div>
+<div class="listing-date">
+2018
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
 
 
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -486,6 +617,20 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp("https:\/\/ceve543\.github\.io\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
 });
 </script>
 </div> <!-- /content -->
@@ -494,7 +639,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">View the source on <a href="https://www.github.com/dossgollin-lab/dossgollin-lab.github.io"> GitHub</a></div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://www.github.com/ceve543/ceve543.github.io/issues/new" class="toc-action">Report an issue</a></p></div></div></div>
+    </div>
     <div class="nav-footer-right">
       &nbsp;
     </div>

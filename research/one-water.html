@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Doss-Gollin Lab @ Rice CEVE - Group Members</title>
+<title>Doss-Gollin Lab @ Rice CEVE - Leveraging Modular, Adaptive, and Decentralized Technologies for Urban Water Security in a Changing Climate</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +23,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../_assets/img.logos/logo.ico" rel="icon">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -64,76 +65,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-grad-students .list');
+    const listingTargetEl = window.document.querySelector('#listing-one-water-article .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-position','listing-started',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-details"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-grad-students'] = new List('listing-grad-students', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-pi .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-pi'] = new List('listing-pi', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-alumni .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-position','listing-started','listing-ended',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-title","listing-position","listing-started","listing-ended"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-alumni'] = new List('listing-alumni', options);
+    window['quarto-listings']['listing-one-water-article'] = new List('listing-one-water-article', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -150,7 +95,9 @@ ul.task-list li input[type="checkbox"] {
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<meta property="og:title" content="Doss-Gollin Lab @ Rice CEVE - Group Members">
+<meta property="og:title" content="Doss-Gollin Lab @ Rice CEVE - Leveraging Modular, Adaptive, and Decentralized Technologies for Urban Water Security in a Changing Climate">
+<meta property="og:description" content="">
+<meta property="og:image" content="https://ceve543.github.io/_assets/img/research/cisterna-ceara.jpeg">
 <meta property="og:site-name" content="Doss-Gollin Lab @ Rice CEVE">
 </head>
 
@@ -161,7 +108,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Doss-Gollin Lab @ Rice CEVE</span>
     </a>
   </div>
@@ -170,56 +117,35 @@ ul.task-list li input[type="checkbox"] {
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./publications/index.html" rel="" target="">
- <span class="menu-text">Publications</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./projects/index.html" rel="" target="">
- <span class="menu-text">Projects</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="./people.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="../people/index.html" rel="" target="">
  <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./teaching.html" rel="" target="">
+    <a class="nav-link" href="../publications/index.html" rel="" target="">
+ <span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../research.html" rel="" target="">
+ <span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../teaching.html" rel="" target="">
  <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./joinus.html" rel="" target="">
+    <a class="nav-link" href="../joinus.html" rel="" target="">
  <span class="menu-text">Opportunities</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contact.html" rel="" target="">
+    <a class="nav-link" href="../contact.html" rel="" target="">
  <span class="menu-text">Contact</span></a>
   </li>  
-</ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="https://dossgollin-lab.github.io/lab-guide/" rel="" target="">
  <span class="menu-text">Lab Guide</span></a>
   </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-links" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
- <span class="menu-text">Links</span>
-    </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-links">    
-        <li>
-    <a class="dropdown-item" href="https://sspeed.rice.edu/" rel="" target="">
- <span class="dropdown-text">SSPEED Center</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="https://ceve.rice.edu/" rel="" target="">
- <span class="dropdown-text">Rice CEVE</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="https://trei.rice.edu/" rel="" target="">
- <span class="dropdown-text">Rice Environmental Institute</span></a>
-  </li>  
-    </ul>
-  </li>
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/dossgollin-lab" rel="" target=""><i class="bi bi-github" role="img">
 </i> 
@@ -233,29 +159,27 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Contents</h2>
    
   <ul>
-  <li><a href="#pi" id="toc-pi" class="nav-link active" data-scroll-target="#pi">PI</a></li>
-  <li><a href="#graduate-students" id="toc-graduate-students" class="nav-link" data-scroll-target="#graduate-students">Graduate Students</a></li>
-  <li><a href="#alumni" id="toc-alumni" class="nav-link" data-scroll-target="#alumni">Alumni</a></li>
+  <li><a href="#relevant-publications" id="toc-relevant-publications" class="nav-link active" data-scroll-target="#relevant-publications">Relevant Publications</a></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://www.github.com/ceve543/ceve543.github.io/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
 </nav>
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page-right" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Group Members</h1>
+<h1 class="title">Leveraging Modular, Adaptive, and Decentralized Technologies for Urban Water Security in a Changing Climate</h1>
 </div>
 
 
@@ -270,159 +194,46 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="pi" class="level2">
-<h2 class="anchored" data-anchor-id="pi">PI</h2>
-<div id="listing-pi" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1696908328977" data-listing-reading-time-sort="1">
-<a href="./people/pi/james-doss-gollin.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top"><img src="_assets/img/people/jdossgollin.jpeg" style="height: 225px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Dr.&nbsp;James Doss-Gollin
-</h5>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
+<p>Aging infrastructure, increasing droughts, groundwater depletion, and contamination of water supplies challenge urban water security. While centralized approaches to water infrastructure have been instrumental in delivering reliable drinking water to many, many gaps and limitations remain.</p>
+<p>Recent research suggests a promising shift towards <strong>Modular, Adaptive, and Decentralized (MAD)</strong> water systems. These systems, which can range from point-of-use treatments in households to those serving clusters of households, offer the potential to reduce water transport costs, enhance resilience against natural hazards, tailor treatments to specific local contaminants, and adapt flexibly to future demographic and technological shifts. However, the success of MAD water systems is not just about technology; it’s deeply intertwined with socio-political factors, such as community trust and perceptions of water quality.</p>
+<p>To address these multifaceted challenges, our research focuses on:</p>
+<ol type="1">
+<li>Developing multiscale models that bridge the gap between granular, localized data and broader, system-wide insights.</li>
+<li>Leveraging optimization techniques to identify the most efficient and robust configurations for urban water systems.</li>
+<li>Incorporating decision-making strategies that account for deep uncertainties including climate risks, future demographic shifts, and technological innovation.</li>
+</ol>
+<div class="columns">
+<div class="column" style="width:48%;">
+<section id="testbeds" class="level2">
+<h2 class="anchored" data-anchor-id="testbeds">Testbeds</h2>
+<p>Through an NSF funded project with collaborators at the University of Texas at El Paso, Texas A&amp;M University, and George Washington University, we are working with residents of colonias in <strong>El Paso County, Texas</strong>, to codevelop an iterative, collaborative framework to stress test strategies for water quality monitoring in decentralized water treatment systems. Many residents of these communities lack access to safe drinking water, and efforts to improve water security are hampered by financial constraints, socio-political marginalization of residents, and lack of surface water sources.</p>
 </section>
-<section id="graduate-students" class="level2">
-<h2 class="anchored" data-anchor-id="graduate-students">Graduate Students</h2>
-<div id="listing-grad-students" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1696871188937" data-listing-reading-time-sort="1">
-<a href="./people/grad-students/true-furrh.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top"><img src="_assets/img/people/tfurrh.png" style="height: 225px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-True Furrh
-</h5>
+</div><div class="column" style="width:4%;">
 
-<table class="card-other-values">
-<tbody><tr>
-<td>
-Position
-</td>
-<td class="position">
-Ph.D.&nbsp;Student
-</td>
-</tr>
-<tr>
-<td>
-Started
-</td>
-<td class="started">
-Spring 2022
-</td>
-</tr>
-
-</tbody></table>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1696870420803" data-listing-reading-time-sort="1">
-<a href="./people/grad-students/yuchen-lu.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top"><img src="_assets/img/people/yuchenlu.jpg" style="height: 225px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Yuchen Lu
-</h5>
-
-<table class="card-other-values">
-<tbody><tr>
-<td>
-Position
-</td>
-<td class="position">
-Ph.D.&nbsp;Student
-</td>
-</tr>
-<tr>
-<td>
-Started
-</td>
-<td class="started">
-Fall 2021
-</td>
-</tr>
-
-</tbody></table>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1696871210332" data-listing-reading-time-sort="1">
-<a href="./people/grad-students/kelsey-murphy.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top"><img src="_assets/img/people/kmurphy.jpg" style="height: 225px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Kelsey Murphy
-</h5>
-
-<table class="card-other-values">
-<tbody><tr>
-<td>
-Position
-</td>
-<td class="position">
-Coadvised Ph.D.&nbsp;Student
-</td>
-</tr>
-<tr>
-<td>
-Started
-</td>
-<td class="started">
-Fall 2021
-</td>
-</tr>
-
-</tbody></table>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
+</div><div class="column" style="width:48%;">
+<section id="collaborate" class="level2">
+<h2 class="anchored" data-anchor-id="collaborate">Collaborate!</h2>
+<p>We welcome collaboration from researchers, practitioners, and community members passionate about water security and resilience. If you’re interested in exploring combinations of centralized and MAD Water approaches to ensure a sustainable and resilient water future, we invite you to <a href="../contact.html">reach out</a>!</p>
 </section>
-<section id="alumni" class="level2">
-<h2 class="anchored" data-anchor-id="alumni">Alumni</h2>
-
-
-
-</section>
-
-<div class="quarto-listing quarto-listing-container-table" id="listing-alumni">
+</div>
+</div>
+<section id="relevant-publications" class="level2">
+<h2 class="anchored" data-anchor-id="relevant-publications">Relevant Publications</h2>
+<div id="listing-one-water-article" class="quarto-listing quarto-listing-container-grid">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
      <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-alumni-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-alumni'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+     <select id="listing-one-water-article-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-one-water-article'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
        <option value="" disabled="" selected="" hidden="">Order By</option>
        <option value="index" data-direction="asc">Default</option>
-         <option value="listing-title-sort" data-direction="asc">
-          Name
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
         </option>
-         <option value="listing-position" data-direction="asc">
-          Role
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
         </option>
-         <option value="listing-started" data-direction="asc">
-          Started
-        </option>
-         <option value="listing-ended" data-direction="asc">
-          Ended
+         <option value="listing-title" data-direction="asc">
+          Title
         </option>
      </select>
   </div>
@@ -431,102 +242,93 @@ No matching items
       <input type="text" class="search form-control" placeholder="Filter">
     </div>
 </div>
-
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Name</a>
-</th>
-<th>
-<a class="sort" data-sort="listing-position" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Role</a>
-</th>
-<th>
-<a class="sort" data-sort="listing-started" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Started</a>
-</th>
-<th>
-<a class="sort" data-sort="listing-ended" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Ended</a>
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-listing-file-modified-sort="1696871450050" data-listing-reading-time-sort="1" data-listing-title-sort="Kyle Olcott" data-listing-filename-sort="kyle-olcott.qmd">
-<td>
-<a href="./people/alumni/kyle-olcott.html" class="title listing-title">Kyle Olcott</a>
-</td>
-<td>
-<span class="listing-position">Undergraduate RA</span>
-</td>
-<td>
-<span class="listing-started">2022</span>
-</td>
-<td>
-<span class="listing-ended">2023</span>
-</td>
-</tr>
-<tr data-index="1" data-listing-file-modified-sort="1696871206096" data-listing-reading-time-sort="1" data-listing-title-sort="Kristina Cibor" data-listing-filename-sort="kristina-cibor.qmd">
-<td>
-<a href="./people/alumni/kristina-cibor.html" class="title listing-title">Kristina Cibor</a>
-</td>
-<td>
-<span class="listing-position">Graduate RA</span>
-</td>
-<td>
-<span class="listing-started">2021</span>
-</td>
-<td>
-<span class="listing-ended">2022</span>
-</td>
-</tr>
-<tr data-index="2" data-listing-file-modified-sort="1696871304531" data-listing-reading-time-sort="1" data-listing-title-sort="Alyssa Graham" data-listing-filename-sort="alyssa-graham.qmd">
-<td>
-<a href="./people/alumni/alyssa-graham.html" class="title listing-title">Alyssa Graham</a>
-</td>
-<td>
-<span class="listing-position">Graduate RA</span>
-</td>
-<td>
-<span class="listing-started">2021</span>
-</td>
-<td>
-<span class="listing-ended">2022</span>
-</td>
-</tr>
-<tr data-index="3" data-listing-file-modified-sort="1696871357786" data-listing-reading-time-sort="1" data-listing-title-sort="Sophia Prieto" data-listing-filename-sort="sophia-prieto.qmd">
-<td>
-<a href="./people/alumni/sophia-prieto.html" class="title listing-title">Sophia Prieto</a>
-</td>
-<td>
-<span class="listing-position">Undergraduate RA</span>
-</td>
-<td>
-<span class="listing-started">2021</span>
-</td>
-<td>
-<span class="listing-ended">2022</span>
-</td>
-</tr>
-<tr data-index="4" data-listing-file-modified-sort="1696871200538" data-listing-reading-time-sort="1" data-listing-title-sort="John Cook" data-listing-filename-sort="john-cook.qmd">
-<td>
-<a href="./people/alumni/john-cook.html" class="title listing-title">John Cook</a>
-</td>
-<td>
-<span class="listing-position">Undergraduate RA</span>
-</td>
-<td>
-<span class="listing-started">2021</span>
-</td>
-<td>
-<span class="listing-ended">2021</span>
-</td>
-</tr>
-</tbody>
-
-</table>
+<div class="list grid quarto-listing-cols-2">
+<div class="g-col-1" data-index="0" data-categories="MAD Water" data-listing-date-sort="1689138000000" data-listing-file-modified-sort="1696994796156" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../publications/article/wutich_madwater_2023.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../_assets/img/pubs/wutich_madwater_2023.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+MAD Water: Integrating Modular, Adaptive, and Decentralized Approaches for Water Security in the Climate Change Era
+</h5>
+<div class="card-text listing-description">
+Centralized water infrastructure has, over the last century, brought safe and reliable drinking water to much of the world. But climate change, combined with aging and underfunded infrastructure, is increasingly testing the limits of—and reversing gains made by—this approach. To address these growing strains and gaps, we must assess and advance alternatives to centralized water provision and…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Amber Wutich, Patrick Thomson, Wendy Jepson, Justin Stoler, Alicia D. Cooperman, James Doss-Gollin, Anish Jantrania, Alex Mayer, Jami Nelson-Nuñez, W. Shane Walker, Paul Westerhoff
+</div>
+<div class="listing-date">
+2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="MAD Water,Multiscale Models" data-listing-date-sort="1682312400000" data-listing-file-modified-sort="1696994801286" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<a href="../publications/article/zhou_mesoscale_2022.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../_assets/img/pubs/zhou_mesoscale_2022.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Mesoscale Modeling of Distributed Water Systems Enables Policy Search
+</h5>
+<div class="card-text listing-description">
+It is widely acknowledged that distributed water systems (DWSs), which integrate distributed water supply and treatment with existing centralized infrastructure, can mitigate challenges to water security from extreme events, climate change, and aged infrastructure. However, it is unclear which are beneficial DWS configurations, i.e., where and at what scale to implement distributed water supply.…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Xiangnan Zhou, Leonardo Duenas-Osorio, James Doss-Gollin, Lu Liu, Lauren Stadler, Qilin Li
+</div>
+<div class="listing-date">
+2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="MAD Water" data-listing-date-sort="1448949600000" data-listing-file-modified-sort="1696994807117" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../publications/article/doss-gollin_rwh_2015.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../_assets/img/pubs/doss-gollin_rwh_2015.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Analytic Modeling of Rainwater Harvesting in the Brazilian Semiarid Northeast
+</h5>
+<div class="card-text listing-description">
+During the past two decades, government efforts to provide water access to rural communities in Brazil’s semiarid Northeast region have focused on building systems to capture and store rainwater, most importantly through the One Million Cisterns Program (P1MC). This article presents an analytic model based on daily precipitation data to evaluate the sustainability of rainwater capture.…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+James Doss-Gollin, Francisco de Assis de Souza Filho, Francisco Osny Enéas da Silva
+</div>
+<div class="listing-date">
+2015
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div></main> <!-- /main -->
+</div>
+
+
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -823,6 +625,20 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp("https:\/\/ceve543\.github\.io\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
 });
 </script>
 </div> <!-- /content -->

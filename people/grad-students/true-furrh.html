@@ -30,6 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
+<link href="../../_assets/img.logos/logo.ico" rel="icon">
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -83,18 +84,18 @@ ul.task-list li input[type="checkbox"] {
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../people/index.html" rel="" target="">
+ <span class="menu-text">People</span></a>
+  </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../publications/index.html" rel="" target="">
  <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../projects/index.html" rel="" target="">
- <span class="menu-text">Projects</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../people.html" rel="" target="">
- <span class="menu-text">People</span></a>
+    <a class="nav-link" href="../../research.html" rel="" target="">
+ <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../teaching.html" rel="" target="">
@@ -108,31 +109,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../../contact.html" rel="" target="">
  <span class="menu-text">Contact</span></a>
   </li>  
-</ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="https://dossgollin-lab.github.io/lab-guide/" rel="" target="">
  <span class="menu-text">Lab Guide</span></a>
   </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-links" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
- <span class="menu-text">Links</span>
-    </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-links">    
-        <li>
-    <a class="dropdown-item" href="https://sspeed.rice.edu/" rel="" target="">
- <span class="dropdown-text">SSPEED Center</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="https://ceve.rice.edu/" rel="" target="">
- <span class="dropdown-text">Rice CEVE</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="https://trei.rice.edu/" rel="" target="">
- <span class="dropdown-text">Rice Environmental Institute</span></a>
-  </li>  
-    </ul>
-  </li>
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/dossgollin-lab" rel="" target=""><i class="bi bi-github" role="img">
 </i> 
@@ -477,6 +457,20 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp("https:\/\/ceve543\.github\.io\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
 });
 </script>
 </div> <!-- /content -->
