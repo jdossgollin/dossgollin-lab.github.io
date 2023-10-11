@@ -6,12 +6,12 @@ listing:
         - article/*.md
     type: grid
     sort: "date desc"
-    categories: false
+    categories: cloud
     sort-ui: [date, author desc, title]
     filter-ui: [date, title, author, details]
     date-format: "YYYY"
     page-size: 50
-    max-description-length: 100
+    fields: [date, title, author, image]
   - id: pubs-conference
     contents: 
         - conference/*.qmd
@@ -53,9 +53,10 @@ listing:
     date-format: "YYYY"
     page-size: 50
 
-sidebar: false
-page-layout: full
-title-block-banner: false
+format:
+  html:
+    page-layout: full
+    toc: false
 ---
 
 # Publications

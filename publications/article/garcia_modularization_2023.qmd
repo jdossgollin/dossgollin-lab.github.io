@@ -9,6 +9,9 @@ date: 2023-03-20
 details: "Engineering Applications of Computational Fluid Mechanics"
 image: ../../_assets/img/pubs/garcia_modularization_2023.jpg
 
+categories:
+  - Urban Flood Modeling
+
 about:
   template: solana
   links:

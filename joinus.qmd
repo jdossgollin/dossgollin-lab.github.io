@@ -9,53 +9,62 @@ format:
 We are an inclusive group driven by our intellectual curiosity and sense of purpose.
 Join us to use Earth science, decision science, data science, and engineering to address critical societal challenges!
 
-::: {layout-ncol=3}
 
+:::: {.grid}
+::: {.g-col-4}
 ::: {.callout-tip}
 ## Learn more 
 Read our [lab guide](https://dossgollin-lab.github.io/lab-guide/){target=_blank} to learn more about our expectations and culture.
 :::
+:::
 
+::: {.g-col-4}
 ::: {.callout-important}
 ## You are welcome! 
 Members of historically excluded groups groups and first-generation students are particularly encouraged to apply.
 :::
+:::
 
+::: {.g-col-4}
 ::: {.callout-warning}
 ## Policy
 We do not hire unpaid interns, except for academic credit. 
 :::
 :::
+::::
 
-::: {.columns}
-::: {.column width="30%"}
+:::: {.grid}
+::: {.g-col-4}
 ### Undergraduates
 
 There are no current calls but there is support for motivated undergraduates to work for pay or credit.
-
-#### How to apply
-
-Email James a 1-2 page research statement describing the project you would like to carry out.
 :::
-::: {.column width="5%"}
-:::
-::: {.column width="30%"}
+::: {.g-col-4}
 ### Graduate Students
 
 There are funded positions available for competitive Ph.D. applicants.
+:::
+::: {.g-col-4}
+### Postdocs
 
+We are not actively recruiting a postdoc, but anticipate recruiting in the medium future.
+:::
+::::
+
+:::: {.grid}
+::: {.g-col-4}
+#### How to apply
+
+Email James a 1-2 page research statement describing the project you would like to carry out.
+
+:::
+::: {.g-col-4}
 #### How to apply
 
 Graduate admissions are handled through a formal application to the department, but you are encouraged to reach out if you're interested in working with us.
 See the lab guide's [instructions for prospective graduate students](https://dossgollin-lab.github.io/lab-guide/admissions/gradadmissions/){target=_blank}.
 :::
-::: {.column width="5%"}
-:::
-::: {.column width="30%"}
-### Postdocs
-
-We are not actively recruiting a postdoc, but anticipate recruiting in the medium future.
-
+::: {.g-col-4}
 #### How to apply
 
 If you're interested, please email a CV and 2-3 page research statement to James.
@@ -65,5 +74,5 @@ Bayesian modeling; spatiotemporal statistics; computer vision; surrogate modelin
 
 If you're not sure whether this describes you, email James -- be aware that studies show that researchers from historically excluded groups systematically underestimate their abilities, so please don't undersell yourself! 
 :::
+::::
 
-:::

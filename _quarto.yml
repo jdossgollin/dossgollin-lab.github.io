@@ -11,6 +11,11 @@ website:
   repo-url: https://www.github.com/ceve543/ceve543.github.io
   repo-actions: [issue]
   open-graph: true
+  favicon: _assets/img.logos/logo.ico
+
+  search:
+      location: navbar
+      type: overlay
 
   page-footer:
     left: |

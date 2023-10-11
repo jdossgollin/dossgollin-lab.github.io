@@ -11,6 +11,10 @@ date: 2023-04-24
 details: "Water Resources Research"
 image: ../../_assets/img/pubs/zhou_mesoscale_2022.jpg
 
+categories:
+  - MAD Water
+  - Multiscale Models
+
 about:
   template: solana
   links:

@@ -9,6 +9,9 @@ date: 2018-09-01
 details: "Journal of Climate"
 image: ../../_assets/img/pubs/doss-gollin_pyfloods_2018.jpg
 
+categories:
+  - Climate Dynamics ↔️ Floods
+
 about:
   template: solana
   links:

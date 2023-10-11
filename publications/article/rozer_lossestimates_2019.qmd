@@ -13,6 +13,9 @@ date: 2019-01-01
 details: "Earth's Future"
 image: ../../_assets/img/pubs/rozer_lossestimates_2019.jpg
 
+categories:
+  - Multilever Flood Risk Management
+
 about:
   template: solana
   links:

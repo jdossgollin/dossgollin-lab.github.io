@@ -1,0 +1,61 @@
+---
+title: "Climate Impacts on Electricity Systems"
+bibliography: ../_bibliography/my-papers.bib
+
+listing:
+    id: resilience-article
+    contents: 
+        - ../publications/article/doss-gollin_review_2023.qmd
+        - ../publications/article/doss-gollin_txtreme_2021.qmd
+    type: grid
+    sort: "date desc"
+    categories: false
+    sort-ui: [date, author desc, title]
+    filter-ui: [date, title, author, details]
+    date-format: "YYYY"
+    page-size: 50
+    max-description-length: 400
+    grid-columns: 2
+
+image: ../_assets/img/research/cisterna-ceara.jpeg
+
+format:
+    html:
+        page-layout: full
+---
+
+Electricity systems are increasingly exposed to climate risks.
+The adoption of renewable energy sources and electrification shift the reponse of electricity systems to weather conditions, while global climate change alters the likelihood and behavior of these weather systems.
+Consequently, developing methods to model future vulnerabilities becomes crucial.
+
+Our research focuses on:
+
+1. Simulating climate hazards, including extreme temperatures and severe weather events, to understand their impacts on electricity systems.
+1. Integrating these simulations into robust long-term planning to ensure electricity system resilience.
+1. Analyzing historical temperature extremes to inform future electricity demand projections, especially during severe weather events.
+1. Exploring the potential of renewable energy sources, such as solar and wind, to enhance system resilience during extreme events.
+
+:::: {.columns}
+::: {.column width="48%"}
+
+## Case Studies
+
+Many of our studies use the region served by the **Electricity Reliability Council of Texas (ERCOT)** as a testbed. ERCOT operates a large, isolated grid with significant wind and solar power contributions. It's particularly vulnerable to extreme weather events, including heatwaves and winter storms, making it an ideal region for our research.
+
+:::
+::: {.column width="4%"}
+:::
+::: {.column width="48%"}
+
+## Collaborate!
+
+We invite collaboration from researchers, policymakers, and industry experts focused on enhancing electricity system resilience in the face of climate risks. If you're keen on understanding the challenges and solutions for long-term electricity system planning, we encourage you to [reach out](../contact.qmd) and join our efforts.
+
+:::
+::::
+
+
+## Relevant Publications
+
+:::{#resilience-article}
+:::

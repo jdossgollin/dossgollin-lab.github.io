@@ -9,6 +9,10 @@ date: 2019-06-07
 details: "Earth's Future"
 image: ../../_assets/img/pubs/doss-gollin_robustadaptation_2019.jpg
 
+categories:
+  - Nonstationary Statistics
+  - Decision Making under Uncertainty
+
 about:
   template: solana
   links:

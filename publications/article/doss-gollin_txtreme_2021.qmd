@@ -9,6 +9,9 @@ date: 2021-06-08
 details: "Environmental Research Letters"
 image: ../../_assets/img/pubs/doss-gollin_txtreme_2021.jpg
 
+categories:
+  - Climate Risks to Electricity Systems
+
 about:
   template: solana
   links:

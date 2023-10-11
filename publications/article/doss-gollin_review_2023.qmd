@@ -9,6 +9,9 @@ date: 2023-08-16
 details: "Current Sustainable/Renewable Energy Reports"
 image: ../../_assets/img/pubs/doss-gollin_review_2023.png
 
+categories:
+  - Climate Risks to Electricity Systems
+
 about:
   template: solana
   links:

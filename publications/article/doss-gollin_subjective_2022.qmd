@@ -7,6 +7,10 @@ date: 2023-01-03
 details: "Earth's Future"
 image: ../../_assets/img/pubs/doss-gollin_subjective_2022.jpg
 
+categories:
+  - Multilever Flood Risk Management
+  - Decision Making under Uncertainty
+
 about:
   template: solana
   links:

@@ -43,3 +43,19 @@ Houston, Texas 77005<br />
       tabindex="0"></iframe>
 ::::
 :::::
+
+### Funding
+
+We gratefully acknowedge the support of our funders
+
+::: {layout="[8, -1, 8, -1, 8, -1, 8, -1, 8, -1, 8, -1, 8]"}
+
+[![Rice University](_assets/img/logos/rice_logo.svg)](https://rice.edu){target=_blank}
+
+[![Texas Water Development Board](_assets/img/logos/twdb.svg)](https://www.twdb.texas.gov/){target=_blank}
+
+[![National Science Foundation](_assets/img/logos/NSF.png)](https://www.nsf.gov/){target=_blank}
+
+[![100,000 Strong in the Americas](_assets/img/logos/100k-strong.jpg)](https://www.100kstrongamericas.org/){target=_blank}
+
+:::

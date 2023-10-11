@@ -1,0 +1,65 @@
+---
+title: "Leveraging Modular, Adaptive, and Decentralized Technologies for Urban Water Security in a Changing Climate"
+bibliography: ../_bibliography/my-papers.bib
+
+listing:
+    id: one-water-article
+    contents: 
+        - ../publications/article/wutich_madwater_2023.qmd
+        - ../publications/article/zhou_mesoscale_2022.qmd
+        - ../publications/article/doss-gollin_rwh_2015.qmd
+    type: grid
+    sort: "date desc"
+    categories: false
+    sort-ui: [date, author desc, title]
+    filter-ui: [date, title, author, details]
+    date-format: "YYYY"
+    page-size: 50
+    max-description-length: 400
+    grid-columns: 2
+
+image: ../_assets/img/research/cisterna-ceara.jpeg
+
+format:
+    html:
+        page-layout: full
+---
+
+Aging infrastructure, increasing droughts, groundwater depletion, and contamination of water supplies challenge urban water security.
+While centralized approaches to water infrastructure have been instrumental in delivering reliable drinking water to many, many gaps and limitations remain.
+
+Recent research suggests a promising shift towards **Modular, Adaptive, and Decentralized (MAD)** water systems.
+These systems, which can range from point-of-use treatments in households to those serving clusters of households, offer the potential to reduce water transport costs, enhance resilience against natural hazards, tailor treatments to specific local contaminants, and adapt flexibly to future demographic and technological shifts.
+However, the success of MAD water systems is not just about technology; it's deeply intertwined with socio-political factors, such as community trust and perceptions of water quality.
+
+To address these multifaceted challenges, our research focuses on:
+
+
+1. Developing multiscale models that bridge the gap between granular, localized data and broader, system-wide insights.
+1. Leveraging optimization techniques to identify the most efficient and robust configurations for urban water systems.
+1. Incorporating decision-making strategies that account for deep uncertainties including climate risks, future demographic shifts, and technological innovation.
+
+:::: {.columns}
+::: {.column width="48%"}
+
+## Testbeds
+
+Through an NSF funded project with collaborators at the University of Texas at El Paso, Texas A&M University, and George Washington University, we are working with residents of colonias in **El Paso County, Texas**, to codevelop an iterative, collaborative framework to stress test strategies for water quality monitoring in decentralized water treatment systems.
+Many residents of these communities lack access to safe drinking water, and efforts to improve water security are hampered by financial constraints, socio-political marginalization of residents, and lack of surface water sources.
+
+:::
+::: {.column width="4%"}
+:::
+::: {.column width="48%"}
+
+## Collaborate!
+
+We welcome collaboration from researchers, practitioners, and community members passionate about water security and resilience.
+If you're interested in exploring combinations of centralized and MAD Water approaches to ensure a sustainable and resilient water future, we invite you to [reach out](../contact.qmd)!
+:::
+::::
+
+## Relevant Publications
+
+:::{#one-water-article}
+:::

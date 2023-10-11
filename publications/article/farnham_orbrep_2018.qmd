@@ -8,6 +8,10 @@ date: 2018-01-01
 details: "Water Resources Research"
 image: ../../_assets/img/pubs/farnham_orbrep_2018.jpg
 
+categories:
+  - Climate Dynamics ↔️ Floods
+  - Nonstationary Statistics
+
 about:
   template: solana
   links:
