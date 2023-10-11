@@ -35,4 +35,4 @@ node_modules
 
 /.luarc.json
 
-research/*/*.qmd
+publications/*/*.qmd
