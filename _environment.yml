@@ -3,7 +3,9 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - bibtexparser
   - black
   - mypy
   - titlecase
+  - pip
+  - pip:
+      - bibtexparser
