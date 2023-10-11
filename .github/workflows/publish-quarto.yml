@@ -27,7 +27,7 @@ jobs:
       - name: Update bibliography
         run: |
           cd _bibliography
-          git branch -u origin/main main
+          git branch -u origin/master master
           cd ..
           git submodule update --remote --recursive
 
