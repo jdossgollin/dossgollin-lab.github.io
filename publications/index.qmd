@@ -6,7 +6,7 @@ listing:
         - article/*.md
     type: grid
     sort: "date desc"
-    categories: cloud
+    categories: false
     sort-ui: [date, author desc, title]
     filter-ui: [date, title, author, details]
     date-format: "YYYY"

@@ -1,7 +1,6 @@
 # OS X
 .DS_Store
 
-
 # Jekyll build
 /_site/
 .jekyll-metadata
@@ -35,3 +34,5 @@ node_modules
 /.quarto/
 
 /.luarc.json
+
+publications/*/*.qmd

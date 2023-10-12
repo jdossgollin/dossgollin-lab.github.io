@@ -11,11 +11,11 @@ website:
   repo-url: https://www.github.com/dossgollin-lab/dossgollin-lab.github.io
   repo-actions: [issue]
   open-graph: true
-  favicon: _assets/img.logos/logo.ico
+  favicon: _assets/img/logos/logo.ico
 
   search:
-      location: navbar
-      type: overlay
+    location: navbar
+    type: overlay
 
   page-footer:
     left: |
@@ -36,7 +36,7 @@ website:
       - text: "Contact"
         href: contact.qmd
       - text: "Lab Guide"
-        href: https://dossgollin-lab.github.io/lab-guide/
+        href: lab-guide/index.qmd
       - icon: github
         href: https://github.com/dossgollin-lab
 
@@ -45,9 +45,7 @@ format:
     #theme: _assets/theme/theme-rice.scss
     #css: styles.css
     theme: [sandstone, _assets/theme/theme-rice.scss]
-    toc: true
-    toc-title: Contents
-    toc-location: left
+    toc: false
     anchor-sections: true
     code-overflow: wrap
     citations-hover: true
