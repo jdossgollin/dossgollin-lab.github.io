@@ -1,7 +1,7 @@
 ---
 title: "Paper on trends in heating and cooling demand published in Communications Earth & Environment"
 categories: Publication
-date: 2023-01-03
+date: 2023-11-01
 bibliography: ../../_bibliography/my-papers.bib
 ---
 
