@@ -36,9 +36,9 @@ website:
       - text: "Contact"
         href: contact.qmd
       - text: "Lab Guide"
-        href: lab-guide/index.qmd
+        href: https://dossgollin-lab.github.io/lab-guide/
       - icon: github
-        href: https://github.com/dossgollin-lab
+        href: https://github.com/dossgollin-lab/dossgollin-lab.github.io
 
 format:
   html:
