@@ -35,6 +35,8 @@ listing:
             ended: "Ended"
 ---
 
+![](../_assets/img/group/2023-12-02.jpeg){width=100%}
+
 ## PI
 
 :::{#pi}
