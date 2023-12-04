@@ -14,3 +14,20 @@ where: Rice University
 
 All information on this page is subject to change.
 :::
+
+## Course Description
+
+Climate variability and change pose threats to lives and livelihoods.
+These climate risks can be managed through the design and operation of infrastructure systems, as well as through disaster response and recovery. 
+Decisions about how to develop and choose risk management strategies are often based on pure vibes, but occasionally rigorous quantitative analyses that make use of scientific information can inform them (we will focus on these cases).
+These analyses involve integrating knowledge from multiple disciplines to balance competing goals (objectives) under uncertainty.
+
+In this course, you will learn climate science, uncertainty quantification, and decision analysis methods to support climate risk management.
+You will be assigned readings for every class that cover both methods and applications, and will work collaboratively to implement key concepts through programming problem sets.
+Active class participation is required.
+Methods covered include scenario analysis, exploratory modeling, cost-benefit analysis, single- and multi-objective policy search, reinforcement learning, deep uncertainty, robust decision making, and equitable decision making.
+
+
+## More information
+
+For details, see [the course website](https://ceve-421-521.github.io/){target=_blank}.
