@@ -21,7 +21,7 @@ Read our [lab guide](https://dossgollin-lab.github.io/lab-guide/){target=_blank}
 ::: {.g-col-4}
 ::: {.callout-important}
 ## You are welcome! 
-Members of historically excluded groups groups and first-generation students are particularly encouraged to apply.
+Members of historically excluded groups and first-generation students are particularly encouraged to apply.
 :::
 :::
 

@@ -1,5 +1,5 @@
 ---
-title: "Dr.Doss-Gollin Talks at SSPEED Center Conference"
+title: "James Presents at SSPEED Center Conference"
 categories: Publications
 date: 2023-10-13
 bibliography: ../../_bibliography/my-papers.bib

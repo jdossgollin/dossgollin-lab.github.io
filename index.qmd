@@ -57,7 +57,7 @@ Through mission-oriented basic applied research, we address fundamental challeng
 ![](_assets/img/group/2023-12-02.jpeg){width=100%}
 
 Do you want to work on intellectually challenging and socially impactful problems?
-Learn about [open positions](joinus.qmd) for undergrads, graduate students, and post-docs.
+Learn about [open positions](joinus.qmd).
 :::
 
 ::::
