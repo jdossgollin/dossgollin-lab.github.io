@@ -1,0 +1,13 @@
+---
+title: "Catch us at AGU 2023!"
+categories: Publication
+date: 2023-12-11
+bibliography: ../../_bibliography/my-papers.bib
+---
+
+We'll be at AGU 2023 in San Francisco, CA, USA.
+Come say hi!
+
+- On Monday afternoon, James presents [NH14B-07 "Linking Robust Trends in Observations and Models to Develop Nonstationary Rainfall Frequency Grids for the State of Texas"](https://agu.confex.com/agu/fm23/meetingapp.cgi/Paper/1352809). If you miss the presentation, you can find the slides [here](https://jdossgollin.github.io/presentation-2023-agu/).
+- On Tuesday morning, Yuchen has a related poster [H21T-1602 "Spatially Varying Covariate Model: A Hierarchical Bayesian Framework for Precipitation Frequency Analysis in the Gulf Coast"](https://agu.confex.com/agu/fm23/meetingapp.cgi/Paper/1328932).
+- On Wednesday, James is co-organizing an [oral](https://agu.confex.com/agu/fm23/meetingapp.cgi/Session/209779#isCurrent) (morning) and [poster](https://agu.confex.com/agu/fm23/meetingapp.cgi/Session/204045#isCurrent) (afternoon) session on "Integrating Social, Scientific, and Engineering Approaches to Identify and Address Gaps in Water Infrastructure and Household Water Security", co-organized with colleagues on the El Paso project. We are presenting a poster on our own ongoing work, [H33P-1999 "Before and After Piped Water Expansion: Water Use Patterns and Trust in Water and Political Institutions"](https://agu.confex.com/agu/fm23/meetingapp.cgi/Paper/1318513), at our own poster session. Concurrently, Kelsey is presenting her poster [PP33E-1563 "Last Millennium Changes in Mississippi River Basin Hydrology driven by the Bermuda High and Great Plains Low Level Jet"](https://agu.confex.com/agu/fm23/meetingapp.cgi/Paper/1291268).
