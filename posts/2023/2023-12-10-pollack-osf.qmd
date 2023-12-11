@@ -12,3 +12,5 @@ In this article, we articulate why transparency and openness matter in climate c
 We also sample papers in the "top" climate change journals and find that only five percent of our sample meets the minimal standard of fully open data and code required for reproducibility and replicability as defined by the National Academies of Sciences, Engineering, and Medicine.
 We conclude by recognizing the challenges involved and setting commitments to improve the transparency of our own research.
 We hope you will join us in these commitments and in broader discussions about the role of transparency in climate change research!
+
+Read the abstract [here](../../publications/forthcoming/pollack_transparency_2023.qmd).
