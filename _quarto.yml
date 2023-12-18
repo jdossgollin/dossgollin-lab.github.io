@@ -35,10 +35,13 @@ website:
         href: joinus.qmd
       - text: "Contact"
         href: contact.qmd
-      - text: "Lab Guide"
-        href: https://dossgollin-lab.github.io/lab-guide/
-      - icon: github
-        href: https://github.com/dossgollin-lab/dossgollin-lab.github.io
+      - text: Links
+        menu:  
+        - text: "Lab Guide"
+          href: https://dossgollin-lab.github.io/lab-guide/
+        - icon: github
+          href: https://github.com/dossgollin-lab/
+
 
 format:
   html:
