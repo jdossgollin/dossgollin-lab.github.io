@@ -30,7 +30,7 @@ def format_title(title):
     # Extract content inside curly braces and replace with placeholders
     preserved_texts = re.findall(r"{(.*?)}", title)
     for idx, text in enumerate(preserved_texts):
-        placeholder = f"PLACEHOLDER{idx}"
+        placeholder = f"_p{idx}"
         title = title.replace("{" + text + "}", placeholder)
 
     # Use titlecase on the rest
@@ -38,7 +38,7 @@ def format_title(title):
 
     # Replace placeholders with original text from curly braces
     for idx, text in enumerate(preserved_texts):
-        placeholder = f"PLACEHOLDER{idx}"
+        placeholder = f"_p{idx}"
         title = title.replace(placeholder, text)
 
     return title
@@ -198,8 +198,10 @@ def entry_to_qmd(entry):
 def create_qmd_from_bib(bib_file):
     parser = BibTexParser(common_strings=True)
     parser.ignore_nonstandard_types = False
+
     with open(bib_file, "r") as bibtex_file:
         bib_database = bibtexparser.load(bibtex_file, parser=parser)
+
     for entry in bib_database.entries:
         entry_to_qmd(entry)
 
