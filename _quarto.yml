@@ -18,7 +18,7 @@ website:
 
   page-footer:
     left: |
-      View the source on [{{< fa brands github >}} GitHub]({{< var website.repo-url >}})
+      View the source [on GitHub]({{< var website.repo-url >}})
 
   navbar:
     right:
