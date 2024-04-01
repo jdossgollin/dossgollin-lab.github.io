@@ -9,6 +9,8 @@ The study found that solar and wind energy potential often increases during the 
 While wind potential varied by region, solar potential was higher during both hot and cold extremes in nearly every part of the country.
 The findings suggest that expanding renewable energy could boost grid reliability while also reducing emissions.
 
-For more, see [the paper](../../publications/article/singh_potential_2024.qmd).
+For more, see [the paper](../../publications/article/singh_potential_2024.qmd) or read a Twitter thread from the lead author:
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Excited to share our paper examining renewable energy 🌞potential during temperature extremes 🥶🥵 across the U.S with co-authors - <a href="https://twitter.com/jdossgollin?ref_src=twsrc%5Etfw">@jdossgollin</a> <a href="https://twitter.com/dmitri_climate?ref_src=twsrc%5Etfw">@dmitri_climate</a> <a href="https://twitter.com/CassRo314?ref_src=twsrc%5Etfw">@CassRo314</a> <a href="https://twitter.com/ecoffel?ref_src=twsrc%5Etfw">@ecoffel</a> and Yianna Bekris. Key Messages ⬇️<a href="https://twitter.com/hashtag/renewableenergy?src=hash&amp;ref_src=twsrc%5Etfw">#renewableenergy</a> <a href="https://twitter.com/hashtag/ClimateAdaptation?src=hash&amp;ref_src=twsrc%5Etfw">#ClimateAdaptation</a><a href="https://t.co/S7xGPxYyky">https://t.co/S7xGPxYyky</a></p>&mdash; Dr. Deepti Singh (@ClimateChirper) <a href="https://twitter.com/ClimateChirper/status/1774821916924363142?ref_src=twsrc%5Etfw">April 1, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 
