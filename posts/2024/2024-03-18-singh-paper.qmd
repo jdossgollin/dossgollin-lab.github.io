@@ -9,6 +9,4 @@ The study found that solar and wind energy potential often increases during the 
 While wind potential varied by region, solar potential was higher during both hot and cold extremes in nearly every part of the country.
 The findings suggest that expanding renewable energy could boost grid reliability while also reducing emissions.
 
-For more, see [the paper](../../publications/article/singh_potential_2024.qmd).
-
-
+For more, see [the paper](../../publications/article/singh_potential_2024.qmd) or read [this Twitter thread](https://twitter.com/ClimateChirper/status/1774821916924363142).
