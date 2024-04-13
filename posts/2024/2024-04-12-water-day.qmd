@@ -1,0 +1,11 @@
+---
+title: "Video for World Water Day / ASU Water Institute Kickoff"
+categories: Publications
+date: 2024-03-27
+---
+
+To celebrate World Water Day 2024 and the kickoff of a new water institute at ASU, we were asked to create a five minute video on a local water challenge.
+While Houston has important challenges related to droughts, infrastructure financing, and water infrastructure, we created a video titled "how to equitably and sustinably manage intensifying rainfall in fast-changing cities?"
+You can watch the video [here](https://www.youtube.com/watch?v=4EbLGppjN2I&list=PL3E_J0n3vAthGB3fNscCABwxrB35c3dSa&index=13), view it below, or check out the full [playlist](https://www.youtube.com/playlist?list=PL3E_J0n3vAthGB3fNscCABwxrB35c3dSa)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4EbLGppjN2I?si=eJ3dsK3NlFEHVEUr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
