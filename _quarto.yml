@@ -56,7 +56,7 @@ format:
     date-format: long
 
 # references
-bibliography: _bibliography/library-bibtex.bib
+bibliography: _bibliography/library.bib
 csl: _assets/references/american-geophysical-union.csl
 
 link-external-newwindow: true
