@@ -1,7 +1,6 @@
 ---
 title: "Jonah Schaechter"
 sortby: "Schaechter, Jonah"
-position: "Ph.D. Student"
 started: "Spring 2024"
 ended: "Current"
 toc: false

@@ -1,0 +1,19 @@
+---
+title: "How extreme was the recent San Jacinto River rainfall?"
+categories: News
+date: 2024-05-14
+---
+
+Earlier this month, persistent and intense rainfall to the northeast of Houston caused severe flooding on the San Jacinto River, [affecting](https://www.pbs.org/newshour/nation/southeastern-texas-sees-torrential-rain-causing-flooding-along-san-jacinto-river) thousands of residents.
+Our sincere best wishes are with everyone affected!
+
+As we look to risk assessment, it's important to determine how extreme this rainfall really was.
+[Yuchen Lu](../../people/grad-students/yuchen-lu.qmd), a third-year PhD student, compared the rainfall at different durations to Atlas 14 estimates of rainfall probability, finding that this was a 10 to 25-year event depending on how it's analyzed.
+This underscores the importance of vulnerability reduction and flood preparedness.
+
+You can find Yuchen's more detailed analysis [here](https://dossgollin-lab.github.io/SanJac2024_IDF/) or the source code [on GitHub](https://github.com/dossgollin-lab/SanJac2024_IDF).
+
+As we look to managing future flood risks, further improvements to risk assessment are needed.
+Atlas 14 estimates are useful but do not account for the increasing likelihood of extreme weather.
+More fundamentally, probability distributions of annual maximum rainfall at a single point are completely silent on the spatial or temporal structure of rainfall, which can matter for flood impacts.
+We are working hard to address both of these limitations in our research – stay tuned for more updates!
