@@ -1,0 +1,140 @@
+---
+title: "How to Add Yourself to the Lab Website: A Comprehensive Guide"
+author: James Doss-Gollin
+date: 2024-08-21
+categories: [lab-resources, tech-skills, for-new-members]
+---
+
+This guide walks you through the process of adding your profile to our lab website at [https://dossgollin-lab.github.io/](https://dossgollin-lab.github.io/).
+We'll use GitHub's fork and pull request workflow.
+For a detailed guide on forking with GitHub, see [GitHub's Forking Guide](https://guides.github.com/activities/forking/).
+
+## Understanding the Tools
+
+Before we begin, let's briefly explain the key tools we'll be using:
+
+1. **Git**: A version control system that tracks changes in your code.
+2. **GitHub**: A web-based platform that hosts Git repositories and facilitates collaboration.
+3. **Quarto**: An open-source scientific and technical publishing system built on Pandoc.
+4. **Code Editor**: While you can use any text editor, we recommend Visual Studio Code (VS Code) for its integrated terminal and extensions support.
+
+## Prerequisites
+
+1. Create a [GitHub account](https://github.com/join) if you don't have one.
+2. Install [Git](https://git-scm.com/downloads).
+3. Install [Quarto](https://quarto.org/docs/get-started/).
+4. Install a code editor (we recommend [Visual Studio Code](https://code.visualstudio.com/)).
+5. Have a command line interface available (Terminal on macOS/Linux, Command Prompt or PowerShell on Windows).
+
+## Steps to Add Your Profile
+
+### 1. Fork the Repository
+
+1. Go to the [lab website repository](https://github.com/dossgollin-lab/dossgollin-lab.github.io) on GitHub.
+2. Click the "Fork" button in the top-right corner.
+3. Select your personal account as the destination for the fork.
+
+### 2. Clone Your Forked Repository
+
+1. On your forked repository page, click the green "Code" button.
+2. Copy the HTTPS URL provided.
+3. Open your terminal and navigate to where you want to store the project.
+4. Run the following command, replacing `<URL>` with the copied URL:
+   ```
+   git clone <URL>
+   ```
+
+### 3. Set Up the Project
+
+1. Navigate into the cloned directory:
+   ```
+   cd dossgollin-lab.github.io
+   ```
+2. Initialize and update the submodules:
+   ```
+   git submodule update --init --recursive
+   ```
+3. Open the folder in VS Code:
+   ```
+   code .
+   ```
+4. Install the Quarto extension for VS Code:
+   - Go to the Extensions view (Ctrl+Shift+X).
+   - Search for "Quarto".
+   - Click "Install" on the Quarto extension.
+
+## Previewing the Website
+
+1. In the terminal within VS Code, ensure you're in the project root directory.
+2. Run the following command:
+   ```
+   quarto preview .
+   ```
+3. This will open a preview of the website in your default browser.
+
+## Creating Your Profile
+
+1. In VS Code, navigate to the appropriate subfolder within the `people` folder (e.g., `people/grad-students`, `people/undergrads`, etc.).
+2. Create a new Markdown file with your name (e.g., `john-doe.md`).
+3. Use one of the existing profiles as a template.
+4. Fill in your details, following this structure:
+
+```yaml
+---
+title: "Your Full Name"
+sortby: "Last Name, First Name"
+position: "Your Position" # Optional, for faculty/staff
+coadvised: "Coadvised with [Name]" # Optional
+started: "Season Year"
+ended: "Current" # Or end date if applicable
+toc: false
+about:
+    id: person-profile
+    image: "../../_assets/img/people/your-image-file.jpg"
+    template: trestles # Choose from options below
+    links:
+        - icon: envelope
+          text: Email
+          href: mailto:your.email@rice.edu
+        - icon: github
+          text: Github
+          href: https://github.com/yourusername
+        # Add more links as needed
+format: 
+  html:
+    page-layout: full
+---
+
+:::{#person-profile}
+## Bio
+
+Write your bio here.
+Keep each sentence on a separate line.
+
+## Education
+- **University Name** | Location<br />Degree, Year
+- **Another University** | Location<br />Another Degree, Year
+:::
+```
+
+5. For the `template` field, choose from: trestles, jolla, solana, marquee, or broadside.
+   You can preview these options at [Quarto Website About Pages](https://quarto.org/docs/websites/website-about.html).
+
+6. Add a square image of yourself to `_assets/img/people/`.
+   Update the `image` field in your profile to match the filename.
+
+7. Save your changes and check the preview:
+   - If the preview doesn't update automatically, stop the preview process (Ctrl+C in the terminal) and run `quarto preview .` again.
+   - Make sure your profile looks good and all information is correct.
+
+## Submitting Your Changes
+
+1. Stage your changes using git (you can use VS Code, the GitHub Desktop app, or the command line):
+2. Commit your changes with a clear commit message (e.g., "Add John Doe to grad students").
+3. Push the changes to your forked repository:
+4. Go to your forked repository on GitHub's website.
+5. Click "Contribute" then "Open pull request".
+6. Add any necessary comments and create the pull request.
+
+Once your pull request is reviewed and merged, your profile will appear on the lab website.
+You can now delete your fork.
