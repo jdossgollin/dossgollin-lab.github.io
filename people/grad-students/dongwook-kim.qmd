@@ -1,0 +1,38 @@
+---
+title: "Dongwook Kim"
+sortby: "Kim, Dongwook"
+coadvised: "Coadvised with Avantika Gori"
+started: "Fall 2024"
+ended: "Current"
+toc: false
+about:
+    id: person-profile
+    image: "../../_assets/img/people/dongwook.jpeg"
+    template: trestles
+    links:
+        -   icon: envelope
+            text: Email
+            href: mailto:dongwook.kim@rice.edu
+        -   text: Google Scholar
+            href: https://scholar.google.com/citations?user=VR9cB8EAAAAJ&hl=en
+        -   icon: github
+            text: Github
+            href: https://github.com/hydkim
+        -   icon: linkedin
+            text: LinkedIN
+            href: https://www.linkedin.com/in/dongwookkimwater/
+
+format: 
+  html:
+    page-layout: full
+---
+
+:::{#person-profile}
+## Bio
+
+Dongwook Kim is a Ph.D. student in the Department of Civil and Environmental Engineering at Rice University. His research integrates knowledge and methodologies from various disciplines, including hydrology, climate science, statistics, and machine learning, to quantify hydroclimate risk due to climate change and to develop effective mitigation strategies.
+
+## Education
+- **Hanyang University** | Seoul, Republic of Korea<br />MS in Civil and Environmental System Engineering, 2021
+- **Hanyang University ERICA** | Ansan, Republic of Korea<br />BS in Civil Engineering, 2019
+:::
