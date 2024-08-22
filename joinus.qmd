@@ -63,7 +63,7 @@ Email James a 1-2 page research statement describing the project you would like 
 #### How to apply
 
 Graduate admissions are handled through a formal application to the department.
-See the lab guide's [instructions for prospective graduate students](https://dossgollin-lab.github.io/lab-guide/admissions/gradadmissions/){target=_blank}.
+See the lab guide's [instructions for prospective graduate students](https://dossgollin-lab.github.io/lab-guide/joinus/gradadmissions.html){target=_blank}.
 :::
 ::: {.g-col-4}
 #### How to apply
