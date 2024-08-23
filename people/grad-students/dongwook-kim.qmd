@@ -29,7 +29,9 @@ format:
 :::{#person-profile}
 ## Bio
 
-Dongwook Kim is a Ph.D. student in the Department of Civil and Environmental Engineering at Rice University. His research integrates knowledge and methodologies from various disciplines, including hydrology, climate science, statistics, and machine learning, to quantify hydroclimate risk due to climate change and to develop effective mitigation strategies.
+Dongwook Kim is a Ph.D. student in the Department of Civil and Environmental Engineering at Rice University.
+His research integrates knowledge and methodologies from various disciplines, including hydrology, climate science, statistics, and machine learning, to quantify hydroclimate risk due to climate change and to develop effective mitigation strategies.
+Dongwook is coadvised by [Prof. Avantika Gori](https://gori.blogs.rice.edu/).
 
 ## Education
 - **Hanyang University** | Seoul, Republic of Korea<br />MS in Civil and Environmental System Engineering, 2021
