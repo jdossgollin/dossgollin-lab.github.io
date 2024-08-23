@@ -1,7 +1,7 @@
 ---
 title: "True Furrh"
 sortby: "Furrh, True"
-coadvised: "Coadvised with Philip Bedient"
+primary_advisor: "Philip Bedient"
 started: "Spring 2022"
 ended: "Current"
 toc: false

@@ -1,7 +1,6 @@
 ---
 title: "Dongwook Kim"
 sortby: "Kim, Dongwook"
-coadvised: "Coadvised with Avantika Gori"
 started: "Fall 2024"
 ended: "Current"
 toc: false
