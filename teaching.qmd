@@ -10,7 +10,7 @@ listing:
         - "year desc"
         - "semester"
     categories: false
-    fields: [semester, year, where, title]
+    fields: [semester, year, coursenumber, title]
     field-display-names: 
         date: Date
         title: Title

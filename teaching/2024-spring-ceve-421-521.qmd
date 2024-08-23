@@ -1,5 +1,5 @@
 ---
-title: Climate Risk Management (Planned)
+title: Climate Risk Management
 year: 2024
 semester: Spring
 coursenumber: CEVE 421/521
@@ -8,12 +8,6 @@ where: Rice University
 
 - **Semester:** {{< meta semester >}} {{< meta year >}}
 - **Course Number:** {{< meta coursenumber >}}
-
-::: {.callout-warning}
-## Planned
-
-All information on this page is subject to change.
-:::
 
 ## Course Description
 

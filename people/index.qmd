@@ -8,11 +8,22 @@ listing:
         image-height: 225px
         grid-columns: 3
         sort: sortby
-        fields: [image, title, started, coadvised]
+        fields: [image, title, started]
         field-display-names: 
             started: "Started"
             position: "Position"
-            coadvised: " "
+        grid-item-align: left
+    -   id: grad-students-coadvised
+        contents: "grad-students-coadvised/*.qmd"
+        type: grid
+        image-height: 225px
+        grid-columns: 3
+        sort: sortby
+        fields: [image, title, started, primary_advisor]
+        field-display-names: 
+            started: "Started"
+            position: "Position"
+            primary_advisor: "Primary Advisor"
         grid-item-align: left
     -   id: pi
         contents: "pi/*.qmd"
@@ -46,6 +57,11 @@ listing:
 ## Graduate Students
 
 :::{#grad-students}
+:::
+
+## Coadvised Graduate Students
+
+:::{#grad-students-coadvised}
 :::
 
 ## Alumni

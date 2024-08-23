@@ -1,0 +1,11 @@
+---
+title: "AI for Climate Risk and Resilience at Rice"
+categories: News
+date: 2024-08-22
+---
+
+We're delighted to announce the launch of a new project, *AI for Climate Risk and Resilience at Rice* (AI4ClimateRRR), which will bring together researchers from across the university to develop new tools for understanding and addressing climate risks.
+AI4ClimateRRR is a cluster within the Ken Kennedy Institute.
+Monthly meetings are available to the Rice community.
+
+For more, see [the project website](https://ai4climaterrr.rice.edu/).

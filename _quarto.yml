@@ -30,7 +30,7 @@ website:
         href: research.qmd
       - text: "Teaching"
         href: teaching.qmd
-      - text: "Opportunities"
+      - text: "Join Us"
         href: joinus.qmd
       - text: "Contact"
         href: contact.qmd
@@ -38,7 +38,10 @@ website:
         menu:  
         - text: "Lab Guide"
           href: https://dossgollin-lab.github.io/lab-guide/
+        - text: "AI 4 Climate Risk and Resilience @ Rice"
+          href: ai4climaterrr.rice.edu
         - icon: github
+          text: "GitHub"
           href: https://github.com/dossgollin-lab/
 
 
