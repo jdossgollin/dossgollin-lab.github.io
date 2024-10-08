@@ -39,7 +39,7 @@ website:
         - text: "Lab Guide"
           href: https://dossgollin-lab.github.io/lab-guide/
         - text: "AI 4 Climate Risk and Resilience @ Rice"
-          href: ai4climaterrr.rice.edu
+          href: https://ai4climaterrr.rice.edu
         - icon: github
           text: "GitHub"
           href: https://github.com/dossgollin-lab/
@@ -59,7 +59,7 @@ format:
     date-format: long
 
 # references
-bibliography: _bibliography/library.bib
+bibliography: _bibliography/my-papers.bib
 csl: _assets/references/american-geophysical-union.csl
 
 link-external-newwindow: true

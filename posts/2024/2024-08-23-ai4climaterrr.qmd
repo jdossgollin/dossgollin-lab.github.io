@@ -1,7 +1,7 @@
 ---
-title: "AI for Climate Risk and Resilience at Rice"
+title: "Announcing AI for Climate Risk and Resilience at Rice"
 categories: News
-date: 2024-08-22
+date: 2024-08-23
 ---
 
 We're delighted to announce the launch of a new project, *AI for Climate Risk and Resilience at Rice* (AI4ClimateRRR), which will bring together researchers from across the university to develop new tools for understanding and addressing climate risks.
