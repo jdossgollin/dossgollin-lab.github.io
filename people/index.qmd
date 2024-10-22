@@ -1,67 +1,88 @@
 ---
 title: Group Members
-
 listing:
-    -   id: grad-students    
-        contents: "grad-students/*.qmd"
-        type: grid
-        image-height: 225px
-        grid-columns: 3
-        sort: sortby
-        fields: [image, title, started]
-        field-display-names: 
-            started: "Started"
-            position: "Position"
-        grid-item-align: left
-    -   id: grad-students-coadvised
-        contents: "grad-students-coadvised/*.qmd"
-        type: grid
-        image-height: 225px
-        grid-columns: 3
-        sort: sortby
-        fields: [image, title, started, primary_advisor]
-        field-display-names: 
-            started: "Started"
-            position: "Position"
-            primary_advisor: "Primary Advisor"
-        grid-item-align: left
-    -   id: pi
-        contents: "pi/*.qmd"
-        type: grid
-        image-height: 225px
-        grid-columns: 3
-        sort: sortby
-        fields: [image, title]
-        grid-item-align: left
-    -   id: alumni
-        contents: "alumni/*.qmd"
-        type: table
-        sort: [ended desc, sortby]
-        fields: [title, position, started, ended]
-        sort-ui: [title, position, started, ended]
-        filter-ui: [title, position, started, ended]
-        field-display-names: 
-            title: "Name"
-            position: "Role"
-            started: "Started"
-            ended: "Ended"
+    - id: grad-students
+      contents: "grad-students/*.qmd"
+      type: grid
+      image-height: 225px
+      grid-columns: 3
+      sort: sortby
+      fields: [image, title, started]
+      field-display-names:
+          started: "Started"
+          position: "Position"
+      grid-item-align: left
+
+    - id: grad-students-coadvised
+      contents: "grad-students-coadvised/*.qmd"
+      type: grid
+      image-height: 225px
+      grid-columns: 3
+      sort: sortby
+      fields: [image, title, started, primary_advisor]
+      field-display-names:
+          started: "Started"
+          position: "Position"
+          primary_advisor: "Primary Advisor"
+      grid-item-align: left
+
+    - id: pi
+      contents: "pi/*.qmd"
+      type: grid
+      image-height: 225px
+      grid-columns: 3
+      sort: sortby
+      fields: [image, title]
+      grid-item-align: left
+
+    - id: alumni
+      contents: "alumni/*.qmd"
+      type: table
+      sort: [ended desc, sortby]
+      fields: [title, position, started, ended]
+      sort-ui: [title, position, started, ended]
+      filter-ui: [title, position, started, ended]
+      field-display-names:
+          title: "Name"
+          position: "Role"
+          started: "Started"
+          ended: "Ended"
+
+    - id: undergrads
+      contents: "undergrad-students/*.qmd"
+      type: grid
+      image-height: 225px
+      grid-columns: 3
+      sort: sortby
+      fields: [image, title, started]
+      field-display-names:
+          started: "Started"
+          position: "Position"
+      grid-item-align: left
 ---
 
 ![](../_assets/img/group/2023-12-02.jpeg){width=100%}
 
 ## PI
-
 :::{#pi}
 :::
 
 ## Graduate Students
-
 :::{#grad-students}
 :::
 
 ## Coadvised Graduate Students
-
 :::{#grad-students-coadvised}
 :::
 
+## Undergraduate Students
+:::{#undergrads}
+:::
+
 ## Alumni
+:::{#alumni}
+:::
+
+## Undergraduate Students
+:::{#undergrads}
+:::
