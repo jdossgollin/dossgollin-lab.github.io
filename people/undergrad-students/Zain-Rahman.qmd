@@ -1,0 +1,33 @@
+---
+title: "Zain Rahman"
+sortby: "Rahman, Zain"
+started: "Fall 2024" # eg Fall 2024
+ended: "Current" # Or end date if applicable
+toc: false
+about:
+    id: person-profile
+    image: "../../_assets/img/people/zrahman.png"
+    template: trestles # Choose from options below
+    links:
+        - icon: envelope
+          text: Email
+          href: mailto:zur1@rice.edu
+        - icon: github
+          text: Github
+          href: https://github.com/zainr27
+        - icon: linkedin
+          text: LinkedIN
+          href: https://www.linkedin.com/in/zain-rahman-7574091a9
+        # Add more links if you would like -- see other profiles for examples
+format: 
+  html:
+    page-layout: full
+---
+
+:::{#person-profile}
+## Bio
+
+Hey Everyone! My name is Zain Rahman and I'm an Undergraduate student majoring in Computer Science and Finance. I'm orignially from Northern Virginia, and I'm excited to apply neural networks and machine learning applications to the project!
+
+## Education
+- **Rice University** | Houston, Texas<br />Computer Science, 2027
