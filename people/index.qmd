@@ -82,7 +82,3 @@ listing:
 ## Alumni
 :::{#alumni}
 :::
-
-## Undergraduate Students
-:::{#undergrads}
-:::
