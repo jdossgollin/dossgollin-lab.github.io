@@ -6,15 +6,315 @@
       version="2.0">
 <channel>
 <title>Doss-Gollin Lab @ Rice CEVE</title>
-<link>https://dossgollin-lab.github.io/index.html</link>
+<link>https://dossgollin-lab.github.io/</link>
 <atom:link href="https://dossgollin-lab.github.io/index.xml" rel="self" type="application/rss+xml"/>
-<description>Homepage for {{&lt; var course.number &gt;}}, {{&lt; var course.title &gt;}}, at Rice University, {{&lt; var course.semester &gt;}}.</description>
-<generator>quarto-1.3.450</generator>
-<lastBuildDate>Wed, 16 Aug 2023 05:00:00 GMT</lastBuildDate>
+<description></description>
+<generator>quarto-1.6.33</generator>
+<lastBuildDate>Thu, 05 Dec 2024 06:00:00 GMT</lastBuildDate>
+<item>
+  <title>Doss-Gollin Lab at AGU 2024</title>
+  <link>https://dossgollin-lab.github.io/posts/2024/2024-12-05-agu.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>We look forward to seeing you at AGU 2024! Our friends at the <a href="https://ai4climaterrr.rice.edu/">AI4ClimateRRR cluster</a> will be at the conference as well – for a list of presentations, see <a href="https://ai4climaterrr.rice.edu/posts/2024-12-05-agu.html">here</a></p>
+<section id="tuesday" class="level3">
+<h3 class="anchored" data-anchor-id="tuesday">Tuesday</h3>
+<ul>
+<li>Poster: <a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1709468">GC23D-0279Graph Residual Transformer + Gated Recurrent Unit (GRU) for Global Numerical Weather Prediction</a></li>
+<li>Poster: <a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1621742">PP21C-0473Changes in Texas Rainfall Characteristics During the Last Deglaciation in Speleothem Proxies and Water Isotope-enabled Model Simulations</a></li>
+<li>Talk: <a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1711820">GC24H-01Assessing and Managing Climate Risks to Electricity Systems in an Era of Climate Change and Energy Transition</a></li>
+<li>Talk: <a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1624973">NH23G-06TxRAIN-Observational: A Hierarchical Bayesian Spatial Framework to Assess Nonstationary Rainfall Intensity, Frequency, and Duration in Texas</a></li>
+</ul>
+</section>
+<section id="thursday" class="level3">
+<h3 class="anchored" data-anchor-id="thursday">Thursday</h3>
+<ul>
+<li>Poster Session: <a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Session/224843">NH41C - Hybrid Modeling and Digital Twin Systems for Flood Hazard Prediction and Risk Assessment at Different Spatial Scales</a></li>
+<li>Poster: <a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1638085">NH41C-2328Pluvial Flood Emulation with Hydraulics-informed Message Passing</a></li>
+</ul>
+</section>
+<section id="friday" class="level3">
+<h3 class="anchored" data-anchor-id="friday">Friday</h3>
+<ul>
+<li>Talk: <a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1711605">NH51A-01Advancing Urban Flood Hazard Characterization through Machine Learning: Challenges and Opportunities</a></li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://dossgollin-lab.github.io/posts/2024/2024-12-05-agu.html</guid>
+  <pubDate>Thu, 05 Dec 2024 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Announcing AI for Climate Risk and Resilience at Rice</title>
+  <link>https://dossgollin-lab.github.io/posts/2024/2024-08-23-ai4climaterrr.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>We’re delighted to announce the launch of a new project, <em>AI for Climate Risk and Resilience at Rice</em> (AI4ClimateRRR), which will bring together researchers from across the university to develop new tools for understanding and addressing climate risks. AI4ClimateRRR is a cluster within the Ken Kennedy Institute. Monthly meetings are available to the Rice community.</p>
+<p>For more, see <a href="https://ai4climaterrr.rice.edu/">the project website</a>.</p>
+
+
+
+ ]]></description>
+  <category>News</category>
+  <guid>https://dossgollin-lab.github.io/posts/2024/2024-08-23-ai4climaterrr.html</guid>
+  <pubDate>Fri, 23 Aug 2024 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Welcome Dongwook!</title>
+  <link>https://dossgollin-lab.github.io/posts/2024/2024-08-22-welcome-dongwook.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>We’re delighted to welcome <a href="../../people/grad-students/dongwook-kim.html">Dongwook Kim</a> to the lab! Dongwook joins us Burin Co., Ltd.&nbsp;in Seoul, where he was working as a research engineer. Prior that that, he earned a BS and MS at Hanyang University. Dongwook’s interests include water resources, flood risk, tropical cyclones, and infrastructure risk assessment.</p>
+
+
+
+ ]]></description>
+  <category>Welcome</category>
+  <guid>https://dossgollin-lab.github.io/posts/2024/2024-08-22-welcome-dongwook.html</guid>
+  <pubDate>Thu, 22 Aug 2024 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Pluvial Flood Emulation with Hydraulics-informed Message Passing accepted to ICML 2024</title>
+  <link>https://dossgollin-lab.github.io/posts/2024/2024-06-09-kazadi-icml.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Our paper titled “Pluvial Flood Emulation with Hydraulics-informed Message Passing” has been accepted to the 2024 International Conference on Machine Learning (ICML) <span class="citation" data-cites="kazadi_icml:2024">(Kazadi et al., 2024)</span>.</p>
+<p>Given a geographical region and precipitation data, our model predicts water depths in an auto-regressive fashion using a message-passing framework inspired by the conservation of momentum and mass as expressed in the shallow-water equations. This allows the model to effectively capture the propagation of water flow, particularly during the early stages of flooding when the water is scarce.</p>
+<p>Our empirical results, based on a dataset covering 9 regions and 7 historical precipitation events, demonstrate that our model outperforms existing baselines, providing accurate simulations even in complex topographies. This solution achieves accurate results using real ground elevation data. Additionally, our model excels in predicting flood dynamics for unseen storms and watersheds, showcasing its robustness and generalization capabilities.</p>
+<p>For more details, see <a href="../../publications/conference/kazadi_icml_2024.html">here</a>. This is an exciting space, and we are looking forward to sharing more updates on our ongoing research in this critical area!</p>
+
+
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2">
+<div id="ref-kazadi_icml:2024" class="csl-entry">
+Kazadi, A., Doss-Gollin, J., &amp; Silva, A. (2024). Pluvial flood emulation with hydraulics-informed message passing. In <em>Forty-<span>First International Conference</span> on <span>Machine Learning</span></em>. Retrieved from <a href="https://openreview.net/forum?id=kIHIA6Lr0B">https://openreview.net/forum?id=kIHIA6Lr0B</a>
+</div>
+</div></section></div> ]]></description>
+  <category>Publications</category>
+  <guid>https://dossgollin-lab.github.io/posts/2024/2024-06-09-kazadi-icml.html</guid>
+  <pubDate>Sun, 09 Jun 2024 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>How extreme was the recent San Jacinto River rainfall?</title>
+  <link>https://dossgollin-lab.github.io/posts/2024/2024-05-14-san-jac-idf.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Earlier this month, persistent and intense rainfall to the northeast of Houston caused severe flooding on the San Jacinto River, <a href="https://www.pbs.org/newshour/nation/southeastern-texas-sees-torrential-rain-causing-flooding-along-san-jacinto-river">affecting</a> thousands of residents. Our sincere best wishes are with everyone affected!</p>
+<p>As we look to risk assessment, it’s important to determine how extreme this rainfall really was. <a href="../../people/grad-students/yuchen-lu.html">Yuchen Lu</a>, a third-year PhD student, compared the rainfall at different durations to Atlas 14 estimates of rainfall probability, finding that this was a 10 to 25-year event depending on how it’s analyzed. This underscores the importance of vulnerability reduction and flood preparedness.</p>
+<p>You can find Yuchen’s more detailed analysis <a href="https://dossgollin-lab.github.io/SanJac2024_IDF/">here</a> or the source code <a href="https://github.com/dossgollin-lab/SanJac2024_IDF">on GitHub</a>.</p>
+<p>As we look to managing future flood risks, further improvements to risk assessment are needed. Atlas 14 estimates are useful but do not account for the increasing likelihood of extreme weather. More fundamentally, probability distributions of annual maximum rainfall at a single point are completely silent on the spatial or temporal structure of rainfall, which can matter for flood impacts. We are working hard to address both of these limitations in our research – stay tuned for more updates!</p>
+
+
+
+ ]]></description>
+  <category>News</category>
+  <guid>https://dossgollin-lab.github.io/posts/2024/2024-05-14-san-jac-idf.html</guid>
+  <pubDate>Tue, 14 May 2024 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Video for World Water Day / ASU Water Institute Kickoff</title>
+  <link>https://dossgollin-lab.github.io/posts/2024/2024-04-12-water-day.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>To celebrate World Water Day 2024 and the kickoff of a new water institute at ASU, we were asked to create a five minute video on a local water challenge. While Houston has important challenges related to droughts, infrastructure financing, and water infrastructure, we created a video titled “how to equitably and sustinably manage intensifying rainfall in fast-changing cities?” You can watch the video <a href="https://www.youtube.com/watch?v=4EbLGppjN2I&amp;list=PL3E_J0n3vAthGB3fNscCABwxrB35c3dSa&amp;index=13">here</a>, view it below, or check out the full <a href="https://www.youtube.com/playlist?list=PL3E_J0n3vAthGB3fNscCABwxrB35c3dSa">playlist</a></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4EbLGppjN2I?si=eJ3dsK3NlFEHVEUr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+</iframe>
+
+
+
+ ]]></description>
+  <category>Publications</category>
+  <guid>https://dossgollin-lab.github.io/posts/2024/2024-04-12-water-day.html</guid>
+  <pubDate>Wed, 27 Mar 2024 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>James gives seminar at UNC Chapel Hill</title>
+  <link>https://dossgollin-lab.github.io/posts/2024/2024-03-27-unc.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>James gave a seminar titled “Advancing Urban Flood Risk Management through Physics-informed, Data-Driven Hazard Assessment” at the University of North Carolina at Chapel Hill. The <a href="https://emes.unc.edu/event/spring-2024-colloquium-seminar-series-dr-james-doss-gollin-rice-university/">seminar</a> was hosted by the <a href="https://emes.unc.edu/">Earth, Marine, and Environmental Science</a> department. Thanks to the wonderful faculty, students, and staff for hosting and for great discussions.</p>
+
+
+
+ ]]></description>
+  <category>Publications</category>
+  <guid>https://dossgollin-lab.github.io/posts/2024/2024-03-27-unc.html</guid>
+  <pubDate>Wed, 27 Mar 2024 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Paper on solar and wind potential during temperature extremes published in Environmental Research Letters</title>
+  <link>https://dossgollin-lab.github.io/posts/2024/2024-03-18-singh-paper.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>A new paper <span class="citation" data-cites="singh_potential:2024">(Singh et al., 2024)</span> in the journal <em>Environmental Research Letters</em> examines shows that increasing solar and wind energy capacity could help keep the lights on during widespread hot and cold spells across the U.S. The study found that solar and wind energy potential often increases during the types of large-scale heat waves and cold snaps that drive up energy demand and can cause power outages. While wind potential varied by region, solar potential was higher during both hot and cold extremes in nearly every part of the country. The findings suggest that expanding renewable energy could boost grid reliability while also reducing emissions.</p>
+<p>For more, see <a href="../../publications/article/singh_potential_2024.html">the paper</a> or read <a href="https://twitter.com/ClimateChirper/status/1774821916924363142">this Twitter thread</a>.</p>
+
+
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2">
+<div id="ref-singh_potential:2024" class="csl-entry">
+Singh, D., Bekris, Y. S., Rogers, C. D. W., Doss-Gollin, J., Coffel, E. D., &amp; Kalashnikov, D. A. (2024). Enhanced solar and wind potential during widespread temperature extremes across the <span>U</span>.<span>S</span>. Interconnected energy grids. <em>Environmental Research Letters</em>, <em>19</em>(4), 044018. <a href="https://doi.org/10.1088/1748-9326/ad2e72">https://doi.org/10.1088/1748-9326/ad2e72</a>
+</div>
+</div></section></div> ]]></description>
+  <category>Publications</category>
+  <guid>https://dossgollin-lab.github.io/posts/2024/2024-03-18-singh-paper.html</guid>
+  <pubDate>Mon, 18 Mar 2024 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Welcome Jonah!</title>
+  <link>https://dossgollin-lab.github.io/posts/2024/2024-01-01-welcome-jonah.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>We’re delighted to welcome <a href="../../people/grad-students/Jonah-Schaechter.qmd">Jonah Schaecter</a> to the lab! Jonah joins us from working as a software engineer at Epic. Prior that that, he earned a BS and MS in Mechanical Engineering from Columbia University. Jonah’s interests include optimization, sustainability, machine learning, and flooding.</p>
+
+
+
+ ]]></description>
+  <category>Welcome</category>
+  <guid>https://dossgollin-lab.github.io/posts/2024/2024-01-01-welcome-jonah.html</guid>
+  <pubDate>Mon, 01 Jan 2024 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Catch us at AGU 2023!</title>
+  <link>https://dossgollin-lab.github.io/posts/2023/2023-12-11-agu.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>We’ll be at AGU 2023 in San Francisco, CA, USA. Come say hi!</p>
+<ul>
+<li>On Monday afternoon, James presents <a href="https://agu.confex.com/agu/fm23/meetingapp.cgi/Paper/1352809">NH14B-07 “Linking Robust Trends in Observations and Models to Develop Nonstationary Rainfall Frequency Grids for the State of Texas”</a>. If you miss the presentation, you can find the slides <a href="https://jdossgollin.github.io/presentation-2023-agu/">here</a>.</li>
+<li>On Tuesday morning, Yuchen has a related poster <a href="https://agu.confex.com/agu/fm23/meetingapp.cgi/Paper/1328932">H21T-1602 “Spatially Varying Covariate Model: A Hierarchical Bayesian Framework for Precipitation Frequency Analysis in the Gulf Coast”</a>.</li>
+<li>On Wednesday, James is co-organizing an <a href="https://agu.confex.com/agu/fm23/meetingapp.cgi/Session/209779#isCurrent">oral</a> (morning) and <a href="https://agu.confex.com/agu/fm23/meetingapp.cgi/Session/204045#isCurrent">poster</a> (afternoon) session on “Integrating Social, Scientific, and Engineering Approaches to Identify and Address Gaps in Water Infrastructure and Household Water Security”, co-organized with colleagues on the El Paso project. We are presenting a poster on our own ongoing work, <a href="https://agu.confex.com/agu/fm23/meetingapp.cgi/Paper/1318513">H33P-1999 “Before and After Piped Water Expansion: Water Use Patterns and Trust in Water and Political Institutions”</a>, at our own poster session. Concurrently, Kelsey is presenting her poster <a href="https://agu.confex.com/agu/fm23/meetingapp.cgi/Paper/1291268">PP33E-1563 “Last Millennium Changes in Mississippi River Basin Hydrology driven by the Bermuda High and Great Plains Low Level Jet”</a>.</li>
+</ul>
+
+
+
+ ]]></description>
+  <category>Publication</category>
+  <guid>https://dossgollin-lab.github.io/posts/2023/2023-12-11-agu.html</guid>
+  <pubDate>Mon, 11 Dec 2023 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>New preprint on transparency in peer-reviewed climate change research</title>
+  <link>https://dossgollin-lab.github.io/posts/2023/2023-12-10-pollack-osf.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>We’re pleased to see share a new preprint, “Peer-reviewed climate change research has a transparency problem. The scientific community needs to do better” <span class="citation" data-cites="pollack_transparency:2023">(<strong>pollack_transparency:2023?</strong>)</span>. This effort was led by Adam Pollack at Dartmourth and evolved out of many long discussions with colleagues in climate modeling, decision science, economics, engineering, environmental policy and social science, geosciences, hydrology, law, library science, philosophy, and statistics about the role of openness, transparency, and reproducibility in climate change research.</p>
+<p>In this article, we articulate why transparency and openness matter in climate change research. We also sample papers in the “top” climate change journals and find that only five percent of our sample meets the minimal standard of fully open data and code required for reproducibility and replicability as defined by the National Academies of Sciences, Engineering, and Medicine. We conclude by recognizing the challenges involved and setting commitments to improve the transparency of our own research. We hope you will join us in these commitments and in broader discussions about the role of transparency in climate change research!</p>
+<p>Read the abstract <a href="../../publications/forthcoming/pollack_transparency_2023.qmd">here</a>.</p>
+
+
+
+ ]]></description>
+  <category>Publication</category>
+  <guid>https://dossgollin-lab.github.io/posts/2023/2023-12-10-pollack-osf.html</guid>
+  <pubDate>Sun, 10 Dec 2023 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>James presents at STAHY 2023</title>
+  <link>https://dossgollin-lab.github.io/posts/2023/2023-11-11-jdg-stahy.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><a href="../../people/pi/james-doss-gollin.html">James</a> presented work led by Ph.D.&nbsp;student <a href="../../people/grad-students/yuchen-lu.html">Yuchen Lu</a> and with GMU’s Ben Seiyon Lee at the <a href="https://drive.google.com/file/d/1oDXot_L1fcT43-55tkbU3pArizKmj8xb/view">STAHY 2023</a> conference in Boston, MA. The talk was titled “A Bayesian Spatial Hierarchical Framework for Process-Informed Nonstationary Analysis of Precipitation Frequencies” and is available <a href="https://jamesdossgollin.me/presentations-site/slides-public/2023-11-10-stahy.html#/title-slide">online</a>.</p>
+
+
+
+ ]]></description>
+  <category>Publication</category>
+  <guid>https://dossgollin-lab.github.io/posts/2023/2023-11-11-jdg-stahy.html</guid>
+  <pubDate>Sat, 11 Nov 2023 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Paper on trends in heating and cooling demand published in Communications Earth &amp; Environment</title>
+  <link>https://dossgollin-lab.github.io/posts/2023/2023-11-01-amonkar-paper.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Our paper titled “Differential effects of climate change on average and peak demand for heating and cooling across the contiguous USA” was just published in the journal Communications Earth &amp; Environment <span class="citation" data-cites="amonkar_heatingcooling:2023">(Amonkar et al., 2023)</span>.</p>
+<p>In this paper, we examine how climate change has impacted average and peak demands for heating (i.e., in the winter) and cooling (i.e., in the summer) in the United States in the observational record. This is an important problem because energy systems, including electricity systems with high shares of renewable energy, must be designed to meet peak demand. We find that while climate change has increased average and peak demand for cooling, but that peak demand for heating, which is an important driver of electricity demand in the winter, is dominated by year to year variability. System design and management must take rare winter peaks into account, especially as building heating electrifies.</p>
+<p>For more, see <a href="../../publications/article/wutich_madwater_2023.html">the abstract</a>.</p>
+<p><img src="https://dossgollin-lab.github.io/_assets/img/pubs/amonkar_heatingcooling_2023.png" class="img-fluid" style="width:100.0%"></p>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2">
+<div id="ref-amonkar_heatingcooling:2023" class="csl-entry">
+Amonkar, Y., Doss-Gollin, J., Farnham, D. J., Modi, V., &amp; Lall, U. (2023). Differential effects of climate change on average and peak demand for heating and cooling across the contiguous <span>USA</span>. <em>Communications Earth &amp; Environment</em>, <em>4</em>(1, 1), 1–9. <a href="https://doi.org/10.1038/s43247-023-01048-1">https://doi.org/10.1038/s43247-023-01048-1</a>
+</div>
+</div>
+
+
+
+ ]]></description>
+  <category>Publication</category>
+  <guid>https://dossgollin-lab.github.io/posts/2023/2023-11-01-amonkar-paper.html</guid>
+  <pubDate>Wed, 01 Nov 2023 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>James Presents at SSPEED Center Conference</title>
+  <link>https://dossgollin-lab.github.io/posts/2023/2023-10-13-sspeed.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Dr.&nbsp;Doss-Gollin is presenting on 10/15 at the <a href="https://www.sspeed.rice.edu/conference-2023">SSPEED Conference</a>.</p>
+<ul>
+<li>Session: Machine Learning for Flood Prediction and Management</li>
+<li>Title: A Spatiotemporal Hierarchical Bayesian Model for Nonstationary Intensity-Duration-Frequency Curves</li>
+<li>Slides: posted at <a href="https://jdossgollin.github.io/presentations-site/slides-public/2023-10-13-sspeed.html">jdossgollin.github.io/presentations-site/slides-public/2023-10-13-sspeed.html</a></li>
+</ul>
+
+
+
+ ]]></description>
+  <category>Publications</category>
+  <guid>https://dossgollin-lab.github.io/posts/2023/2023-10-13-sspeed.html</guid>
+  <pubDate>Fri, 13 Oct 2023 05:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Published: review paper on climate risks to electricity systems</title>
   <link>https://dossgollin-lab.github.io/posts/2023/2023-08-16-review.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -25,7 +325,7 @@
 
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2">
 <div id="ref-doss-gollin_review:2023" class="csl-entry">
 Doss-Gollin, J., Amonkar, Y., Schmeltzer, K., &amp; Cohan, D. (2023). Improving the representation of climate risks in long-term electricity systems planning: A critical review. <em>Current Sustainable/Renewable Energy Reports</em>. <a href="https://doi.org/10.1007/s40518-023-00224-3">https://doi.org/10.1007/s40518-023-00224-3</a>
 </div>
@@ -35,9 +335,10 @@ Doss-Gollin, J., Amonkar, Y., Schmeltzer, K., &amp; Cohan, D. (2023). Improving 
   <pubDate>Wed, 16 Aug 2023 05:00:00 GMT</pubDate>
 </item>
 <item>
-  <title>Student advising booklet for environmental education at Rice</title>
+  <title>New student advising booklet for undergraduate environmental education at Rice</title>
   <link>https://dossgollin-lab.github.io/posts/2023/2023-08-14-env-advising.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -55,6 +356,7 @@ Doss-Gollin, J., Amonkar, Y., Schmeltzer, K., &amp; Cohan, D. (2023). Improving 
   <title>Published: theorizing modular, adaptive, and decentralized water systems</title>
   <link>https://dossgollin-lab.github.io/posts/2023/2023-07-12-mad-water.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -76,18 +378,14 @@ Doss-Gollin, J., Amonkar, Y., Schmeltzer, K., &amp; Cohan, D. (2023). Improving 
 
 
 
-<p>A paper led by Rice PhD student Xiangnan Zhou is now out in <em>Water Resources Research</em> <span class="citation" data-cites="zhou_mesoscale:2022">(Zhou et al., 2023)</span>.</p>
+
+<p>A paper led by Rice PhD student Xiangnan Zhou is now out in <em>Water Resources Research</em> <span class="citation" data-cites="zhou_mesoscale:2022">(<strong>zhou_mesoscale:2022?</strong>)</span>.</p>
 <p>We know that decentralized water systems can be improve resilient to natural disasters and population growth, though they often require substantial energy. Previous work has shown the importance of carefully considering the spatial layout of these systems, but the computational cost of doing so has limited the size of the systems that can be considered. Here, we present a backbone algorithm for creating physically based water networks that are computationally efficient enough to be used in large-scale optimization problems, yet topologically close to the full network.</p>
 <p>For more, see <a href="../../publications/article/zhou_mesoscale_2022.html">the abstract</a>.</p>
 
 
 
-
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2">
-<div id="ref-zhou_mesoscale:2022" class="csl-entry">
-Zhou, X., Duenas-Osorio, L., Doss-Gollin, J., Liu, L., Stadler, L., &amp; Li, Q. (2023). Mesoscale modeling of distributed water systems enables policy search. <em>Water Resources Research</em>, <em>59</em>(5). <a href="https://doi.org/10.1029/2022WR033758">https://doi.org/10.1029/2022WR033758</a>
-</div>
-</div></section></div> ]]></description>
+ ]]></description>
   <category>Publications</category>
   <guid>https://dossgollin-lab.github.io/posts/2023/2023-04-23-mesoscale.html</guid>
   <pubDate>Sun, 23 Apr 2023 05:00:00 GMT</pubDate>
@@ -99,11 +397,10 @@ Zhou, X., Duenas-Osorio, L., Doss-Gollin, J., Liu, L., Stadler, L., &amp; Li, Q.
 
 
 
-<p>Our paper titled “a subjective Bayesian framework for synthesizing deep uncertainties in climate risk management” was just published in the journal Earth’s Future <span class="citation" data-cites="doss-gollin_subjective:2022">(Doss-Gollin &amp; Keller, 2023)</span>.</p>
-<div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2">
-<div id="ref-doss-gollin_subjective:2022" class="csl-entry">
-Doss-Gollin, J., &amp; Keller, K. (2023). A subjective <span>Bayesian</span> framework for synthesizing deep uncertainties in climate risk management. <em>Earth’s Future</em>, <em>11</em>(1). <a href="https://doi.org/10.1029/2022EF003044">https://doi.org/10.1029/2022EF003044</a>
-</div>
+
+<p>Our paper titled “a subjective Bayesian framework for synthesizing deep uncertainties in climate risk management” was just published in the journal Earth’s Future <span class="citation" data-cites="doss-gollin_subjective:2022">(<strong>doss-gollin_subjective:2022?</strong>)</span>.</p>
+<div id="refs">
+
 </div>
 <p>For a recap, see the Mastodon thread:</p>
 <iframe src="https://fediscience.org/@jdossgollin/109608726903360968/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen">
@@ -136,6 +433,7 @@ Doss-Gollin, J., &amp; Keller, K. (2023). A subjective <span>Bayesian</span> fra
 
 
 
+
 <p>This position is part of an international collaboration with Doss-Gollin Lab, Arlei Silva (Rice CS), Instituto Federal do Ceará, and Instituto de Inovação para Tecnologia da Informação e Comunicação (Brazil).</p>
 <embed src="../../_assets/pdf/2022-11-08-ifce-rice-senai.pdf" width="100%" height="400" type="application/pdf">
 
@@ -145,156 +443,6 @@ Doss-Gollin, J., &amp; Keller, K. (2023). A subjective <span>Bayesian</span> fra
   <category>Opportunities</category>
   <guid>https://dossgollin-lab.github.io/posts/2022/2022-11-08-rice-ifce.html</guid>
   <pubDate>Tue, 08 Nov 2022 06:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Yuchen Lu wins 2022 H.W. Reeves Endowed Scholarship</title>
-  <link>https://dossgollin-lab.github.io/posts/2022/2022-02-08-reeves-yuchen.html</link>
-  <description><![CDATA[ 
-
-
-
-<p>Congratulations to <a href="../../people/grad-students/yuchen-lu.html">Yuchen Lu</a>, winner of the 2022 H.W. Reeves Endowed Scholarship, administered by the department of Civil and Environmental Engineering!</p>
-
-
-
- ]]></description>
-  <category>Opportunities</category>
-  <guid>https://dossgollin-lab.github.io/posts/2022/2022-02-08-reeves-yuchen.html</guid>
-  <pubDate>Tue, 08 Feb 2022 06:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Talk at Risk KAN Compound Events Group</title>
-  <link>https://dossgollin-lab.github.io/posts/2021/2021-12-08-risk-kan.html</link>
-  <description><![CDATA[ 
-
-
-
-<p>James Doss-Gollin is giving a talk “Extreme impacts don’t require extreme weather: lessons from the Feb 2021 Texas blackouts” at the Risk KAN (Knowledge Action Network) compound events group <a href="https://www.risk-kan.org/webinars/">webinar</a>. See <a href="https://www.risk-kan.org/webinars/">here</a> for Zoom information – the event is free!</p>
-<p>Check out the slides</p>
-<embed src="../../_assets/pdf/2021-12-09-txtreme-risk-kan.pdf" width="100%" height="400" type="application/pdf">
-<p>or watch the recording on YouTube</p>
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/q8Qeb_sXCxg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
-</iframe>
-
-
-
- ]]></description>
-  <category>Announcements</category>
-  <guid>https://dossgollin-lab.github.io/posts/2021/2021-12-08-risk-kan.html</guid>
-  <pubDate>Wed, 08 Dec 2021 06:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>New Course: Climate Risk Management (CEVE 421/521)</title>
-  <link>https://dossgollin-lab.github.io/posts/2022/2022-11-08-ceve-421-flyer.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-
- ]]></description>
-  <category>Announcement</category>
-  <guid>https://dossgollin-lab.github.io/posts/2022/2022-11-08-ceve-421-flyer.html</guid>
-  <pubDate>Mon, 08 Nov 2021 06:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Houston Chronicle Op-Ed: The risks of climate change are great - so are the rewards of solving it</title>
-  <link>https://dossgollin-lab.github.io/posts/2021/2021-09-01-chronicle-oped.html</link>
-  <description><![CDATA[ 
-
-
-
-<p>A new Op-Ed by Andrew Dessler, <a href="../../group-members#jdossgollin">James Doss-Gollin</a> and Katharine Hayhoe in the Houston Chronicle titled “<a href="https://www.houstonchronicle.com/opinion/outlook/article/Opinion-The-risks-of-climate-change-are-great-16426616.php">The risks of climate change are great - so are the rewards of solving it</a>” discusses how renewable energy can mitigate climate change while also improving health and economic outcomes in Texas and beyond.</p>
-
-
-
- ]]></description>
-  <category>Publications</category>
-  <guid>https://dossgollin-lab.github.io/posts/2021/2021-09-01-chronicle-oped.html</guid>
-  <pubDate>Wed, 01 Sep 2021 05:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>NSF Award from EAGER SAI: ‘Participatory Design for Water Quality Monitoring of Highly Decentralized Water Infrastructure Systems’</title>
-  <link>https://dossgollin-lab.github.io/posts/2021/2021-08-27-nsf-eager-sai.html</link>
-  <description><![CDATA[ 
-
-
-
-<p>A project led by Alicia Cooperman (TAMU), James Doss-Gollin (Rice), Alex Mayer (UTEP), and Shane Walker (UTEP) has been funded through the NSF EAGER SAI program. Here’s the description:</p>
-<blockquote class="blockquote">
-<p>In this project, an iterative, collaborative framework for monitoring point of use water treatment in under­served communities is tested. This framework blends local expertise on social dynamics and water issues with project expertise in governance, water treatment, and systems modeling. This framework is co-developed with communities where residents rely on a combination of trucked­ and bottled water. Aging pipes and treatment facilities, droughts exacerbated, and contamination of water supplies all challenge America’s drinking water infrastructure. Water typically is treated at central facilities and then piped to users, but recent technological advances could enable water treatment at the point of use (e.g., a house). In theory, this approach can make water systems more resilient to extremes, reduce the need for pipes and pumping, help water systems scale up or down as populations change, and filter contaminants that existing plants cannot treat cost-effectively. However, point of use water treatment also shifts the burden of maintaining water treatment infrastructure, monitoring water quality, and governing water systems onto end users, creating new vulnerabilities for water infrastructure systems. In this project, an iterative, collaborative frame­work to stress test strategies for water quality monitoring in decentralized water treatment systems is developed to address this challenge. This research contributes to answering important questions for 21st century water infrastructure, including: (1) Under what biophysical and social conditions are decentralized water systems effective and likely to succeed? (2) What is the appropriate scale for decentralized water systems in small communities? (3) What are the barriers to water access in the US rural context?</p>
-</blockquote>
-<blockquote class="blockquote">
-<p>In this project an iterative, collaborative frame­work to stress test strategies for water quality monitoring in decentralized water treatment systems is developed. The stress test integrates potential challenges identified by community members and leaders in focus groups with water quality sampling and mathematical modeling of water systems. The project is carried out through a series of iterative activities: qualitative interviews, field water quality observations, water system design, first round of focus groups, water security assessment, quantitative surveys and conjoint experiment, revised water system design, and a second round of focus groups. This project concerning participatory design for water quality monitoring extends observational research on water systems and social dynamics by actively engaging the community in collaborative focus groups about the current water system and potential future water systems.</p>
-</blockquote>
-<p>For further details, see the NSF’s <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2120829&amp;HistoricalAwards=false">website</a>.</p>
-
-
-
- ]]></description>
-  <category>Grants</category>
-  <guid>https://dossgollin-lab.github.io/posts/2021/2021-08-27-nsf-eager-sai.html</guid>
-  <pubDate>Fri, 27 Aug 2021 05:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Call for Abstracts: Statistical-Dynamical Models for Hydroclimatic Risk Management and Adaptation</title>
-  <link>https://dossgollin-lab.github.io/posts/2021/2021-06-24-agu21.html</link>
-  <description><![CDATA[ 
-
-
-
-<p>The <a href="https://agu.confex.com/agu/fm21/prelim.cgi/Session/118811">session</a> is listed in Hydrology, Natural Hazards, Global Environmental Change, and Atmospheric Sciences. Here’s the description:</p>
-<blockquote class="blockquote">
-<p>Decision-making for climate adaptation relies on projections of hydroclimate variables at a range of interconnected spatial and temporal scales. Many simulation and optimization frameworks rely on such projections as an input to system models, and so analysts must balance a desire for large ensembles to explore risk and grounding in physical principles for credible out-of-sample simulation against computational cost and interpretability. We welcome submissions related to the development and validation of statistical-dynamical models of hydroclimate variables, as well as their applications to infrastructure design, operation, and hazard assessment. Submissions related to weather and streamflow generators, emulators of sea level and storm surge, weather downscaling methods, and optimal sampling of design events are particularly encouraged.</p>
-</blockquote>
-
-
-
- ]]></description>
-  <category>Opportunities</category>
-  <guid>https://dossgollin-lab.github.io/posts/2021/2021-06-24-agu21.html</guid>
-  <pubDate>Thu, 24 Jun 2021 05:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>How Unprecedented Was the February 2021 Texas Cold Snap? published in Environmental Research Letters</title>
-  <link>https://dossgollin-lab.github.io/posts/2021/2021-05-18-txtremes.html</link>
-  <description><![CDATA[ 
-
-
-
-<p>A new paper <span class="citation" data-cites="doss-gollin_txtreme:2021">(Doss-Gollin et al., 2021)</span> in the journal <em>Environmental Research Letters</em> examines the drivers of the February 2021 cold snap that left millions across Texas without electricity and water.</p>
-<p>For a summary, see our short write-up in the Columbia <a href="https://news.climate.columbia.edu/2021/03/16/unprecedented-texas-cold-snap/">State of the Planet</a> blog</p>
-
-
-
-
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2">
-<div id="ref-doss-gollin_txtreme:2021" class="csl-entry">
-Doss-Gollin, J., Farnham, D. J., Lall, U., &amp; Modi, V. (2021). How unprecedented was the <span>February</span> 2021 <span>Texas</span> cold snap? <em>Environmental Research Letters</em>. <a href="https://doi.org/10.1088/1748-9326/ac0278">https://doi.org/10.1088/1748-9326/ac0278</a>
-</div>
-</div></section></div> ]]></description>
-  <category>Publications</category>
-  <guid>https://dossgollin-lab.github.io/posts/2021/2021-05-18-txtremes.html</guid>
-  <pubDate>Tue, 18 May 2021 05:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>2020 Annual Meeting of the Society for Decision Making under Deep Uncertainty</title>
-  <link>https://dossgollin-lab.github.io/posts/2020/2020-11-10-dmdu-2020.html</link>
-  <description><![CDATA[ 
-
-
-
-<p>Please see below my slides from my talk in the session on “Applications to Energy and Infrastructure Planning” at the 2020 Annual Meeting of the Society for Decision Making under Deep Uncertainty. You can also find the conference program <a href="https://2020.deepuncertainty.org/">here</a>.</p>
-<p>Thanks to <a href="https://tplopez.github.io/">Tania Lopez-Cantu</a> for moderating the session, to speakers and participants, and the other organizers for making this event possible.</p>
-<embed src="../../_assets/pdf/2020-11-10-doss-gollin-dmdu.pdf" width="100%" height="500" type="application/pdf">
-
-
-
- ]]></description>
-  <category>Presentations</category>
-  <guid>https://dossgollin-lab.github.io/posts/2020/2020-11-10-dmdu-2020.html</guid>
-  <pubDate>Tue, 10 Nov 2020 06:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
