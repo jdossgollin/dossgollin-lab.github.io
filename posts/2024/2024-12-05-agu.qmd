@@ -1,0 +1,23 @@
+---
+title: "Doss-Gollin Lab at AGU 2024"
+date: 2024-12-05
+---
+
+We look forward to seeing you at AGU 2024!
+Our friends at the [AI4ClimateRRR cluster](https://ai4climaterrr.rice.edu/) will be at the conference as well -- for a list of presentations, see [here](https://ai4climaterrr.rice.edu/posts/2024-12-05-agu.html)
+
+### Tuesday
+
+- Poster: [GC23D-0279Graph Residual Transformer + Gated Recurrent Unit (GRU) for Global Numerical Weather Prediction](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1709468)
+- Poster: [PP21C-0473Changes in Texas Rainfall Characteristics During the Last Deglaciation in Speleothem Proxies and Water Isotope-enabled Model Simulations](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1621742)
+- Talk: [GC24H-01Assessing and Managing Climate Risks to Electricity Systems in an Era of Climate Change and Energy Transition](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1711820)
+- Talk: [NH23G-06TxRAIN-Observational: A Hierarchical Bayesian Spatial Framework to Assess Nonstationary Rainfall Intensity, Frequency, and Duration in Texas](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1624973)
+
+### Thursday
+
+- Poster Session: [NH41C - Hybrid Modeling and Digital Twin Systems for Flood Hazard Prediction and Risk Assessment at Different Spatial Scales](https://agu.confex.com/agu/agu24/meetingapp.cgi/Session/224843)
+- Poster: [NH41C-2328Pluvial Flood Emulation with Hydraulics-informed Message Passing](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1638085)
+
+### Friday
+
+- Talk: [NH51A-01Advancing Urban Flood Hazard Characterization through Machine Learning: Challenges and Opportunities](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1711605)
