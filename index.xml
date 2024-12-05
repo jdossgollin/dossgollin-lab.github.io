@@ -381,7 +381,7 @@ Doss-Gollin, J., Amonkar, Y., Schmeltzer, K., &amp; Cohan, D. (2023). Improving 
 
 <p>A paper led by Rice PhD student Xiangnan Zhou is now out in <em>Water Resources Research</em> <span class="citation" data-cites="zhou_mesoscale:2022">(<strong>zhou_mesoscale:2022?</strong>)</span>.</p>
 <p>We know that decentralized water systems can be improve resilient to natural disasters and population growth, though they often require substantial energy. Previous work has shown the importance of carefully considering the spatial layout of these systems, but the computational cost of doing so has limited the size of the systems that can be considered. Here, we present a backbone algorithm for creating physically based water networks that are computationally efficient enough to be used in large-scale optimization problems, yet topologically close to the full network.</p>
-<p>For more, see <a href="../../publications/article/zhou_mesoscale_2022.html">the abstract</a>.</p>
+<p>For more, see <a href="../../publications/article/zhou_mesoscale_2022.qmd">the abstract</a>.</p>
 
 
 

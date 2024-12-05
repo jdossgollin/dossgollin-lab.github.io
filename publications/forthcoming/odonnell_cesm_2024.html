@@ -6,9 +6,14 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2023-04-23">
+<meta name="author" content="Michelle O’Donnell">
+<meta name="author" content="Kelsey Murphy">
+<meta name="author" content="James Doss-Gollin">
+<meta name="author" content="Sylvia Dee">
+<meta name="author" content="Samuel Munoz">
+<meta name="dcterms.date" content="2024-06-10">
 
-<title>New paper on mesoscale modeling of distributed water systems – Doss-Gollin Lab @ Rice CEVE</title>
+<title>Evaluation of Hydroclimatic Biases in the Community Earth System Model (CESM1) Within the Mississippi River Basin – Doss-Gollin Lab @ Rice CEVE</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -35,7 +40,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-07ba0ad10f5680c660e360ac31d2f3b6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
@@ -68,13 +72,42 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<meta property="og:title" content="New paper on mesoscale modeling of distributed water systems – Doss-Gollin Lab @ Rice CEVE">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<meta property="og:title" content="Evaluation of Hydroclimatic Biases in the Community Earth System Model (CESM1) Within the Mississippi River Basin – Doss-Gollin Lab @ Rice CEVE">
 <meta property="og:description" content="">
 <meta property="og:site_name" content="Doss-Gollin Lab @ Rice CEVE">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -143,48 +176,51 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-about-solana column-page">
+  <div class="about-entity">
+    <div class="entity-contents">
+      <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">New paper on mesoscale modeling of distributed water systems</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">Publications</div>
+<h1 class="title">Evaluation of Hydroclimatic Biases in the Community Earth System Model (CESM1) Within the Mississippi River Basin</h1>
+</div>
+<div class="quarto-title-meta column-page">
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Michelle O’Donnell </p>
+             <p>Kelsey Murphy </p>
+             <p>James Doss-Gollin </p>
+             <p>Sylvia Dee </p>
+             <p>Samuel Munoz </p>
+          </div>
   </div>
-  </div>
-
-
-
-<div class="quarto-title-meta">
-
-    
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">April 23, 2023</p>
+      <p class="date">June 10, 2024</p>
     </div>
   </div>
-  
-    
   </div>
-  
+</header> <div class="about-links">
+  <a href="https://doi.org/10.5194/hess-2024-153" class="about-link" rel="" target="">
+    <i class="bi bi-link"></i>
+     <span class="about-link-text">DOI: 10.5194/hess-2024-153</span>
+  </a>
+</div>
+      <div class="about-contents"><main class="content column-page" id="quarto-document-content">
+<p>{<span class="math inline">\(&lt;\)</span>}p{<span class="math inline">\(&gt;&lt;\)</span>}strong class=“journal-contentHeaderColor”{<span class="math inline">\(&gt;\)</span>}Abstract.{<span class="math inline">\(&lt;\)</span>}/strong{<span class="math inline">\(&gt;\)</span>} The Mississippi River is a critical waterway in the United States, and hydrologic variability along its course represents a perennial threat to trade, agriculture, industry, the economy, and communities. The Community Earth System Model version 1 (CESM1) complements observational records of river discharge by providing fully coupled output from a state-of-the-art earth system model that includes a river transport model. These simulations of past, historic, and projected river discharge have been widely used to assess the dynamics and causes of changes in the hydrology of the Mississippi River basin. Here, we compare observations and reanalysis datasets of key hydrologic variables to CESM1 output within the Mississippi River basin to evaluate model performance and bias. We show that the seasonality of simulated river discharge in CESM1 is shifted 2&amp;ndash;3 months late relative to observations. This offset is attributed to seasonal biases in precipitation and runoff in the region. We also evaluate performance of several CMIP6 models over the Mississippi River basin, and show that runoff in other models &amp;mdash; notably CESM2 &amp;mdash; more closely simulates the seasonal trends in the reanalysis data. Our results have implications for model selection when assessing hydroclimate variability on the Mississippi River basin, and show that the seasonal timing of runoff can vary widely between models.&amp;nbsp; Our findings imply that continued improvements in the representation of land surface hydrology in earth system models may improve our ability to assess the causes and consequences of environmental change on terrestrial water resources and major river systems globally.{<span class="math inline">\(&lt;\)</span>}/p{<span class="math inline">\(&gt;\)</span>}</p>
 
 
-</header>
-
-
-<p>A paper led by Rice PhD student Xiangnan Zhou is now out in <em>Water Resources Research</em> <span class="citation" data-cites="zhou_mesoscale:2022">(<a href="#ref-zhou_mesoscale:2022" role="doc-biblioref"><strong>zhou_mesoscale:2022?</strong></a>)</span>.</p>
-<p>We know that decentralized water systems can be improve resilient to natural disasters and population growth, though they often require substantial energy. Previous work has shown the importance of carefully considering the spatial layout of these systems, but the computational cost of doing so has limited the size of the systems that can be considered. Here, we present a backbone algorithm for creating physically based water networks that are computationally efficient enough to be used in large-scale optimization problems, yet topologically close to the full network.</p>
-<p>For more, see <a href="../../publications/article/zhou_mesoscale_2022.qmd">the abstract</a>.</p>
-
-
-
-</main> <!-- /main -->
+</main></div>
+    </div>
+  </div>
+</div>
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -205,13 +241,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
