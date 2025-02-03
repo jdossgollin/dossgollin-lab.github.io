@@ -1,0 +1,12 @@
+---
+title: "NSF Grant to Study Flood Resilience in Rural Texas"
+categories: News
+date: 2025-02-02
+---
+
+We're excited to announce that Rice University, in collaboration with The University of Texas at Austin and Texas A&M University's Institute for Disaster Resilient Texas (IDRT), has been awarded a $1 million grant from the National Science Foundation's [Confronting Hazards, Impacts and Risks for a Resilient Planet Program (CHIRRP)](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2440167).
+Led by PI Avantika Gori and Co-PIs [James Doss-Gollin](../../people/pi/james-doss-gollin.qmd) (Rice), Keri Stephens (UT Austin), and Andrew Juan (TAMU), this three-year project will develop transformative approaches for improving flood resilience in rural Texas communities.
+
+We aim to create a performance-based framework that bridges critical gaps in flood hazard assessment and mitigation strategies for rural communities.
+Working with Fort Hancock and Premont, Texas, we will develop new methods to characterize flood risks and co-design mitigation strategies that reflect local priorities.
+For more details, see the [press relsease from IDRT](https://idrt.tamug.edu/idrt-team-builds-upon-drip-work-for-new-nsf-grant/). 
