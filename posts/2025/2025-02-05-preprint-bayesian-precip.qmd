@@ -1,5 +1,5 @@
 ---
-title: "New paper on Bayesian Spatiotemporal Nonstationary Model for Extreme Rainfall"
+title: "New preprint on Bayesian Spatiotemporal Nonstationary Model for Extreme Rainfall"
 categories: Publications
 date: 2025-02-05
 bibliography: ../../_bibliography/my-papers.bib
