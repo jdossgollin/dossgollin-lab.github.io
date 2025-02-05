@@ -1,0 +1,19 @@
+---
+title: "New paper on Bayesian Spatiotemporal Nonstationary Model for Extreme Rainfall"
+categories: Publications
+date: 2025-02-05
+bibliography: ../../_bibliography/my-papers.bib
+---
+
+Our preprint, led by [Yuchen Lu](../../people/grad-students/yuchen-lu.qmd) and titled "Bayesian Spatiotemporal Nonstationary Model Quantifies Robust Increases in Daily Extreme Rainfall Across the Western Gulf Coast", is now live on ArXiV [@lu_spatiotemporal:2025].
+
+Extreme rainfall events are becoming more frequent and intense due to climate change, posing significant risks to communities and infrastructure. 
+Traditional methods for estimating rainfall probabilities often assume that these patterns are stationary over time, which can lead to underestimations of future risks.
+However, efforts to incorporate this nonstationarity have typically struggled with the challenge of robustly estimating trends in extremes given limited data.
+
+To address this gap, we developed a Bayesian statistical model that incorporates nonstationarity and regionalization, providing more accurate estimates of extreme rainfall probabilities.
+Our model, validated through rigorous testing, reveals increasing trends in extreme rainfall across the Western Gulf Coast, highlighting the need for updated risk assessments and infrastructure planning.
+This approach can be applied to other hazards and regions to improve risk assessment and is especially relevant for site-scale flood-risk management applications like stormwater management.
+
+Our paper is currently undergoing peer review, so results should be treated as preliminary.
+For more details, see [the publication page](../../publications/forthcoming/lu_spatiotemporal_2025.qmd).
