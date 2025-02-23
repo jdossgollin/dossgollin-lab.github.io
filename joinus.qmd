@@ -10,34 +10,17 @@ We are an inclusive group driven by our intellectual curiosity and sense of purp
 Join us to use Earth science, decision science, data science, and engineering to address critical societal challenges!
 
 
-:::: {.grid}
-::: {.g-col-4}
 ::: {.callout-tip}
 ## Learn more 
 Read our [lab guide](https://dossgollin-lab.github.io/lab-guide/){target=_blank} to learn more about our expectations and culture.
 :::
-:::
-
-::: {.g-col-4}
-::: {.callout-important}
-## You are welcome! 
-Members of historically excluded groups and first-generation students are particularly encouraged to apply.
-:::
-:::
-
-::: {.g-col-4}
-::: {.callout-warning}
-## Policy
-We do not hire unpaid interns, except for academic credit. 
-:::
-:::
-::::
 
 :::: {.grid}
 ::: {.g-col-4}
 ### Undergraduates
 
-There are no current calls but there is support for motivated undergraduates to work for pay or credit.
+There is support for motivated undergraduates to work for pay or credit.
+See the lab guide's [instructions for prospective undergraduates](https://dossgollin-lab.github.io/lab-guide/joinus/undergrad.html){target=_blank}.
 :::
 ::: {.g-col-4}
 ### Graduate Students
@@ -69,11 +52,8 @@ See the lab guide's [instructions for prospective graduate students](https://dos
 #### How to apply
 
 If you're interested, please email a CV and 2-3 page research statement to James.
-
-Strong candidates will have strengths in several (but not all) of the following:
-Bayesian modeling; spatiotemporal statistics; computer vision; surrogate modeling; fluid dynamics; precipitation physics; Julia/Python/C programming; or nonlinear dynamics.
-
-If you're not sure whether this describes you, email James -- be aware that studies show that researchers from historically excluded groups systematically underestimate their abilities, so please don't undersell yourself! 
+This research statement should clearly describe the project you would like to carry out, how it fits with our lab's expertise, what skillset you can bring to bear to the project, and what skills you would like to develop.
 :::
 ::::
 
+![](../_assets/img/group/2023-12-02.jpeg){width=100%}
