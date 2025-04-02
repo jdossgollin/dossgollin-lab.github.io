@@ -1,0 +1,30 @@
+---
+title: "Join Us at the Texas Climate Conference 2025"
+categories: Events
+date: 2025-04-02
+---
+
+
+![Texas Climate Conference](https://si.rice.edu/sites/g/files/bxs5416/files/inline-images/TX%20Climate%20Conference-Header.jpg){fig-align="center" width="80%"}
+
+We are excited to invite you to the **Texas Climate Conference 2025**, a 1.5-day event at Rice University on April 10-11, 2025.
+This conference will bring together scientists, policymakers, and community stakeholders to discuss science and solutions on four critical Texas climate themes:
+
+- **Extreme Heat**
+- **Flooding and Water Resources**
+- **Sea Level Rise and Coastal Hazards**
+- **Human Health**
+
+::: {.callout-tip}
+## More info
+For more details and registration, visit the [conference website](https://si.rice.edu/texas-climate-conference-2025).
+:::
+
+### Event Highlights
+
+- **Keynote Address** by Katharine Hayhoe (The Nature Conservancy): "Climate Change in the Gulf Coast: Challenges, Opportunities, Solutions"
+- **Thematic Keynotes** on extreme heat, flooding, sea level rise, and health challenges
+- **Networking Opportunities** for students and early-career researchers
+- **Working Group Sessions** to develop actionable strategies for climate resilience
+
+We hope to see you there!
