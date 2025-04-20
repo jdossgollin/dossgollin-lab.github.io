@@ -26,15 +26,25 @@ For more information, please see our [publications](publications/index.qmd).
 
 ## Funding
 
-We gratefully acknowedge the support of our funders
+We gratefully acknowedge the support of our funders.
 
-::: {layout="[8, -1, 8, -1, 8, -1, 8, -1, 8, -1, 8, -1, 8]"}
+### Active Funders
 
-[![Rice University](_assets/img/logos/rice_logo.svg)](https://rice.edu){target=_blank}
+::: {layout="[8, -1, 8, -1, 8, -1, 8, -1, 8, -1, 8]"}
 
 [![Texas Water Development Board](_assets/img/logos/twdb.svg)](https://www.twdb.texas.gov/){target=_blank}
 
 [![National Science Foundation](_assets/img/logos/NSF.png)](https://www.nsf.gov/){target=_blank}
+
+[![NVIDIA](_assets/img/logos/nvidia.png)](https://www.nvidia.com/){target=_blank}
+
+[![Eleven Labs](_assets/img/logos/elevenlabs-logo-black.svg)](https://elevenlabs.io/){target=_blank}
+
+:::
+
+### Past Funders
+
+::: {layout="[8, -1, 8, -1, 8, -1, 8, -1, 8, -1, 8]"}
 
 [![100,000 Strong in the Americas](_assets/img/logos/100k-strong.jpg)](https://www.100kstrongamericas.org/){target=_blank}
 
