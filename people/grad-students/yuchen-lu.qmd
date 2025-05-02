@@ -27,7 +27,7 @@ format:
 :::{#person-profile}
 ## Bio
 
-Yuchen Lu is a Ph.D. student in the Civil and Environmental Engineering department at Rice University.
+Yuchen Lu is a Ph.D. candidate in the Civil and Environmental Engineering department at Rice University.
 Yuchen completed a BS at Zhongnan University of Economics and Law in China and a MS in Civil and Environmental Engineering at Carnegie Mellon University.
 She is interested in infrastructure adaptation in the face of climate change.
 

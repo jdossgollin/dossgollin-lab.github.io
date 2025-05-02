@@ -60,6 +60,6 @@ format:
 
 # references
 bibliography: _bibliography/my-papers.bib
-csl: _assets/references/american-geophysical-union.csl
+biblio-style: _assets/references/american-geophysical-union.csl
 
 link-external-newwindow: true
