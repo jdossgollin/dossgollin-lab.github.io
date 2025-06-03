@@ -1,7 +1,7 @@
 ---
 title: "Alyssa Graham"
 sortby: "Graham, Alyssa"
-position: "Graduate RA"
+position: "MS Student"
 started: "2021"
 ended: "2022"
 toc: false
