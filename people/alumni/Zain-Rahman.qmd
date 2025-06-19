@@ -2,7 +2,7 @@
 title: "Zain Rahman"
 sortby: "Rahman, Zain"
 started: "Fall 2024" # eg Fall 2024
-ended: "Current" # Or end date if applicable
+ended: "2025" # Or end date if applicable
 toc: false
 about:
     id: person-profile

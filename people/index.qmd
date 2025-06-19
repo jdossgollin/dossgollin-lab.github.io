@@ -48,17 +48,17 @@ listing:
           started: "Started"
           ended: "Ended"
 
-    - id: undergrads
-      contents: "undergrad-students/*.qmd"
-      type: grid
-      image-height: 225px
-      grid-columns: 3
-      sort: sortby
-      fields: [image, title, started]
-      field-display-names:
-          started: "Started"
-          position: "Position"
-      grid-item-align: left
+    # - id: undergrads
+    #   contents: "undergrad-students/*.qmd"
+    #   type: grid
+    #   image-height: 225px
+    #   grid-columns: 3
+    #   sort: sortby
+    #   fields: [image, title, started]
+    #   field-display-names:
+    #       started: "Started"
+    #       position: "Position"
+    #   grid-item-align: left
 ---
 
 ## PI
@@ -73,9 +73,9 @@ listing:
 :::{#grad-students-coadvised}
 :::
 
-## Undergraduate Students
-:::{#undergrads}
-:::
+<!-- ## Undergraduate Students -->
+<!-- :::{#undergrads} -->
+<!-- ::: -->
 
 ## Alumni
 :::{#alumni}
