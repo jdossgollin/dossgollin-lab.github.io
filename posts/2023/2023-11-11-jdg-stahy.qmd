@@ -2,7 +2,7 @@
 title: "James presents at STAHY 2023"
 categories: Publication
 date: 2023-11-11
-bibliography: ../../_bibliography/my-papers.bib
+bibliography: ../../bibliography/my-papers.bib
 ---
 
 [James](../../people/pi/james-doss-gollin.qmd) presented work led by Ph.D. student [Yuchen Lu](../../people/grad-students/yuchen-lu.qmd) and with GMU's Ben Seiyon Lee at the [STAHY 2023](https://drive.google.com/file/d/1oDXot_L1fcT43-55tkbU3pArizKmj8xb/view) conference in Boston, MA.

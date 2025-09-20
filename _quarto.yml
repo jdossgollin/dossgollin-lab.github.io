@@ -25,7 +25,7 @@ website:
       - text: "People"
         href: people/index.qmd
       - text: "Publications"
-        href: publications/index.qmd
+        href: publications.qmd
       - text: "Research"
         href: research.qmd
       - text: "Teaching"
@@ -59,7 +59,7 @@ format:
     date-format: long
 
 # references
-bibliography: _bibliography/my-papers.bib
+bibliography: bibliography/my-papers.bib
 biblio-style: _assets/references/american-geophysical-union.csl
 
 link-external-newwindow: true

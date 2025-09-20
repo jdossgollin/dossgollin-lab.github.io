@@ -2,7 +2,7 @@
 title: "Paper on trends in heating and cooling demand published in Communications Earth & Environment"
 categories: Publication
 date: 2023-11-01
-bibliography: ../../_bibliography/my-papers.bib
+bibliography: ../../bibliography/my-papers.bib
 ---
 
 Our paper titled "Differential effects of climate change on average and peak demand for heating and cooling across the contiguous USA" was just published in the journal Communications Earth & Environment [@amonkar_heatingcooling:2023].
@@ -12,7 +12,7 @@ This is an important problem because energy systems, including electricity syste
 We find that while climate change has increased average and peak demand for cooling, but that peak demand for heating, which is an important driver of electricity demand in the winter, is dominated by year to year variability.
 System design and management must take rare winter peaks into account, especially as building heating electrifies.
 
-For more, see [the abstract](../../publications/article/wutich_madwater_2023.qmd).
+For more, see [the abstract](/bibliography/publications/article/wutich_madwater_2023.qmd).
 
 ![](../../_assets/img/pubs/amonkar_heatingcooling_2023.png){width=100%}
 

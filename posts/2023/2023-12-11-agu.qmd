@@ -2,7 +2,7 @@
 title: "Catch us at AGU 2023!"
 categories: Publication
 date: 2023-12-11
-bibliography: ../../_bibliography/my-papers.bib
+bibliography: ../../bibliography/my-papers.bib
 ---
 
 We'll be at AGU 2023 in San Francisco, CA, USA.

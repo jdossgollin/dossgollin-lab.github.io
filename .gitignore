@@ -36,3 +36,5 @@ node_modules
 /.luarc.json
 
 publications/*/*.qmd
+
+**/*.quarto_ipynb

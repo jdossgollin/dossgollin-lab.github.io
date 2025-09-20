@@ -31,3 +31,4 @@ Hey Everyone! My name is Zain Rahman and I'm an Undergraduate student majoring i
 
 ## Education
 - **Rice University** | Houston, Texas<br />Computer Science, 2027
+:::
