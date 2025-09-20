@@ -5,7 +5,7 @@ import re
 from titlecase import titlecase
 
 # optionally update
-TARGET = Path("_bibliography/my-papers.bib")
+TARGET = Path("bibliography/my-papers.bib")
 
 
 def citekey_to_string(citekey):
@@ -38,8 +38,9 @@ def format_title(title):
 
     # Replace placeholders with original text from curly braces
     for idx, text in enumerate(preserved_texts):
-        placeholder = f"_p{idx}"
-        title = title.replace(placeholder, text)
+        placeholder_lower = f"_p{idx}"
+        placeholder_upper = f"_P{idx}"
+        title = title.replace(placeholder_lower, text).replace(placeholder_upper, text)
 
     return title
 

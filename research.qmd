@@ -22,7 +22,7 @@ Second, how can we use this information to design adaptive, sustainable, equitab
 
 To accomplish this, we leverage tools from Earth science (e.g., hydrology, atmospheric science), data science (e.g., graph neural nets, Bayesian extreme value models), and decision science (e.g., decision making under deep uncertainty, optimization). We apply these methods to complex problems in coastal resilience, urban flood risk management, energy reliability, and water resources.
 
-For more information, please see our [publications](publications/index.qmd).
+For more information, please see our [publications](publications.qmd).
 
 ## Research Support
 

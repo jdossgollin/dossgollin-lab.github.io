@@ -3,7 +3,7 @@ title: "Bayesian Spatiotemporal Model Published in Environmental Research: Clima
 subtitle: Yuchen Lu's first-author paper demonstrates robust increases in Gulf Coast extreme rainfall using novel statistical framework.
 categories: Publications
 date: 2025-08-26
-bibliography: ../../_bibliography/my-papers.bib
+bibliography: ../../bibliography/my-papers.bib
 ---
 
 Congratulations to [Yuchen Lu](../../people/grad-students/yuchen-lu.qmd) on her first first-author paper, "Bayesian spatiotemporal nonstationary model quantifies robust increases in daily extreme rainfall across the Western Gulf Coast," which has been published open-access in Environmental Research: Climate [@lu_spatiotemporal:2025]!
@@ -28,4 +28,4 @@ Future projections for 2050 indicate that return levels will exceed current guid
 
 Shout out also to coauthor Ben Seiyon Lee for patiently sharing his insights and expertise, and to colleagues at Rice, AGU, STAHY 2023, and ER: Climate for helpful suggestions and discussion.
 
-For more details, see [here](../../publications/published/lu_spatiotemporal_2025.qmd).
+For more details, see [here](/bibliography/publications/article/lu_spatiotemporal_2025.qmd).

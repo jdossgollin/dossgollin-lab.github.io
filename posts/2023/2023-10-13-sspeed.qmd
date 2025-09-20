@@ -2,7 +2,7 @@
 title: "James Presents at SSPEED Center Conference"
 categories: Publications
 date: 2023-10-13
-bibliography: ../../_bibliography/my-papers.bib
+bibliography: ../../bibliography/my-papers.bib
 ---
 
 

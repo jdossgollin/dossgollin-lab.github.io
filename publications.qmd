@@ -1,9 +1,8 @@
 ---
 listing:
   - id: pubs-article
-    contents: 
-        - article/*.qmd
-        - article/*.md
+    contents:
+        - /bibliography/publications/article/*.qmd
     type: grid
     sort: "date desc"
     categories: false
@@ -13,9 +12,8 @@ listing:
     page-size: 50
     fields: [date, title, author, image]
   - id: pubs-conference
-    contents: 
-        - conference/*.qmd
-        - conference/*.md
+    contents:
+        - /bibliography/publications/conference/*.qmd
     type: table
     sort: "date desc"
     categories: false
@@ -30,9 +28,8 @@ listing:
         author: "Authors"
         details: "Details"
   - id: pubs-forthcoming
-    contents: 
-        - forthcoming/*.qmd
-        - forthcoming/*.md
+    contents:
+        - /bibliography/publications/forthcoming/*.qmd
     type: table
     sort: "date desc"
     categories: false
@@ -42,9 +39,8 @@ listing:
     page-size: 50
     fields: [author, title]
   - id: pubs-other
-    contents: 
-        - other/*.qmd
-        - other/*.md
+    contents:
+        - /bibliography/publications/other/*.qmd
     type: table
     sort: "date desc"
     categories: false

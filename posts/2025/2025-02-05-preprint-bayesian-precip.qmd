@@ -3,7 +3,7 @@ title: Bayesian Model Reveals Rising Extreme Rainfall on Gulf Coast
 subtitle: A novel statistical approach predicts increased rainfall intensity and variability, highlighting climate change impacts on Gulf Coast weather patterns.
 categories: Publications
 date: 2025-02-05
-bibliography: ../../_bibliography/my-papers.bib
+bibliography: ../../bibliography/my-papers.bib
 ---
 
 Our preprint, led by [Yuchen Lu](../../people/grad-students/yuchen-lu.qmd) and titled "Bayesian Spatiotemporal Nonstationary Model Quantifies Robust Increases in Daily Extreme Rainfall Across the Western Gulf Coast", is now live on ArXiV [@lu_spatiotemporal:2025].
@@ -25,4 +25,4 @@ This framework offers a practical and theoretically sound method for estimating 
 ## Read More
 
 Our paper is currently undergoing peer review, so results should be treated as preliminary.
-For more details, see [here](../../publications/forthcoming/lu_spatiotemporal_2025.qmd).
+For more details, see [here](/bibliography/publications/article/lu_spatiotemporal_2025.qmd).
