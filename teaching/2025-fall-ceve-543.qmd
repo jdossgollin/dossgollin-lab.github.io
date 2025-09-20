@@ -1,0 +1,19 @@
+---
+title: Statistical-Physical Methods for Hydroclimate Extremes and Catastrophes
+year: 2025
+semester: Fall
+coursenumber: CEVE 543
+where: Rice University
+---
+
+- **Semester:** {{< meta semester >}} {{< meta year >}}
+- **Course Number:** {{< meta coursenumber >}}
+
+## Course Description
+
+Description: This course explores the integration of physics-based and statistical (and machine learning) methods used to assess and model hydroclimate extremes and catastrophes, such as floods, droughts, and extreme rainfall. A central theme is quantifying uncertainty in extreme event probabilities, given the challenges posed by sparse observations and model biases. Through hands-on programming assignments, students will gain experience applying these methods to real-world problems. Topics include extreme value theory, optimal sampling, synthetic weather generation, downscaling and bias correction, surrogate models, and data assimilation. Recommended Prerequisite(s): A background in Bayesian statistics (e.g., 525) and/or machine learning (e.g., ELEC 478/578) is strongly recommended, along with familiarity with programming (e.g., Python, Julia, or R). 
+
+
+## More information
+
+For details, see [the course website](https://ceve-543.github.io/){target=_blank}.
