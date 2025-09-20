@@ -38,15 +38,6 @@ jobs:
           cd ..
           git submodule update --remote --recursive
 
-      - name: Set up Conda Environment
-        uses: conda-incubator/setup-miniconda@v2
-        with:
-          activate-environment: dossgollin-lab
-          environment-file: _environment.yml
-
-      - name: Generate Publication Files
-        run: python bibtex_to_qmd.py
-
       - name: Publish to GitHub Pages (and render)
         uses: quarto-dev/quarto-actions/publish@v2
         with:
