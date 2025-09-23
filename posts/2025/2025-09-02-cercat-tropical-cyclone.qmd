@@ -1,0 +1,15 @@
+---
+title: "CERCAT Funding for Tropical Cyclone Hazard Assessment Project"
+categories: News
+date: 2025-09-02
+---
+
+We're thrilled to announce that our project, "A nonstationary joint probability method for tropical cyclone hazard assessment," with [Avantika Gori](https://gori.blogs.rice.edu/) as co-PI, has been selected for funding by the Consortium for Enhancing Resilience and Catastrophe Modeling (CERCAT) and officially kicks off today.
+
+The Consortium for Enhancing Resilience and Catastrophe Modeling held its inaugural Industry Advisory Board Meeting on August 7-8, 2025, where our Industry Advisory Board played a critical role in providing project feedback and helping prioritize key projects for the consortium's first year.
+
+This collaborative project aims to develop innovative approaches for assessing tropical cyclone hazards under changing climate conditions, addressing the critical need for nonstationary methods that can account for evolving risk patterns.
+
+We're excited to be part of this collaborative effort alongside other groundbreaking projects focused on multi-hazard resilience, wildfire fragility curves, and AI-driven damage assessment.
+
+For more information about CERCAT and the full portfolio of funded projects, visit [the CERCAT website](https://www.catmodeling.org/news).

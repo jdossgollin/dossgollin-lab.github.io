@@ -1,15 +1,31 @@
 ---
-title: "CERCAT Funding for Tropical Cyclone Hazard Assessment Project"
-categories: News
-date: 2025-09-02
+title: "New Paper on AI for Climate Published in IEEE TGRS"
+subtitle: "Yuhao Liu's first-author paper introduces a novel generative AI model to improve the prediction of extreme rainfall."
+categories: Publications
+date: 2025-09-23
+bibliography: ../../bibliography/my-papers.bib
 ---
 
-We're thrilled to announce that our project, "A nonstationary joint probability method for tropical cyclone hazard assessment," with [Avantika Gori](https://gori.blogs.rice.edu/) as co-PI, has been selected for funding by the Consortium for Enhancing Resilience and Catastrophe Modeling (CERCAT) and officially kicks off today.
+A new paper "Downscaling Extreme Precipitation with Wasserstein Regularized Diffusion," published in IEEE Transactions on Geoscience and Remote Sensing [@liu_generative:2025].
+This work is led by [Yuhao Liu](https://www.yuhaoliu.net/), a PhD student in Electrical and Computer Engineering, and is the culmination of extensive brainstorming and research collaboration with coauthors [Ashok Veeraraghavan](https://www.ece.rice.edu/~ashok/), [Guha Balakrishnan](https://www.ece.rice.edu/~guha/), and Qiushi Dai as well as [James Doss-Gollin](/people/pi/james-doss-gollin.qmd).
 
-The Consortium for Enhancing Resilience and Catastrophe Modeling held its inaugural Industry Advisory Board Meeting on August 7-8, 2025, where our Industry Advisory Board played a critical role in providing project feedback and helping prioritize key projects for the consortium's first year.
+Many assessments of rainfall and flood hazard require high-resolution precipitation data (e.g., 1-4 km).
+While coarse global datasets from reanalysis products exist, and fine-grained radar data is available for recent years, there is a critical gap in producing long-term, high-resolution historical datasets needed for robust climate and hydrological modeling.
+Existing deep learning methods for this *downscaling* or *super-resolution* task often fail to accurately capture the statistical properties of the most extreme, and therefore most dangerous, events.
 
-This collaborative project aims to develop innovative approaches for assessing tropical cyclone hazards under changing climate conditions, addressing the critical need for nonstationary methods that can account for evolving risk patterns.
+We developed Wasserstein Regularized Diffusion (`WassDiff`), a novel generative AI framework.
+Unlike other diffusion models that can replicate the general distribution of rainfall, `WassDiff` is specifically designed to get the tails of the distribution right.
+It integrates a Wasserstein distribution-matching regularizer directly into the denoising process.
+This forces the model to pay close attention to the frequency and magnitude of extreme values, reducing the biases commonly seen in generative models for climate data.
 
-We're excited to be part of this collaborative effort alongside other groundbreaking projects focused on multi-hazard resilience, wildfire fragility curves, and AI-driven damage assessment.
+Experiments show that `WassDiff` generates high-resolution precipitation fields that are more physically realistic and statistically accurate than those from competing models.
+It more faithfully reproduces the spatial patterns and, most importantly, the statistical characteristics of extreme rainfall, making it a more reliable tool for climate impact studies.
 
-For more information about CERCAT and the full portfolio of funded projects, visit [the CERCAT website](https://www.catmodeling.org/news).
+This work provides a significant step forward for both the machine learning and climate science communities.
+By creating more reliable high-resolution precipitation data, `WassDiff` can help scientists and engineers better assess flood risk, design more resilient infrastructure, and ultimately improve our understanding of how climate change impacts local communities.
+
+::: {.callout-note}
+## Access
+
+We are happy to share a copy upon request if you don't have access to this journal.
+:::
