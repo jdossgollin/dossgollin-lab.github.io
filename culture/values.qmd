@@ -1,0 +1,52 @@
+---
+title: "Our Values"
+format:
+  html:
+    page-layout: full
+---
+
+Our research group is guided by five core values that shape how we approach our work and interact with one another.
+
+## Core Values
+
+1. **Creativity:** As academics, we enjoy the luxuries of freedom and space that allow us to question the status quo and explore new ideas. With this privilege comes a responsibility to imagine new possibilities and speak uncomfortable truths.
+1. **Equity:** We recognize the existence and impacts of systematic inequalities and work to promote fairness and justice in our research and teaching. 
+1. **Excellence:** Believing that better tools and knowledge can support better decisions and outcomes, we strive for excellence in all our activities.
+1. **Humility:** We understand the limitations of our expertise and celebrate the academic and community partners with whom we coproduce knowledge. We overcome our limitations by actively seeking out diverse perspectives and challenging our preexisting assumptions.
+1. **Open Science:** Our research is accessible to all levels of society. We approach complex problems with a collaborative mindset. When we make mistakes, we recognize them and do our best to fix them.
+
+
+
+## Open Science in Practice
+
+Open science is the idea that scientific research should be transparent and accessible to everyone, especially including the taxpaying public that funds a substantial portion of our research.
+Open science is about democratizing knowledge and accelerating scientific progress to address urgent challenges like climate change, flooding, and poverty.
+Some key concepts of open science are:
+
+1. **Reproducibility**: obtaining consistent computational results using the same input data, methods, code, and conditions of analysis.
+2. **Replicability**: obtaining consistent results across different studies aimed at answering the same scientific question, each with its own data.
+3. **Accessibility**: making research findings, data, and methods available to all levels of society, both amateur and professional.
+
+We implement these principles in the following ways:
+
+1. We make our data, code, and computational environments publicly available, typically no later than the publication of our work.
+1. We prioritize using fully open-source tools whenever possible. When proprietary software or data is necessary, we document its use clearly and provide alternatives where possible.
+1. We publish in open-access journals where appropriate and make post-prints freely available when not. We also share preprints on open-access servers.
+1. We summarize our findings in non-technical blog posts, translate papers as needed, and use social media to share key findings.
+1. We use permissive open-source licenses for our code, respecting and complying with licensing terms.
+1. We employ various tools to facilitate reproducible science, including Python, Julia, Git, GitHub, Snakemake, Zenodo, and more.
+
+::: {.callout-note}
+## Credit
+
+The organization and framing of our lab values borrows heavily from lab guides written by
+[Lab Carpentry](https://lab-carpentry.readthedocs.io/),
+the [Advanced Reactors and Fuel Cycles](http://arfc.npre.illinois.edu/manual/) group at UIUC,
+the [Andersen Lab](https://andersenlab.org/dry-guide/) at Northwestern,
+the [Computer-Oriented Geoscience Lab](https://www.compgeolab.org/manual/) at University of Liverpool,
+the [Ocean Transport Group](https://ocean-transport.github.io/) at the Lamont-Doherty Earth Observatory,
+the [Aly lab](https://github.com/alylab/labmanual) at Columbia,
+the [Srikrishnan Lab](https://viveks.bee.cornell.edu/lab-manual/) at Cornell,
+and
+the [Keller Lab Group](https://keller-lab.github.io/) at Dartmouth.
+:::

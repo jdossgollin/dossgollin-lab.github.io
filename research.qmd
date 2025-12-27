@@ -24,6 +24,10 @@ To accomplish this, we leverage tools from Earth science (e.g., hydrology, atmos
 
 For more information, please see our [publications](publications.qmd).
 
+## Project Pages
+
+- [AI 4 Climate Risk and Urban Resilience @ Rice](https://ai4urbanresilience.rice.edu/){target=_blank}
+
 ## Research Support
 
 We would like to thank the following organizations for their research funding and/or in-kind support.

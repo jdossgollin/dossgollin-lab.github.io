@@ -1,7 +1,7 @@
 ---
 title: "Katlyn Schmeltzer"
 sortby: "Schmeltzer, Katlyn"
-position: "MCEE Student"
+position: "Graduate RA"
 started: "2025"
 ended: "2025"
 toc: false

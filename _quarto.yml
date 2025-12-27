@@ -18,31 +18,35 @@ website:
 
   page-footer:
     left: |
-      View the source [on GitHub]({{< var website.repo-url >}})
+      Rice University<br>
+      Department of Civil & Environmental Engineering<br>
+      Ryon Lab #215
+    center: |
+      <a href="https://bsky.app/profile/jdossgollin.bsky.social" title="BlueSky"><i class="bi bi-bluesky"></i></a> &nbsp;
+      <a href="https://www.linkedin.com/in/jamesdossgollin" title="LinkedIn"><i class="bi bi-linkedin"></i></a> &nbsp;
+      <a href="https://github.com/dossgollin-lab" title="GitHub"><i class="bi bi-github"></i></a>
+    right: |
+      [jdossgollin@rice.edu](mailto:jdossgollin@rice.edu)<br>
+      View source [on GitHub]({{< var website.repo-url >}})
 
   navbar:
     right:
-      - text: "People"
-        href: people/index.qmd
-      - text: "Publications"
-        href: publications.qmd
-      - text: "Research"
-        href: research.qmd
-      - text: "Teaching"
-        href: teaching.qmd
+      - href: people/index.qmd
+      - href: research.qmd
+      - href: publications.qmd
+      - href: teaching.qmd
+      - href: contact.qmd
       - text: "Join Us"
-        href: joinus.qmd
-      - text: "Contact"
-        href: contact.qmd
-      - text: Links
-        menu:  
-        - text: "Lab Guide"
-          href: https://dossgollin-lab.github.io/lab-guide/
-        - text: "AI 4 Climate Risk and Resilience @ Rice"
-          href: https://ai4climaterrr.rice.edu
-        - icon: github
-          text: "GitHub"
-          href: https://github.com/dossgollin-lab/
+        menu:
+          - href: joinus/open-positions.qmd
+          - href: joinus/phd.qmd
+          - href: joinus/postdoc.qmd
+          - href: joinus/undergrad.qmd
+      - text: "Culture"
+        menu:
+          - href: culture/values.qmd
+          - href: culture/expectations.qmd
+          - href: culture/harassment-policy.qmd
 
 
 format:

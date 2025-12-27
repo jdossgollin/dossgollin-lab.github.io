@@ -1,5 +1,5 @@
 ---
-title: Group Members
+title: People
 listing:
     - id: grad-students
       contents: "grad-students/*.qmd"
@@ -13,18 +13,18 @@ listing:
           position: "Position"
       grid-item-align: left
 
-    - id: grad-students-coadvised
-      contents: "grad-students-coadvised/*.qmd"
-      type: grid
-      image-height: 225px
-      grid-columns: 3
-      sort: sortby
-      fields: [image, title, started, primary_advisor]
-      field-display-names:
-          started: "Started"
-          position: "Position"
-          primary_advisor: "Primary Advisor"
-      grid-item-align: left
+    # - id: grad-students-coadvised
+    #   contents: "grad-students-coadvised/*.qmd"
+    #   type: grid
+    #   image-height: 225px
+    #   grid-columns: 3
+    #   sort: sortby
+    #   fields: [image, title, started, primary_advisor]
+    #   field-display-names:
+    #       started: "Started"
+    #       position: "Position"
+    #       primary_advisor: "Primary Advisor"
+    #   grid-item-align: left
 
     - id: pi
       contents: "pi/*.qmd"
@@ -61,21 +61,23 @@ listing:
     #   grid-item-align: left
 ---
 
-## PI
 :::{#pi}
 :::
 
-## Graduate Students
+## Ph.D. Students
 :::{#grad-students}
 :::
 
+<!-- ## Undergraduate Students
 ## Coadvised Graduate Students
 :::{#grad-students-coadvised}
 :::
+-->
 
-<!-- ## Undergraduate Students -->
-<!-- :::{#undergrads} -->
-<!-- ::: -->
+<!--
+:::{#undergrads}
+:::
+-->
 
 ## Alumni
 :::{#alumni}

@@ -2,8 +2,9 @@
 title: "Jonah Schaechter"
 sortby: "Schaechter, Jonah"
 started: "Spring 2024"
-ended: "Current"
+ended: "Fall 2025"
 toc: false
+position: "Graduate RA"
 about:
     id: person-profile
     image: "../../_assets/img/people/Jonah.jpg"
@@ -27,11 +28,11 @@ format:
 :::{#person-profile}
 ## Bio
 
-Jonah Schaechter is a Ph.D. student in the Civil and Environmental Engineering department at Rice University.
-Jonah completed a BS and MS at Columbia University in Mechanical Engineering.  He is interested in climate damage mitigation, and how we adapt infrastructure both to reduce emissions, and to be more resiliant to climate change.
+Jonah Schaechter is a MCEE student in the Civil and Environmental Engineering department at Rice University.
+Jonah completed a BS and MS at Columbia University in Mechanical Engineering.  He is interested in climate damage mitigation, and how we adapt infrastructure both to reduce emissions, and to be more resilient to climate change.
 
 ## Education
-- **Columbia University** | New York, NY, USA<br />MS in Mechanical Engineering Engineering, 2022
-<br />BS in Mechanical Engineering Engineering, 2021
+- **Columbia University** | New York, NY, USA<br />MS in Mechanical Engineering, 2022
+<br />BS in Mechanical Engineering, 2021
 
 :::

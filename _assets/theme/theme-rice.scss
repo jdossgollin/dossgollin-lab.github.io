@@ -69,3 +69,18 @@ $code-block-bg: $light-gray !default;
 .blockquote {
     color: $medium-blue;
 }
+
+// Enable hover dropdowns for navbar (desktop only)
+@media (min-width: 992px) {
+    .navbar .dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0;
+    }
+
+    // Align rightmost dropdown menus to the right edge
+    .navbar-nav .dropdown:last-child .dropdown-menu,
+    .navbar-nav .dropdown:nth-last-child(2) .dropdown-menu {
+        right: 0;
+        left: auto;
+    }
+}
