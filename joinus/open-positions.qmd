@@ -1,32 +1,24 @@
 ---
-title: Join Us
+title: Open Positions
 format:
     html:
         page-layout: full
 ---
 
-
 We are an inclusive group driven by our intellectual curiosity and sense of purpose.
 Join us to use Earth science, decision science, data science, and engineering to address critical societal challenges!
-
-
-::: {.callout-tip}
-## Learn more 
-Read our [lab guide](https://dossgollin-lab.github.io/lab-guide/){target=_blank} to learn more about our expectations and culture.
-:::
 
 :::: {.grid}
 ::: {.g-col-4}
 ### Undergraduates
 
 There is support for motivated undergraduates to work for pay or credit.
-See the lab guide's [instructions for prospective undergraduates](https://dossgollin-lab.github.io/lab-guide/joinus/undergrad.html){target=_blank}.
+See our [instructions for prospective undergraduates](undergrad.qmd).
 :::
 ::: {.g-col-4}
 ### Graduate Students
 
-In light of the evolving federal science funding landscape, we are not actively recruiting graduate students at this time.
-Students with external funding are welcome to apply.
+There are open positions available for outstanding graduate students to start in summer or fall 2026.
 :::
 ::: {.g-col-4}
 ### Postdocs
@@ -46,7 +38,7 @@ Email James a 1-2 page research statement describing the project you would like 
 #### How to apply
 
 Graduate admissions are handled through a formal application to the department.
-See the lab guide's [instructions for prospective graduate students](https://dossgollin-lab.github.io/lab-guide/joinus/gradadmissions.html){target=_blank}.
+See our [instructions for prospective graduate students](phd.qmd).
 :::
 ::: {.g-col-4}
 #### How to apply
@@ -55,5 +47,3 @@ If you're interested, please email a CV and 2-3 page research statement to James
 This research statement should clearly describe the project you would like to carry out, how it fits with our lab's expertise, what skillset you can bring to bear to the project, and what skills you would like to develop.
 :::
 ::::
-
-![](../_assets/img/group/2023-12-02.jpeg){width=100%}

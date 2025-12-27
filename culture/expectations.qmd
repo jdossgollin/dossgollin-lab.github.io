@@ -1,0 +1,94 @@
+---
+title: "Expectations"
+format:
+  html:
+    page-layout: full
+    toc: true
+---
+
+This document outlines the responsibilities and expectations for everyone in the group.
+It is a living document and will be updated as the group evolves.
+
+::: {.callout-tip}
+## Caveat
+
+Guidelines from Rice University, Rice Engineering, and Rice CEVE take precedence over this section.
+If you believe that something on this page is at odds with university policy, please notify James.
+:::
+
+## Everyone
+
+1. **Environment:** Foster a supportive team environment committed to mutual learning and success. Support and help your labmates. Read and follow lab guidelines, suggesting improvements when you see opportunities. Take initiative in your work and in advancing the lab's mission.
+1. **Workload:** Treat your research as a full-time job, aiming for an average of 40 high-quality hours per week. This approach ensures consistent progress while allowing you to benefit from the flexibility academic research offers.
+1. **Presence:** Be an active participant in the lab. Attend and contribute to group meetings and seminars, taking turns to lead discussions. Be present in the lab during agreed times and respect shared spaces.
+1. **Own Your Research:** You are the primary driver of your research and career. Take responsibility for the project's direction, pace, and success. Drive the collaboration by leading meetings, preparing strategic agendas, and following up on action items. Don't wait to be told what to do next; identify your needs clearly and champion your own ideas. Treat your advisor as a source of strategic guidance, not step-by-step instructions.
+
+## Health and Well-being
+
+Academia can be stressful, and it's important to take care of yourself.
+Here are some tips that you should adapt to your preferred way of working:
+
+1. Maintain a healthy sleep schedule.
+2. Pursue interests and hobbies outside of work to relieve stress and stimulate creative thought.
+3. Develop a support network among your peers who understand the challenges.
+4. Stay home when sick to protect your health and that of others.
+5. Use mental health resources when needed. Seeking help is a worthy investment in yourself. Specifically, take advantage of Rice's mental health resources:
+   - [Wellbeing and Counseling Center](https://wellbeing.rice.edu/studentwellbeing)
+   - [Counseling Center](https://wellbeing.rice.edu/counseling-center/about-us)
+
+## Specific Responsibilities
+
+We all have different roles and responsibilities in the lab.
+Here are some guidelines based on your role.
+
+### PI (James)
+
+1. **Environment:** Manage the lab's social dynamic to create a welcoming, inclusive, and productive atmosphere that brings out the best in everyone and celebrates diverse perspectives.
+1. **Define Research Directions:** Identify relevant and exciting research questions, leveraging field awareness, creativity, and insight.
+1. **Provide Technical Leadership:** Establish a software and hardware environment that maximizes productivity for all team members.
+1. **Scientific Mentoring:** Guide junior members in developing into independent scientists through regular meetings, feedback, and strategic planning.
+1. **Manage Publication Process:** Assist in identifying publishable results, selecting appropriate journals, and navigating the revision process.
+1. **Secure Funding:** Obtain grant funding to support the group's research and ensure coverage of all research-related expenses.
+1. **Provide Feedback:** Offer guidance on all aspects of research, from hypothesis formation to data management and paper writing.
+1. **Offer Support:** Provide moral support, career advice, and recommendation letters to help members navigate the challenges of research and academic life.
+1. **Project Management:** Help structure projects with clear goals, milestones, and timelines, balancing guidance with fostering independence.
+1. **Conference Support:** Help students attend at least one major conference per year (e.g., AGU, EWRI) after their first year, provided they have work ready to present.
+
+In addition, faculty have departmental duties, teach courses, participate in professional organizations, peer-review journal articles and grant proposals, serve on student committees, and more.
+
+### Graduate Students
+
+1. **Grant Writing & Funding:** Writing proposals is a critical skill for any high-level researcher. You are expected to apply for relevant external fellowships (e.g., NSF GRFP, NASA FINESST) annually until funded. We will support you in this, but you must identify deadlines and draft materials well in advance. Even if not funded, the process refines your scientific logic.
+1. **Project Management:** You are the project manager for your dissertation.
+    - Adopt a system to track tasks.
+    - Arrive at every meeting with a written agenda: *What have I done? What am I stuck on? What is the plan for next week?* 
+    - Respond to emails/Slack within 24 hours during the week, even if just to say "I'm working on it."
+1. **Cultivate Independence:** By your third year, you should know the literature and technical details of your specific niche better than James does.
+    - Dedicate time every day to reading.
+    - Don't just execute the current task; look for the next logical question or the flaw in our current approach.
+1. **Be Consistent:** Success in research comes from compounding effort. Consistent, daily progress on hard problems is more effective than sporadic all-nighters.
+1. **Admin is Your Responsibility:** You -- not James or the department admins -- are responsible for tracking your degree requirements. Know the Rice CEVE handbook. Track your own credit hours, qualifying exam deadlines, and committee formation forms.
+1. **Career Planning:** Reflect on your career goals and work with James to get necessary training and exposure.
+1. **Balance Independence and Guidance:** Learn to strike a balance between working independently and seeking help when needed. Don't hesitate to ask for assistance, but always come prepared with your thoughts and potential solutions.
+1. **Professional Development:** Take charge of your own professional development. Seek out opportunities for skill-building, networking, and career exploration beyond what's directly offered in the lab.
+1. **Write Before You Are Ready:** Scientific writing is not the final step; it is the process of thinking. Do not wait until you have "all the results" to write. Draft outlines, figure captions, and methods sections as you work.
+1. **Mentorship & Citizenship:** Part of your training is learning to lead. As you become senior, you will be expected to mentor undergraduate students or junior peers. This reinforces your own knowledge and multiplies the lab's impact.
+1. **Reproducible Workflows:** Maintain clean, documented, version-controlled code from the start. Your future self and collaborators will thank you.
+1. **Honest Signals:** If you are stuck, overwhelmed, or failing to meet a goal, communicate this early. "I tried X and it failed" is data; silence is a black box. We can fix a failed experiment, but we cannot fix a problem we don't know exists.
+
+Remember, your graduate education is ultimately your responsibility. While James is here to provide guidance and support, you are in charge of your own success and development as a researcher.
+
+### Undergraduates
+
+1. Learn a lot
+1. Keep track of and fulfill all college requirements
+1. Work on average 10hrs per week (unless otherwise discussed)
+1. Track time spent working honestly and accurately
+1. Submit weekly written reports and/or slides to James
+1. Attend lab meetings when consistent with your schedule
+1. Be helpful, friendly, and open to new ideas
+1. Ask Fearlessly: Your primary goal is to learn. You are not expected to know everything. Please ask questions when you are confused; pretending to understand slows you down, while asking questions helps everyone clarify their thinking.
+
+## Harassment Policy
+
+All group members are expected to follow our [Harassment Policy](harassment-policy.qmd).

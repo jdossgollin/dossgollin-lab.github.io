@@ -58,12 +58,12 @@ format:
 # Publications
 
 :::: {.panel-tabset}
-## Articles
+## Journal Papers
 
 :::{#pubs-article}
 :::
 
-## Conference Presentations
+## Conference Papers
 
 :::{#pubs-conference}
 :::
@@ -73,9 +73,5 @@ format:
 :::{#pubs-forthcoming}
 :::
 
-## Other
-
-:::{#pubs-other}
-:::
 
 ::::

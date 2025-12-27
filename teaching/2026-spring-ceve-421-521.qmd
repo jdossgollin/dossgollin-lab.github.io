@@ -1,0 +1,29 @@
+---
+title: Climate Risk Management
+year: 2026
+semester: Spring
+coursenumber: CEVE 421/521
+where: Rice University
+---
+
+- **Semester:** {{< meta semester >}} {{< meta year >}}
+- **Course Number:** {{< meta coursenumber >}}
+
+## Course Description
+
+CEVE 421/521 addresses critical questions at the intersection of climate science, engineering, and decision-making.
+The course tackles challenges like flood protection investment in cities, which are characterized by many potential adaptations, deep uncertainty, complex system dynamics, and temporal structure.
+
+The course is structured in three parts:
+
+1. **Risk Analysis** – Uses probabilistic methods to characterize climate hazards and quantify uncertainty
+2. **Decision Analysis** – Evaluates options through cost-benefit analysis, sensitivity analysis, and value of information
+3. **Optimization Under Uncertainty** – Develops robust strategies via exploratory modeling, sequential decision-making, and multi-objective optimization
+
+The course emphasizes discussion of current research and foundational methods alongside hands-on computational labs.
+Students develop risk management strategies for a hypothetical coastal city scenario while learning Julia, Quarto, and GitHub for reproducible analysis and collaboration.
+
+
+## More information
+
+For details, see [the course website](https://ceve-421-521.github.io/){target=_blank}.

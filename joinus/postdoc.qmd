@@ -1,0 +1,54 @@
+---
+title: "Postdoctoral Opportunities"
+format:
+  html:
+    page-layout: full
+    toc: true
+---
+
+I welcome postdoctoral researchers interested in the quantitative study of climate hazard, risk, and resilience.
+Our research bridges climate science, hydrology, statistics, and decision science to address challenges in climate hazard, risk, and resilience.
+
+## Current Opportunities
+
+Current funded positions are listed on the [Open Positions](/joinus/open-positions.qmd) page.
+
+If you have your own funding (e.g., NSF postdoctoral fellowship, fellowship from your home country) or are interested in developing a joint proposal, please reach out even if no position is posted.
+
+## How to Apply
+
+Email me directly with:
+
+1. Your CV
+2. A brief statement (1-2 paragraphs) describing:
+   - Your research interests and career goals
+   - How your work aligns with the group's research
+   - Proposed start date and duration
+3. Names of 2-3 references
+
+**Note**: Generic emails that don't demonstrate familiarity with the group's work won't receive a response.
+
+If there's strong alignment, we'll schedule a conversation to discuss potential collaboration.
+
+## Funding Opportunities
+
+If you're interested in applying for external funding to support a postdoc in the group, here are some opportunities we can discuss:
+
+- [NSF Earth Sciences Postdoctoral Fellowships](https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503144)
+- [NSF Social, Behavioral, and Economic Sciences Postdoctoral Research Fellowships](https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=504843)
+- [Smith Fellowship](https://conbio.org/mini-sites/smith-fellows) (conservation science)
+- Various international fellowships (e.g., Marie Curie, JSPS, Newton International)
+
+I'm happy to work with you to develop competitive proposals for these or other opportunities.
+
+## What to Expect
+
+Postdocs in the group have the opportunity to:
+
+- Develop independent research agendas aligned with their career goals
+- Mentor graduate and undergraduate students
+- Collaborate with partners across academia, government, and industry
+- Present work at conferences and workshops
+- Build professional networks in climate risk and water resources
+
+All postdocs are expected to be productive researchers and good collaborators who contribute to a supportive lab environment.
