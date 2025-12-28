@@ -16,26 +16,24 @@ If you have external funding or a research idea that aligns with the group's wor
 
 ## How to Apply
 
-### Step 1: Initial Contact
+All candidates must apply through Rice University's formal application process.
+I strongly encourage you to reach out before applying to assess whether our group is a good fit for your goals.
 
-Before formally applying, I encourage you to reach out:
+### Application Process
 
-1. Review [our publications](/publications.qmd) and our [lab values](/culture/values.qmd) to assess fit
-2. Email me with your CV and a brief description of your research interests and how they align with the group's work
+1. **Self-Assessment**: Review [our publications](/publications.qmd) and [lab values](/culture/values.qmd) to determine whether your research interests and working style align with our group.
 
-**Note**: Generic emails that don't demonstrate familiarity with the group's work won't receive a response.
+2. **Initial Contact**: Email me with your CV and a brief description of your research interests and how they align with the group's work.
+   **Note**: Generic emails that don't demonstrate familiarity with the group's work won't receive a response.
 
-### Step 2: Video Chat
+3. **Video Chat**: If there's good alignment based on your email, I'll schedule a video chat to discuss your interests, goals, and potential research directions.
+   This is a casual conversation to assess mutual fit.
 
-If there's good alignment based on your email, I'll schedule a video chat to discuss your interests, goals, and potential research directions.
-This is a casual conversation to assess mutual fit.
+4. **Formal Application**: You must apply to the **Ph.D. program in Civil and Environmental Engineering** at Rice University, regardless of our preliminary conversations.
+   See the [department's graduate programs page](https://cee.rice.edu/academics/graduate-programs/phd-program) and [Rice's graduate admission guidelines](https://graduate.rice.edu/admissions/how-to-apply) for requirements and deadlines.
+   Rice offers [Application Fee Waiver Weeks](https://graduate.rice.edu/application-fee-waiver-weeks) to reduce financial barriers to applying.
 
-### Step 3: Formal Application
-
-If we both agree there's strong potential for a good match, you should apply to the **Ph.D. program in Civil and Environmental Engineering** at Rice University.
-See the [department's graduate programs page](https://cee.rice.edu/academics/graduate-programs/phd-program) and [Rice's graduate admission guidelines](https://graduate.rice.edu/admissions/how-to-apply) for requirements and deadlines.
-
-## How to write a good application
+### How to write a good application
 
 Although your application is assessed holistically, you should focus on crafting the **statement of purpose** to make sure that it clearly and obviously answers all of these questions.
 A good statement of purpose should clearly articulate:
@@ -47,6 +45,10 @@ A good statement of purpose should clearly articulate:
 1. What synergies do you see with the group?
 
 If your statement of purpose does not directly address these questions, it is unlikely to stand out and will decrease your chances of being accepted.
+In an era where AI tools can generate grammatically correct and well-structured essays, what distinguishes strong applications is authentic voice and perspective.
+Essays that reveal your individual thinking, motivations, and vision stand out because they require genuine human insight and reflection.
+A compelling statement of purpose shows who you are as a thinker, not just what you want to study.
+
 For some additional generic advice, check out the following resources:
 
 1. Matt Might's [How to Get Into Grad School](http://matt.might.net/articles/how-to-apply-and-get-in-to-graduate-school-in-science-mathematics-engineering-or-computer-science/) post (note that this is aimed at computer science, but is overall similar)
