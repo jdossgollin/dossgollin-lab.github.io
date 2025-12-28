@@ -1,9 +1,20 @@
 ---
 title: "Expectations"
+bibliography: []
 format:
-  html:
-    page-layout: full
-    toc: true
+    html:
+        page-layout: full
+        toc: true
+
+    # customization for PDF output via Typst
+    typst:
+        style: "american-geophysical-union"
+        margin:
+            x: 1in
+            y: 1in
+        mainfont: "Lato"
+        fontsize: 11pt
+        number-sections: false
 ---
 
 This document outlines the responsibilities and expectations for everyone in the group.
