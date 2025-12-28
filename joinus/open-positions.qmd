@@ -12,38 +12,33 @@ Join us to use Earth science, decision science, data science, and engineering to
 ::: {.g-col-4}
 ### Undergraduates
 
-There is support for motivated undergraduates to work for pay or credit.
-See our [instructions for prospective undergraduates](undergrad.qmd).
+We welcome highly motivated and creative undergraduates to work for pay or credit on cutting-edge projects including:
+
+- Flood resilience and adaptation in rural Texas communities
+- Climate risk assessment and management
+- Physics-informed machine learning for environmental systems
+- Software development and scientific computing tools
+
+See our [page for prospective undergraduates](undergrad.qmd) for application instructions.
 :::
 ::: {.g-col-4}
-### Graduate Students
+### PhD Students
 
-There are open positions available for outstanding graduate students to start in summer or fall 2026.
+We have open positions for outstanding and highly motivated PhD students to start in summer or fall 2026.
+Potential research topics include:
+
+- Sampling and characterizing extreme climate hazards and probabilities, with emphasis on precipitation extremes
+- Flood hazard modeling and prediction across spatial and temporal scales
+- Decision making and planning for infrastructure systems under uncertainty
+
+See our [page for prospective PhD students](phd.qmd) for application instructions.
 :::
 ::: {.g-col-4}
 ### Postdocs
 
-We are not actively recruiting a postdoc at this time.
-:::
-::::
+We are not actively recruiting a postdoc at this time, but welcome inquiries from exceptional candidates with external funding or interest in developing joint proposals.
+Research topics are flexible and can be tailored to align your interests with the group's expertise in climate science, hydrology, risk analysis, and decision science.
 
-:::: {.grid}
-::: {.g-col-4}
-#### How to apply
-
-Email James a 1-2 page research statement describing the project you would like to carry out.
-
-:::
-::: {.g-col-4}
-#### How to apply
-
-Graduate admissions are handled through a formal application to the department.
-See our [instructions for prospective graduate students](phd.qmd).
-:::
-::: {.g-col-4}
-#### How to apply
-
-If you're interested, please email a CV and 2-3 page research statement to James.
-This research statement should clearly describe the project you would like to carry out, how it fits with our lab's expertise, what skillset you can bring to bear to the project, and what skills you would like to develop.
+See our [page for prospective postdocs](postdoc.qmd) for more information.
 :::
 ::::

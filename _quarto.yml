@@ -42,11 +42,13 @@ website:
           - href: joinus/phd.qmd
           - href: joinus/postdoc.qmd
           - href: joinus/undergrad.qmd
-      - text: "Culture"
+      - text: "lab guide"
         menu:
           - href: culture/values.qmd
-          - href: culture/expectations.qmd
           - href: culture/harassment-policy.qmd
+          - href: culture/expectations.qmd
+          - text: "Wiki (Members Only) <i class='bi bi-box-arrow-up-right'></i>"
+            href: https://github.com/dossgollin-lab/lab-guide/wiki
 
 
 format:
