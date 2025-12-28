@@ -1,5 +1,7 @@
 ---
 title: People
+format: 
+  html: default
 listing:
     - id: grad-students
       contents: "grad-students/*.qmd"
