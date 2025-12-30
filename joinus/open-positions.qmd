@@ -5,19 +5,20 @@ format:
         page-layout: full
 ---
 
-We are an inclusive group driven by our intellectual curiosity and sense of purpose.
-Join us to use Earth science, decision science, data science, and engineering to address critical societal challenges!
+We are an inclusive research group driven by intellectual curiosity and a shared sense of purpose.
+Join us to leverage Earth science, decision science, statistics, and machine learning to address critical societal challenges and build climate resilience.
 
 :::: {.grid}
 ::: {.g-col-4}
 ### Undergraduates
 
-We welcome highly motivated and creative undergraduates to work for pay or credit on cutting-edge projects including:
+We welcome highly motivated and creative undergraduates to work for pay or credit on cutting-edge projects.
+Current opportunities focus on:
 
-- Flood resilience and adaptation in rural Texas communities
-- Climate risk assessment and management
-- Physics-informed machine learning for environmental systems
-- Software development and scientific computing tools
+- Developing adaptation strategies for rural and underserved Texas communities.
+- Using statistical and machine learning frameworks to assess and manage climate-related risks.
+- Applying machine learning to simulate complex environmental systems and hazards.
+- Building robust software tools for data-driven environmental engineering.
 
 See our [page for prospective undergraduates](undergrad.qmd) for application instructions.
 :::
@@ -27,9 +28,9 @@ See our [page for prospective undergraduates](undergrad.qmd) for application ins
 We have open positions for outstanding and highly motivated PhD students to start in summer or fall 2026.
 Potential research topics include:
 
-- Sampling and characterizing extreme climate hazards and probabilities, with emphasis on precipitation extremes
-- Flood hazard modeling and prediction across spatial and temporal scales
-- Decision making and planning for infrastructure systems under uncertainty
+- Integrating statistical and AI tools to sample and characterize precipitation extremes.
+- Advancing multi-process flood prediction across spatial and temporal scales using physics-informed ML.
+- Developing frameworks to identify robust decision pathways for infrastructure systems under deep uncertainty.
 
 See our [page for prospective PhD students](phd.qmd) for application instructions.
 :::

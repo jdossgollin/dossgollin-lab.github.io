@@ -84,3 +84,12 @@ $code-block-bg: $light-gray !default;
         left: auto;
     }
 }
+
+// Reduce title size in default listings
+.quarto-listing-default h3.listing-title,
+.quarto-listing-default h3.listing-title a {
+    font-size: 0.9rem !important;
+    font-weight: normal !important;
+    margin: 0 !important;
+}
+

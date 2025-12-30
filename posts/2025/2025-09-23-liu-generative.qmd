@@ -1,5 +1,5 @@
 ---
-title: "New Paper on AI for Climate Published in IEEE TGRS"
+title: "New Paper on Diffusion for Precipitation Downscaling Published in IEEE TGRS"
 subtitle: "Yuhao Liu's first-author paper introduces a novel generative AI model to improve the prediction of extreme rainfall."
 categories: Publications
 date: 2025-09-23

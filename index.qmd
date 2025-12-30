@@ -15,57 +15,62 @@ listing:
     page-size: 8
     categories: false
     fields: [date, title]
-    field-display-names: 
+    field-display-names:
         date: Date
         title: Title
-        subtitle: About
     feed: true
-    date-format: long
+    date-format: iso
 
-format: 
+format:
   html:
     page-layout: full
 ---
 
-::::: {.columns}
+::: {.grid}
 
-:::: {.column width="40%"}
+::: {.g-col-12 .g-col-lg-6}
 
-::: {layout-ncol="2" layout-valign="center"}
-![](_assets/img/logos/james.jpg){width=100%}
+Our infrastructure -- the systems that provide our water, energy, and mobility -- was designed for a world that no longer exists.
+Today, these systems face converging pressures from climate extremes, aging assets, and demographic shifts.
 
-James Doss-Gollin is an Assistant Professor in the department of [Civil and Environmental Engineering](https://cee.rice.edu) at Rice University.</br></br>
-See his bio [here](people/pi/james-doss-gollin.qmd)
-:::
-
-::: {layout-ncol="2" layout-valign="center"}
-<div>
+::: {.grid .align-items-center}
+::: {.g-col-12 .g-col-md-6}
 <iframe
     width="100%"
+    height="150"
     src="https://www.youtube-nocookie.com/embed/gI2I8Cq-14g"
     title="YouTube video player"
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowfullscreen>
 </iframe>
-</div>
-
-Through mission-oriented basic applied research, we address fundamental challenges in infrastructure resilience and climate adaptation.
+:::
+::: {.g-col-12 .g-col-md-6}
+Our research vision is to **scale systems analysis and decision support** for the complex, interdependent infrastructure systems that underpin modern society.
+:::
 :::
 
-::: {layout-ncol="2" layout-valign="center"}
-![](_assets/img/group/2023-12-02.jpeg){width=100%}
+To achieve this, we advance and apply traditional and "AI" methods (generative diffusion, GNNs, physics-informed ML, Bayesian spatiotemporal models) to characterize environmental hazards and identify robust adaptation pathways under deep uncertainty.
+From the Texas Gulf Coast to global scales, we focus on identifying strategies that robustly and equitably improve infrastructure systems.
 
-Do you want to work on intellectually challenging and socially impactful problems?
-Learn about [open positions](joinus/open-positions.qmd).
+::: {style="border-top: 1px solid var(--bs-border-color); margin: 1.5rem 0;"}
 :::
 
-::::
-:::: {.column width="5%"}
-::::
-:::: {.column width="55%"}
-:::: {#news-listings}
-::::
-::::
+::: {.grid .align-items-center}
+::: {.g-col-12 .g-col-md-3}
+![](_assets/img/logos/james.jpg){width=100%}
+:::
+::: {.g-col-12 .g-col-md-9}
+**Dr. James Doss-Gollin** is an Assistant Professor in the Department of [Civil and Environmental Engineering](https://cee.rice.edu) at Rice University. 
 
-:::::
+[Read his full bio →](people/pi/james-doss-gollin.qmd)
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-lg-6}
+::: {#news-listings}
+:::
+:::
+
+:::
