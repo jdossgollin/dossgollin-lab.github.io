@@ -38,11 +38,12 @@ format:
 :::{#person-profile}
 ## Bio
 
-James Doss-Gollin is an assistant professor in the department of Civil and Environmental Engineering at Rice University.
-Dr. Doss-Gollin's research is motivated by challenging questions at the intersection of climate dynamics, water management, data science, and decision science.
-By developing methods for understanding and predicting spatiotemporally clustered hydroclimate risk, and for incorporating uncertain projections into sequential decision problems, he strives to enable the delivery of flexible and resilient infrastructure services.
-Dr. Doss-Gollin's teaching covers data science and decision-analytic tools for climate risk management.
-Prior to joining Rice University, he was a postdoctoral researcher in the Earth and Environmental Systems Institute at the Pennsylvania State University.
+James Doss-Gollin is an Assistant Professor in the Department of Civil and Environmental Engineering at Rice University.
+His research vision is to scale systems analysis and decision support for the complex, interdependent infrastructure systems facing evolving climate risks.
+To achieve this, he advances and applies methods from statistics and machine learning to quantify climate risks, characterize relevant uncertainties, and identify robust decision pathways under uncertainty.
+
+Before joining Rice, James was a postdoctoral researcher in the Earth and Environmental Systems Institute at Pennsylvania State University.
+He earned his PhD and MS in Earth and Environmental Engineering from Columbia University and holds a BS in Mechanical Engineering from Yale University.
 
 ## Education
 - **Columbia University** | New York, NY, USA<br />PhD in Earth and Environmental Engineering, 2020<br />MS in Earth and Environmental Engineering, 2016
