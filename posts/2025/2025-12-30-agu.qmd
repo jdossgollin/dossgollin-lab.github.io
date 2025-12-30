@@ -4,29 +4,23 @@ categories: Events
 date: 2025-12-30
 ---
 
-The Doss-Gollin Lab had an active presence at the American Geophysical Union (AGU) Fall Meeting 2025, held December 15-19 in New Orleans, Louisiana.
-AGU is the largest gathering of Earth and space scientists, bringing together 25,000+ attendees from over 100 countries to share research, collaborate, and advance our understanding of the planet.
+The Doss-Gollin Lab had an active presence at AGU 2025, held December 15-19 in New Orleans, Louisiana.
 
 ## Lab Presentations
 
-![Yuchen Lu presenting her poster at AGU 2025](../../_assets/img/news/2025-12-15-agu-yuchen-poster.jpeg){fig-align="center" width="70%"}
+![Yuchen Lu presenting her poster at AGU 2025](/_assets/img/news/2025-12-15-agu-yuchen-poster.jpeg){fig-align="center" width="70%"}
 
 [Yuchen Lu](../../people/grad-students/yuchen-lu.qmd) presented a poster on her research in probabilistic analysis of nonstationary hydroclimate extremes.
 Her work demonstrates innovative approaches to understanding changing extreme weather patterns and their implications for infrastructure design and risk management.
 
-![James Doss-Gollin giving his talk at AGU 2025](../../_assets/img/news/2025-12-15-agu-james-talk.jpeg){fig-align="center" width="70%"}
+![James Doss-Gollin giving his talk at AGU 2025](/_assets/img/news/2025-12-15-agu-james-talk.jpeg){fig-align="center" width="70%"}
 
 [Dr. James Doss-Gollin](../../people/pi/james-doss-gollin.qmd) delivered a talk on modeling household adaptation to climate extremes using agent-based simulations for floods and droughts.
 This research explores how communities and households respond to increasing climate risks.
 
 ## Session Convening
 
-![James Doss-Gollin chairing a session at AGU 2025](../../_assets/img/news/2025-12-15-agu-james-chair.jpeg){fig-align="center" width="70%"}
+![James Doss-Gollin chairing a session at AGU 2025](/_assets/img/news/2025-12-15-agu-james-chair.jpeg){fig-align="center" width="70%"}
 
 Dr. Doss-Gollin also served as chair for two sessions at AGU 2025, facilitating important discussions on natural hazards and climate risk assessment.
 These sessions brought together researchers from around the world to share cutting-edge work on flood risk, disaster resilience, and multisector dynamics under climate change.
-
----
-
-We're grateful for the opportunity to connect with colleagues, share our research, and learn from the broader Earth science community.
-For more information about our lab's research, visit our [research page](../../research.qmd).
