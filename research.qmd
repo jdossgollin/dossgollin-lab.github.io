@@ -1,9 +1,11 @@
 ---
 title: Research
+bibliography: bibliography/my-papers.bib
 
-format: 
+format:
   html:
     page-layout: article
+    toc: true
 ---
 
 ::: {.columns}
@@ -25,22 +27,46 @@ To answer these questions, we work at the intersection of Earth science (hydrolo
 
 ## Research Themes
 
-### 1. Simulating Hydroclimatic Extremes
+::: {.grid}
 
-We develop and apply advanced statistical frameworks to characterize high-impact events like precipitation extremes, atmospheric rivers, and tropical cyclones.
-By leveraging hierarchical Bayesian models and generative diffusion, we quantify climate risks and the deep uncertainties that surround them.
+::: {.g-col-12 .g-col-md-4}
+### 1. Hydroclimate Hazard
 
-### 2. Physics-Informed ML for Flood Hazard Prediction
+![](bibliography/_assets/img/pubs/liu_generative_2025.png){.img-fluid}
 
-Scaling flood prediction across spatial and temporal scales requires methods that respect physical laws while leveraging large datasets.
-We advance physics-informed machine learning and graph neural networks to simulate flood hazards and predict impacts on the built environment.
+Understanding future climate risks requires simulating high-impact weather and climate extremes with sufficient detail and accuracy.
+We develop advanced statistical and machine learning methods—including hierarchical Bayesian models and generative diffusion—to characterize precipitation extremes, tropical cyclones, and other hazards that threaten communities.
 
-### 3. Robust Infrastructure Decision-Making
+[@liu_generative:2025; @lu_spatiotemporal:2025]
+:::
 
-Infrastructure systems—including water, energy, and coastal defenses—are increasingly interdependent and exposed to evolving risks.
-We develop frameworks to move beyond static risk assessments, instead identifying flexible decision pathways that remain robust under a wide range of future climate scenarios.
+::: {.g-col-12 .g-col-md-4}
+### 2. Climate Risk Analysis
 
-For more information, please see our [publications](publications.qmd).
+![](bibliography/_assets/img/pubs/doss-gollin_txtreme_2021.jpg){.img-fluid}
+
+Climate hazards only become disasters when they interact with vulnerable infrastructure and populations.
+We quantify the risks posed by climate extremes to critical infrastructure systems—including energy, water, and buildings—by combining physical models with probabilistic risk assessment frameworks.
+
+[@rozer_lossestimates:2019; @doss-gollin_txtreme:2021]
+:::
+
+::: {.g-col-12 .g-col-md-4}
+### 3. Climate Risk Management
+
+![](bibliography/_assets/img/pubs/doss-gollin_subjective_2023.jpg){.img-fluid}
+
+Infrastructure systems must serve communities reliably over decades despite deep uncertainties about future climate conditions.
+We develop decision frameworks that identify robust and adaptive pathways for managing climate risks, enabling planners to make sound decisions even when the future is uncertain.
+
+[@doss-gollin_subjective:2023; @zhou_mesoscale:2023]
+:::
+
+:::
+
+::: {style="text-align: center; margin: 2rem 0;"}
+[View Our Publications](publications.qmd){.btn .btn-primary .btn-lg}
+:::
 
 ## Project Pages
 
