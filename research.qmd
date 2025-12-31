@@ -8,10 +8,13 @@ format:
 
 ::: {.columns}
 ::: {.column width="55%"}
-We are an inclusive and mission-oriented group addressing fundamental challenges in infrastructure resilience, risk assessment, and climate adaptation.
-Specifically, we are motivated by two related problems.
-First, how can we understand and predict weather and climate hazards?
-Second, how can we use this information to design adaptive, sustainable, equitable, and robust risk management strategies?
+The Doss-Gollin Lab is a mission-oriented research group addressing fundamental challenges in infrastructure resilience, risk assessment, and climate adaptation.
+Our work is motivated by two interconnected questions:
+
+1. **Hazard Simulation**: How can we better understand and simulate the weather and climate hazards that threaten our communities?
+2. **Decision Support**: How can we use these simulations to identify robust decision pathways for designing adaptive, sustainable, and equitable infrastructure?
+
+To answer these questions, we work at the intersection of Earth science (hydrology and atmospheric science), statistics and machine learning, and decision science (optimization and decision-making under deep uncertainty).
 :::
 ::: {.column width="5%"}
 :::
@@ -20,7 +23,22 @@ Second, how can we use this information to design adaptive, sustainable, equitab
 :::
 :::
 
-To accomplish this, we leverage tools from Earth science (e.g., hydrology, atmospheric science), data science (e.g., graph neural nets, Bayesian extreme value models), and decision science (e.g., decision making under deep uncertainty, optimization). We apply these methods to complex problems in coastal resilience, urban flood risk management, energy reliability, and water resources.
+## Research Themes
+
+### 1. Simulating Hydroclimatic Extremes
+
+We develop and apply advanced statistical frameworks to characterize high-impact events like precipitation extremes, atmospheric rivers, and tropical cyclones.
+By leveraging hierarchical Bayesian models and generative diffusion, we quantify climate risks and the deep uncertainties that surround them.
+
+### 2. Physics-Informed ML for Flood Hazard Prediction
+
+Scaling flood prediction across spatial and temporal scales requires methods that respect physical laws while leveraging large datasets.
+We advance physics-informed machine learning and graph neural networks to simulate flood hazards and predict impacts on the built environment.
+
+### 3. Robust Infrastructure Decision-Making
+
+Infrastructure systems—including water, energy, and coastal defenses—are increasingly interdependent and exposed to evolving risks.
+We develop frameworks to move beyond static risk assessments, instead identifying flexible decision pathways that remain robust under a wide range of future climate scenarios.
 
 For more information, please see our [publications](publications.qmd).
 
