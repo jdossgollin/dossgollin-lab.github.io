@@ -15,17 +15,17 @@ The work proposes a hierarchical Bayesian spatial model that efficiently pools i
 
 ![James Doss-Gollin giving his talk at AGU 2025](/_assets/img/news/2025-12-15-agu-james-talk.jpeg){fig-align="center" width="70%"}
 
-[Dr. James Doss-Gollin](../../people/pi/james-doss-gollin.qmd) delivered a talk titled "TxRain: A Bayesian framework for integrating historical observations and model projections to develop nonstationary IDF curves" (H24A-07).
+[James Doss-Gollin](../../people/pi/james-doss-gollin.qmd) delivered a talk titled "TxRain: A Bayesian framework for integrating historical observations and model projections to develop nonstationary IDF curves" (H24A-07).
 This work addresses the challenge of developing nonstationary extreme rainfall models by integrating accurate but short weather station records with long-term climate model projections.
-Dr. Doss-Gollin was also a coauthor on several other presentations at the conference.
+James was also a coauthor on several other presentations at the conference.
 
 ## Session Convening
 
 ![James Doss-Gollin chairing a session at AGU 2025](/_assets/img/news/2025-12-15-agu-james-chair.jpeg){fig-align="center" width="70%"}
 
-Dr. Doss-Gollin served as chair for two sessions at AGU 2025:
+James served as chair for two sessions at AGU 2025:
 
 - **NH31A: Advances in Urban Flood Risk Assessment and Adaptation I** (co-chaired with Vivek Srikrishnan)
 - **NH43B: Interdisciplinary Advances in Catastrophe Modeling and Disaster Resilience: Bridging Science, Policy, and Practice II** (co-chaired with Benjamin Felzer)
 
-These sessions brought together researchers to share cutting-edge work on flood risk, disaster resilience, and catastrophe modeling.
+Thanks to all our coauthors and session co-organizers for their collaboration, and we look forward to continuing these partnerships.
