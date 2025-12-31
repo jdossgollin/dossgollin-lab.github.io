@@ -17,6 +17,7 @@ The work proposes a hierarchical Bayesian spatial model that efficiently pools i
 
 [Dr. James Doss-Gollin](../../people/pi/james-doss-gollin.qmd) delivered a talk titled "TxRain: A Bayesian framework for integrating historical observations and model projections to develop nonstationary IDF curves" (H24A-07).
 This work addresses the challenge of developing nonstationary extreme rainfall models by integrating accurate but short weather station records with long-term climate model projections.
+Dr. Doss-Gollin was also a coauthor on several other presentations at the conference.
 
 ## Session Convening
 
