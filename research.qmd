@@ -25,6 +25,10 @@ To answer these questions, we work at the intersection of Earth science (hydrolo
 :::
 :::
 
+Achieving this vision requires integrated advances across climate science, engineering systems, risk analysis, and decision science.
+Answering decision-relevant questions requires integrating better understanding and representation of weather and climate extremes with models of infrastructure systems and decision-making frameworks—all in computationally efficient ways that rigorously quantify uncertainty, are transparent and reproducible, and can inform real-world planning decisions.
+Our research develops methods and tools in three interconnected areas:
+
 ## Research Themes
 
 ::: {.grid}
