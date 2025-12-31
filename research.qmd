@@ -15,7 +15,7 @@ Our research vision is to characterize and manage climate risks to critical infr
 ::: {.column width="55%"}
 Achieving this vision requires integrated advances across climate science, engineering systems, risk analysis, and decision science.
 Answering decision-relevant questions requires integrating better understanding and representation of weather and climate extremes with models of infrastructure systems and decision-making frameworks—all in computationally efficient ways that rigorously quantify uncertainty, are transparent and reproducible, and can inform real-world planning decisions.
-Our research develops methods and tools in three interconnected areas:
+Our research develops methods and tools in four interconnected areas:
 :::
 ::: {.column width="5%"}
 :::
@@ -24,40 +24,46 @@ Our research develops methods and tools in three interconnected areas:
 :::
 :::
 
-
 ## Research Themes
 
 ::: {.grid}
 
-::: {.g-col-12 .g-col-md-4}
-### Hydroclimate Hazard
+::: {.g-col-12 .g-col-md-6}
+### Probabilistic Hydroclimate Hazard
 
 ![](bibliography/_assets/img/pubs/liu_generative_2025.png){.img-fluid}
 
-Understanding future climate risks requires simulating high-impact weather and climate extremes with sufficient detail and accuracy.
-We develop advanced statistical and machine learning methods—including hierarchical Bayesian models and generative diffusion—to characterize precipitation extremes, tropical cyclones, and other hazards that threaten communities.
+We develop advanced statistical and machine learning methods—including hierarchical Bayesian models and generative diffusion—to characterize extreme precipitation, tropical cyclones, and other climate hazards.
 
 **Example publications:** @liu_generative:2025, @lu_spatiotemporal:2025.
 :::
 
-::: {.g-col-12 .g-col-md-4}
-### Climate Risk Analysis
+::: {.g-col-12 .g-col-md-6}
+### AI for Urban Flooding
+
+![](bibliography/_assets/img/pubs/kazadi_floodgnn-gru_2024.png){.img-fluid}
+
+We advance physics-informed machine learning and graph neural networks to rapidly and accurately predict flood extent and depth across spatial and temporal scales.
+
+**Example publications:** @kazadi_floodgnn-gru:2024, @kazadi_icml:2024.
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### Infrastructure and Systems Risk
 
 ![](bibliography/_assets/img/pubs/doss-gollin_txtreme_2021.jpg){.img-fluid}
 
-Climate hazards only become disasters when they interact with vulnerable infrastructure and populations.
-We quantify the risks posed by climate extremes to critical infrastructure systems—including energy, water, and buildings—by combining physical models with probabilistic risk assessment frameworks.
+We quantify the risks posed by climate extremes to critical infrastructure—including energy, water, and buildings—by combining physical models with probabilistic risk assessment frameworks.
 
 **Example publications:** @rozer_lossestimates:2019, @doss-gollin_txtreme:2021.
 :::
 
-::: {.g-col-12 .g-col-md-4}
-### Climate Risk Management
+::: {.g-col-12 .g-col-md-6}
+### Adaptive Decision Making Under Uncertainty
 
 ![](bibliography/_assets/img/pubs/doss-gollin_subjective_2023.jpg){.img-fluid}
 
-Infrastructure systems must serve communities reliably over decades despite deep uncertainties about future climate conditions.
-We develop decision frameworks that identify robust and adaptive pathways for managing climate risks, enabling planners to make sound decisions even when the future is uncertain.
+We develop decision frameworks that identify robust and adaptive pathways for managing climate risks, enabling planners to make sound decisions despite deep uncertainties.
 
 **Example publications:** @doss-gollin_subjective:2023, @zhou_mesoscale:2023.
 :::
