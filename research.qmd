@@ -4,19 +4,18 @@ bibliography: bibliography/my-papers.bib
 
 format:
   html:
-    page-layout: article
+    page-layout: full
     toc: true
 ---
 
+We are a mission-oriented research group addressing fundamental challenges in infrastructure resilience, risk assessment, and climate adaptation.
+Our research vision is to characterize and manage climate risks to critical infrastructure systems and the communities who rely on them.
+
 ::: {.columns}
 ::: {.column width="55%"}
-The Doss-Gollin Lab is a mission-oriented research group addressing fundamental challenges in infrastructure resilience, risk assessment, and climate adaptation.
-Our work is motivated by two interconnected questions:
-
-1. **Hazard Simulation**: How can we better understand and simulate the weather and climate hazards that threaten our communities?
-2. **Decision Support**: How can we use these simulations to identify robust decision pathways for designing adaptive, sustainable, and equitable infrastructure?
-
-To answer these questions, we work at the intersection of Earth science (hydrology and atmospheric science), statistics and machine learning, and decision science (optimization and decision-making under deep uncertainty).
+Achieving this vision requires integrated advances across climate science, engineering systems, risk analysis, and decision science.
+Answering decision-relevant questions requires integrating better understanding and representation of weather and climate extremes with models of infrastructure systems and decision-making frameworks—all in computationally efficient ways that rigorously quantify uncertainty, are transparent and reproducible, and can inform real-world planning decisions.
+Our research develops methods and tools in three interconnected areas:
 :::
 ::: {.column width="5%"}
 :::
@@ -25,9 +24,6 @@ To answer these questions, we work at the intersection of Earth science (hydrolo
 :::
 :::
 
-Achieving this vision requires integrated advances across climate science, engineering systems, risk analysis, and decision science.
-Answering decision-relevant questions requires integrating better understanding and representation of weather and climate extremes with models of infrastructure systems and decision-making frameworks—all in computationally efficient ways that rigorously quantify uncertainty, are transparent and reproducible, and can inform real-world planning decisions.
-Our research develops methods and tools in three interconnected areas:
 
 ## Research Themes
 
@@ -41,7 +37,7 @@ Our research develops methods and tools in three interconnected areas:
 Understanding future climate risks requires simulating high-impact weather and climate extremes with sufficient detail and accuracy.
 We develop advanced statistical and machine learning methods—including hierarchical Bayesian models and generative diffusion—to characterize precipitation extremes, tropical cyclones, and other hazards that threaten communities.
 
-[@liu_generative:2025; @lu_spatiotemporal:2025]
+**Example publications:** @liu_generative:2025, @lu_spatiotemporal:2025.
 :::
 
 ::: {.g-col-12 .g-col-md-4}
@@ -52,7 +48,7 @@ We develop advanced statistical and machine learning methods—including hierarc
 Climate hazards only become disasters when they interact with vulnerable infrastructure and populations.
 We quantify the risks posed by climate extremes to critical infrastructure systems—including energy, water, and buildings—by combining physical models with probabilistic risk assessment frameworks.
 
-[@rozer_lossestimates:2019; @doss-gollin_txtreme:2021]
+**Example publications:** @rozer_lossestimates:2019, @doss-gollin_txtreme:2021.
 :::
 
 ::: {.g-col-12 .g-col-md-4}
@@ -63,13 +59,9 @@ We quantify the risks posed by climate extremes to critical infrastructure syste
 Infrastructure systems must serve communities reliably over decades despite deep uncertainties about future climate conditions.
 We develop decision frameworks that identify robust and adaptive pathways for managing climate risks, enabling planners to make sound decisions even when the future is uncertain.
 
-[@doss-gollin_subjective:2023; @zhou_mesoscale:2023]
+**Example publications:** @doss-gollin_subjective:2023, @zhou_mesoscale:2023.
 :::
 
-:::
-
-::: {style="text-align: center; margin: 2rem 0;"}
-[View Our Publications](publications.qmd){.btn .btn-primary .btn-lg}
 :::
 
 ## Project Pages

@@ -46,7 +46,7 @@ Today, these systems face converging pressures from climate extremes, aging asse
 </iframe>
 :::
 ::: {.g-col-12 .g-col-md-6}
-Our research vision is to **scale systems analysis and decision support** for the complex, interdependent infrastructure systems that underpin modern society.
+Our research vision is to scale systems analysis and decision support for the complex, interdependent infrastructure systems that underpin modern society.
 :::
 :::
 
