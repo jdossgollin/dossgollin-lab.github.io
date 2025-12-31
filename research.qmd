@@ -1,6 +1,7 @@
 ---
 title: Research
 bibliography: bibliography/my-papers.bib
+suppress-bibliography: true
 
 format:
   html:
@@ -11,17 +12,18 @@ format:
 We are a mission-oriented research group addressing fundamental challenges in infrastructure resilience, risk assessment, and climate adaptation.
 Our research vision is to characterize and manage climate risks to critical infrastructure systems and the communities who rely on them.
 
-::: {.columns}
-::: {.column width="55%"}
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-7}
 Achieving this vision requires integrated advances across climate science, engineering systems, risk analysis, and decision science.
 Answering decision-relevant questions requires integrating better understanding and representation of weather and climate extremes with models of infrastructure systems and decision-making frameworks—all in computationally efficient ways that rigorously quantify uncertainty, are transparent and reproducible, and can inform real-world planning decisions.
 Our research develops methods and tools in four interconnected areas:
 :::
-::: {.column width="5%"}
-:::
-::: {.column width="40%"}
+
+::: {.g-col-12 .g-col-md-5}
 <iframe width="100%" src="https://www.youtube.com/embed/gI2I8Cq-14g" title="Overview of Doss-Gollin Research Group (March 2023)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 :::
+
 :::
 
 ## Research Themes
@@ -29,50 +31,46 @@ Our research develops methods and tools in four interconnected areas:
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-6}
-### Probabilistic Hydroclimate Hazard
+::: {.callout-note appearance="minimal" icon=false .research-card}
+## Probabilistic Hydroclimate Hazard
 
-![](bibliography/_assets/img/pubs/liu_generative_2025.png){.img-fluid}
+We develop advanced statistical and machine learning methods -- including hierarchical Bayesian models and generative diffusion -- to characterize extreme precipitation and other climate hazards.
 
-We develop advanced statistical and machine learning methods—including hierarchical Bayesian models and generative diffusion—to characterize extreme precipitation, tropical cyclones, and other climate hazards.
-
-**Example publications:** @liu_generative:2025, @lu_spatiotemporal:2025.
+**Read More:** [@liu_generative:2025](/bibliography/publications/article/liu_generative_2025.qmd), [@lu_spatiotemporal:2025](/bibliography/publications/article/lu_spatiotemporal_2025.qmd).
+:::
 :::
 
 ::: {.g-col-12 .g-col-md-6}
-### AI for Urban Flooding
+::: {.callout-note appearance="minimal" icon=false .research-card}
+## AI-Accelerated Flood Modeling
 
-![](bibliography/_assets/img/pubs/kazadi_floodgnn-gru_2024.png){.img-fluid}
+We advance physics-informed machine learning to rapidly and accurately predict flood extent and depth across spatial and temporal scales.
 
-We advance physics-informed machine learning and graph neural networks to rapidly and accurately predict flood extent and depth across spatial and temporal scales.
-
-**Example publications:** @kazadi_floodgnn-gru:2024, @kazadi_icml:2024.
+**Read More:** [@kazadi_floodgnn-gru:2024](/bibliography/publications/article/kazadi_floodgnn-gru_2024.qmd), [@kazadi_icml:2024](/bibliography/publications/conference/kazadi_icml_2024.qmd).
+:::
 :::
 
 ::: {.g-col-12 .g-col-md-6}
-### Infrastructure and Systems Risk
-
-![](bibliography/_assets/img/pubs/doss-gollin_txtreme_2021.jpg){.img-fluid}
+::: {.callout-note appearance="minimal" icon=false .research-card}
+## Infrastructure and Systems Risk
 
 We quantify the risks posed by climate extremes to critical infrastructure—including energy, water, and buildings—by combining physical models with probabilistic risk assessment frameworks.
 
-**Example publications:** @rozer_lossestimates:2019, @doss-gollin_txtreme:2021.
+**Read More:** [@rozer_lossestimates:2019](/bibliography/publications/article/rozer_lossestimates_2019.qmd), [@doss-gollin_txtreme:2021](/bibliography/publications/article/doss-gollin_txtreme_2021.qmd), [@pollack_unsafe:2025](/bibliography/publications/article/pollack_unsafe_2025.qmd).
+:::
 :::
 
 ::: {.g-col-12 .g-col-md-6}
-### Adaptive Decision Making Under Uncertainty
-
-![](bibliography/_assets/img/pubs/doss-gollin_subjective_2023.jpg){.img-fluid}
+::: {.callout-note appearance="minimal" icon=false .research-card}
+## Adaptive Decision Making Under Uncertainty
 
 We develop decision frameworks that identify robust and adaptive pathways for managing climate risks, enabling planners to make sound decisions despite deep uncertainties.
 
-**Example publications:** @doss-gollin_subjective:2023, @zhou_mesoscale:2023.
+**Read More:** [@doss-gollin_subjective:2023](/bibliography/publications/article/doss-gollin_subjective_2023.qmd), [@zhou_mesoscale:2023](/bibliography/publications/article/zhou_mesoscale_2023.qmd).
+:::
+:::
 :::
 
-:::
-
-## Project Pages
-
-- [AI 4 Climate Risk and Urban Resilience @ Rice](https://ai4urbanresilience.rice.edu/){target=_blank}
 
 ## Research Support
 
