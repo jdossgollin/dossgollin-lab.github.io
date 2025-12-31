@@ -10,17 +10,21 @@ The Doss-Gollin Lab had an active presence at AGU 2025, held December 15-19 in N
 
 ![Yuchen Lu presenting her poster at AGU 2025](/_assets/img/news/2025-12-15-agu-yuchen-poster.jpeg){fig-align="center" width="70%"}
 
-[Yuchen Lu](../../people/grad-students/yuchen-lu.qmd) presented a poster on her research in probabilistic analysis of nonstationary hydroclimate extremes.
-Her work demonstrates innovative approaches to understanding changing extreme weather patterns and their implications for infrastructure design and risk management.
+[Yuchen Lu](../../people/grad-students/yuchen-lu.qmd) presented a poster titled "A Hierarchical Bayesian Spatial Framework to Assess Nonstationary Rainfall Intensity, Frequency, and Duration in Texas" (NH13D-0410).
+The work proposes a hierarchical Bayesian spatial model that efficiently pools information across space and jointly models precipitation across multiple time durations, enabling nonstationary IDF curve analysis across Texas.
 
 ![James Doss-Gollin giving his talk at AGU 2025](/_assets/img/news/2025-12-15-agu-james-talk.jpeg){fig-align="center" width="70%"}
 
-[Dr. James Doss-Gollin](../../people/pi/james-doss-gollin.qmd) delivered a talk on modeling household adaptation to climate extremes using agent-based simulations for floods and droughts.
-This research explores how communities and households respond to increasing climate risks.
+[Dr. James Doss-Gollin](../../people/pi/james-doss-gollin.qmd) delivered a talk titled "TxRain: A Bayesian framework for integrating historical observations and model projections to develop nonstationary IDF curves" (H24A-07).
+This work addresses the challenge of developing nonstationary extreme rainfall models by integrating accurate but short weather station records with long-term climate model projections.
 
 ## Session Convening
 
 ![James Doss-Gollin chairing a session at AGU 2025](/_assets/img/news/2025-12-15-agu-james-chair.jpeg){fig-align="center" width="70%"}
 
-Dr. Doss-Gollin also served as chair for two sessions at AGU 2025, facilitating important discussions on natural hazards and climate risk assessment.
-These sessions brought together researchers from around the world to share cutting-edge work on flood risk, disaster resilience, and multisector dynamics under climate change.
+Dr. Doss-Gollin served as chair for two sessions at AGU 2025:
+
+- **NH31A: Advances in Urban Flood Risk Assessment and Adaptation I** (co-chaired with Vivek Srikrishnan)
+- **NH43B: Interdisciplinary Advances in Catastrophe Modeling and Disaster Resilience: Bridging Science, Policy, and Practice II** (co-chaired with Benjamin Felzer)
+
+These sessions brought together researchers to share cutting-edge work on flood risk, disaster resilience, and catastrophe modeling.
