@@ -34,7 +34,7 @@ Our research develops methods and tools in three interconnected areas:
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-4}
-### 1. Hydroclimate Hazard
+### Hydroclimate Hazard
 
 ![](bibliography/_assets/img/pubs/liu_generative_2025.png){.img-fluid}
 
@@ -45,7 +45,7 @@ We develop advanced statistical and machine learning methods—including hierarc
 :::
 
 ::: {.g-col-12 .g-col-md-4}
-### 2. Climate Risk Analysis
+### Climate Risk Analysis
 
 ![](bibliography/_assets/img/pubs/doss-gollin_txtreme_2021.jpg){.img-fluid}
 
@@ -56,7 +56,7 @@ We quantify the risks posed by climate extremes to critical infrastructure syste
 :::
 
 ::: {.g-col-12 .g-col-md-4}
-### 3. Climate Risk Management
+### Climate Risk Management
 
 ![](bibliography/_assets/img/pubs/doss-gollin_subjective_2023.jpg){.img-fluid}
 
