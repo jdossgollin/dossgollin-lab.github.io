@@ -51,8 +51,13 @@ Our research vision is to **scale systems analysis and decision support** for th
 :::
 
 To achieve this, we integrate Earth science, risk analysis, and probabilistic machine learning to research three interrelated questions.
-First, how can we understand and simulate nonstationary hydroclimatic hazards and quantify relevant uncertainties given imperfect physical models and short observational records? Second, how do these hazards create risks to critical infrastructure systems and the communities that rely on them?
-Third, what adaptation strategies can robustly meet multiple, potentially competing, performance objectives, given deep uncertainty in future conditions?"
+First, how can we understand and simulate nonstationary hydroclimatic hazards and quantify relevant uncertainties given imperfect physical models and short observational records?
+Second, how do these hazards create risks to critical infrastructure systems and the communities that rely on them?
+Third, what adaptation strategies can robustly meet multiple, potentially competing, performance objectives, given deep uncertainty in future conditions?
+We build open-source tools and actionable insights to tackle critical challenges in urban flood resilience, energy reliability, and catastrophe modeling.
+
+
+
 
 ::: {style="border-top: 1px solid var(--bs-border-color); margin: 1.5rem 0;"}
 :::
