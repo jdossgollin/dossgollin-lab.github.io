@@ -30,7 +30,7 @@ format:
 
 ::: {.g-col-12 .g-col-lg-6}
 
-Our infrastructure -- the systems that provide our water, energy, and mobility -- was designed for a world that no longer exists.
+Our infrastructure was designed for a world that no longer exists.
 Today, these systems face converging pressures from climate extremes, aging assets, and demographic shifts.
 
 ::: {.grid .align-items-center}
@@ -46,7 +46,7 @@ Today, these systems face converging pressures from climate extremes, aging asse
 </iframe>
 :::
 ::: {.g-col-12 .g-col-md-6}
-Our research vision is to **scale systems analysis and decision support** for the complex, interdependent infrastructure systems that underpin modern society.
+Our research vision is to **advance climate risk analysis and adaptive planning** for complex, interdependent infrastructure systems.
 :::
 :::
 
@@ -55,9 +55,6 @@ First, how can we understand and simulate nonstationary hydroclimatic hazards an
 Second, how do these hazards create risks to critical infrastructure systems and the communities that rely on them?
 Third, what adaptation strategies can robustly meet multiple, potentially competing, performance objectives, given deep uncertainty in future conditions?
 We build open-source tools and actionable insights to tackle critical challenges in urban flood resilience, energy reliability, and catastrophe modeling.
-
-
-
 
 ::: {style="border-top: 1px solid var(--bs-border-color); margin: 1.5rem 0;"}
 :::
