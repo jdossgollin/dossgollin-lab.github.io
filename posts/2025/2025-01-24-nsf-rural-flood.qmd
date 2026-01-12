@@ -1,7 +1,7 @@
 ---
 title: "NSF Grant to Study Flood Resilience in Rural Texas"
 categories: News
-date: 2025-02-02
+date: 2025-01-24
 ---
 
 We're excited to announce that Rice University, in collaboration with The University of Texas at Austin and Texas A&M University's Institute for Disaster Resilient Texas (IDRT), has been awarded a $1 million grant from the National Science Foundation's Confronting Hazards, Impacts and Risks for a Resilient Planet Program (CHIRRP).
