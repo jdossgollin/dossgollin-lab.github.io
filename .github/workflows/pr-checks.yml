@@ -57,7 +57,26 @@ jobs:
           git submodule update --remote --recursive
 
       - name: Build site
-        run: quarto render
+        id: build
+        run: |
+          quarto render 2>&1 | tee build-output.txt
+          echo "build_status=${PIPESTATUS[0]}" >> $GITHUB_OUTPUT
+
+      - name: Write build summary
+        if: always()
+        run: |
+          echo "## Site Build Results" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          if [ -f _site/index.html ]; then
+            echo "✅ **Site built successfully!**" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "❌ **Site build failed!**" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "### Build Output" >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+            tail -50 build-output.txt >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+          fi
 
       - name: Upload site artifact
         uses: actions/upload-artifact@v4
@@ -70,32 +89,14 @@ jobs:
   check-links:
     name: Check External Links
     runs-on: ubuntu-latest
-    continue-on-error: true  # Don't fail the build on external link issues
+    needs: build-site
+    continue-on-error: true  # Don't fail the PR on external link issues
     steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
+      - name: Download site artifact
+        uses: actions/download-artifact@v4
         with:
-          submodules: true
-
-      - name: Set up Quarto
-        uses: quarto-dev/quarto-actions/setup@v2
-
-      - name: Cache Quarto freeze
-        uses: actions/cache@v4
-        with:
-          path: _freeze
-          key: quarto-freeze-${{ hashFiles('**/*.qmd', '**/*.bib') }}
-          restore-keys: quarto-freeze-
-
-      - name: Update bibliography submodule
-        run: |
-          cd bibliography
-          git branch -u origin/master master 2>/dev/null || true
-          cd ..
-          git submodule update --remote --recursive
-
-      - name: Build site
-        run: quarto render
+          name: site-build
+          path: _site/
 
       - name: Install lychee
         run: |
@@ -105,14 +106,9 @@ jobs:
           sudo mv lychee /usr/local/bin/
 
       - name: Check external links
+        id: lychee
         run: |
-          echo "============================================================"
-          echo "EXTERNAL LINK CHECK"
-          echo "============================================================"
-          echo ""
-          echo "Note: External link failures are warnings only."
-          echo "External sites may have temporary outages."
-          echo ""
+          # Run lychee and capture output
           lychee \
             --exclude-mail \
             --exclude 'linkedin.com' \
@@ -124,8 +120,18 @@ jobs:
             --timeout 30 \
             --max-retries 2 \
             --accept 200,403,429 \
-            _site/ || true
-          echo ""
-          echo "============================================================"
-          echo "End of link check. Failures above are warnings only."
-          echo "============================================================"
+            --format markdown \
+            _site/ > lychee-report.md 2>&1 || true
+
+      - name: Write link check summary
+        if: always()
+        run: |
+          echo "## External Link Check Results" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "⚠️ **Note:** External link failures are warnings only. External sites may have temporary outages." >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          if [ -f lychee-report.md ]; then
+            cat lychee-report.md >> $GITHUB_STEP_SUMMARY
+          else
+            echo "No link check results available." >> $GITHUB_STEP_SUMMARY
+          fi

@@ -6,14 +6,23 @@ Validates frontmatter, image dimensions, and cross-references.
 Exit codes:
     0 - All validations passed (may have warnings)
     1 - Critical errors found (build-blocking issues)
+
+When running in GitHub Actions (GITHUB_ACTIONS=true):
+    - Emits workflow commands for inline PR annotations
+    - Writes markdown summary to $GITHUB_STEP_SUMMARY
 """
 
+import os
 import re
 import sys
 from pathlib import Path
 from dataclasses import dataclass
 from enum import Enum
 from typing import Optional
+
+# Detect GitHub Actions environment
+GITHUB_ACTIONS = os.environ.get("GITHUB_ACTIONS") == "true"
+GITHUB_STEP_SUMMARY = os.environ.get("GITHUB_STEP_SUMMARY")
 
 try:
     from PIL import Image
@@ -42,6 +51,13 @@ class ValidationResult:
     def __str__(self) -> str:
         icon = "❌" if self.severity == Severity.ERROR else "⚠️"
         return f"{icon} [{self.severity.value.upper()}] {self.file}: {self.message}"
+
+    def to_github_command(self) -> str:
+        """Return GitHub Actions workflow command for inline annotation."""
+        cmd = "error" if self.severity == Severity.ERROR else "warning"
+        # Escape special characters for workflow commands
+        msg = self.message.replace("%", "%25").replace("\n", "%0A").replace("\r", "%0D")
+        return f"::{cmd} file={self.file}::{msg}"
 
 
 # Configuration
@@ -365,10 +381,56 @@ def validate_image_references() -> list[ValidationResult]:
     return results
 
 
+def emit_github_annotations(results: list[ValidationResult]) -> None:
+    """Emit GitHub Actions workflow commands for inline PR annotations."""
+    for result in results:
+        print(result.to_github_command())
+
+
+def write_github_summary(results: list[ValidationResult]) -> None:
+    """Write markdown summary to GitHub Actions step summary."""
+    if not GITHUB_STEP_SUMMARY:
+        return
+
+    errors = [r for r in results if r.severity == Severity.ERROR]
+    warnings = [r for r in results if r.severity == Severity.WARNING]
+
+    lines = ["## Content Validation Results\n"]
+
+    if not errors and not warnings:
+        lines.append("✅ **All validations passed!**\n")
+    else:
+        if errors:
+            lines.append(f"### 🚨 Errors ({len(errors)})\n")
+            lines.append("These must be fixed before merging:\n")
+            lines.append("| File | Issue |")
+            lines.append("|------|-------|")
+            for r in errors:
+                lines.append(f"| `{r.file}` | {r.message} |")
+            lines.append("")
+
+        if warnings:
+            lines.append(f"### ⚠️ Warnings ({len(warnings)})\n")
+            lines.append("Consider addressing these issues:\n")
+            lines.append("| File | Issue |")
+            lines.append("|------|-------|")
+            for r in warnings:
+                lines.append(f"| `{r.file}` | {r.message} |")
+            lines.append("")
+
+    with open(GITHUB_STEP_SUMMARY, "a") as f:
+        f.write("\n".join(lines))
+
+
 def print_summary(results: list[ValidationResult]) -> None:
     """Print a formatted summary of validation results."""
     errors = [r for r in results if r.severity == Severity.ERROR]
     warnings = [r for r in results if r.severity == Severity.WARNING]
+
+    # In GitHub Actions, emit workflow commands for inline annotations
+    if GITHUB_ACTIONS:
+        emit_github_annotations(results)
+        write_github_summary(results)
 
     print("\n" + "=" * 60)
     print("CONTENT VALIDATION SUMMARY")
