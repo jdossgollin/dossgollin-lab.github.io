@@ -1,0 +1,131 @@
+name: PR Checks
+
+on:
+  pull_request:
+    branches: [master]
+
+permissions:
+  contents: read
+
+jobs:
+  validate-content:
+    name: Validate Content
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+          cache-dependency-path: .github/scripts/requirements.txt
+
+      - name: Install validation dependencies
+        run: pip install -r .github/scripts/requirements.txt
+
+      - name: Validate content files
+        run: python .github/scripts/validate-content.py
+
+  build-site:
+    name: Build Site
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Cache Quarto freeze
+        uses: actions/cache@v4
+        with:
+          path: _freeze
+          key: quarto-freeze-${{ hashFiles('**/*.qmd', '**/*.bib') }}
+          restore-keys: quarto-freeze-
+
+      - name: Update bibliography submodule
+        run: |
+          cd bibliography
+          git branch -u origin/master master 2>/dev/null || true
+          cd ..
+          git submodule update --remote --recursive
+
+      - name: Build site
+        run: quarto render
+
+      - name: Upload site artifact
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: site-build
+          path: _site/
+          retention-days: 7
+
+  check-links:
+    name: Check External Links
+    runs-on: ubuntu-latest
+    continue-on-error: true  # Don't fail the build on external link issues
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Cache Quarto freeze
+        uses: actions/cache@v4
+        with:
+          path: _freeze
+          key: quarto-freeze-${{ hashFiles('**/*.qmd', '**/*.bib') }}
+          restore-keys: quarto-freeze-
+
+      - name: Update bibliography submodule
+        run: |
+          cd bibliography
+          git branch -u origin/master master 2>/dev/null || true
+          cd ..
+          git submodule update --remote --recursive
+
+      - name: Build site
+        run: quarto render
+
+      - name: Install lychee
+        run: |
+          curl -sLO https://github.com/lycheeverse/lychee/releases/download/v0.15.1/lychee-v0.15.1-x86_64-unknown-linux-gnu.tar.gz
+          tar xzf lychee-v0.15.1-x86_64-unknown-linux-gnu.tar.gz
+          chmod +x lychee
+          sudo mv lychee /usr/local/bin/
+
+      - name: Check external links
+        run: |
+          echo "============================================================"
+          echo "EXTERNAL LINK CHECK"
+          echo "============================================================"
+          echo ""
+          echo "Note: External link failures are warnings only."
+          echo "External sites may have temporary outages."
+          echo ""
+          lychee \
+            --exclude-mail \
+            --exclude 'linkedin.com' \
+            --exclude 'twitter.com' \
+            --exclude 'x.com' \
+            --exclude 'scholar.google.com' \
+            --exclude 'localhost' \
+            --exclude '127.0.0.1' \
+            --timeout 30 \
+            --max-retries 2 \
+            --accept 200,403,429 \
+            _site/ || true
+          echo ""
+          echo "============================================================"
+          echo "End of link check. Failures above are warnings only."
+          echo "============================================================"
