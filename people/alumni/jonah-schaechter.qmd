@@ -7,7 +7,7 @@ toc: false
 position: "Graduate RA"
 about:
     id: person-profile
-    image: "../../_assets/img/people/Jonah.jpg"
+    image: "../../_assets/img/people/jschaechter.jpg"
     template: trestles
     links:
         -   icon: github
