@@ -52,6 +52,16 @@ website:
           - href: culture/expectations.qmd
           - text: "Wiki (Members Only) <i class='bi bi-box-arrow-up-right'></i>"
             href: https://github.com/dossgollin-lab/lab-guide/wiki
+      - text: "Links"
+        menu:
+          - text: "SimOptDecisions <i class='bi bi-box-arrow-up-right'></i>"
+            href: https://dossgollin-lab.github.io/SimOptDecisions/
+          - text: "Rice CEVE <i class='bi bi-box-arrow-up-right'></i>"
+            href: https://cee.rice.edu/
+          - text: "AI 4 Urban Resilience <i class='bi bi-box-arrow-up-right'></i>"
+            href: https://ai4urbanresilience.rice.edu/
+          - text: "<i class='bi bi-github'></i> GitHub <i class='bi bi-box-arrow-up-right'></i>"
+            href: https://github.com/dossgollin-lab/
 
 
 format:
