@@ -1,0 +1,16 @@
+---
+title: "James Quoted in WSJ Article on Flood Risk Scores"
+categories: News
+date: 2026-01-20
+---
+
+James was quoted in a [Wall Street Journal article](https://www.wsj.com/real-estate/home-sales-zillow-first-street-disaster-score-bf91e565) by Jean Eaglesham and Nicole Friedman examining the accuracy and limitations of climate-disaster scores used by home listing platforms like Zillow and Redfin.
+
+From the article:
+
+> "Accurately estimating future flood risk at every property in a single city or watershed—let alone the entire United States—is fundamentally not possible given current knowledge," said James Doss-Gollin, an assistant professor of engineering and a climate-risks specialist at Rice University in Houston.
+
+While flood risk models serve an important role in informing homebuyers and leveling the playing field between buyers, lenders, and insurers, we must be skeptical of claims that national, building-scale flood risk models are empirically "validated."
+Probabilistic flood risk estimation involves not just flood modeling, but also estimates of the probability of extreme weather events based on imperfect models and short records—which cannot be validated in the traditional sense.
+
+For more on this topic, see our recent [PNAS paper](https://doi.org/10.1073/pnas.2409657122) led by Adam Pollack on how uncertainty in flood risk estimates affects flood insurance policy.

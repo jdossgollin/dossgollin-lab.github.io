@@ -1,0 +1,17 @@
+---
+title: "New PNAS Paper on the Need for Transparent Climate-Risk Research"
+categories: Publications
+date: 2026-01-15
+---
+
+A new paper in *Proceedings of the National Academy of Sciences*, led by Adam Pollack (now at the University of Iowa), argues that transparency is especially critical for climate-risk research—and that current practices fall short.
+
+Most engineering products can be tested directly: a new material can be stress-tested regardless of whether its formula is secret.
+Climate risk estimates can't.
+There's no instrument that measures the probability of a 100-year flood, so when two models disagree—as they do for 76% of Los Angeles properties—we have no independent way to settle the question.
+Scrutiny of methods and assumptions is the only path to trust, yet only 4% of highly-cited climate-risk studies share both data and code.
+
+The paper charts a course forward: climate-risk tools should be explainable, benchmarked, built on open foundations, and comparable across providers.
+Getting there will take more than good intentions from individual researchers—it requires institutional commitment to open science infrastructure.
+
+See the [full paper](../../bibliography/publications/article/pollack_transparency_2026.qmd) or the [Dartmouth press release](https://engineering.dartmouth.edu/news/researchers-call-for-more-transparency-in-climate-risk-science).
