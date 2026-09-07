@@ -1,0 +1,22 @@
+---
+title: "Jingyi Chen"
+position: "Co-Advised Ph.D. Student"
+sortby: "Chen, Jingyi"
+primary_advisor: "Xingqu Qian"
+started: "Fall 2025"
+ended: "Current"
+toc: false
+about:
+    id: person-profile
+    image: "../../_assets/img/people/jingyichen.jpg"
+    template: jolla
+    links:
+        -   icon: envelope
+            text: Email
+            href: mailto:jc358@rice.edu
+---
+
+:::{#person-profile}
+Jingyi Chen is a PhD student co-advised with [Xingqu Qian](https://mobix.blogs.rice.edu/).
+She holds an MS from Georgia Tech and a BS from Sichuan University.
+:::
