@@ -9,14 +9,24 @@ toc: false
 about:
     id: person-profile
     image: "../../_assets/img/people/jingyichen.jpg"
-    template: jolla
+    template: trestles
     links:
         -   icon: envelope
             text: Email
             href: mailto:jc358@rice.edu
+
+format:
+  html:
+    page-layout: full
 ---
 
 :::{#person-profile}
+## Bio
+
 Jingyi Chen is a PhD student co-advised with [Xingqu Qian](https://mobix.blogs.rice.edu/).
-She holds an MS from Georgia Tech and a BS from Sichuan University.
+
+## Education
+
+- **Georgia Institute of Technology** | Atlanta, GA<br />MS
+- **Sichuan University** | Chengdu, China<br />BS
 :::
